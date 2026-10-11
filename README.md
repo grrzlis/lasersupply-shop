@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 LaserSupply.org — Cloudflare Dropshipping Architektūra (0 €/mėn.)
 
-## Getting Started
+Sveikiname! Jūsų naujoji el. parduotuvė **`LaserSupply.org`** yra pilnai suprogramuota ir optimizuota veikti **Cloudflare Pages + D1 + Edge Workers** platformoje.
 
-First, run the development server:
+---
+
+## 🛠️ Kas sukurta:
+
+1. **Frontend (Next.js 15 + Tailwind CSS):**
+   - **Tamsi, moderni „Laser Maker“ estetika**: pritaikyta Europos pirkėjams, inžinieriams ir amatininkams.
+   - **Slide-over krepšelis**: žaibiškas, su nemokamo pristatymo progreso juosta (nuo 50 €), greitu kiekių redagavimu.
+   - **Katalogas su lazerio parametrais**: kiekviena prekė rodo tinkamą lazerio tipą (Diode / Fiber / CO2) ir rekomenduojamus greičio bei galios nustatymus.
+
+2. **Mokėjimai ir Dropshipping:**
+   - [`src/app/api/checkout/route.ts`](file:///e:/THE%20gist/Projektai/eshop/technology/src/app/api/checkout/route.ts): **Stripe Checkout** maršrutas, palaikantis **Apple Pay, Google Pay ir banko korteles** visoms ES šalims.
+   - [`src/app/api/webhook/route.ts`](file:///e:/THE%20gist/Projektai/eshop/technology/src/app/api/webhook/route.ts): Cloudflare Edge Webhook'as, kuris fiksuoja apmokėtą užsakymą ir pirkėjo adresą.
+
+3. **Duomenų bazė (Cloudflare D1):**
+   - [`schema.sql`](file:///e:/THE%20gist/Projektai/eshop/technology/schema.sql): Kategorijų, prekių, variantų ir užsakymų SQLite schema.
+   - [`seed.sql`](file:///e:/THE%20gist/Projektai/eshop/technology/seed.sql): Pradinis populiariausių 6 ruošinių ir starter box rinkinys su realiomis CJ savikainomis ir 60–75% maržomis.
+
+---
+
+## 🚀 Kaip paleisti vietoje (Testavimui):
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Parduotuvė veiks adresu: **`http://localhost:3000`**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Kaip prijungti prie Cloudflare ir lasersupply.org:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Sukurkite Cloudflare D1 bazę (nemokama):**
+   ```bash
+   npx wrangler d1 create lasersupply-db
+   npx wrangler d1 execute lasersupply-db --local --file=./schema.sql
+   npx wrangler d1 execute lasersupply-db --local --file=./seed.sql
+   ```
+2. **Talpinimas Cloudflare Pages:**
+   - Įkelkite šį projektą į savo GitHub.
+   - Cloudflare Dashboard -> **Workers & Pages** -> **Create application** -> **Pages** -> prijunkite savo repozitoriją.
+   - Pridėkite savo domeną **`lasersupply.org`** – Cloudflare automatiškai išduos nemokamą SSL sertifikatą.

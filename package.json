@@ -9,9 +9,17 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "16.4.0",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "@cloudflare/next-on-pages": "^1.13.16",
+    "@tailwindcss/postcss": "^4.3.3",
+    "lucide-react": "^1.55.0",
+    "next": "15.2.1",
+    "next-intl": "^4.14.9",
+    "postcss": "^8.5.29",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "stripe": "^23.0.0",
+    "wrangler": "^4.149.0",
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",

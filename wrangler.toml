@@ -1,0 +1,16 @@
+name = "lasersupply-shop"
+main = ".open-next/worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+# Cloudflare D1 Database binding
+[[d1_databases]]
+binding = "DB"
+database_name = "lasersupply-db"
+database_id = "local-d1-placeholder"
+
+# Environment variables
+[vars]
+NEXT_PUBLIC_STORE_NAME = "LaserSupply.org"
+NEXT_PUBLIC_STORE_TAGLINE = "The European Hub for Laser Maker Blanks & Materials"
+NEXT_PUBLIC_SUPPORT_EMAIL = "support@lasersupply.org"
