@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { stripe } from '@/lib/stripe';
+import { getStripe } from '@/lib/stripe';
 
 export const runtime = 'edge';
 
@@ -19,11 +19,11 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Cart is empty' }, { status: 400 });
     }
 
-    if (!process.env.STRIPE_SECRET_KEY || process.env.STRIPE_SECRET_KEY === 'sk_test_placeholder_key') {
+    const stripe = getStripe();
+    if (!stripe) {
       return NextResponse.json({
-        mock: true,
-        message: 'Stripe API key not yet connected in .env.local. Add STRIPE_SECRET_KEY to enable live checkout.',
-      });
+        error: 'Stripe configuration missing. Please verify STRIPE_SECRET_KEY in Cloudflare settings.',
+      }, { status: 500 });
     }
 
     const origin = req.headers.get('origin') || 'https://lasersupply.org';
@@ -48,7 +48,7 @@ export async function POST(req: Request) {
           'LT', 'LV', 'EE', 'DE', 'FR', 'PL', 'IT', 'ES', 'NL', 'BE', 'AT', 'DK', 'SE', 'FI', 'IE'
         ],
       },
-      success_url: `${origin}/success?session_id={CHECKOUT_SESSION_ID}`,
+      success_url: `${origin}/en?session_id={CHECKOUT_SESSION_ID}&success=true`,
       cancel_url: `${origin}`,
     });
 

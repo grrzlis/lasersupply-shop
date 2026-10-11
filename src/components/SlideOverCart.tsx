@@ -34,11 +34,12 @@ export function SlideOverCart({ locale = 'en' }: { locale?: Locale }) {
       if (data.url) {
         window.location.href = data.url;
       } else {
-        alert('Stripe Checkout test redirect: ' + (data.message || 'Ready for API keys'));
+        alert(data.error || 'Checkout initialization failed');
       }
-    } catch (err) {
+    } catch (err: unknown) {
       console.error('Checkout error:', err);
-      alert('Checkout error');
+      const msg = err instanceof Error ? err.message : 'Unknown error';
+      alert('Checkout error: ' + msg);
     } finally {
       setLoading(false);
     }
