@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
-import { getStripe } from '@/lib/stripe';
+import { getRequestContext } from '@cloudflare/next-on-pages';
+import Stripe from 'stripe';
 
 export const runtime = 'edge';
 
@@ -19,12 +20,27 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Cart is empty' }, { status: 400 });
     }
 
-    const stripe = getStripe();
-    if (!stripe) {
+    // Read environment secret directly from Cloudflare Worker context OR process.env
+    let secretKey = process.env.STRIPE_SECRET_KEY;
+    try {
+      const ctx = getRequestContext();
+      if (ctx?.env?.STRIPE_SECRET_KEY) {
+        secretKey = (ctx.env as any).STRIPE_SECRET_KEY;
+      }
+    } catch (e) {
+      // fallback to process.env
+    }
+
+    if (!secretKey || secretKey === 'sk_test_placeholder_key') {
       return NextResponse.json({
-        error: 'Stripe configuration missing. Please verify STRIPE_SECRET_KEY in Cloudflare settings.',
+        error: 'STRIPE_SECRET_KEY not found in Cloudflare environment bindings.',
       }, { status: 500 });
     }
+
+    const stripe = new Stripe(secretKey, {
+      apiVersion: '2026-09-30.endive',
+      httpClient: Stripe.createFetchHttpClient(),
+    });
 
     const origin = req.headers.get('origin') || 'https://lasersupply.org';
 
