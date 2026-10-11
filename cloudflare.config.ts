@@ -13,6 +13,7 @@ export default defineConfig({
       NEXT_PUBLIC_STORE_NAME: bindings.text("LaserSupply.org"),
       NEXT_PUBLIC_STORE_TAGLINE: bindings.text("The European Hub for Laser Maker Blanks & Materials"),
       NEXT_PUBLIC_SUPPORT_EMAIL: bindings.text("info@lasersupply.org"),
+      ADMIN_NOTIFICATION_EMAIL: bindings.text("akdarbas@gmail.com"),
     },
   }),
 });
