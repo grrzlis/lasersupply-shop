@@ -61,6 +61,9 @@ export async function POST(req: Request) {
       formParams.append(`shipping_address_collection[allowed_countries][${index}]`, country);
     });
 
+    // Collect customer phone number for courier delivery (DPD/Omniva)
+    formParams.append('phone_number_collection[enabled]', 'true');
+
     items.forEach((item, index) => {
       formParams.append(`line_items[${index}][quantity]`, String(item.quantity));
       formParams.append(`line_items[${index}][price_data][currency]`, 'eur');

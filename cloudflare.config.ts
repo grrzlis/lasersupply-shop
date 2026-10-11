@@ -12,7 +12,7 @@ export default defineConfig({
       DB: bindings.d1({ id: "a2612c2d-4892-4cef-9107-e353dfbaec12", name: "lasersupply-db" }),
       NEXT_PUBLIC_STORE_NAME: bindings.text("LaserSupply.org"),
       NEXT_PUBLIC_STORE_TAGLINE: bindings.text("The European Hub for Laser Maker Blanks & Materials"),
-      NEXT_PUBLIC_SUPPORT_EMAIL: bindings.text("support@lasersupply.org"),
+      NEXT_PUBLIC_SUPPORT_EMAIL: bindings.text("info@lasersupply.org"),
     },
   }),
 });

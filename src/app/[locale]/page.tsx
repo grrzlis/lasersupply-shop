@@ -201,7 +201,7 @@ export default async function LocalizedHomePage({
           <div className="space-y-2">
             <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">Contact</h4>
             <p className="text-[#a8a8a8]">B2B & Maker Orders:</p>
-            <p className="text-[#ffffff] font-bold">support@lasersupply.org</p>
+            <p className="text-[#ffffff] font-bold">info@lasersupply.org</p>
             <p className="text-[#a8a8a8]">Mon–Fri 09:00 – 18:00 CET</p>
           </div>
         </div>
