@@ -7,7 +7,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "lasersupply-db"
-database_id = "local-d1-placeholder"
+database_id = "5a80c02a-8604-4e6e-b1fe-69bd067fc78c"
 
 # Environment variables
 [vars]
