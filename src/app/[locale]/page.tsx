@@ -9,10 +9,6 @@ import type { Metadata } from 'next';
 
 export const runtime = 'edge';
 
-export async function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
-}
-
 
 export async function generateMetadata({
   params,
