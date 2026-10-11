@@ -11,6 +11,13 @@ interface CheckoutItemPayload {
   images?: string[];
 }
 
+interface StripeSessionResponse {
+  url?: string;
+  error?: {
+    message?: string;
+  };
+}
+
 export async function POST(req: Request) {
   try {
     const { items }: { items: CheckoutItemPayload[] } = await req.json();
@@ -23,8 +30,9 @@ export async function POST(req: Request) {
     let secretKey = process.env.STRIPE_SECRET_KEY;
     try {
       const ctx = getRequestContext();
-      if (ctx?.env && (ctx.env as any).STRIPE_SECRET_KEY) {
-        secretKey = (ctx.env as any).STRIPE_SECRET_KEY;
+      const envObj = ctx?.env as Record<string, string | undefined> | undefined;
+      if (envObj?.STRIPE_SECRET_KEY) {
+        secretKey = envObj.STRIPE_SECRET_KEY;
       }
     } catch {
       // fallback to process.env
@@ -78,7 +86,7 @@ export async function POST(req: Request) {
       body: formParams.toString(),
     });
 
-    const sessionData = await stripeRes.json() as any;
+    const sessionData = (await stripeRes.json()) as StripeSessionResponse;
 
     if (!stripeRes.ok) {
       const errDetail = sessionData?.error?.message || 'Stripe API error';

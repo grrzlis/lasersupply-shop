@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { stripe } from '@/lib/stripe';
-import Stripe from 'stripe';
+import { getStripe } from '@/lib/stripe';
+import type Stripe from 'stripe';
 
 export const runtime = 'edge';
 
@@ -12,9 +12,14 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'Missing webhook configuration' }, { status: 400 });
   }
 
+  const stripe = getStripe();
+  if (!stripe) {
+    return NextResponse.json({ error: 'Stripe not initialized' }, { status: 500 });
+  }
+
   try {
     const rawBody = await req.text();
-    const event = stripe.webhooks.constructEvent(rawBody, signature, webhookSecret);
+    const event = await stripe.webhooks.constructEventAsync(rawBody, signature, webhookSecret);
 
     if (event.type === 'checkout.session.completed') {
       const session = event.data.object as Stripe.Checkout.Session;
