@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Spline_Sans, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 
+export const runtime = 'edge';
+
 const splineSans = Spline_Sans({
   variable: "--font-spline",
   subsets: ["latin"],
