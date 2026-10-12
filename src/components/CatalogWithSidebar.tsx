@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Product } from '@/types/product';
 import { CATEGORIES } from '@/lib/categories';
 import { ProductCard } from './ProductCard';
@@ -38,6 +38,32 @@ export function CatalogWithSidebar({
 }) {
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
+
+  useEffect(() => {
+    const handleCategoryEvent = (e: any) => {
+      if (e.detail) {
+        setActiveCategory(e.detail);
+      }
+    };
+
+    const handleHash = () => {
+      const hash = window.location.hash.replace('#', '');
+      if (hash && hash.startsWith('cat_')) {
+        setActiveCategory(hash);
+      } else if (hash === 'catalog') {
+        setActiveCategory('all');
+      }
+    };
+
+    window.addEventListener('filter-category', handleCategoryEvent);
+    window.addEventListener('hashchange', handleHash);
+    handleHash();
+
+    return () => {
+      window.removeEventListener('filter-category', handleCategoryEvent);
+      window.removeEventListener('hashchange', handleHash);
+    };
+  }, []);
 
   const filteredProducts = products.filter((p) => {
     const matchesCategory = activeCategory === 'all' || p.category_id === activeCategory;

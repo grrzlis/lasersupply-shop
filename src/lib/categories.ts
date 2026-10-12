@@ -104,6 +104,20 @@ export const CATEGORIES: Category[] = [
     icon: 'Wrench',
   },
   {
+    id: 'cat_jewelry',
+    name: {
+      en: 'Jewelry & Pendants',
+      lt: 'Papuošalai ir Pakabukai',
+      de: 'Schmuck & Anhänger',
+      fr: 'Bijoux et Pendentifs',
+      es: 'Joyería y Colgantes',
+      pl: 'Biżuteria i Wisiorki',
+      lv: 'Rotaslietas un Kuloni',
+      et: 'Ehted ja Ripatsid',
+    },
+    icon: 'Sparkles',
+  },
+  {
     id: 'cat_bundles',
     name: {
       en: 'Starter Boxes & Kits',

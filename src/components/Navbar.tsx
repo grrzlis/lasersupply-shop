@@ -44,20 +44,82 @@ export function Navbar({ locale = 'en' }: { locale?: Locale }) {
 
         {/* Navigation Categories */}
         <nav className="hidden lg:flex items-center gap-7 text-[13px] font-bold text-[#242423]">
-          <a href="#catalog" className="hover:text-[#f5cb5c] transition">
-            Materials Catalog
+          <a
+            href="#catalog"
+            onClick={(e) => {
+              e.preventDefault();
+              window.dispatchEvent(new CustomEvent('filter-category', { detail: 'all' }));
+              document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="hover:text-[#f5cb5c] transition"
+          >
+            All Materials
           </a>
-          <a href="#catalog" className="hover:text-[#f5cb5c] transition">
+          <a
+            href="#cat_metal"
+            onClick={(e) => {
+              e.preventDefault();
+              window.dispatchEvent(new CustomEvent('filter-category', { detail: 'cat_metal' }));
+              document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="hover:text-[#f5cb5c] transition"
+          >
             Anodized Metals
           </a>
-          <a href="#catalog" className="hover:text-[#f5cb5c] transition">
-            Basswood & Slate
+          <a
+            href="#cat_wood"
+            onClick={(e) => {
+              e.preventDefault();
+              window.dispatchEvent(new CustomEvent('filter-category', { detail: 'cat_wood' }));
+              document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="hover:text-[#f5cb5c] transition"
+          >
+            Wood & Slate
           </a>
-          <a href="#catalog" className="hover:text-[#f5cb5c] transition">
-            Tumblers
+          <a
+            href="#cat_leather"
+            onClick={(e) => {
+              e.preventDefault();
+              window.dispatchEvent(new CustomEvent('filter-category', { detail: 'cat_leather' }));
+              document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="hover:text-[#f5cb5c] transition"
+          >
+            Leather & Travel
           </a>
-          <a href="#catalog" className="hover:text-[#f5cb5c] transition">
-            Leather Patches
+          <a
+            href="#cat_jewelry"
+            onClick={(e) => {
+              e.preventDefault();
+              window.dispatchEvent(new CustomEvent('filter-category', { detail: 'cat_jewelry' }));
+              document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="hover:text-[#f5cb5c] transition"
+          >
+            Jewelry & Pendants
+          </a>
+          <a
+            href="#cat_acrylic"
+            onClick={(e) => {
+              e.preventDefault();
+              window.dispatchEvent(new CustomEvent('filter-category', { detail: 'cat_acrylic' }));
+              document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="hover:text-[#f5cb5c] transition"
+          >
+            Acrylic & LED
+          </a>
+          <a
+            href="#cat_accessories"
+            onClick={(e) => {
+              e.preventDefault();
+              window.dispatchEvent(new CustomEvent('filter-category', { detail: 'cat_accessories' }));
+              document.getElementById('catalog')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="hover:text-[#f5cb5c] transition"
+          >
+            Tools & Rollers
           </a>
         </nav>
 
