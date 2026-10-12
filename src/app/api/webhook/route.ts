@@ -39,18 +39,16 @@ export async function POST(req: Request) {
 
       console.log('✅ [ORDER PAID] Processing notification and emails for:', orderId);
 
-      // 1. Automatically dispatch fulfillment order to CJ Dropshipping
+      // 1. Automatically dispatch fulfillment order to CJ Dropshipping / AliExpress
       let cjOrderResult: { success: boolean; orderId?: string; error?: string } | null = null;
+      let aliOrderResult: { success: boolean; orderList?: Array<string | number>; errorMessage?: string } | null = null;
+
       try {
         const rawItems = session.metadata?.order_items;
         const parsedItems: Array<{ id: string; q: number }> = rawItems ? JSON.parse(rawItems) : [];
         
-        // Map local product IDs to CJ Variant IDs / SKUs
+        // CJ Dropshipping Dispatch
         const cjProducts = parsedItems.map(item => {
-          // Standard mapping - metal cards default variant vid
-          if (item.id === 'prod_metal_cards_100') {
-            return { vid: 'F3420747-900F-405B-A5C6-F47299BDA9CE', quantity: item.q };
-          }
           return { vid: 'F3420747-900F-405B-A5C6-F47299BDA9CE', quantity: item.q };
         });
 
@@ -71,8 +69,51 @@ export async function POST(req: Request) {
           });
           console.log('📦 [CJ FULFILLMENT DISPATCHED]:', cjOrderResult);
         }
-      } catch (cjErr) {
-        console.error('Failed to dispatch CJ order:', cjErr);
+
+        // AliExpress Dropshipping Dispatch
+        if (parsedItems.length > 0 && address) {
+          const { placeAliExpressOrder, getAliExpressConfig } = await import('@/lib/aliexpress-client');
+          const aliConfig = getAliExpressConfig();
+          if (aliConfig) {
+            // Find products in catalog to retrieve aliexpress_product_id or supplier_sku
+            const { PRODUCTS } = await import('@/lib/products');
+            const aliProducts = parsedItems
+              .map(item => {
+                const prod = PRODUCTS.find(p => p.id === item.id);
+                const aliPid = prod?.aliexpress_product_id || prod?.supplier_sku || '1005006248912345';
+                return {
+                  productId: aliPid,
+                  skuAttr: prod?.aliexpress_sku || '',
+                  productCount: item.q,
+                  logisticsServiceName: 'AliExpress Standard Shipping',
+                };
+              })
+              .filter(Boolean);
+
+            if (aliProducts.length > 0) {
+              aliOrderResult = await placeAliExpressOrder({
+                outOrderId: `LS-${orderId}`,
+                shippingAddress: {
+                  contactPerson: customerName,
+                  fullName: customerName,
+                  phoneCountry: customerPhone.startsWith('+') ? customerPhone.slice(0, 4) : '+370',
+                  mobileNo: customerPhone !== 'Not provided' ? customerPhone : '+37060000000',
+                  country: address.country || 'LT',
+                  province: address.state || address.city || 'State',
+                  city: address.city || 'City',
+                  address: [address.line1, address.line2].filter(Boolean).join(', ') || 'Address',
+                  zip: address.postal_code || '00000',
+                },
+                productItems: aliProducts,
+              });
+              console.log('📦 [ALIEXPRESS FULFILLMENT DISPATCHED]:', aliOrderResult);
+            }
+          } else {
+            console.log('ℹ️ AliExpress credentials not configured yet in environment.');
+          }
+        }
+      } catch (fulErr) {
+        console.error('Failed to dispatch fulfillment order:', fulErr);
       }
 
       // 2. Send Order Confirmation to Customer (if customer email provided)
@@ -114,7 +155,8 @@ export async function POST(req: Request) {
             <div style="background-color: #f3f4f6; padding: 16px; border-radius: 6px; margin: 20px 0;">
               <p style="margin: 0 0 8px 0;"><strong>Order Ref:</strong> #${orderId}</p>
               <p style="margin: 0 0 8px 0;"><strong>Total Amount:</strong> ${amountTotal} ${currency}</p>
-              <p style="margin: 0 0 8px 0;"><strong>CJ Fulfillment:</strong> ${cjOrderResult?.success ? `✅ Užsakymas sukurtas CJ (${cjOrderResult.orderId})` : `⚠️ CJ Status: ${cjOrderResult?.error || 'Nekonfigūruota'}`}</p>
+              <p style="margin: 0 0 8px 0;"><strong>AliExpress Status:</strong> ${aliOrderResult ? (aliOrderResult.success ? `✅ Užsakymas sukurtas AliExpress (${aliOrderResult.orderList?.join(', ')})` : `⚠️ Klaida: ${aliOrderResult.errorMessage}`) : 'Laukiama API raktų / Nustatyta'}</p>
+              <p style="margin: 0 0 8px 0;"><strong>CJ Status:</strong> ${cjOrderResult?.success ? `✅ Užsakymas sukurtas CJ (${cjOrderResult.orderId})` : `⚠️ CJ: ${cjOrderResult?.error || 'Nekonfigūruota'}`}</p>
               <p style="margin: 0 0 8px 0;"><strong>Customer Name:</strong> ${customerName}</p>
               <p style="margin: 0 0 8px 0;"><strong>Customer Email:</strong> ${customerEmail || 'N/A'}</p>
               <p style="margin: 0 0 8px 0;"><strong>Customer Phone:</strong> ${customerPhone}</p>

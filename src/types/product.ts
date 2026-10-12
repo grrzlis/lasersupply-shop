@@ -11,6 +11,8 @@ export interface Product {
   cost_price: number;
   supplier_sku: string;
   cj_pid?: string;
+  aliexpress_product_id?: string;
+  aliexpress_sku?: string;
   badge?: string;
   laser_type: string;
   recommended_power: string;
