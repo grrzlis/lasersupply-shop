@@ -47,7 +47,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Popular',
     laser_type: 'Diode / Fiber / CO2',
     recommended_power: 'Speed 2500mm/min, Power 50%',
-    images: ['https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/bottle_openers.jpg'],
   },
   {
     id: 'prod_metal_money_clips_10',
@@ -62,7 +62,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Gift Pick',
     laser_type: 'Diode / Fiber / CO2',
     recommended_power: '10W+ (Speed 2000mm/min, Power 60%)',
-    images: ['https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/money_clips.jpg'],
   },
   {
     id: 'prod_military_dogtags_50',
@@ -77,7 +77,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Bulk Pack',
     laser_type: 'Diode / Fiber / CO2',
     recommended_power: 'Speed 3000mm/min, Power 45%',
-    images: ['https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/dog_tags.jpg'],
   },
   {
     id: 'prod_metal_pocket_knife_5',
@@ -92,7 +92,7 @@ export const PRODUCTS: Product[] = [
     badge: 'High Value',
     laser_type: 'Diode / Fiber / CO2',
     recommended_power: 'Blade: Fiber / IR; Wood: Diode 20%',
-    images: ['https://images.unsplash.com/photo-1593098555938-16e6d194c653?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/pocket_knife.jpg'],
   },
   {
     id: 'prod_metal_bookmarks_20',
@@ -107,7 +107,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Quick Win',
     laser_type: 'Diode / Fiber',
     recommended_power: 'Speed 3500mm/min, Power 35%',
-    images: ['https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/metal_bookmarks.jpg'],
   },
   {
     id: 'prod_stainless_flasks_10',
@@ -122,7 +122,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Wedding Trend',
     laser_type: 'Diode / Fiber / CO2',
     recommended_power: 'Diode 10W (Speed 1500mm/min, Power 75%)',
-    images: ['https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/metal_flask.jpg'],
   },
 
   // ==========================================
@@ -156,7 +156,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Easy Rotary',
     laser_type: 'Diode / Fiber / CO2',
     recommended_power: 'Rotary Speed 2000mm/min, 75% Power',
-    images: ['/products/tumbler.jpg'],
+    images: ['/products/skinny_tumblers.jpg'],
   },
   {
     id: 'prod_wine_tumblers_6',
@@ -171,7 +171,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Trending',
     laser_type: 'Diode / Fiber / CO2',
     recommended_power: 'Diode 10W (Speed 1700mm/min, Power 80%)',
-    images: ['/products/tumbler.jpg'],
+    images: ['/products/wine_tumblers.jpg'],
   },
   {
     id: 'prod_coffee_mugs_ceramic_4',
@@ -186,7 +186,7 @@ export const PRODUCTS: Product[] = [
     badge: 'High Contrast',
     laser_type: 'CO2 / Diode 20W+ / Fiber',
     recommended_power: 'Speed 1200mm/min, Power 85%',
-    images: ['/products/tumbler.jpg'],
+    images: ['/products/ceramic_mugs.jpg'],
   },
   {
     id: 'prod_rotary_roller_jig',
@@ -201,7 +201,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Maker Must-Have',
     laser_type: 'Universal Diode & CO2',
     recommended_power: 'Standard Motor Driver Cable Included',
-    images: ['/products/honeycomb_bed.jpg'],
+    images: ['/products/rotary_roller.jpg'],
   },
 
   // ==========================================
@@ -265,7 +265,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Eco Pick',
     laser_type: 'Diode / CO2',
     recommended_power: 'Speed 2200mm/min, Power 45%',
-    images: ['https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/bamboo_boards.jpg'],
   },
   {
     id: 'prod_wood_coasters_round_20',
@@ -280,7 +280,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Quick Win',
     laser_type: 'Diode / CO2',
     recommended_power: 'Speed 3000mm/min, Power 35%',
-    images: ['https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/wood_coasters.jpg'],
   },
   {
     id: 'prod_wood_slices_bark_50',
@@ -295,7 +295,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Holiday Bestseller',
     laser_type: 'Diode / CO2',
     recommended_power: 'Speed 2800mm/min, Power 40%',
-    images: ['https://images.unsplash.com/photo-1512389142860-9c449e58a543?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/wood_slices.jpg'],
   },
   {
     id: 'prod_bamboo_pen_cases_10',
@@ -310,7 +310,7 @@ export const PRODUCTS: Product[] = [
     badge: 'B2B Favorite',
     laser_type: 'Diode / CO2',
     recommended_power: 'Case: Speed 2000mm/min, Pen: 1500mm/min',
-    images: ['https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/bamboo_pens.jpg'],
   },
   {
     id: 'prod_solid_wine_boxes_3',
@@ -325,7 +325,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Premium Box',
     laser_type: 'Diode / CO2',
     recommended_power: 'Speed 2500mm/min, Power 50%',
-    images: ['https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/wine_box.jpg'],
   },
 
   // ==========================================
@@ -374,7 +374,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Office Swag',
     laser_type: 'Diode / CO2',
     recommended_power: 'Speed 3200mm/min, Power 20%',
-    images: ['https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/leather_journal.jpg'],
   },
   {
     id: 'prod_passport_holders_10',
@@ -389,7 +389,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Travel Trend',
     laser_type: 'Diode / CO2',
     recommended_power: 'Speed 3000mm/min, Power 25%',
-    images: ['https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/passport_holder.jpg'],
   },
   {
     id: 'prod_luggage_tags_20',
@@ -404,7 +404,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Quick Engrave',
     laser_type: 'Diode / CO2',
     recommended_power: 'Speed 3000mm/min, Power 25%',
-    images: ['/products/leather_keychains.jpg'],
+    images: ['/products/luggage_tags.jpg'],
   },
 
   // ==========================================
@@ -423,7 +423,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Maker Grade',
     laser_type: 'CO2 / Diode (Engrave)',
     recommended_power: 'CO2 40W (Cut 15mm/s, 65%)',
-    images: ['/products/led_lamp.jpg'],
+    images: ['/products/acrylic_sheets.jpg'],
   },
   {
     id: 'prod_led_wood_bases_5',
@@ -453,7 +453,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Plug & Play',
     laser_type: 'CO2 / Diode',
     recommended_power: 'Invert Engrave: Speed 3000mm/min, 40%',
-    images: ['/products/led_lamp.jpg'],
+    images: ['/products/acrylic_plates.jpg'],
   },
   {
     id: 'prod_matte_black_acrylic_10',
@@ -468,7 +468,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Diode Safe',
     laser_type: 'Diode 10W+ / CO2',
     recommended_power: 'Cut 10W Diode: 180mm/min, 100% 2 pass',
-    images: ['/products/metal_cards.jpg'],
+    images: ['/products/black_acrylic.jpg'],
   },
   {
     id: 'prod_silicone_watch_bands_10',
@@ -483,7 +483,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Trendy',
     laser_type: 'Diode / Fiber / CO2',
     recommended_power: 'Speed 3000mm/min, Power 20%',
-    images: ['https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/silicone_watch_bands.jpg'],
   },
 
   // ==========================================
@@ -517,7 +517,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Game Changer',
     laser_type: 'Diode / Fiber / CO2',
     recommended_power: 'Speed 1200mm/min, Power 60%',
-    images: ['https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/thermal_paper.jpg'],
   },
   {
     id: 'prod_safety_glasses_od6',
@@ -532,7 +532,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Safety First',
     laser_type: 'Diode 450nm Protection',
     recommended_power: 'OD6+ / VLT 30% Clear Visibility',
-    images: ['https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/safety_glasses.jpg'],
   },
   {
     id: 'prod_mini_air_assist',
@@ -547,7 +547,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Cut Booster',
     laser_type: 'Universal Diode Nozzles',
     recommended_power: '110-240V EU Plug with Flow Dial',
-    images: ['https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/air_assist.jpg'],
   },
   {
     id: 'prod_honeycomb_pins_50',
@@ -562,7 +562,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Bed Fixer',
     laser_type: 'Fits 7.5mm - 9.5mm Honeycomb Cells',
     recommended_power: 'Universal Honeycomb Accessory',
-    images: ['https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/honeycomb_pins.jpg'],
   },
   {
     id: 'prod_ceramic_tiles_24',
@@ -577,7 +577,7 @@ export const PRODUCTS: Product[] = [
     badge: 'Photo Master',
     laser_type: 'Diode / Fiber / CO2',
     recommended_power: 'Speed 1500mm/min, Power 80%',
-    images: ['https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/ceramic_tiles.jpg'],
   },
   {
     id: 'prod_starter_bundle',
@@ -592,6 +592,6 @@ export const PRODUCTS: Product[] = [
     badge: 'Best Value',
     laser_type: 'Diode / Fiber / CO2',
     recommended_power: 'Full Settings Cheatsheet included for 5W–40W+',
-    images: ['https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80'],
+    images: ['/products/starter_bundle.jpg'],
   },
 ];
