@@ -3782,160 +3782,6 @@ export const PRODUCTS: Product[] = [
   },
   {
     "id": "prod_sculpfun_71",
-    "name": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
-    "slug": "sculpfun-sculpfun-icube-ultra-original-lens-kit-6-pcs-for-the-12w-diode-laser",
-    "category_id": "cat_optics_safety",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-    "price": 67.49,
-    "compare_at_price": 91.11,
-    "cost_price": 49.99,
-    "supplier_sku": "Lens-iCubeUltra",
-    "badge": "Sculpfun Original",
-    "laser_type": "Diode Laser (450nm)",
-    "recommended_power": "Verified Sculpfun Component",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icubeultralensset_2.jpg?v=1772784277",
-      "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icubeultralensset_1.jpg?v=1772784277"
-    ],
-    "cj_pid": "Lens-iCubeUltra",
-    "name_i18n": {
-      "en": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
-      "lt": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
-      "de": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
-      "fr": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
-      "es": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
-      "pl": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
-      "lv": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
-      "et": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser"
-    },
-    "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
-      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
-      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
-      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
-      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
-      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
-      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
-    },
-    "full_description": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nMain Features: 1. Official Original Laser Lens Precisely engineered for the iCube Ultra, ensuring a perfect fit and easy replacement. 2. 6 PCS Lens Set – Ample Supply Includes 6 replacement lenses in one pack, providing ample backup to maintain laser performance, significantly extending the lifespan of the laser module. 3. Highly Transparent Lens Made from highly transparent materials, it minimizes laser energy loss and ensures your laser operates at high power. 4. Oil and Smoke Resistant Material The surface of this lens has been reinforced to effectively prevent oil and smoke from damaging the lens, and it can be easily restored with an alcohol wipe. Product Name: SCULPFUN iCube Ultra Orig...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-    "full_description_i18n": {
-      "en": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nMain Features: 1. Official Original Laser Lens Precisely engineered for the iCube Ultra, ensuring a perfect fit and easy replacement. 2. 6 PCS Lens Set – Ample Supply Includes 6 replacement lenses in one pack, providing ample backup to maintain laser performance, significantly extending the lifespan of the laser module. 3. Highly Transparent Lens Made from highly transparent materials, it minimizes laser energy loss and ensures your laser operates at high power. 4. Oil and Smoke Resistant Material The surface of this lens has been reinforced to effectively prevent oil and smoke from damaging the lens, and it can be easily restored with an alcohol wipe. Product Name: SCULPFUN iCube Ultra Orig...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Sculpfun** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Sculpfun gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nMain Features: 1. Official Original Laser Lens Precisely engineered for the iCube Ultra, ensuring a perfect fit and easy replacement. 2. 6 PCS Lens Set – Ample Supply Includes 6 replacement lenses in one pack, providing ample backup to maintain laser performance, significantly extending the lifespan of the laser module. 3. Highly Transparent Lens Made from highly transparent materials, it minimizes laser energy loss and ensures your laser operates at high power. 4. Oil and Smoke Resistant Material The surface of this lens has been reinforced to effectively prevent oil and smoke from damaging the lens, and it can be easily restored with an alcohol wipe. Product Name: SCULPFUN iCube Ultra Orig...\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
-    },
-    "specs": {
-      "Brand": "Sculpfun",
-      "Laser Type": "Diode Laser (450nm)",
-      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
-      "SKU": "Lens-iCubeUltra",
-      "Certification": "CE / RoHS Standard",
-      "Warranty": "12 Months Manufacturer Warranty"
-    }
-  },
-  {
-    "id": "prod_sculpfun_72",
-    "name": "Sculpfun 40w Diode Laser Module for A9 Ultra Laser Engravers",
-    "slug": "sculpfun-40w-diode-laser-module-for-a9-ultra-laser-engravers",
-    "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-    "price": 472.5,
-    "compare_at_price": 637.88,
-    "cost_price": 350,
-    "supplier_sku": "40w-diode",
-    "badge": "Sculpfun Original",
-    "laser_type": "Diode Laser (450nm)",
-    "recommended_power": "Verified Sculpfun Component",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/a9ultrapackinglist_2.jpg?v=1770863682"
-    ],
-    "cj_pid": "40w-diode",
-    "name_i18n": {
-      "en": "Sculpfun 40w Diode Laser Module for A9 Ultra Laser Engravers",
-      "lt": "Sculpfun 40w Diode lazerio optinis modulis for A9 Ultra Laser Engravers",
-      "de": "Sculpfun 40w Diode Lasermodul Optik for A9 Ultra Laser Engravers",
-      "fr": "Sculpfun 40w Diode Module laser optique for A9 Ultra Laser Engravers",
-      "es": "Sculpfun 40w Diode Módulo láser óptico for A9 Ultra Laser Engravers",
-      "pl": "Sculpfun 40w Diode Optyczny moduł laserowy for A9 Ultra Laser Engravers",
-      "lv": "Sculpfun 40w Diode Lāzera modulis for A9 Ultra Laser Engravers",
-      "et": "Sculpfun 40w Diode Lasermoodul for A9 Ultra Laser Engravers"
-    },
-    "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
-      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
-      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
-      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
-      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
-      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
-      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
-    },
-    "full_description": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\n40w Diode Laser Module for A9 Ultra Laser Engravers plus some necessary accessories in order to use the 40w module....\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-    "full_description_i18n": {
-      "en": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\n40w Diode Laser Module for A9 Ultra Laser Engravers plus some necessary accessories in order to use the 40w module....\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Sculpfun** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Sculpfun gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\n40w Diode Laser Module for A9 Ultra Laser Engravers plus some necessary accessories in order to use the 40w module....\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
-    },
-    "specs": {
-      "Brand": "Sculpfun",
-      "Laser Type": "Diode Laser (450nm)",
-      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
-      "SKU": "40w-diode",
-      "Certification": "CE / RoHS Standard",
-      "Warranty": "12 Months Manufacturer Warranty"
-    }
-  },
-  {
-    "id": "prod_sculpfun_73",
-    "name": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
-    "slug": "sculpfun-lightburn-software",
-    "category_id": "cat_acrylic",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-    "price": 133.65,
-    "compare_at_price": 180.43,
-    "cost_price": 99,
-    "supplier_sku": "LightBurn",
-    "badge": "Sculpfun Original",
-    "laser_type": "Universal Diode & CO2",
-    "recommended_power": "Verified Sculpfun Component",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/lightburn_fb7f574b-edd4-45e8-b63c-6dc6702af4e4.jpg?v=1731400943"
-    ],
-    "cj_pid": "LightBurn",
-    "name_i18n": {
-      "en": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
-      "lt": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
-      "de": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
-      "fr": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
-      "es": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
-      "pl": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
-      "lv": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
-      "et": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key"
-    },
-    "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
-      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
-      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
-      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
-      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
-      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
-      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
-    },
-    "full_description": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nWe are not allowed to sell Lightburn Core code License Key separately now. If you want to buy the Key, you can contact us or find those machines links with lightburn Key in the title. or Click there to know all. The code will be sent to your email within 24 hours after your order is placed. Please keep your license in a safe place . You will need it again if you ever have a hard disk failure, want to activate a new computer, upgrade the license, etc. This is a LightBurn software Core/Gcode license key for users with GCode controllers (DIY / hobby). It unlocks the trial version of the software for permanent use, and allows installing on up to three computers, PC or Mac. LightBurn Core support...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-    "full_description_i18n": {
-      "en": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nWe are not allowed to sell Lightburn Core code License Key separately now. If you want to buy the Key, you can contact us or find those machines links with lightburn Key in the title. or Click there to know all. The code will be sent to your email within 24 hours after your order is placed. Please keep your license in a safe place . You will need it again if you ever have a hard disk failure, want to activate a new computer, upgrade the license, etc. This is a LightBurn software Core/Gcode license key for users with GCode controllers (DIY / hobby). It unlocks the trial version of the software for permanent use, and allows installing on up to three computers, PC or Mac. LightBurn Core support...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Sculpfun** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Sculpfun gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nWe are not allowed to sell Lightburn Core code License Key separately now. If you want to buy the Key, you can contact us or find those machines links with lightburn Key in the title. or Click there to know all. The code will be sent to your email within 24 hours after your order is placed. Please keep your license in a safe place . You will need it again if you ever have a hard disk failure, want to activate a new computer, upgrade the license, etc. This is a LightBurn software Core/Gcode license key for users with GCode controllers (DIY / hobby). It unlocks the trial version of the software for permanent use, and allows installing on up to three computers, PC or Mac. LightBurn Core support...\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
-    },
-    "specs": {
-      "Brand": "Sculpfun",
-      "Laser Type": "Universal Diode & CO2",
-      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
-      "SKU": "LightBurn",
-      "Certification": "CE / RoHS Standard",
-      "Warranty": "12 Months Manufacturer Warranty"
-    }
-  },
-  {
-    "id": "prod_sculpfun_74",
     "name": "Sculpfun 1.2w Infrared Laser Module for iCube Ultra Laser Engravers",
     "slug": "sculpfun-1-2w-infrared-laser-moudle-for-icube-ultra-laser-engravers",
     "category_id": "cat_hardware",
@@ -3989,7 +3835,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_75",
+    "id": "prod_sculpfun_72",
     "name": "Sculpfun C1 Mini 3W Portable Laser Engraver + RA Mini Roller Set for Curved Surface Engraving",
     "slug": "sculpfun-sculpfun-c1-mini-3w-portable-laser-engraver-ra-mini-roller-set-for-curved-surface-engraving",
     "category_id": "cat_hardware",
@@ -4043,58 +3889,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_76",
-    "name": "Sculpfun Make up the difference(Parts)",
-    "slug": "sculpfun-make-up-the-difference-copy",
-    "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-    "price": 1.35,
-    "compare_at_price": 1.82,
-    "cost_price": 1,
-    "supplier_sku": "SCULPFUN-8507431583922",
-    "badge": "Sculpfun Original",
-    "laser_type": "Universal Diode & CO2",
-    "recommended_power": "Verified Sculpfun Component",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/T02_2e9aee14-a293-48e6-ac69-3c7a115ddb6a.png?v=1716173370"
-    ],
-    "cj_pid": "SCULPFUN-8507431583922",
-    "name_i18n": {
-      "en": "Sculpfun Make up the difference(Parts)",
-      "lt": "Sculpfun Make up the difference(Parts)",
-      "de": "Sculpfun Make up the difference(Parts)",
-      "fr": "Sculpfun Make up the difference(Parts)",
-      "es": "Sculpfun Make up the difference(Parts)",
-      "pl": "Sculpfun Make up the difference(Parts)",
-      "lv": "Sculpfun Make up the difference(Parts)",
-      "et": "Sculpfun Make up the difference(Parts)"
-    },
-    "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
-      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
-      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
-      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
-      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
-      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
-      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
-    },
-    "full_description": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nPurpose: This link is mainly used for paying the following fees: Additional shipping costs for remote areas Product price differences Purchase of extra accessories Usage Instructions: Please select the corresponding quantity to match the amount instructed by the customer service. For example, if you need to pay an additional fee of $50, please select a quantity of 50. Please indicate the purpose in the order notes (e.g., \"Remote area shipping fee\" or \"Product price difference\"). Important Notes: This link is only for specific fee payments, please do not use it arbitrarily. If you have any questions about the payment amount or purpose, please contact our customer service first for confirmatio...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-    "full_description_i18n": {
-      "en": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nPurpose: This link is mainly used for paying the following fees: Additional shipping costs for remote areas Product price differences Purchase of extra accessories Usage Instructions: Please select the corresponding quantity to match the amount instructed by the customer service. For example, if you need to pay an additional fee of $50, please select a quantity of 50. Please indicate the purpose in the order notes (e.g., \"Remote area shipping fee\" or \"Product price difference\"). Important Notes: This link is only for specific fee payments, please do not use it arbitrarily. If you have any questions about the payment amount or purpose, please contact our customer service first for confirmatio...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Sculpfun** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Sculpfun gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nPurpose: This link is mainly used for paying the following fees: Additional shipping costs for remote areas Product price differences Purchase of extra accessories Usage Instructions: Please select the corresponding quantity to match the amount instructed by the customer service. For example, if you need to pay an additional fee of $50, please select a quantity of 50. Please indicate the purpose in the order notes (e.g., \"Remote area shipping fee\" or \"Product price difference\"). Important Notes: This link is only for specific fee payments, please do not use it arbitrarily. If you have any questions about the payment amount or purpose, please contact our customer service first for confirmatio...\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
-    },
-    "specs": {
-      "Brand": "Sculpfun",
-      "Laser Type": "Universal Diode & CO2",
-      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
-      "SKU": "SCULPFUN-8507431583922",
-      "Certification": "CE / RoHS Standard",
-      "Warranty": "12 Months Manufacturer Warranty"
-    }
-  },
-  {
-    "id": "prod_sculpfun_77",
+    "id": "prod_sculpfun_73",
     "name": "Sculpfun MY3 K9 Blank Crystal Cube for V5 Laser Engraving - 4 Pcs",
     "slug": "sculpfun-sculpfun-my3-blank-crystal-cube-for-v5-laser-engraving-4-pcs",
     "category_id": "cat_hardware",
@@ -4148,58 +3943,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_78",
-    "name": "Sculpfun iCube Ultra iCam Camera + RA Mini Rotary Roller + Air Assist 3 in 1 Accessory Kit",
-    "slug": "sculpfun-icube-ultra-icam-camera-ra-mini-rotary-roller-air-assist-all-in-1-kit",
-    "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-    "price": 187.65,
-    "compare_at_price": 253.33,
-    "cost_price": 139,
-    "supplier_sku": "iCube Ultra PAC3",
-    "badge": "Sculpfun Original",
-    "laser_type": "Universal Diode & CO2",
-    "recommended_power": "Verified Sculpfun Component",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/pac3.jpg?v=1760519479"
-    ],
-    "cj_pid": "iCube Ultra PAC3",
-    "name_i18n": {
-      "en": "Sculpfun iCube Ultra iCam Camera + RA Mini Rotary Roller + Air Assist 3 in 1 Accessory Kit",
-      "lt": "Sculpfun iCube Ultra iCam Camera + RA Mini sukamasis ritinėlis cilindrams + Air Assist 3 in 1 Accessory Kit",
-      "de": "Sculpfun iCube Ultra iCam Camera + RA Mini Rotationswalze für Zylinder + Air Assist 3 in 1 Accessory Kit",
-      "fr": "Sculpfun iCube Ultra iCam Camera + RA Mini Module rotatif pour cylindres + Air Assist 3 in 1 Accessory Kit",
-      "es": "Sculpfun iCube Ultra iCam Camera + RA Mini Rodillo rotatorio para cilindros + Air Assist 3 in 1 Accessory Kit",
-      "pl": "Sculpfun iCube Ultra iCam Camera + RA Mini Rolka obrotowa do cylindrów + Air Assist 3 in 1 Accessory Kit",
-      "lv": "Sculpfun iCube Ultra iCam Camera + RA Mini Rotējošais rullītis cilindriem + Air Assist 3 in 1 Accessory Kit",
-      "et": "Sculpfun iCube Ultra iCam Camera + RA Mini Pöörlev rull silindritele + Air Assist 3 in 1 Accessory Kit"
-    },
-    "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
-      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
-      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
-      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
-      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
-      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
-      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
-    },
-    "full_description": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nNote : 3 in 1, receive them in 1 package. No need to worry about losing small packages, and the price is better. Package include (iCam packing content + RA Mini Packing content + iCube Ultra Air Assist packing content) 1. iCam Camera Packing List: Camera*1 Data cable*1 Beech board*1 Image calibration paper*3 Instruction manual*1 2. RA Mini Packing list : 1* RA Mini Roller 1* Support Wheel 1* Motor Cable 4* C1 Height Increasing Bracket 4* Nut 1* Measuring Tape 1* Wrench 1* User Manual 3. iCube Ultra Air Assist Packing List: Air Pump ×1 Air Nozzle ×1 Air Tube ×1 Blade Honeycomb Plate ×1 Accessory Kit ×1 Manual ×1 Main Features : Product Key Selling Points RA-Mini Rotary Attachment • Enables au...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-    "full_description_i18n": {
-      "en": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nNote : 3 in 1, receive them in 1 package. No need to worry about losing small packages, and the price is better. Package include (iCam packing content + RA Mini Packing content + iCube Ultra Air Assist packing content) 1. iCam Camera Packing List: Camera*1 Data cable*1 Beech board*1 Image calibration paper*3 Instruction manual*1 2. RA Mini Packing list : 1* RA Mini Roller 1* Support Wheel 1* Motor Cable 4* C1 Height Increasing Bracket 4* Nut 1* Measuring Tape 1* Wrench 1* User Manual 3. iCube Ultra Air Assist Packing List: Air Pump ×1 Air Nozzle ×1 Air Tube ×1 Blade Honeycomb Plate ×1 Accessory Kit ×1 Manual ×1 Main Features : Product Key Selling Points RA-Mini Rotary Attachment • Enables au...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Sculpfun** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Sculpfun gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nNote : 3 in 1, receive them in 1 package. No need to worry about losing small packages, and the price is better. Package include (iCam packing content + RA Mini Packing content + iCube Ultra Air Assist packing content) 1. iCam Camera Packing List: Camera*1 Data cable*1 Beech board*1 Image calibration paper*3 Instruction manual*1 2. RA Mini Packing list : 1* RA Mini Roller 1* Support Wheel 1* Motor Cable 4* C1 Height Increasing Bracket 4* Nut 1* Measuring Tape 1* Wrench 1* User Manual 3. iCube Ultra Air Assist Packing List: Air Pump ×1 Air Nozzle ×1 Air Tube ×1 Blade Honeycomb Plate ×1 Accessory Kit ×1 Manual ×1 Main Features : Product Key Selling Points RA-Mini Rotary Attachment • Enables au...\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
-    },
-    "specs": {
-      "Brand": "Sculpfun",
-      "Laser Type": "Universal Diode & CO2",
-      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
-      "SKU": "iCube Ultra PAC3",
-      "Certification": "CE / RoHS Standard",
-      "Warranty": "12 Months Manufacturer Warranty"
-    }
-  },
-  {
-    "id": "prod_sculpfun_79",
+    "id": "prod_sculpfun_74",
     "name": "Sculpfun IR20 20W Fiber Laser Module Kit",
     "slug": "sculpfun-sculpfun-ir20-20w-fiber-laser-module-kit",
     "category_id": "cat_hardware",
@@ -4253,58 +3997,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_80",
-    "name": "Sculpfun Shipping Protection",
-    "slug": "sculpfun-shipping-protection",
-    "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-    "price": 1.32,
-    "compare_at_price": 1.78,
-    "cost_price": 0.98,
-    "supplier_sku": "XMHPACELSKU",
-    "badge": "Sculpfun Original",
-    "laser_type": "Universal Diode & CO2",
-    "recommended_power": "Verified Sculpfun Component",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/logosp.png?v=1754643213"
-    ],
-    "cj_pid": "XMHPACELSKU",
-    "name_i18n": {
-      "en": "Sculpfun Shipping Protection",
-      "lt": "Sculpfun Shipping Protection",
-      "de": "Sculpfun Shipping Protection",
-      "fr": "Sculpfun Shipping Protection",
-      "es": "Sculpfun Shipping Protection",
-      "pl": "Sculpfun Shipping Protection",
-      "lv": "Sculpfun Shipping Protection",
-      "et": "Sculpfun Shipping Protection"
-    },
-    "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
-      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
-      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
-      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
-      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
-      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
-      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
-    },
-    "full_description": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAdd xCotton Shipping Protection at checkout to protect your package against damage, loss and theft. Visit sp.xcottons.com/parcel#/more to learn more. Shipping Protection FAQ Q1: What is Shipping Protection? A1: When purchasing from Xcotton-partnered stores, you may opt for Shipping Protection to safeguard your order against loss, damage, or misdelivery during transit. Q2: When am I eligible to file a claim? A2: You may submit a claim under the following circumstances: Domestic orders undelivered after 30 days or international orders undelivered after 60 days from the shipment date. Visible damage to the delivered package. Package marked \"delivered\" but not received (requires supporting docum...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-    "full_description_i18n": {
-      "en": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAdd xCotton Shipping Protection at checkout to protect your package against damage, loss and theft. Visit sp.xcottons.com/parcel#/more to learn more. Shipping Protection FAQ Q1: What is Shipping Protection? A1: When purchasing from Xcotton-partnered stores, you may opt for Shipping Protection to safeguard your order against loss, damage, or misdelivery during transit. Q2: When am I eligible to file a claim? A2: You may submit a claim under the following circumstances: Domestic orders undelivered after 30 days or international orders undelivered after 60 days from the shipment date. Visible damage to the delivered package. Package marked \"delivered\" but not received (requires supporting docum...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Sculpfun** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Sculpfun gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nAdd xCotton Shipping Protection at checkout to protect your package against damage, loss and theft. Visit sp.xcottons.com/parcel#/more to learn more. Shipping Protection FAQ Q1: What is Shipping Protection? A1: When purchasing from Xcotton-partnered stores, you may opt for Shipping Protection to safeguard your order against loss, damage, or misdelivery during transit. Q2: When am I eligible to file a claim? A2: You may submit a claim under the following circumstances: Domestic orders undelivered after 30 days or international orders undelivered after 60 days from the shipment date. Visible damage to the delivered package. Package marked \"delivered\" but not received (requires supporting docum...\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
-    },
-    "specs": {
-      "Brand": "Sculpfun",
-      "Laser Type": "Universal Diode & CO2",
-      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
-      "SKU": "XMHPACELSKU",
-      "Certification": "CE / RoHS Standard",
-      "Warranty": "12 Months Manufacturer Warranty"
-    }
-  },
-  {
-    "id": "prod_sculpfun_81",
+    "id": "prod_sculpfun_75",
     "name": "Sculpfun Multi-Color Plywood Sheets – 6pcs A4 11.7\"x8.27\" 3mm, FSC Certified & DIY",
     "slug": "sculpfun-multi-color-plywood-sheets-6pcs-a4-11-7x8-27-3mm-fsc-certified-diy",
     "category_id": "cat_wood",
@@ -4358,7 +4051,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_82",
+    "id": "prod_sculpfun_76",
     "name": "Sculpfun Multi-Color Plywood Sheets – 8pcs 30x30cm 3mm, DIY & Laser-Safe",
     "slug": "sculpfun-multi-color-plywood-sheets-8pcs-30x30cm-3mm-diy-laser-safe",
     "category_id": "cat_wood",
@@ -4412,7 +4105,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_83",
+    "id": "prod_sculpfun_77",
     "name": "Sculpfun RA Mini Rotary Roller For iCube Ultra / iCube Series/ C1 Laser Engravers",
     "slug": "sculpfun-sculpfun-ra-mini-rotary-roller",
     "category_id": "cat_hardware",
@@ -4466,7 +4159,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_84",
+    "id": "prod_sculpfun_78",
     "name": "Sculpfun iCube Ultra: Flagship Portable Dual Laser Module Switching Engraver",
     "slug": "sculpfun-icube-ultra-portable-laser-engraving-machine",
     "category_id": "cat_hardware",
@@ -4520,7 +4213,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_85",
+    "id": "prod_sculpfun_79",
     "name": "Sculpfun iCube Ultra Laser Engraver Air Assist Kit",
     "slug": "sculpfun-sculpfun-icube-ultra-air-assist-kit",
     "category_id": "cat_hardware",
@@ -4574,7 +4267,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_86",
+    "id": "prod_sculpfun_80",
     "name": "Sculpfun iCube Ultra iCAM Camera 5MP",
     "slug": "sculpfun-sculpfun-icube-ultra-icam-camera-5mp",
     "category_id": "cat_hardware",
@@ -4628,7 +4321,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_87",
+    "id": "prod_sculpfun_81",
     "name": "Sculpfun TS1 3.5 inch Touch Screen for Laser Engravers Offline Working",
     "slug": "sculpfun-sculpfun-ts1-3-5-inch-touch-screen-for-laser-engravers-offline-working",
     "category_id": "cat_hardware",
@@ -4682,59 +4375,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_88",
-    "name": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
-    "slug": "sculpfun-h1-pack1",
-    "category_id": "cat_metal",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-    "price": 94.49,
-    "compare_at_price": 127.56,
-    "cost_price": 69.99,
-    "supplier_sku": "SCULPFUN-8533693759666",
-    "badge": "Sculpfun Original",
-    "laser_type": "Universal Diode & CO2",
-    "recommended_power": "Verified Sculpfun Component",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/pad.jpg?v=1752134848",
-      "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/pack2.jpg?v=1752134990"
-    ],
-    "cj_pid": "SCULPFUN-8533693759666",
-    "name_i18n": {
-      "en": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
-      "lt": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
-      "de": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
-      "fr": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
-      "es": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
-      "pl": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
-      "lv": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
-      "et": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad"
-    },
-    "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
-      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
-      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
-      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
-      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
-      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
-      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
-    },
-    "full_description": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nBundle A: Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + 1x Pad Bundle B: Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet (10 Sheets) + 30*100cm brown high temperature cloth roll...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-    "full_description_i18n": {
-      "en": "### Product Overview & Technical Specifications\nThe official **Sculpfun** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Sculpfun factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nBundle A: Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + 1x Pad Bundle B: Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet (10 Sheets) + 30*100cm brown high temperature cloth roll...\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
-      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Sculpfun** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Sculpfun gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nBundle A: Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + 1x Pad Bundle B: Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet (10 Sheets) + 30*100cm brown high temperature cloth roll...\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
-    },
-    "specs": {
-      "Brand": "Sculpfun",
-      "Laser Type": "Universal Diode & CO2",
-      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
-      "SKU": "SCULPFUN-8533693759666",
-      "Certification": "CE / RoHS Standard",
-      "Warranty": "12 Months Manufacturer Warranty"
-    }
-  },
-  {
-    "id": "prod_sculpfun_89",
+    "id": "prod_sculpfun_82",
     "name": "Sculpfun C1 3W Mini Portable Laser Engraver",
     "slug": "sculpfun-sculpfun-c1-mini-laser-engraver-3w",
     "category_id": "cat_hardware",
@@ -4788,7 +4429,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_90",
+    "id": "prod_sculpfun_83",
     "name": "Sculpfun laser lens with copper nozzle",
     "slug": "sculpfun-sculpfun-laser-lens-with-copper-nozzle",
     "category_id": "cat_optics_safety",
@@ -4842,7 +4483,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_91",
+    "id": "prod_sculpfun_84",
     "name": "Sculpfun S40 MAX Original Lens Kit 6Pcs Official Standard Lenses",
     "slug": "sculpfun-sculpfun-s40-max-original-lens-kit-6pcs-official-standard-lenses",
     "category_id": "cat_optics_safety",
@@ -4896,7 +4537,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_92",
+    "id": "prod_sculpfun_85",
     "name": "Sculpfun [U.S. Clearance Sale] SCULPFUN H5 Gen2 Honeycomb Cutting Exhaust Platform 650×650mm Honeycomb Laser Bed",
     "slug": "sculpfun-sculpfun-h5-gen2-honeycomb-cutting-exhaust-platform-650-650mm-honeycomb-laser-bed-with-fume-extraction-fan",
     "category_id": "cat_hardware",
@@ -4950,7 +4591,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_93",
+    "id": "prod_sculpfun_86",
     "name": "Sculpfun S40 MAX 48W Laser Engraver Cutting Machine 830*800mm Engraving Area",
     "slug": "sculpfun-sculpfun-s40-max-48w-laser-engraver-cutting-machine-830-800mm-engraving-area-one-click-auto-focus",
     "category_id": "cat_hardware",
@@ -5004,7 +4645,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_94",
+    "id": "prod_sculpfun_87",
     "name": "Sculpfun [Clearance Sale] SCULPFUN H1 Auto Heat Press Machine",
     "slug": "sculpfun-sculpfun-h1-auto-heat-press-machine",
     "category_id": "cat_hardware",
@@ -5058,7 +4699,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_95",
+    "id": "prod_sculpfun_88",
     "name": "Sculpfun S70 MAX Original Lens Kit 6Pcs Official Standard Lenses",
     "slug": "sculpfun-sculpfun-s70-max-original-lens-kit-6pcs-official-standard-lenses",
     "category_id": "cat_optics_safety",
@@ -5112,7 +4753,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_96",
+    "id": "prod_sculpfun_89",
     "name": "Sculpfun iCube Pro Max 10W Portable Laser Engraving Machine + LightBurn Core License Key",
     "slug": "sculpfun-sculpfun-icube-pro-max-10w-portable-laser-engraving-machine-lightburn-core-license-key",
     "category_id": "cat_acrylic",
@@ -5166,7 +4807,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_97",
+    "id": "prod_sculpfun_90",
     "name": "Sculpfun iCube 3W Portable Laser Engraving Machine + LightBurn Core License Key",
     "slug": "sculpfun-sculpfun-icube-3w-portable-laser-engraving-machine-lightburn-core-license-key",
     "category_id": "cat_acrylic",
@@ -5220,7 +4861,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_98",
+    "id": "prod_sculpfun_91",
     "name": "Sculpfun iCube Pro 5W Portable Laser Engraving Machine + LightBurn Core License Key",
     "slug": "sculpfun-sculpfun-icube-pro-5w-portable-laser-engraving-machine-lightburn-core-license-key",
     "category_id": "cat_acrylic",
@@ -5274,7 +4915,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_99",
+    "id": "prod_sculpfun_92",
     "name": "Sculpfun SF-A9 40W Laser Engraver and Cutting Machine + LightBurn Core License Key",
     "slug": "sculpfun-sculpfun-sf-a9-40w-laser-engraver-and-cutting-machine-lightburn-core-license-key",
     "category_id": "cat_acrylic",
@@ -5328,7 +4969,7 @@ export const PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod_sculpfun_100",
+    "id": "prod_sculpfun_93",
     "name": "Sculpfun SF-A9 20W Laser Engraver And Cutting Machine + LightBurn Core License Key",
     "slug": "sculpfun-sculpfun-sf-a9-20w-laser-engraver-and-cutting-machine-lightburn-core-license-key",
     "category_id": "cat_acrylic",
@@ -5377,6 +5018,384 @@ export const PRODUCTS: Product[] = [
       "Laser Type": "Universal Diode & CO2",
       "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
       "SKU": "A920W-US+LB",
+      "Certification": "CE / RoHS Standard",
+      "Warranty": "12 Months Manufacturer Warranty"
+    }
+  },
+  {
+    "id": "prod_ortur_94",
+    "name": "Ortur Metal Enclosure for Laser Master 2 Pro (OE1.0)",
+    "slug": "ortur-ortur-laser-master-2-pro-metal-enclosure",
+    "category_id": "cat_metal",
+    "description": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+    "price": 445.49,
+    "compare_at_price": 601.41,
+    "cost_price": 329.99,
+    "supplier_sku": "Ortur-DetachableShell-ForMaster2Pro-US",
+    "badge": "Ortur Original",
+    "laser_type": "Universal Diode & CO2",
+    "recommended_power": "Verified Ortur Component",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-metal-enclosure-main-pic-1.webp?v=1751358490",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-metal-enclosure-main-pic-2.webp?v=1751358496",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-metal-enclosure-main-pic-4.webp?v=1751358502",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-metal-enclosure-main-pic-5.webp?v=1751358510"
+    ],
+    "cj_pid": "Ortur-DetachableShell-ForMaster2Pro-US",
+    "name_i18n": {
+      "en": "Ortur Metal Enclosure for Laser Master 2 Pro (OE1.0)",
+      "lt": "Ortur Metal ugniai atspari apsauginė palapinė for Laser Master 2 Pro (OE1.0)",
+      "de": "Ortur Metal Feuerfestes Schutzgehäuse for Laser Master 2 Pro (OE1.0)",
+      "fr": "Ortur Metal Caisson de protection ignifugé for Laser Master 2 Pro (OE1.0)",
+      "es": "Ortur Metal Carcasa protectora ignífuga for Laser Master 2 Pro (OE1.0)",
+      "pl": "Ortur Metal Obudowa ochronna ognioodporna for Laser Master 2 Pro (OE1.0)",
+      "lv": "Ortur Metal Ugunsdrošs aizsargkorpuss for Laser Master 2 Pro (OE1.0)",
+      "et": "Ortur Metal Tulekindel kaitsekamber for Laser Master 2 Pro (OE1.0)"
+    },
+    "description_i18n": {
+      "en": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Ortur profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Ortur Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Ortur. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Ortur. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Ortur. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Ortur profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Ortur professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
+    },
+    "full_description": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nOnly compatible with Laser Master 2 Pro. This product is not compatible with Y-axis rotary series and Extension kit. OE1.0 Laser Engraver – 683mm x 630mm x 312.5mm Size, 8.5kg Net Weight. The Metal Enclosure enjoys a 30-day return guarantee and a one-year warranty....\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+    "full_description_i18n": {
+      "en": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nOnly compatible with Laser Master 2 Pro. This product is not compatible with Y-axis rotary series and Extension kit. OE1.0 Laser Engraver – 683mm x 630mm x 312.5mm Size, 8.5kg Net Weight. The Metal Enclosure enjoys a 30-day return guarantee and a one-year warranty....\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Ortur** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Ortur gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nOnly compatible with Laser Master 2 Pro. This product is not compatible with Y-axis rotary series and Extension kit. OE1.0 Laser Engraver – 683mm x 630mm x 312.5mm Size, 8.5kg Net Weight. The Metal Enclosure enjoys a 30-day return guarantee and a one-year warranty....\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
+    },
+    "specs": {
+      "Brand": "Ortur",
+      "Laser Type": "Universal Diode & CO2",
+      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
+      "SKU": "Ortur-DetachableShell-ForMaster2Pro-US",
+      "Certification": "CE / RoHS Standard",
+      "Warranty": "12 Months Manufacturer Warranty"
+    }
+  },
+  {
+    "id": "prod_ortur_95",
+    "name": "Ortur Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min",
+    "slug": "ortur-ortur-laser-master-3-lite",
+    "category_id": "cat_hardware",
+    "description": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+    "price": 134.99,
+    "compare_at_price": 182.24,
+    "cost_price": 99.99,
+    "supplier_sku": "Ortur-LM3-LE+LU3-5B-US",
+    "badge": "Ortur Original",
+    "laser_type": "Universal Diode & CO2",
+    "recommended_power": "Verified Ortur Component",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-3-le-5w-main-pic-product.webp?v=1787131285",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-3-le-5w-main-pic-module.webp?v=1772266445",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-3-le-5w-main-pic-speed.webp?v=1772266445",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-3-le-5w-main-pic-silence.webp?v=1772266445"
+    ],
+    "cj_pid": "Ortur-LM3-LE+LU3-5B-US",
+    "name_i18n": {
+      "en": "Ortur Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min",
+      "lt": "Ortur Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min",
+      "de": "Ortur Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min",
+      "fr": "Ortur Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min",
+      "es": "Ortur Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min",
+      "pl": "Ortur Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min",
+      "lv": "Ortur Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min",
+      "et": "Ortur Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min"
+    },
+    "description_i18n": {
+      "en": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Ortur profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Ortur Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Ortur. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Ortur. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Ortur. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Ortur profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Ortur professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
+    },
+    "full_description": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAuthentic Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min assembly, pre-calibrated and ready for plug-and-play installation.\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+    "full_description_i18n": {
+      "en": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAuthentic Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min assembly, pre-calibrated and ready for plug-and-play installation.\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Ortur** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Ortur gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nOriginalus Laser Master 3 LE 5W Laser Engraving & Cutting Machine 15,000mm/min komplektas, paruoštas greitam pajungimui pagal gamintojo instrukcijas.\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
+    },
+    "specs": {
+      "Brand": "Ortur",
+      "Laser Type": "Universal Diode & CO2",
+      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
+      "SKU": "Ortur-LM3-LE+LU3-5B-US",
+      "Certification": "CE / RoHS Standard",
+      "Warranty": "12 Months Manufacturer Warranty"
+    }
+  },
+  {
+    "id": "prod_ortur_96",
+    "name": "Ortur 5W LU3-5B Laser Module for Ortur R1 Laser Engraver",
+    "slug": "ortur-5w-lu3-5b-laser-module",
+    "category_id": "cat_hardware",
+    "description": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+    "price": 187.65,
+    "compare_at_price": 253.33,
+    "cost_price": 139,
+    "supplier_sku": "Ortur-R1-LU3-5B-LaserModule",
+    "badge": "Ortur Original",
+    "laser_type": "Universal Diode & CO2",
+    "recommended_power": "Verified Ortur Component",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-lu3-5b-laser-module-main-pic-1.webp?v=1760693789",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-lu3-5b-laser-module-main-pic-2.webp?v=1760693789",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-lu3-5b-laser-module-main-pic-3.webp?v=1760693789",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-lu3-5b-laser-module-main-pic-4.webp?v=1760693789"
+    ],
+    "cj_pid": "Ortur-R1-LU3-5B-LaserModule",
+    "name_i18n": {
+      "en": "Ortur 5W LU3-5B Laser Module for Ortur R1 Laser Engraver",
+      "lt": "Ortur 5W LU3-5B lazerio optinis modulis for Ortur R1 Laser Engraver",
+      "de": "Ortur 5W LU3-5B Lasermodul Optik for Ortur R1 Laser Engraver",
+      "fr": "Ortur 5W LU3-5B Module laser optique for Ortur R1 Laser Engraver",
+      "es": "Ortur 5W LU3-5B Módulo láser óptico for Ortur R1 Laser Engraver",
+      "pl": "Ortur 5W LU3-5B Optyczny moduł laserowy for Ortur R1 Laser Engraver",
+      "lv": "Ortur 5W LU3-5B Lāzera modulis for Ortur R1 Laser Engraver",
+      "et": "Ortur 5W LU3-5B Lasermoodul for Ortur R1 Laser Engraver"
+    },
+    "description_i18n": {
+      "en": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Ortur profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Ortur Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Ortur. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Ortur. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Ortur. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Ortur profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Ortur professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
+    },
+    "full_description": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAuthentic 5W LU3-5B Laser Module for Ortur R1 Laser Engraver assembly, pre-calibrated and ready for plug-and-play installation.\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+    "full_description_i18n": {
+      "en": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAuthentic 5W LU3-5B Laser Module for Ortur R1 Laser Engraver assembly, pre-calibrated and ready for plug-and-play installation.\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Ortur** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Ortur gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nOriginalus 5W LU3-5B Laser Module for Ortur R1 Laser Engraver komplektas, paruoštas greitam pajungimui pagal gamintojo instrukcijas.\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
+    },
+    "specs": {
+      "Brand": "Ortur",
+      "Laser Type": "Universal Diode & CO2",
+      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
+      "SKU": "Ortur-R1-LU3-5B-LaserModule",
+      "Certification": "CE / RoHS Standard",
+      "Warranty": "12 Months Manufacturer Warranty"
+    }
+  },
+  {
+    "id": "prod_ortur_97",
+    "name": "Ortur R1 Laser Engraver 1.3W IR/5W",
+    "slug": "ortur-ortur-r1-laser-engraver",
+    "category_id": "cat_hardware",
+    "description": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+    "price": 309.15,
+    "compare_at_price": 417.35,
+    "cost_price": 229,
+    "supplier_sku": "Ortur-R1-LU3-5B-white-US",
+    "badge": "Ortur Original",
+    "laser_type": "Universal Diode & CO2",
+    "recommended_power": "Verified Ortur Component",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-r1-blue-product.webp?v=1787125731",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-r1-laser-engraver-collection.webp?v=1772266876",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-r1-laser-engraver-ultra-potable-create-on-the-go.webp?v=1772266876",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-r1-laser-engraver-fun-family-moments.webp?v=1772266876"
+    ],
+    "cj_pid": "Ortur-R1-LU3-5B-white-US",
+    "name_i18n": {
+      "en": "Ortur R1 Laser Engraver 1.3W IR/5W",
+      "lt": "Ortur R1 Laser Engraver 1.3W IR/5W",
+      "de": "Ortur R1 Laser Engraver 1.3W IR/5W",
+      "fr": "Ortur R1 Laser Engraver 1.3W IR/5W",
+      "es": "Ortur R1 Laser Engraver 1.3W IR/5W",
+      "pl": "Ortur R1 Laser Engraver 1.3W IR/5W",
+      "lv": "Ortur R1 Laser Engraver 1.3W IR/5W",
+      "et": "Ortur R1 Laser Engraver 1.3W IR/5W"
+    },
+    "description_i18n": {
+      "en": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Ortur profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Ortur Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Ortur. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Ortur. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Ortur. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Ortur profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Ortur professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
+    },
+    "full_description": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAuthentic R1 Laser Engraver 1.3W IR/5W assembly, pre-calibrated and ready for plug-and-play installation.\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+    "full_description_i18n": {
+      "en": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAuthentic R1 Laser Engraver 1.3W IR/5W assembly, pre-calibrated and ready for plug-and-play installation.\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Ortur** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Ortur gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nOriginalus R1 Laser Engraver 1.3W IR/5W komplektas, paruoštas greitam pajungimui pagal gamintojo instrukcijas.\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
+    },
+    "specs": {
+      "Brand": "Ortur",
+      "Laser Type": "Universal Diode & CO2",
+      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
+      "SKU": "Ortur-R1-LU3-5B-white-US",
+      "Certification": "CE / RoHS Standard",
+      "Warranty": "12 Months Manufacturer Warranty"
+    }
+  },
+  {
+    "id": "prod_ortur_98",
+    "name": "Ortur 1.3W IR LR4-1A 1064nm Infrared Laser Module for Ortur Laser Engraver",
+    "slug": "ortur-ortur-r2-infraed-laser-module",
+    "category_id": "cat_hardware",
+    "description": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+    "price": 403.65,
+    "compare_at_price": 544.93,
+    "cost_price": 299,
+    "supplier_sku": "Ortur-R2-LR4-1A-LaserModule",
+    "badge": "Ortur Original",
+    "laser_type": "Universal Diode & CO2",
+    "recommended_power": "Verified Ortur Component",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-lr4-1a-main-pic-1.webp?v=1772266292",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-lr4-1a-main-pic-2.webp?v=1772266292",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-lr4-1a-main-pic-3.webp?v=1772266292",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-lr4-1a-main-pic-7.webp?v=1772266292"
+    ],
+    "cj_pid": "Ortur-R2-LR4-1A-LaserModule",
+    "name_i18n": {
+      "en": "Ortur 1.3W IR LR4-1A 1064nm Infrared Laser Module for Ortur Laser Engraver",
+      "lt": "Ortur 1.3W IR LR4-1A 1064nm Infrared lazerio optinis modulis for Ortur Laser Engraver",
+      "de": "Ortur 1.3W IR LR4-1A 1064nm Infrared Lasermodul Optik for Ortur Laser Engraver",
+      "fr": "Ortur 1.3W IR LR4-1A 1064nm Infrared Module laser optique for Ortur Laser Engraver",
+      "es": "Ortur 1.3W IR LR4-1A 1064nm Infrared Módulo láser óptico for Ortur Laser Engraver",
+      "pl": "Ortur 1.3W IR LR4-1A 1064nm Infrared Optyczny moduł laserowy for Ortur Laser Engraver",
+      "lv": "Ortur 1.3W IR LR4-1A 1064nm Infrared Lāzera modulis for Ortur Laser Engraver",
+      "et": "Ortur 1.3W IR LR4-1A 1064nm Infrared Lasermoodul for Ortur Laser Engraver"
+    },
+    "description_i18n": {
+      "en": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Ortur profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Ortur Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Ortur. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Ortur. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Ortur. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Ortur profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Ortur professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
+    },
+    "full_description": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAuthentic 1.3W IR LR4-1A 1064nm Infrared Laser Module for Ortur Laser Engraver assembly, pre-calibrated and ready for plug-and-play installation.\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+    "full_description_i18n": {
+      "en": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAuthentic 1.3W IR LR4-1A 1064nm Infrared Laser Module for Ortur Laser Engraver assembly, pre-calibrated and ready for plug-and-play installation.\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Ortur** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Ortur gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nOriginalus 1.3W IR LR4-1A 1064nm Infrared Laser Module for Ortur Laser Engraver komplektas, paruoštas greitam pajungimui pagal gamintojo instrukcijas.\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
+    },
+    "specs": {
+      "Brand": "Ortur",
+      "Laser Type": "Universal Diode & CO2",
+      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
+      "SKU": "Ortur-R2-LR4-1A-LaserModule",
+      "Certification": "CE / RoHS Standard",
+      "Warranty": "12 Months Manufacturer Warranty"
+    }
+  },
+  {
+    "id": "prod_ortur_99",
+    "name": "Ortur Laser Master 2 Pro S2 10W/1.3W IR Laser Engraving & Cutting Machine",
+    "slug": "ortur-ortur-laser-master-2-pro-s2",
+    "category_id": "cat_hardware",
+    "description": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+    "price": 377.99,
+    "compare_at_price": 510.29,
+    "cost_price": 279.99,
+    "supplier_sku": "Ortur-LaserEngraver-Master2Pro S2-LU2-10A-US",
+    "badge": "Ortur Original",
+    "laser_type": "Universal Diode & CO2",
+    "recommended_power": "Verified Ortur Component",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-2-pro-s2-10w-main-pic.webp?v=1772267633",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-10w-lu2-10a-laser-module.webp?v=1772267633",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-2-pro-s2-highter-precision.webp?v=1772267633",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-2-pro-s2-product-size.webp?v=1772267633"
+    ],
+    "cj_pid": "Ortur-LaserEngraver-Master2Pro S2-LU2-10A-US",
+    "name_i18n": {
+      "en": "Ortur Laser Master 2 Pro S2 10W/1.3W IR Laser Engraving & Cutting Machine",
+      "lt": "Ortur Laser Master 2 Pro S2 10W/1.3W IR Laser Engraving & Cutting Machine",
+      "de": "Ortur Laser Master 2 Pro S2 10W/1.3W IR Laser Engraving & Cutting Machine",
+      "fr": "Ortur Laser Master 2 Pro S2 10W/1.3W IR Laser Engraving & Cutting Machine",
+      "es": "Ortur Laser Master 2 Pro S2 10W/1.3W IR Laser Engraving & Cutting Machine",
+      "pl": "Ortur Laser Master 2 Pro S2 10W/1.3W IR Laser Engraving & Cutting Machine",
+      "lv": "Ortur Laser Master 2 Pro S2 10W/1.3W IR Laser Engraving & Cutting Machine",
+      "et": "Ortur Laser Master 2 Pro S2 10W/1.3W IR Laser Engraving & Cutting Machine"
+    },
+    "description_i18n": {
+      "en": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Ortur profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Ortur Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Ortur. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Ortur. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Ortur. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Ortur profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Ortur professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
+    },
+    "full_description": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nIncreases the maximum speed to 15000mm/min. Aluminum profile frame, solid structure, smooth operation. 4 Safety protection: Active position protection, s loping position protection, flame detector and buzzer alarm and emergency stop switch for an emergency. The Laser Master series laser engraving machine enjoys a 30-day return guarantee and a one-year warranty....\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+    "full_description_i18n": {
+      "en": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nIncreases the maximum speed to 15000mm/min. Aluminum profile frame, solid structure, smooth operation. 4 Safety protection: Active position protection, s loping position protection, flame detector and buzzer alarm and emergency stop switch for an emergency. The Laser Master series laser engraving machine enjoys a 30-day return guarantee and a one-year warranty....\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Ortur** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Ortur gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nIncreases the maximum speed to 15000mm/min. Aluminum profile frame, solid structure, smooth operation. 4 Safety protection: Active position protection, s loping position protection, flame detector and buzzer alarm and emergency stop switch for an emergency. The Laser Master series laser engraving machine enjoys a 30-day return guarantee and a one-year warranty....\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
+    },
+    "specs": {
+      "Brand": "Ortur",
+      "Laser Type": "Universal Diode & CO2",
+      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
+      "SKU": "Ortur-LaserEngraver-Master2Pro S2-LU2-10A-US",
+      "Certification": "CE / RoHS Standard",
+      "Warranty": "12 Months Manufacturer Warranty"
+    }
+  },
+  {
+    "id": "prod_ortur_100",
+    "name": "Ortur R2 Smart Laser Engraver 1.3W IR/10W/20W",
+    "slug": "ortur-ortur-r2-smart-laser-engraver",
+    "category_id": "cat_hardware",
+    "description": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+    "price": 984.15,
+    "compare_at_price": 1328.6,
+    "cost_price": 729,
+    "supplier_sku": "Ortur-R2-20A+YRR2.0-US",
+    "badge": "Ortur Original",
+    "laser_type": "Universal Diode & CO2",
+    "recommended_power": "Verified Ortur Component",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-r2-smart-laser-engraver-1-product.webp?v=1787130986",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-r2-smart-laser-engraver-collection-1.webp?v=1772268585",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-r2-smart-laser-engraver-camer-1.webp?v=1772268585",
+      "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-r2-smart-laser-engraver-class1-1.webp?v=1772268585"
+    ],
+    "cj_pid": "Ortur-R2-20A+YRR2.0-US",
+    "name_i18n": {
+      "en": "Ortur R2 Smart Laser Engraver 1.3W IR/10W/20W",
+      "lt": "Ortur R2 Smart Laser Engraver 1.3W IR/10W/20W",
+      "de": "Ortur R2 Smart Laser Engraver 1.3W IR/10W/20W",
+      "fr": "Ortur R2 Smart Laser Engraver 1.3W IR/10W/20W",
+      "es": "Ortur R2 Smart Laser Engraver 1.3W IR/10W/20W",
+      "pl": "Ortur R2 Smart Laser Engraver 1.3W IR/10W/20W",
+      "lv": "Ortur R2 Smart Laser Engraver 1.3W IR/10W/20W",
+      "et": "Ortur R2 Smart Laser Engraver 1.3W IR/10W/20W"
+    },
+    "description_i18n": {
+      "en": "Official Ortur professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Ortur profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Ortur Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Ortur. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Ortur. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Ortur. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Ortur profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Ortur professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
+    },
+    "full_description": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAuthentic R2 Smart Laser Engraver 1.3W IR/10W/20W assembly, pre-calibrated and ready for plug-and-play installation.\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+    "full_description_i18n": {
+      "en": "### Product Overview & Technical Specifications\nThe official **Ortur** component is engineered for professional laser workshops and high-precision CNC laser applications. Manufactured under strict quality control standards, it ensures maximum durability, thermal stability, and exact tolerances.\n\n#### Key Features:\n- **Authentic Brand Engineering:** 100% genuine Ortur factory equipment ensuring true-to-spec performance and longevity.\n- **Universal Compatibility:** Fully supported across leading laser control software (LightBurn, LaserGRBL) and mainstream desktop/industrial frames (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2 systems).\n- **Workshop Reliability:** Reduces operational wear, protects sensitive focal optics from soot buildup, and delivers clean, repeatable processing passes.\n\n#### Manufacturer Details:\nAuthentic R2 Smart Laser Engraver 1.3W IR/10W/20W assembly, pre-calibrated and ready for plug-and-play installation.\n\n#### Maintenance & Usage Guidelines:\nKeep optical and moving contact surfaces free of debris using lint-free optical wipes. Adhere to specified voltage and duty cycles for maximum lifespan.",
+      "lt": "### Produkto apžvalga ir specifikacija\nŠis oficialus **Ortur** komponentas yra sukurtas profesionalioms dirbtuvėms bei didelio tikslumo lazerinio graviravimo ir pjovimo darbams. Įrenginys pasižymi pramoninio lygio surinkimo kokybe, atsparumu temperatūros svyravimams ir ilgaamžiškumu.\n\n#### Pagrindiniai privalumai:\n- **Gamintojo garantija ir originalumas:** 100% originali Ortur gamyklos komplektacija su patikrintais tolerancijos parametrais.\n- **Platus suderinamumas:** Pilnai suderinamas su populiariausia valdymo programine įranga (LightBurn, LaserGRBL) bei standartinėmis staklėmis (xTool, Creality, Ortur, Atomstack, Sculpfun, CO2).\n- **Aukštas efektyvumas:** Sumažina medžiagų broką, apsaugo optinius komponentus nuo dūmų bei užtikrina tolygų, švarų rezultatą kiekvieno ciklo metu.\n\n#### Techninis aprašymas:\nOriginalus R2 Smart Laser Engraver 1.3W IR/10W/20W komplektas, paruoštas greitam pajungimui pagal gamintojo instrukcijas.\n\n#### Rekomenduojama priežiūra:\nReguliariai nuvalykite dulkes ir dūmų apnašas nepūkuojančia servetėle. Naudokite tik gamintojo nurodytus įtampos bei apkrovos parametrus."
+    },
+    "specs": {
+      "Brand": "Ortur",
+      "Laser Type": "Universal Diode & CO2",
+      "Compatibility": "LightBurn, LaserGRBL, xTool, Ortur, Creality, Atomstack, CO2",
+      "SKU": "Ortur-R2-20A+YRR2.0-US",
       "Certification": "CE / RoHS Standard",
       "Warranty": "12 Months Manufacturer Warranty"
     }

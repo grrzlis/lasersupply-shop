@@ -269,7 +269,16 @@ const descriptions: Record<string, (brand: string) => string> = {
   et: (brand) => `Ametlik ${brand} professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga.`,
 };
 
-const selected100 = raw.slice(0, 100).map((it, idx) => {
+// Filter items with AT LEAST 3 distinct images
+const strictlyWith3Plus = raw.filter((it) => {
+  if (!it.images || it.images.length < 3) return false;
+  const unique = new Set(it.images);
+  return unique.size >= 3;
+});
+
+console.log('Available items with at least 3 images:', strictlyWith3Plus.length);
+
+const selected100 = strictlyWith3Plus.slice(0, 100).map((it, idx) => {
   const brand = it.brand;
   const fullNameEn = `${brand} ${cleanTitle(it.title)}`;
   const category_id = getCategory(it.title);
@@ -316,6 +325,8 @@ const selected100 = raw.slice(0, 100).map((it, idx) => {
     Warranty: '12 Months Manufacturer Warranty',
   };
 
+  const distinctImages = Array.from(new Set(it.images)).slice(0, 6);
+
   return {
     id: `prod_${brand.toLowerCase()}_${idx + 1}`,
     name: fullNameEn,
@@ -329,7 +340,7 @@ const selected100 = raw.slice(0, 100).map((it, idx) => {
     badge: `${brand} Original`,
     laser_type: getLaserType(it.title),
     recommended_power: `Verified ${brand} Component`,
-    images: it.images && it.images.length > 0 ? it.images : [it.image],
+    images: distinctImages,
     cj_pid: it.sku || `${brand.toUpperCase()}-${idx + 1}`,
     name_i18n,
     description_i18n,
