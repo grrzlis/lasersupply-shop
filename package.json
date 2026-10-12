@@ -11,7 +11,8 @@
     "dev:vinext": "vite dev --port 3001",
     "build:vinext": "vite build",
     "start:vinext": "vite preview",
-    "deploy:vinext": "vinext-cloudflare deploy"
+    "deploy:vinext": "vinext-cloudflare deploy",
+    "sync:cj": "node scripts/sync-catalog.ts"
   },
   "dependencies": {
     "@cloudflare/next-on-pages": "^1.13.16",
