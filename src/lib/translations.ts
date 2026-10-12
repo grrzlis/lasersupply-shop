@@ -23,6 +23,8 @@ export const messages = {
     paymentMethods: 'Apple Pay · Google Pay · Credit Cards',
     vatIncluded: '',
     recommendedSpeed: 'Tested Setting',
+    inStock: 'In Stock · Ready to Ship',
+    techSpecs: 'Technical Specifications',
   },
   de: {
     announcement: 'Kostenloser Versand in Europa ab 50 € · Getestete Laser-Parameter',

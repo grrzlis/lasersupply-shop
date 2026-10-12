@@ -123,7 +123,7 @@ export function ProductModal({
                   </span>
                 )}
                 <span className="text-xs text-[#2e7d32] font-bold bg-[#e8f5e9] px-2 py-0.5 ml-auto">
-                  In Stock · Ready to Ship
+                  {(t as any).inStock || 'In Stock · Ready to Ship'}
                 </span>
               </div>
 
@@ -144,7 +144,7 @@ export function ProductModal({
               {product.specs && Object.keys(product.specs).length > 0 && (
                 <div className="space-y-2 pt-2 border-t border-[#f0f0f0]">
                   <h4 className="text-xs font-bold uppercase tracking-wider text-[#242423]">
-                    Technical Specifications:
+                    {(t as any).techSpecs || 'Technical Specifications'}:
                   </h4>
                   <div className="grid grid-cols-2 gap-1.5 text-xs">
                     {Object.entries(product.specs).map(([key, val]) => (
