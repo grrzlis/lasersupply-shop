@@ -64,6 +64,10 @@ export async function POST(req: Request) {
     // Collect customer phone number for courier delivery (DPD/Omniva)
     formParams.append('phone_number_collection[enabled]', 'true');
 
+    // Attach items data as metadata for webhook automated CJ fulfillment
+    const orderItemsSummary = items.map(it => ({ id: it.id, q: it.quantity }));
+    formParams.append('metadata[order_items]', JSON.stringify(orderItemsSummary));
+
     items.forEach((item, index) => {
       formParams.append(`line_items[${index}][quantity]`, String(item.quantity));
       formParams.append(`line_items[${index}][price_data][currency]`, 'eur');

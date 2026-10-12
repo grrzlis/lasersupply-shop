@@ -31,11 +31,13 @@ export async function GET(request: Request) {
         thumbnail: p.images[0],
       })),
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Failed to sync with CJ Dropshipping';
     return NextResponse.json({
       success: false,
-      error: error.message || 'Failed to sync with CJ Dropshipping',
+      error: message,
     }, { status: 500 });
+
   }
 }
 

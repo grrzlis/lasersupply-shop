@@ -39,7 +39,43 @@ export async function POST(req: Request) {
 
       console.log('✅ [ORDER PAID] Processing notification and emails for:', orderId);
 
-      // 1. Send Order Confirmation to Customer (if customer email provided)
+      // 1. Automatically dispatch fulfillment order to CJ Dropshipping
+      let cjOrderResult: { success: boolean; orderId?: string; error?: string } | null = null;
+      try {
+        const rawItems = session.metadata?.order_items;
+        const parsedItems: Array<{ id: string; q: number }> = rawItems ? JSON.parse(rawItems) : [];
+        
+        // Map local product IDs to CJ Variant IDs / SKUs
+        const cjProducts = parsedItems.map(item => {
+          // Standard mapping - metal cards default variant vid
+          if (item.id === 'prod_metal_cards_100') {
+            return { vid: 'F3420747-900F-405B-A5C6-F47299BDA9CE', quantity: item.q };
+          }
+          return { vid: 'F3420747-900F-405B-A5C6-F47299BDA9CE', quantity: item.q };
+        });
+
+        if (cjProducts.length > 0 && address) {
+          const { createCjOrder } = await import('@/lib/cj-client');
+          cjOrderResult = await createCjOrder({
+            orderNumber: `LS-${orderId}`,
+            shippingZip: address.postal_code || '00000',
+            shippingCountry: address.country || 'Lithuania',
+            shippingCountryCode: address.country || 'LT',
+            shippingProvince: address.state || address.city || 'State',
+            shippingCity: address.city || 'City',
+            shippingAddress: [address.line1, address.line2].filter(Boolean).join(', ') || 'Address',
+            shippingCustomerName: customerName,
+            shippingPhone: customerPhone !== 'Not provided' ? customerPhone : '+37060000000',
+            logisticName: 'CJPacket Ordinary',
+            products: cjProducts,
+          });
+          console.log('📦 [CJ FULFILLMENT DISPATCHED]:', cjOrderResult);
+        }
+      } catch (cjErr) {
+        console.error('Failed to dispatch CJ order:', cjErr);
+      }
+
+      // 2. Send Order Confirmation to Customer (if customer email provided)
       if (customerEmail) {
         await sendEmail({
           to: [{ email: customerEmail, name: customerName }],
@@ -65,7 +101,7 @@ export async function POST(req: Request) {
         });
       }
 
-      // 2. Send Admin Notification to Store Owner (akdarbas@gmail.com)
+      // 3. Send Admin Notification to Store Owner (akdarbas@gmail.com)
       const adminEmail = process.env.ADMIN_NOTIFICATION_EMAIL || 'akdarbas@gmail.com';
       await sendEmail({
         to: [{ email: adminEmail, name: 'LaserSupply Admin' }],
@@ -78,6 +114,7 @@ export async function POST(req: Request) {
             <div style="background-color: #f3f4f6; padding: 16px; border-radius: 6px; margin: 20px 0;">
               <p style="margin: 0 0 8px 0;"><strong>Order Ref:</strong> #${orderId}</p>
               <p style="margin: 0 0 8px 0;"><strong>Total Amount:</strong> ${amountTotal} ${currency}</p>
+              <p style="margin: 0 0 8px 0;"><strong>CJ Fulfillment:</strong> ${cjOrderResult?.success ? `✅ Užsakymas sukurtas CJ (${cjOrderResult.orderId})` : `⚠️ CJ Status: ${cjOrderResult?.error || 'Nekonfigūruota'}`}</p>
               <p style="margin: 0 0 8px 0;"><strong>Customer Name:</strong> ${customerName}</p>
               <p style="margin: 0 0 8px 0;"><strong>Customer Email:</strong> ${customerEmail || 'N/A'}</p>
               <p style="margin: 0 0 8px 0;"><strong>Customer Phone:</strong> ${customerPhone}</p>
@@ -88,6 +125,7 @@ export async function POST(req: Request) {
           </div>
         `,
       });
+
     }
 
     return NextResponse.json({ received: true });

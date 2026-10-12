@@ -3,9 +3,7 @@
  * Connects directly to https://developers.cjdropshipping.com/api2.0/v1
  */
 
-import fs from 'fs';
-import path from 'path';
-import crypto from 'crypto';
+import { getRequestContext } from '@cloudflare/next-on-pages';
 
 export interface CjProductSummary {
   id: string;
@@ -41,47 +39,23 @@ export interface CjProductDetail {
 }
 
 export function getCjAccessToken(): string | null {
-  // 1. Check process.env.CJ_ACCESS_TOKEN
+  // 1. Check Cloudflare Worker env context
+  try {
+    const ctx = getRequestContext();
+    const envObj = ctx?.env as Record<string, string | undefined> | undefined;
+    if (envObj?.CJ_ACCESS_TOKEN && envObj.CJ_ACCESS_TOKEN.trim()) {
+      return envObj.CJ_ACCESS_TOKEN.trim();
+    }
+  } catch {}
+
+  // 2. Check process.env.CJ_ACCESS_TOKEN
   if (process.env.CJ_ACCESS_TOKEN && process.env.CJ_ACCESS_TOKEN.trim()) {
     return process.env.CJ_ACCESS_TOKEN.trim();
   }
 
-  // 2. Check .env.local file
-  try {
-    const envPath = path.resolve(process.cwd(), '.env.local');
-    if (fs.existsSync(envPath)) {
-      const content = fs.readFileSync(envPath, 'utf8');
-      for (const line of content.split('\n')) {
-        const trimmed = line.trim();
-        if (trimmed.startsWith('CJ_ACCESS_TOKEN=')) {
-          const token = trimmed.replace('CJ_ACCESS_TOKEN=', '').trim();
-          if (token) return token;
-        }
-      }
-    }
-  } catch {}
-
-  // 3. Check ~/.cj-mcp-token (encrypted token store)
-  try {
-    const homeDir = process.env.HOME || process.env.USERPROFILE || '.';
-    const tokenFile = path.join(homeDir, '.cj-mcp-token');
-    if (fs.existsSync(tokenFile)) {
-      const encrypted = fs.readFileSync(tokenFile, 'utf8').trim();
-      if (encrypted.includes(':')) {
-        const key = crypto.createHash('sha256').update('cj-mcp-default-key-2026').digest();
-        const parts = encrypted.split(':');
-        const iv = Buffer.from(parts[0], 'hex');
-        const decipher = crypto.createDecipheriv('aes-256-cbc', key, iv);
-        let decrypted = decipher.update(parts.slice(1).join(':'), 'hex', 'utf8');
-        decrypted += decipher.final('utf8');
-        const parsed = JSON.parse(decrypted);
-        if (parsed.accessToken) return parsed.accessToken;
-      }
-    }
-  } catch {}
-
   return null;
 }
+
 
 const CJ_API_BASE = 'https://developers.cjdropshipping.com/api2.0/v1';
 
@@ -137,3 +111,66 @@ export async function getCjProductDetail(pid: string): Promise<CjProductDetail |
 
   return json.data as CjProductDetail;
 }
+
+export interface CreateCjOrderParams {
+  orderNumber: string;
+  shippingZip: string;
+  shippingCountry: string;
+  shippingCountryCode: string;
+  shippingProvince?: string;
+  shippingCity: string;
+  shippingAddress: string;
+  shippingCustomerName: string;
+  shippingPhone: string;
+  logisticName?: string;
+  fromCountryCode?: string;
+  products: Array<{
+    vid?: string;
+    sku?: string;
+    quantity: number;
+  }>;
+}
+
+export async function createCjOrder(params: CreateCjOrderParams): Promise<{ success: boolean; orderId?: string; error?: string }> {
+  const token = getCjAccessToken();
+  if (!token) {
+    return { success: false, error: 'CJ_ACCESS_TOKEN is missing' };
+  }
+
+  const payload = {
+    orderNumber: params.orderNumber,
+    shippingZip: params.shippingZip || '00000',
+    shippingCountry: params.shippingCountry || 'Lithuania',
+    shippingCountryCode: (params.shippingCountryCode || 'LT').toUpperCase(),
+    shippingProvince: params.shippingProvince || params.shippingCity || 'Default',
+    shippingCity: params.shippingCity || 'City',
+    shippingAddress: params.shippingAddress,
+    shippingCustomerName: params.shippingCustomerName || 'Valued Customer',
+    shippingPhone: params.shippingPhone || '+37060000000',
+    fromCountryCode: params.fromCountryCode || 'CN',
+    logisticName: params.logisticName || 'CJPacket Ordinary',
+    products: params.products,
+  };
+
+  try {
+    const res = await fetch(`${CJ_API_BASE}/shopping/order/createOrder`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'CJ-Access-Token': token,
+      },
+      body: JSON.stringify(payload),
+    });
+
+    const json = (await res.json()) as { code: number; result: boolean; message: string; data?: string };
+
+    if (json.code === 200 && json.result === true) {
+      return { success: true, orderId: json.data || params.orderNumber };
+    }
+
+    return { success: false, error: json.message || `Code: ${json.code}` };
+  } catch (err) {
+    return { success: false, error: err instanceof Error ? err.message : 'Network error' };
+  }
+}
+
