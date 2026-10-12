@@ -401,5 +401,208 @@ export const PRODUCTS: Product[] = [
       "en": "Plug-and-play Y-axis rotary module compatible with xTool, Ortur, Creality, Atomstack, and Sculpfun. Engrave cylinders from 5mm to 150mm diameter effortlessly.",
       "lt": "Universalaus pajungimo Y-ašies ritinėlis, suderinamas su xTool, Ortur, Creality, Atomstack ir Sculpfun. Skirtas graviruoti termosams ir stiklinėms."
     }
+  },
+  {
+    "id": "prod_ss_cross_pendants_20",
+    "name": "Mirror Polished Stainless Steel Cross Pendant Blanks (20-Pack)",
+    "slug": "mirror-polished-stainless-steel-cross-pendant-blanks-20pack",
+    "category_id": "cat_jewelry",
+    "description": "316L hypoallergenic surgical stainless steel cross pendant blanks. High-gloss mirror polish, ideal for high-contrast dark fiber laser marking or diode engraving.",
+    "price": 6.99,
+    "compare_at_price": 9.79,
+    "cost_price": 1.94,
+    "supplier_sku": "CJLX2048677",
+    "badge": "Jeweler Choice",
+    "laser_type": "Fiber / Diode 10W+ / Infrared",
+    "recommended_power": "Fiber 20W (Speed 1200mm/min, 90% Power)",
+    "images": [
+      "https://cf.cjdropshipping.com/quick/product/3eac620c-5fc4-436d-a890-50aff11ebe16.jpg",
+      "https://cf.cjdropshipping.com/quick/product/63439a78-8370-4d91-8ebb-84539f95dc96.jpg",
+      "https://cf.cjdropshipping.com/quick/product/52483eb1-6067-4f75-af02-757b609e13d1.jpg",
+      "https://cf.cjdropshipping.com/quick/product/80ff83ba-8753-49f5-b886-da0c02eee7e6.jpg"
+    ],
+    "cj_pid": "1795710376370245632",
+    "name_i18n": {
+      "en": "Mirror Polished Stainless Steel Cross Pendant Blanks (20-Pack)",
+      "lt": "Veidrodinio poliravimo nerūdijančio plieno kryželių pakabukų ruošiniai (20 vnt.)"
+    },
+    "description_i18n": {
+      "en": "316L hypoallergenic surgical stainless steel cross pendant blanks. High-gloss mirror polish, ideal for high-contrast dark fiber laser marking or diode engraving.",
+      "lt": "316L hipoalerginio chirurginio nerūdijančio plieno kryželių ruošiniai. Veidrodinis poliravimas, skirtas kontrastingam graviravimui skaiduliniu (Fiber) ar diodiniu lazeriu."
+    }
+  },
+  {
+    "id": "prod_ss_hollow_cross_pendants",
+    "name": "Precision Cast Stainless Steel Cross & Medallion Blanks (15-Pack)",
+    "slug": "precision-cast-stainless-steel-cross-medallion-blanks-15pack",
+    "category_id": "cat_jewelry",
+    "description": "Detailed solid stainless steel cast charm pendants. Flat engraving surfaces on reverse side for personal dates, initials, and micro-engraving.",
+    "price": 5.49,
+    "compare_at_price": 7.69,
+    "cost_price": 0.96,
+    "supplier_sku": "CJLX1974303",
+    "badge": "Popular",
+    "laser_type": "Fiber / Diode / Infrared 1064nm",
+    "recommended_power": "Speed 1500mm/min, Power 85%",
+    "images": [
+      "https://cf.cjdropshipping.com/quick/product/9e4ac23a-eefa-4ac6-8836-4f74de862541.jpg",
+      "https://cf.cjdropshipping.com/quick/product/3d1231d0-8f79-47f3-b262-05d05965e2cd.jpg",
+      "https://cf.cjdropshipping.com/17086464/2402230238330323600.jpg",
+      "https://cf.cjdropshipping.com/17086464/2402230238340328800.jpg"
+    ],
+    "cj_pid": "1760856638640107520",
+    "name_i18n": {
+      "en": "Precision Cast Stainless Steel Cross & Medallion Blanks (15-Pack)",
+      "lt": "Tikslaus liejimo nerūdijančio plieno kryželių ir medalionų ruošiniai (15 vnt.)"
+    },
+    "description_i18n": {
+      "en": "Detailed solid stainless steel cast charm pendants. Flat engraving surfaces on reverse side for personal dates, initials, and micro-engraving.",
+      "lt": "Tvirti nerūdijančio plieno pakabukai su lygiu nugarėlės paviršiumi asmeniniams užrašams, datoms ir mikro-graviravimui."
+    }
+  },
+  {
+    "id": "prod_ss_letter_tag_pendants",
+    "name": "Stainless Steel Initial Letter Plate Pendants (26-Pack A-Z)",
+    "slug": "stainless-steel-initial-letter-plate-pendants-26pack",
+    "category_id": "cat_jewelry",
+    "description": "Complete alphabet set of hypoallergenic stainless steel letter pendants. Perfect for personalized monogram jewelry lines.",
+    "price": 6.25,
+    "compare_at_price": 8.75,
+    "cost_price": 0.98,
+    "supplier_sku": "CJLX2194282",
+    "badge": "Full Set A-Z",
+    "laser_type": "Fiber / Diode / IR",
+    "recommended_power": "Speed 1800mm/min, Power 75%",
+    "images": [
+      "https://cf.cjdropshipping.com/quick/product/0cb84150-1b33-4c12-9c8a-ad31482b4ced.jpg",
+      "https://cf.cjdropshipping.com/quick/product/3749c3d5-dca1-458d-99ba-a5fae7377a7e.jpg",
+      "https://cf.cjdropshipping.com/quick/product/0633c526-0e34-46d0-aded-81851bb635aa.jpg",
+      "https://cf.cjdropshipping.com/quick/product/de4c2d21-ae16-4bed-86ab-deccbeba4746.jpg"
+    ],
+    "cj_pid": "2411140132101619600",
+    "name_i18n": {
+      "en": "Stainless Steel Initial Letter Plate Pendants (26-Pack A-Z)",
+      "lt": "Nerūdijančio plieno raidžių plokštelių pakabukų ruošiniai (26 vnt. A-Z rinkinys)"
+    },
+    "description_i18n": {
+      "en": "Complete alphabet set of hypoallergenic stainless steel letter pendants. Perfect for personalized monogram jewelry lines.",
+      "lt": "Pilnas abėcėlės rinkinys iš hipoalerginio nerūdijančio plieno. Puikiai tinka personalizuotų papuošalų ir monogramų gamybai."
+    }
+  },
+  {
+    "id": "prod_ss_oval_tag_necklace",
+    "name": "Mirror Polished Oval Link Tag & Plate Necklaces (15-Pack)",
+    "slug": "mirror-polished-oval-link-tag-plate-necklaces-15pack",
+    "category_id": "cat_jewelry",
+    "description": "Chic oval flat plate pendants mounted on durable stainless steel chain necklaces. High-definition engraving surface ready for photos and names.",
+    "price": 8.2,
+    "compare_at_price": 11.48,
+    "cost_price": 2.3,
+    "supplier_sku": "CJLX3092704",
+    "badge": "Fine Finish",
+    "laser_type": "Fiber / Diode / Infrared",
+    "recommended_power": "Speed 1200mm/min, Power 90%",
+    "images": [
+      "https://cf.cjdropshipping.com/89b141f9-4b75-486c-8048-1c16013dfc44.jpg",
+      "https://cf.cjdropshipping.com/f1811ae2-94c3-4f77-979e-5e4cd585677d.jpg",
+      "https://cf.cjdropshipping.com/d628ac5d-5efe-4624-acc5-405e3b93c823.jpg",
+      "https://cf.cjdropshipping.com/df629b93-3743-4c26-a48c-f5bef57bec21.jpg"
+    ],
+    "cj_pid": "2092066791176949762",
+    "name_i18n": {
+      "en": "Mirror Polished Oval Link Tag & Plate Necklaces (15-Pack)",
+      "lt": "Ovalių poliruotų plokštelių pakabukai su grandinėlėmis (15 vnt.)"
+    },
+    "description_i18n": {
+      "en": "Chic oval flat plate pendants mounted on durable stainless steel chain necklaces. High-definition engraving surface ready for photos and names.",
+      "lt": "Elegantiški ovalūs pakabukai su tvirtomis nerūdijančio plieno grandinėlėmis. Lygus veidrodinis paviršius nuotraukų ir inicialų graviravimui."
+    }
+  },
+  {
+    "id": "prod_solid_wood_parquet_board",
+    "name": "End-Grain Hardwood Mosaic Cutting & Serving Board Blanks (2-Pack)",
+    "slug": "end-grain-hardwood-mosaic-cutting-board-blanks-2pack",
+    "category_id": "cat_wood",
+    "description": "Solid heavy mosaic hardwood butcher blocks with natural grain variations. Smooth planed raw surface, ready for laser pyrography branding and food oil finishing.",
+    "price": 18.9,
+    "compare_at_price": 26.46,
+    "cost_price": 8.21,
+    "supplier_sku": "CJJJCFCJ00820",
+    "badge": "Master Woodcraft",
+    "laser_type": "Diode / CO2",
+    "recommended_power": "Speed 2000mm/min, Power 45%",
+    "images": [
+      "https://cf.cjdropshipping.com/2058/1037042754775.png",
+      "https://cf.cjdropshipping.com/15722784/952632820272.jpg",
+      "https://cf.cjdropshipping.com/15722784/1001207946270.jpg",
+      "https://cf.cjdropshipping.com/15722784/2296715615688.jpg"
+    ],
+    "cj_pid": "FB3F3312-20B6-4BFB-BBDF-09D78243FEEA",
+    "name_i18n": {
+      "en": "End-Grain Hardwood Mosaic Cutting & Serving Board Blanks (2-Pack)",
+      "lt": "Mozaikinio kietmedžio pjaustymo ir serviravimo lentelių ruošiniai (2 vnt.)"
+    },
+    "description_i18n": {
+      "en": "Solid heavy mosaic hardwood butcher blocks with natural grain variations. Smooth planed raw surface, ready for laser pyrography branding and food oil finishing.",
+      "lt": "Masyvios kietmedžio lentelės su natūraliais medienos raštais. Lygiai nuobliuotas paviršius, idealiai tinkantis giluminiam lazeriniam graviravimui ir aliejavimui."
+    }
+  },
+  {
+    "id": "prod_ceramic_marble_coasters_6",
+    "name": "Absorbent Ceramic Stone Coasters with Cork Backing & Metal Stand (Set of 6)",
+    "slug": "absorbent-ceramic-stone-coasters-cork-backing-metal-stand-6set",
+    "category_id": "cat_wood",
+    "description": "Heavy absorbent stoneware ceramic drink coasters with non-slip cork base and black metal organizer holder. High temperature laser marking compatible.",
+    "price": 8.45,
+    "compare_at_price": 11.83,
+    "cost_price": 3.04,
+    "supplier_sku": "CJJT2135179",
+    "badge": "Complete Set",
+    "laser_type": "Diode (with marking compound) / CO2 / UV",
+    "recommended_power": "Speed 1200mm/min, Power 65%",
+    "images": [
+      "https://cf.cjdropshipping.com/bb615633-5da4-4ccb-8c4b-ec5c67916d89.jpg",
+      "https://cf.cjdropshipping.com/7d396729-5f33-430a-a1c0-04fbe8ec56e8.jpg",
+      "https://cf.cjdropshipping.com/fb77406f-635a-4ad5-9c32-552eb7ef20cf.jpg",
+      "https://cf.cjdropshipping.com/98b9afc8-9215-47c4-afe2-ce2dee74aefb.jpg"
+    ],
+    "cj_pid": "1834046188929568768",
+    "name_i18n": {
+      "en": "Absorbent Ceramic Stone Coasters with Cork Backing & Metal Stand (Set of 6)",
+      "lt": "Keraminiai sugeriantys padėkliukai su kamštiniu pagrindu ir metaliniu stovu (6 vnt. rinkinys)"
+    },
+    "description_i18n": {
+      "en": "Heavy absorbent stoneware ceramic drink coasters with non-slip cork base and black metal organizer holder. High temperature laser marking compatible.",
+      "lt": "Sugerintys keraminiai gėrimų padėkliukai su neslystančia kamštine nugarėle ir metaliniu stovu. Tinka graviravimui su žymėjimo pasta arba CO2/UV lazeriu."
+    }
+  },
+  {
+    "id": "prod_laser_safety_goggles",
+    "name": "Multi-Wavelength Laser Safety Glasses & Protection Goggles (OD 6+)",
+    "slug": "multi-wavelength-laser-safety-glasses-protection-goggles",
+    "category_id": "cat_accessories",
+    "description": "High optical density safety glasses designed for Diode (405nm-450nm) and Infrared (1064nm) lasers. Wraparound side protection shields against dangerous specular reflections.",
+    "price": 7.95,
+    "compare_at_price": 11.13,
+    "cost_price": 0.95,
+    "supplier_sku": "CJJJJTJT56053",
+    "badge": "Essential Safety",
+    "laser_type": "Certified for Diode / CO2 / Fiber",
+    "recommended_power": "Optical Density OD 6+ certified",
+    "images": [
+      "https://cf.cjdropshipping.com/1613655958249.png",
+      "https://cf.cjdropshipping.com/1618573114450.jpg",
+      "https://cf.cjdropshipping.com/20210126/1106844468075.jpg",
+      "https://cf.cjdropshipping.com/20210126/1116833957028.jpg"
+    ],
+    "cj_pid": "13F4F27B-CB94-441E-9472-0537D8F64E96",
+    "name_i18n": {
+      "en": "Multi-Wavelength Laser Safety Glasses & Protection Goggles (OD 6+)",
+      "lt": "Apsauginiai lazerio akiniai su šonine apsauga (Diode / CO2 / Fiber, OD 6+)"
+    },
+    "description_i18n": {
+      "en": "High optical density safety glasses designed for Diode (405nm-450nm) and Infrared (1064nm) lasers. Wraparound side protection shields against dangerous specular reflections.",
+      "lt": "Būtina apsauga dirbant su lazerinėmis staklėmis. Efektyviai blokuoja 405nm-450nm mėlynus ir 1064nm infraraudonuosius spindulius bei atspindžius."
+    }
   }
 ];
