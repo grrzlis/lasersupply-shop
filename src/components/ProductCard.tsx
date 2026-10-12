@@ -78,7 +78,6 @@ export function ProductCard({
                 </span>
               )}
             </div>
-            <span className="text-[11px] text-[#5f5e58]">{t.vatIncluded}</span>
           </div>
 
           <button

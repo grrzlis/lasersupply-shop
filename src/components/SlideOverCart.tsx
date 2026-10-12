@@ -169,7 +169,7 @@ export function SlideOverCart({ locale = 'en' }: { locale?: Locale }) {
           {items.length > 0 && (
             <div className="p-5 border-t border-[#ddd9cf] bg-[#fafaf8] space-y-3.5">
               <div className="flex justify-between items-baseline">
-                <span className="text-[12px] text-[#5f5e58]">{t.totalWithVat}</span>
+                <span className="text-[12px] font-bold text-[#5f5e58]">{t.totalWithVat}</span>
                 <span className="text-xl font-bold text-[#1c1c1a] bg-[#f0c84a] px-2 py-0.5">
                   {totalPrice.toFixed(2)} €
                 </span>
