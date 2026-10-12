@@ -131,7 +131,7 @@ export function SlideOverCart({ locale = 'en' }: { locale?: Locale }) {
                   </div>
                   <div className="flex-1 min-w-0">
                     <h4 className="text-[13px] font-semibold text-[#1c1c1a] truncate">
-                      {item.product.name}
+                      {item.product.name_i18n?.[locale] || item.product.name}
                     </h4>
                     <p className="text-[13px] font-bold text-[#1c1c1a] font-mono mt-0.5">
                       {item.product.price.toFixed(2)} €

@@ -52,10 +52,10 @@ export function ProductCard({
       <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
         <div>
           <h3 className="font-bold text-[14px] text-[#242423] leading-snug line-clamp-2 group-hover:text-[#f5cb5c] transition-colors">
-            {product.name}
+            {product.name_i18n?.[locale] || product.name}
           </h3>
           <p className="text-[12px] text-[#5f5e58] mt-1 line-clamp-2 leading-relaxed">
-            {product.description}
+            {product.description_i18n?.[locale] || product.description}
           </p>
 
           {/* Laser setting chip */}

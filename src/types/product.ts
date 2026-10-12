@@ -1,9 +1,11 @@
 export interface Product {
   id: string;
   name: string;
+  name_i18n?: Record<string, string>;
   slug: string;
   category_id: string;
   description: string;
+  description_i18n?: Record<string, string>;
   price: number; // in EUR
   compare_at_price?: number;
   cost_price: number;
