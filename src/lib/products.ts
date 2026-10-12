@@ -82,13 +82,16 @@ export const PRODUCTS: Product[] = [
     "price": 17.49,
     "compare_at_price": 24.99,
     "cost_price": 7.2,
-    "supplier_sku": "CJ-BLANK-DOG-05",
+    "supplier_sku": "CJLX3134884",
     "badge": "Bulk Pack",
     "laser_type": "Diode / Fiber / CO2",
     "recommended_power": "Speed 3000mm/min, Power 45%",
     "images": [
-      "/products/dog_tags.jpg"
-    ]
+      "https://cf.cjdropshipping.com/e4586fe6-467a-4443-9a81-0360a5545531.jpg",
+      "https://cf.cjdropshipping.com/f751f5bf-3fef-48b9-8da4-ad02546735ed.jpg",
+      "https://cf.cjdropshipping.com/17682656-c726-4c2d-afa3-69c0c71437d2.jpg"
+    ],
+    "cj_pid": "2096841637189410817"
   },
   {
     "id": "prod_metal_pocket_knife_5",
