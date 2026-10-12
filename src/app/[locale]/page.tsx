@@ -59,8 +59,66 @@ export default async function LocalizedHomePage({
     : defaultLocale) as Locale;
   const t = messages[locale] || messages.en;
 
+  // Schema.org Structured Data (JSON-LD) for Rich Google Search Snippets
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': 'https://lasersupply.org/#organization',
+        name: 'LaserSupply.org',
+        url: 'https://lasersupply.org',
+        logo: 'https://lasersupply.org/logo.png',
+        contactPoint: {
+          '@type': 'ContactPoint',
+          email: 'info@lasersupply.org',
+          contactType: 'customer support',
+          areaServed: 'EU',
+        },
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `https://lasersupply.org/${locale}/#website`,
+        url: `https://lasersupply.org/${locale}`,
+        name: 'LaserSupply.org',
+        description: t.subtitle,
+        publisher: { '@id': 'https://lasersupply.org/#organization' },
+        inLanguage: locale,
+      },
+      {
+        '@type': 'ItemList',
+        itemListElement: PRODUCTS.slice(0, 20).map((p, idx) => ({
+          '@type': 'ListItem',
+          position: idx + 1,
+          item: {
+            '@type': 'Product',
+            name: p.name_i18n?.[locale] || p.name,
+            description: p.description_i18n?.[locale] || p.description,
+            image: p.images[0],
+            sku: p.supplier_sku,
+            brand: {
+              '@type': 'Brand',
+              name: p.specs?.Brand || 'LaserSupply',
+            },
+            offers: {
+              '@type': 'Offer',
+              price: p.price.toFixed(2),
+              priceCurrency: 'EUR',
+              availability: 'https://schema.org/InStock',
+              url: `https://lasersupply.org/${locale}#${p.slug}`,
+            },
+          },
+        })),
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-[#ffffff] text-[#242423] flex flex-col font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Navbar locale={locale} />
       <SlideOverCart locale={locale} />
 
