@@ -30,6 +30,20 @@ export const CATEGORIES: Category[] = [
     icon: 'Wrench',
   },
   {
+    id: 'cat_filament',
+    name: {
+      en: '3D Printer Filaments',
+      lt: '3D Spausdintuvų Filamentai',
+      de: '3D-Drucker Filamente',
+      fr: 'Filaments Imprimante 3D',
+      es: 'Filamentos Impresora 3D',
+      pl: 'Filamenty do Drukarek 3D',
+      lv: '3D Printeru Kvēldiegi',
+      et: '3D-printeri Hõõgniidid',
+    },
+    icon: 'Package',
+  },
+  {
     id: 'cat_optics_safety',
     name: {
       en: 'Optics & Laser Safety',
