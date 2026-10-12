@@ -101,7 +101,10 @@ export function CatalogWithSidebar({
 
         {/* Category List */}
         <nav className="flex flex-col space-y-1">
-          {CATEGORIES.map((cat) => {
+          {CATEGORIES.filter((cat) => {
+            if (cat.id === 'all') return true;
+            return products.some(p => p.category_id === cat.id);
+          }).map((cat) => {
             const count = cat.id === 'all' 
               ? products.length 
               : products.filter(p => p.category_id === cat.id).length;
