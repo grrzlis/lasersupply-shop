@@ -123,22 +123,12 @@ export default async function LocalizedHomePage({
       <Navbar locale={locale} />
       <SlideOverCart locale={locale} />
 
-      {/* Modern High-Tech Hero Section */}
-      <section className="relative bg-[#161615] text-[#ffffff] py-14 sm:py-24 overflow-hidden border-b border-[#282826]">
-        {/* Subtle laser blueprint grid background */}
-        <div 
-          className="absolute inset-0 opacity-[0.06] pointer-events-none"
-          style={{
-            backgroundImage: `linear-gradient(to right, #f5cb5c 1px, transparent 1px), linear-gradient(to bottom, #f5cb5c 1px, transparent 1px)`,
-            backgroundSize: '40px 40px'
-          }}
-        />
+      {/* Clean Premium Hero Section */}
+      <section className="relative bg-gradient-to-b from-[#1c1c1b] via-[#181817] to-[#121211] text-[#ffffff] py-10 sm:py-16 overflow-hidden border-b border-[#282826]">
+        {/* Soft atmospheric amber light highlight in background */}
+        <div className="absolute top-0 right-1/4 w-[500px] h-[350px] bg-amber-500/[0.07] rounded-full blur-[130px] pointer-events-none" />
 
-        {/* Ambient radial laser beam glows */}
-        <div className="absolute top-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#f5cb5c]/10 rounded-full blur-[120px] pointer-events-none" />
-        <div className="absolute top-1/2 right-1/4 translate-x-1/3 w-[450px] h-[450px] bg-orange-600/10 rounded-full blur-[140px] pointer-events-none" />
-
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12">
+        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 relative z-10 flex flex-col lg:flex-row items-center justify-between gap-10">
           {/* Left Column: Headlines & CTAs */}
           <div className="space-y-6 max-w-2xl text-center lg:text-left">
             <div className="inline-flex items-center gap-2.5 bg-gradient-to-r from-[#f5cb5c]/15 via-amber-500/10 to-transparent border border-[#f5cb5c]/30 text-[#f5cb5c] font-black text-xs uppercase px-3.5 py-1.5 rounded-full tracking-wider shadow-sm">
