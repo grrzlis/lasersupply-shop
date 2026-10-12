@@ -1,6 +1,6 @@
 import { Navbar } from '@/components/Navbar';
 import { SlideOverCart } from '@/components/SlideOverCart';
-import { ProductCard } from '@/components/ProductCard';
+import { CatalogWithSidebar } from '@/components/CatalogWithSidebar';
 import { PRODUCTS } from '@/lib/products';
 import { Truck, ShieldCheck, Zap, Award, Layers, Clock } from 'lucide-react';
 import { Locale, locales, defaultLocale } from '@/lib/i18n';
@@ -158,12 +158,8 @@ export default async function LocalizedHomePage({
           </div>
         </div>
 
-        {/* Product Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
-          {PRODUCTS.map((product) => (
-            <ProductCard key={product.id} product={product} locale={locale} />
-          ))}
-        </div>
+        {/* Main Catalog with Categories Sidebar */}
+        <CatalogWithSidebar products={PRODUCTS} locale={locale} />
       </main>
 
       {/* Footer */}

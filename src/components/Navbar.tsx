@@ -43,22 +43,22 @@ export function Navbar({ locale = 'en' }: { locale?: Locale }) {
         </Link>
 
         {/* Navigation Categories */}
-        <nav className="hidden lg:flex items-center gap-8 text-[14px] font-bold text-[#242423]">
-          <Link href="#metal" className="hover:text-[#f5cb5c] transition">
+        <nav className="hidden lg:flex items-center gap-7 text-[13px] font-bold text-[#242423]">
+          <a href="#catalog" className="hover:text-[#f5cb5c] transition">
+            Materials Catalog
+          </a>
+          <a href="#catalog" className="hover:text-[#f5cb5c] transition">
             Anodized Metals
-          </Link>
-          <Link href="#wood" className="hover:text-[#f5cb5c] transition">
-            Basswood Sheets
-          </Link>
-          <Link href="#tumblers" className="hover:text-[#f5cb5c] transition">
+          </a>
+          <a href="#catalog" className="hover:text-[#f5cb5c] transition">
+            Basswood & Slate
+          </a>
+          <a href="#catalog" className="hover:text-[#f5cb5c] transition">
             Tumblers
-          </Link>
-          <Link href="#starter" className="hover:text-[#f5cb5c] transition">
-            Starter Bundles
-          </Link>
-          <Link href="#settings" className="hover:text-[#f5cb5c] transition text-[#5f5e58]">
-            LightBurn Settings
-          </Link>
+          </a>
+          <a href="#catalog" className="hover:text-[#f5cb5c] transition">
+            Leather Patches
+          </a>
         </nav>
 
         {/* Search, Language Switcher & Cart */}
