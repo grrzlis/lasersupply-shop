@@ -125,7 +125,7 @@ export function CatalogWithSidebar({
               >
                 <div className="flex items-center gap-2.5 truncate">
                   <span className={isActive ? 'text-[#f5cb5c]' : 'text-[#8a8a8a]'}>
-                    {iconMap[cat.icon] || <Layers className="w-4 h-4" />}
+                    {(cat.icon && iconMap[cat.icon]) || <Layers className="w-4 h-4" />}
                   </span>
                   <span className="truncate">{cat.name[locale] || cat.name.en}</span>
                 </div>

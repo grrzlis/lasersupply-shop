@@ -19,6 +19,9 @@ const ibmPlex = IBM_Plex_Sans({
 export const metadata: Metadata = {
   title: "LaserSupply.org — Precision Laser Blanks & Materials in Europe",
   description: "Europe's leading supplier of laser engraving blanks, anodized metals, warp-free basswood, and maker accessories. Cognitive fluency & conversion design.",
+  verification: {
+    google: "6EUetAlOxvy_e_nPfCDZ_1nY20CRmlv5zbJ15npflPw",
+  },
 };
 
 export default function RootLayout({

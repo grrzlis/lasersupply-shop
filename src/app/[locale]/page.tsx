@@ -1,8 +1,9 @@
 import { Navbar } from '@/components/Navbar';
 import { SlideOverCart } from '@/components/SlideOverCart';
 import { CatalogWithSidebar } from '@/components/CatalogWithSidebar';
+import { HeroShowcase } from '@/components/HeroShowcase';
 import { PRODUCTS } from '@/lib/products';
-import { Truck, ShieldCheck, Zap, Award, Layers, Clock } from 'lucide-react';
+import { Truck, ShieldCheck, Zap, Award, Layers, Clock, ChevronRight, Flame } from 'lucide-react';
 import { Locale, locales, defaultLocale } from '@/lib/i18n';
 import { messages } from '@/lib/translations';
 import type { Metadata } from 'next';
@@ -122,58 +123,73 @@ export default async function LocalizedHomePage({
       <Navbar locale={locale} />
       <SlideOverCart locale={locale} />
 
-      {/* Hero Section */}
-      <section className="bg-[#242423] text-[#ffffff] py-14 sm:py-20 relative overflow-hidden border-b border-[#1c1c1a]">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 relative z-10 flex flex-col md:flex-row items-center justify-between gap-10">
-          <div className="space-y-5 max-w-2xl">
-            <div className="inline-flex items-center gap-2 bg-[#f5cb5c] text-[#242423] font-bold text-xs uppercase px-3 py-1 tracking-wider">
-              <Zap className="w-3.5 h-3.5" />
-              <span>LaserSupply.org · European Maker Hub</span>
+      {/* Modern High-Tech Hero Section */}
+      <section className="relative bg-[#161615] text-[#ffffff] py-14 sm:py-24 overflow-hidden border-b border-[#282826]">
+        {/* Subtle laser blueprint grid background */}
+        <div 
+          className="absolute inset-0 opacity-[0.06] pointer-events-none"
+          style={{
+            backgroundImage: `linear-gradient(to right, #f5cb5c 1px, transparent 1px), linear-gradient(to bottom, #f5cb5c 1px, transparent 1px)`,
+            backgroundSize: '40px 40px'
+          }}
+        />
+
+        {/* Ambient radial laser beam glows */}
+        <div className="absolute top-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#f5cb5c]/10 rounded-full blur-[120px] pointer-events-none" />
+        <div className="absolute top-1/2 right-1/4 translate-x-1/3 w-[450px] h-[450px] bg-orange-600/10 rounded-full blur-[140px] pointer-events-none" />
+
+        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12">
+          {/* Left Column: Headlines & CTAs */}
+          <div className="space-y-6 max-w-2xl text-center lg:text-left">
+            <div className="inline-flex items-center gap-2.5 bg-gradient-to-r from-[#f5cb5c]/15 via-amber-500/10 to-transparent border border-[#f5cb5c]/30 text-[#f5cb5c] font-black text-xs uppercase px-3.5 py-1.5 rounded-full tracking-wider shadow-sm">
+              <span className="flex h-2 w-2 relative">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#f5cb5c] opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-[#f5cb5c]"></span>
+              </span>
+              <span>LaserSupply.org · European Maker & 3D Hub</span>
             </div>
 
-            <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-[1.15]">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] text-white">
               {t.title}
             </h1>
 
-            <p className="text-[#d1dbbe] text-sm sm:text-base leading-relaxed max-w-xl">
+            <p className="text-stone-300 text-sm sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 font-normal">
               {t.subtitle}
             </p>
 
-            <div className="flex flex-wrap gap-4 pt-2">
+            {/* CTAs with glowing primary button */}
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
               <a
                 href="#catalog"
-                className="px-6 py-3.5 bg-[#f5cb5c] hover:bg-[#f2bc2c] text-[#242423] font-extrabold text-sm uppercase tracking-wider transition"
+                className="group relative inline-flex items-center gap-2.5 px-7 py-4 bg-[#f5cb5c] hover:bg-[#eab308] text-[#1c1c1b] font-black text-sm uppercase tracking-wider rounded-xl transition-all duration-300 shadow-xl shadow-[#f5cb5c]/25 hover:shadow-[#f5cb5c]/45 hover:-translate-y-0.5"
               >
-                {t.viewCatalog}
+                <span>{t.viewCatalog}</span>
+                <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
               <a
                 href="#materials"
-                className="px-6 py-3.5 bg-transparent hover:bg-[#ffffff]/10 text-[#ffffff] border border-[#ffffff]/30 font-bold text-sm tracking-wider transition"
+                className="inline-flex items-center gap-2 px-6 py-4 bg-white/5 hover:bg-white/10 text-stone-200 hover:text-white border border-white/15 hover:border-white/30 rounded-xl font-bold text-sm tracking-wider transition-all duration-200 backdrop-blur-sm"
               >
-                {t.viewSettings}
+                <span>{t.viewSettings}</span>
               </a>
+            </div>
+
+            {/* Micro guarantees */}
+            <div className="pt-2 flex flex-wrap items-center justify-center lg:justify-start gap-y-2 gap-x-6 text-xs text-stone-400 font-medium">
+              <div className="flex items-center gap-2">
+                <span className="text-emerald-400 font-bold">✓</span>
+                <span>{t.compatibilityText}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-emerald-400 font-bold">✓</span>
+                <span>{t.customsText}</span>
+              </div>
             </div>
           </div>
 
-          {/* Quick highlight box */}
-          <div className="w-full md:w-[380px] bg-[#2e2e2d] border border-[#3e3e3c] p-6 space-y-4">
-            <h3 className="text-base font-bold text-[#f5cb5c] border-b border-[#3e3e3c] pb-2 flex items-center gap-2">
-              <Award className="w-4 h-4" /> {t.whyTitle}
-            </h3>
-            <ul className="space-y-3 text-xs text-[#e8eddf]">
-              <li className="flex items-start gap-2">
-                <span className="text-[#f5cb5c] font-bold">✓</span>
-                <span>{t.compatibilityText}</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-[#f5cb5c] font-bold">✓</span>
-                <span>{t.customsText}</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-[#f5cb5c] font-bold">✓</span>
-                <span>{t.settingsText}</span>
-              </li>
-            </ul>
+          {/* Right Column: Live Interactive Bestseller Showcase */}
+          <div className="w-full lg:w-auto flex justify-center">
+            <HeroShowcase locale={locale} />
           </div>
         </div>
       </section>
