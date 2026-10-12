@@ -1,5 +1,5 @@
-import { getCjProductDetail } from './cj-client.ts';
-import type { Product } from '../types/product.ts';
+import { getCjProductDetail } from './cj-client';
+import type { Product } from '../types/product';
 
 export interface CjProductMapping {
   id: string;
