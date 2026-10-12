@@ -14,6 +14,8 @@ export default defineConfig({
       NEXT_PUBLIC_STORE_TAGLINE: bindings.text("The European Hub for Laser Maker Blanks & Materials"),
       NEXT_PUBLIC_SUPPORT_EMAIL: bindings.text("info@lasersupply.org"),
       ADMIN_NOTIFICATION_EMAIL: bindings.text("akdarbas@gmail.com"),
+      ALIEXPRESS_APP_KEY: bindings.text("552890"),
+      ALIEXPRESS_APP_SECRET: bindings.text("sGSfN94PE0gxWX1XfHuIzsbg0rqmW1Yt"),
     },
   }),
 });
