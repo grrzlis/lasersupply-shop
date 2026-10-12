@@ -15,6 +15,9 @@ export interface Product {
   laser_type: string;
   recommended_power: string;
   images: string[];
+  full_description?: string;
+  full_description_i18n?: Record<string, string>;
+  specs?: Record<string, string>;
 }
 
 export interface CartItem {
