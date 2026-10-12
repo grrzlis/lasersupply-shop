@@ -189,19 +189,19 @@ export default async function LocalizedHomePage({
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-xs font-semibold text-[#242423]">
           <div className="flex items-center gap-2.5 justify-center sm:justify-start">
             <Truck className="w-4 h-4 text-[#242423]" />
-            <span>Fast Tracked EU Delivery (2–5 d.)</span>
+            <span>{(t as any).trust1 || 'Fast Tracked EU Delivery (2–5 d.)'}</span>
           </div>
           <div className="flex items-center gap-2.5 justify-center sm:justify-start">
             <ShieldCheck className="w-4 h-4 text-emerald-600" />
-            <span>100% Quality & Flatness Guarantee</span>
+            <span>{(t as any).trust2 || '100% Quality & Flatness Guarantee'}</span>
           </div>
           <div className="flex items-center gap-2.5 justify-center sm:justify-start">
             <Layers className="w-4 h-4 text-[#242423]" />
-            <span>Maker & B2B Volume Pricing</span>
+            <span>{(t as any).trust3 || 'Maker & B2B Volume Pricing'}</span>
           </div>
           <div className="flex items-center gap-2.5 justify-center sm:justify-start">
             <Clock className="w-4 h-4 text-[#242423]" />
-            <span>Expert Technical Support</span>
+            <span>{(t as any).trust4 || 'Expert Technical Support'}</span>
           </div>
         </div>
       </section>
@@ -239,7 +239,9 @@ export default async function LocalizedHomePage({
           </div>
 
           <div className="space-y-2">
-            <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">Categories</h4>
+            <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">
+              {(t as any).footerCategories || 'Categories'}
+            </h4>
             <ul className="space-y-1.5 text-[#a8a8a8]">
               <li><a href="#cat_filament" className="hover:text-[#ffffff]">3D Printer Filaments</a></li>
               <li><a href="#cat_hardware" className="hover:text-[#ffffff]">Laser Parts & Modules</a></li>
@@ -249,7 +251,9 @@ export default async function LocalizedHomePage({
           </div>
 
           <div className="space-y-2">
-            <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">Support & Specs</h4>
+            <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">
+              {(t as any).footerSupport || 'Support & Specs'}
+            </h4>
             <ul className="space-y-1.5 text-[#a8a8a8]">
               <li><a href="#" className="hover:text-[#ffffff]">LightBurn Cheatsheet</a></li>
               <li><a href="#" className="hover:text-[#ffffff]">Shipping & Delivery</a></li>
@@ -259,10 +263,12 @@ export default async function LocalizedHomePage({
           </div>
 
           <div className="space-y-2">
-            <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">Contact</h4>
-            <p className="text-[#a8a8a8]">B2B & Maker Orders:</p>
+            <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">
+              {(t as any).footerContact || 'Contact'}
+            </h4>
+            <p className="text-[#a8a8a8]">{(t as any).footerOrders || 'B2B & Maker Orders:'}</p>
             <p className="text-[#ffffff] font-bold">info@lasersupply.org</p>
-            <p className="text-[#a8a8a8]">Mon–Fri 09:00 – 18:00 CET</p>
+            <p className="text-[#a8a8a8]">{(t as any).footerHours || 'Mon–Fri 09:00 – 18:00 CET'}</p>
           </div>
         </div>
 
