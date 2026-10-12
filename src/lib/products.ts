@@ -6,14 +6,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Laser Welding Protective Shield OD8+ 1064nm for Handheld Laser Welding Guns",
     "slug": "cloudray-cloudray-laser-welding-protective-shield-od8-1064nm-for-handheld-laser-welding-guns",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 60.75,
     "compare_at_price": 82.01,
     "cost_price": 45,
     "supplier_sku": "PS65B70X115X5A",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/17895406893127.png?v=1789540722",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/OD8_-Laser-Welding_02_8894c968-23b3-4f5a-a21f-c913764f95a9.jpg?v=1789539296",
@@ -23,11 +23,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "PS65B70X115X5A",
     "name_i18n": {
       "en": "Cloudray Laser Welding Protective Shield OD8+ 1064nm for Handheld Laser Welding Guns",
-      "lt": "Cloudray Laser Welding Protective Shield OD8+ 1064nm for Handheld Laser Welding Guns"
+      "lt": "Cloudray Laser Welding Protective Shield OD8+ 1064nm for Handheld Laser Welding Guns",
+      "de": "Cloudray Laser Welding Protective Shield OD8+ 1064nm for Handheld Laser Welding Guns",
+      "fr": "Cloudray Laser Welding Protective Shield OD8+ 1064nm for Handheld Laser Welding Guns",
+      "es": "Cloudray Laser Welding Protective Shield OD8+ 1064nm for Handheld Laser Welding Guns",
+      "pl": "Cloudray Laser Welding Protective Shield OD8+ 1064nm for Handheld Laser Welding Guns",
+      "lv": "Cloudray Laser Welding Protective Shield OD8+ 1064nm for Handheld Laser Welding Guns",
+      "et": "Cloudray Laser Welding Protective Shield OD8+ 1064nm for Handheld Laser Welding Guns"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -35,14 +47,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray DM856 20-80VDC 0.5-5.6A Leadshinie 2 Phase Nema23/34 Stepper Motor Driver",
     "slug": "cloudray-cloudray-dm856-20-80vdc-0-5-5-6a-leadshinie-2-phase-nema23-34-stepper-motor-driver",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 74.25,
     "compare_at_price": 100.24,
     "cost_price": 55,
     "supplier_sku": "SMD10L2PDM1870",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/DM1-870_01_a50fe4ec-ed49-499c-b9cd-7691582ecb65.jpg?v=1789531067",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/DM1-870_02_426a3dd7-0499-47e4-97a6-3b1290c32201.jpg?v=1789531067",
@@ -52,11 +64,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "SMD10L2PDM1870",
     "name_i18n": {
       "en": "Cloudray DM856 20-80VDC 0.5-5.6A Leadshinie 2 Phase Nema23/34 Stepper Motor Driver",
-      "lt": "Cloudray DM856 20-80VDC 0.5-5.6A Leadshinie 2 Phase Nema23/34 žingsninio variklio valdiklis"
+      "lt": "Cloudray DM856 20-80VDC 0.5-5.6A Leadshinie 2 Phase Nema23/34 žingsninio variklio valdiklis",
+      "de": "Cloudray DM856 20-80VDC 0.5-5.6A Leadshinie 2 Phase Nema23/34 Schrittmotortreiber",
+      "fr": "Cloudray DM856 20-80VDC 0.5-5.6A Leadshinie 2 Phase Nema23/34 Pilote de moteur pas à pas",
+      "es": "Cloudray DM856 20-80VDC 0.5-5.6A Leadshinie 2 Phase Nema23/34 Controlador de motor paso a paso",
+      "pl": "Cloudray DM856 20-80VDC 0.5-5.6A Leadshinie 2 Phase Nema23/34 Sterownik silnika krokowego",
+      "lv": "Cloudray DM856 20-80VDC 0.5-5.6A Leadshinie 2 Phase Nema23/34 Soļu motora vadītājs",
+      "et": "Cloudray DM856 20-80VDC 0.5-5.6A Leadshinie 2 Phase Nema23/34 Samm-mootori draiver"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -64,14 +88,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray M3 Nano Laser Control Card For K40 Laser Machine",
     "slug": "cloudray-cloudray-m3-nano-laser-control-card-for-k40-laser-machine",
     "category_id": "cat_metal",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 87.75,
     "compare_at_price": 118.46,
     "cost_price": 65,
     "supplier_sku": "LC08LM3NANOA3",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/M3-Nano-Laser-Controller_01_5a25bad0-8019-4a15-98b7-0c97b91a3246.jpg?v=1789529258",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/M3-Nano-Laser-Controller_02_a63ab111-8898-4ae3-8bfc-c3e02b64d122.jpg?v=1789529258",
@@ -81,11 +105,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LC08LM3NANOA3",
     "name_i18n": {
       "en": "Cloudray M3 Nano Laser Control Card For K40 Laser Machine",
-      "lt": "Cloudray M3 Nano Laser Control Card For K40 Laser Machine"
+      "lt": "Cloudray M3 Nano Laser Control Card For K40 Laser Machine",
+      "de": "Cloudray M3 Nano Laser Control Card For K40 Laser Machine",
+      "fr": "Cloudray M3 Nano Laser Control Card For K40 Laser Machine",
+      "es": "Cloudray M3 Nano Laser Control Card For K40 Laser Machine",
+      "pl": "Cloudray M3 Nano Laser Control Card For K40 Laser Machine",
+      "lv": "Cloudray M3 Nano Laser Control Card For K40 Laser Machine",
+      "et": "Cloudray M3 Nano Laser Control Card For K40 Laser Machine"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -93,14 +129,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Laser Engraver Fence Kit for Workpiece Positioning",
     "slug": "cloudray-cloudray-laser-engraver-fence-kit-for-workpiece-positioning",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 20.25,
     "compare_at_price": 27.34,
     "cost_price": 15,
     "supplier_sku": "LC86M43DXWTZ",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/7-PCS-Laser-Fence-Kit_01_f37fa937-4b48-4057-819a-b463b3096db7.jpg?v=1788512453",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/7-PCS-Laser-Fence-Kit_02_aa59f6b8-eddb-459e-bed0-c011e8781528.jpg?v=1789549370",
@@ -110,11 +146,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LC86M43DXWTZ",
     "name_i18n": {
       "en": "Cloudray Laser Engraver Fence Kit for Workpiece Positioning",
-      "lt": "Cloudray Laser Engraver Fence Kit for Workpiece Positioning"
+      "lt": "Cloudray Laser Engraver Fence Kit for Workpiece Positioning",
+      "de": "Cloudray Laser Engraver Fence Kit for Workpiece Positioning",
+      "fr": "Cloudray Laser Engraver Fence Kit for Workpiece Positioning",
+      "es": "Cloudray Laser Engraver Fence Kit for Workpiece Positioning",
+      "pl": "Cloudray Laser Engraver Fence Kit for Workpiece Positioning",
+      "lv": "Cloudray Laser Engraver Fence Kit for Workpiece Positioning",
+      "et": "Cloudray Laser Engraver Fence Kit for Workpiece Positioning"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -122,14 +170,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 6-in-1 Laser Engraving Jig 200×200mm for Cards, Pens & Tags",
     "slug": "cloudray-cloudray-6-in-1-laser-engraving-jig-200x200mm-multi-slot-fixture-for-cards-pens-and-tags",
     "category_id": "cat_metal",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 18.9,
     "compare_at_price": 25.52,
     "cost_price": 14,
     "supplier_sku": "LM04WJPB200TZ",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/6-in-1-Laser-Engraving-Jig_01_9e34f2b7-cb79-407c-a979-dbaa518d2af7.jpg?v=1788510814",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/6-in-1-Laser-Engraving-Jig_02_bf9b5e2b-617e-444b-bcd2-63d78acb1749.jpg?v=1788501070",
@@ -139,11 +187,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LM04WJPB200TZ",
     "name_i18n": {
       "en": "Cloudray 6-in-1 Laser Engraving Jig 200×200mm for Cards, Pens & Tags",
-      "lt": "Cloudray 6-in-1 Laser Engraving Jig 200×200mm for Cards, Pens & Tags"
+      "lt": "Cloudray 6-in-1 Laser Engraving Jig 200×200mm for Cards, Pens & Tags",
+      "de": "Cloudray 6-in-1 Laser Engraving Jig 200×200mm for Cards, Pens & Tags",
+      "fr": "Cloudray 6-in-1 Laser Engraving Jig 200×200mm for Cards, Pens & Tags",
+      "es": "Cloudray 6-in-1 Laser Engraving Jig 200×200mm for Cards, Pens & Tags",
+      "pl": "Cloudray 6-in-1 Laser Engraving Jig 200×200mm for Cards, Pens & Tags",
+      "lv": "Cloudray 6-in-1 Laser Engraving Jig 200×200mm for Cards, Pens & Tags",
+      "et": "Cloudray 6-in-1 Laser Engraving Jig 200×200mm for Cards, Pens & Tags"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -151,14 +211,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray (EU Warehouse) Cloudray D69 A Series Rotary Attachment Set",
     "slug": "cloudray-cloudray-d69-d80-d100-a-series-rotary-attachment-set-copy",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 336.15,
     "compare_at_price": 453.8,
     "cost_price": 249,
     "supplier_sku": "MP09RBD60CP-EU",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/products/Rotary-Attachment-2_3cfde9b5-0485-4815-88ac-b87d41c6a0ca.jpg?v=1661493735",
       "https://cdn.shopify.com/s/files/1/2222/7859/products/Rotary-Attachment-5_a60d99e1-943f-471a-adda-8846dbeb982c.jpg?v=1661493737",
@@ -168,11 +228,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "MP09RBD60CP-EU",
     "name_i18n": {
       "en": "Cloudray (EU Warehouse) Cloudray D69 A Series Rotary Attachment Set",
-      "lt": "Cloudray (EU Warehouse) Cloudray D69 A Series sukamasis ritinėlis cilindrams Set"
+      "lt": "Cloudray (EU Warehouse) Cloudray D69 A Series sukamasis ritinėlis cilindrams Set",
+      "de": "Cloudray (EU Warehouse) Cloudray D69 A Series Rotationswalze für Zylinder Set",
+      "fr": "Cloudray (EU Warehouse) Cloudray D69 A Series Module rotatif pour cylindres Set",
+      "es": "Cloudray (EU Warehouse) Cloudray D69 A Series Rodillo rotatorio para cilindros Set",
+      "pl": "Cloudray (EU Warehouse) Cloudray D69 A Series Rolka obrotowa do cylindrów Set",
+      "lv": "Cloudray (EU Warehouse) Cloudray D69 A Series Rotējošais rullītis cilindriem Set",
+      "et": "Cloudray (EU Warehouse) Cloudray D69 A Series Pöörlev rull silindritele Set"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -180,14 +252,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 16W 48W Adjustable 30L/min Air Assist Pump with Flexible Air Hose for Laser Engraver",
     "slug": "cloudray-cloudray-air-assist-pump-and-flexible-air-hose-with-base-for-laser-engravers",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 67.5,
     "compare_at_price": 91.13,
     "cost_price": 50,
     "supplier_sku": "LM06APS16WZGTM",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Air-Assist-for-Laser-Engraver-1.jpg?v=1785892607",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Air-Assist-for-Laser-Engraver-2-16W.jpg?v=1787708733",
@@ -197,11 +269,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LM06APS16WZGTM",
     "name_i18n": {
       "en": "Cloudray 16W 48W Adjustable 30L/min Air Assist Pump with Flexible Air Hose for Laser Engraver",
-      "lt": "Cloudray 16W 48W Adjustable 30L/min oro pūtimo kompresorius Air Assist with Flexible Air Hose for Laser Engraver"
+      "lt": "Cloudray 16W 48W Adjustable 30L/min oro pūtimo kompresorius Air Assist with Flexible Air Hose for Laser Engraver",
+      "de": "Cloudray 16W 48W Adjustable 30L/min Luftunterstützung Air Assist Kompressor with Flexible Air Hose for Laser Engraver",
+      "fr": "Cloudray 16W 48W Adjustable 30L/min Compresseur assistance d’air Air Assist with Flexible Air Hose for Laser Engraver",
+      "es": "Cloudray 16W 48W Adjustable 30L/min Compresor de asistencia de aire Air Assist with Flexible Air Hose for Laser Engraver",
+      "pl": "Cloudray 16W 48W Adjustable 30L/min Kompresor nadmuchu Air Assist with Flexible Air Hose for Laser Engraver",
+      "lv": "Cloudray 16W 48W Adjustable 30L/min Gaisa padeves kompresors Air Assist with Flexible Air Hose for Laser Engraver",
+      "et": "Cloudray 16W 48W Adjustable 30L/min Õhupump Air Assist with Flexible Air Hose for Laser Engraver"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -209,14 +293,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Cordless Electric Engraving Rotary Tool Pen Kit with Led Light and 5-Speed Control",
     "slug": "cloudray-cloudray-cordless-electric-engraving-rotary-tool-pen-kit-with-led-light-and-5-speed-control",
     "category_id": "cat_acrylic",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 106.65,
     "compare_at_price": 143.98,
     "cost_price": 79,
     "supplier_sku": "HP25IDM260-USA",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/0_207f803e-258c-4707-b5f1-dc71d4ebca0a.png?v=1778835784",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/2_ad6b0c73-5f49-454b-bf03-0a42d6852321.png?v=1779090859",
@@ -226,11 +310,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "HP25IDM260-USA",
     "name_i18n": {
       "en": "Cloudray Cordless Electric Engraving Rotary Tool Pen Kit with Led Light and 5-Speed Control",
-      "lt": "Cloudray Cordless Electric Engraving Rotary Tool Pen Kit with Led Light and 5-Speed Control"
+      "lt": "Cloudray Cordless Electric Engraving Rotary Tool Pen Kit with Led Light and 5-Speed Control",
+      "de": "Cloudray Cordless Electric Engraving Rotary Tool Pen Kit with Led Light and 5-Speed Control",
+      "fr": "Cloudray Cordless Electric Engraving Rotary Tool Pen Kit with Led Light and 5-Speed Control",
+      "es": "Cloudray Cordless Electric Engraving Rotary Tool Pen Kit with Led Light and 5-Speed Control",
+      "pl": "Cloudray Cordless Electric Engraving Rotary Tool Pen Kit with Led Light and 5-Speed Control",
+      "lv": "Cloudray Cordless Electric Engraving Rotary Tool Pen Kit with Led Light and 5-Speed Control",
+      "et": "Cloudray Cordless Electric Engraving Rotary Tool Pen Kit with Led Light and 5-Speed Control"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -238,14 +334,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 250W Mini Smoke Purifier Fume Extraction System for Laser Engraving",
     "slug": "cloudray-cloudray-250w-fume-extraction-system",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 660.15,
     "compare_at_price": 891.2,
     "cost_price": 489,
     "supplier_sku": "FES1RE230250WMSX-USA",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/cloudray__0.png?v=1776334246",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/250W-Fume--Extraction-System_01_cb94aa4b-7a15-4024-8637-dee71d8ab9d2.jpg?v=1776334246",
@@ -255,11 +351,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "FES1RE230250WMSX-USA",
     "name_i18n": {
       "en": "Cloudray 250W Mini Smoke Purifier Fume Extraction System for Laser Engraving",
-      "lt": "Cloudray 250W Mini dūmų ištraukimo sistema dūmų ištraukimo sistema System for Laser Engraving"
+      "lt": "Cloudray 250W Mini dūmų ištraukimo sistema dūmų ištraukimo sistema System for Laser Engraving",
+      "de": "Cloudray 250W Mini Rauchabsaugung Abluftventilator Rauchabsaugung Abluftventilator System for Laser Engraving",
+      "fr": "Cloudray 250W Mini Extracteur de fumée Extracteur de fumée System for Laser Engraving",
+      "es": "Cloudray 250W Mini Extractor de humos Extractor de humos System for Laser Engraving",
+      "pl": "Cloudray 250W Mini Wyciąg oparów i dymu Wyciąg oparów i dymu System for Laser Engraving",
+      "lv": "Cloudray 250W Mini Dūmu nosūcējs Dūmu nosūcējs System for Laser Engraving",
+      "et": "Cloudray 250W Mini Suitsueemaldussüsteem Suitsueemaldussüsteem System for Laser Engraving"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -267,14 +375,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 10PCS Large-Format Black Anodized Aluminum Sheet 40\" x 12\"",
     "slug": "cloudray-cloudray-10pcs-large-format-black-anodized-aluminum-sheet-40-x-12-for-batch-production-large-area-laser-engraving",
     "category_id": "cat_metal",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 322.65,
     "compare_at_price": 435.58,
     "cost_price": 239,
     "supplier_sku": "BNC04L10X3B10PTZ",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/1_302373e5-e4bd-4957-87af-de65246895bc.png?v=1785892717",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/2_47482598-f9a2-4f63-a537-b716d9f58d09.png?v=1784081565",
@@ -284,11 +392,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "BNC04L10X3B10PTZ",
     "name_i18n": {
       "en": "Cloudray 10PCS Large-Format Black Anodized Aluminum Sheet 40\" x 12\"",
-      "lt": "Cloudray 10PCS Large-Format Black Anodized Aluminum Sheet 40\" x 12\""
+      "lt": "Cloudray 10PCS Large-Format Black Anodized Aluminum Sheet 40\" x 12\"",
+      "de": "Cloudray 10PCS Large-Format Black Anodized Aluminum Sheet 40\" x 12\"",
+      "fr": "Cloudray 10PCS Large-Format Black Anodized Aluminum Sheet 40\" x 12\"",
+      "es": "Cloudray 10PCS Large-Format Black Anodized Aluminum Sheet 40\" x 12\"",
+      "pl": "Cloudray 10PCS Large-Format Black Anodized Aluminum Sheet 40\" x 12\"",
+      "lv": "Cloudray 10PCS Large-Format Black Anodized Aluminum Sheet 40\" x 12\"",
+      "et": "Cloudray 10PCS Large-Format Black Anodized Aluminum Sheet 40\" x 12\""
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -296,14 +416,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray D80 D100 A Series Rotary Attachment Set",
     "slug": "cloudray-cloudray-d80-c-type-rotary-attachment-set",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 268.65,
     "compare_at_price": 362.68,
     "cost_price": 199,
     "supplier_sku": "MP09RBD80CP-USA",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/products/Rotary-Attachment-1_55f37b9f-ca2b-4e62-b2fa-685d116140b3.jpg?v=1661493735",
       "https://cdn.shopify.com/s/files/1/2222/7859/products/Rotary-Attachment-2_3cfde9b5-0485-4815-88ac-b87d41c6a0ca.jpg?v=1661493735",
@@ -313,11 +433,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "MP09RBD80CP-USA",
     "name_i18n": {
       "en": "Cloudray D80 D100 A Series Rotary Attachment Set",
-      "lt": "Cloudray D80 D100 A Series sukamasis ritinėlis cilindrams Set"
+      "lt": "Cloudray D80 D100 A Series sukamasis ritinėlis cilindrams Set",
+      "de": "Cloudray D80 D100 A Series Rotationswalze für Zylinder Set",
+      "fr": "Cloudray D80 D100 A Series Module rotatif pour cylindres Set",
+      "es": "Cloudray D80 D100 A Series Rodillo rotatorio para cilindros Set",
+      "pl": "Cloudray D80 D100 A Series Rolka obrotowa do cylindrów Set",
+      "lv": "Cloudray D80 D100 A Series Rotējošais rullītis cilindriem Set",
+      "et": "Cloudray D80 D100 A Series Pöörlev rull silindritele Set"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -325,14 +457,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 35W 45W 50W CR Series Upgraded Metal Head CO2 Laser Tube",
     "slug": "cloudray-cloudray-35-80w-cr-series-upgraded-metal-head-co2-laser-tube",
     "category_id": "cat_metal",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 222.75,
     "compare_at_price": 300.71,
     "cost_price": 165,
     "supplier_sku": "LT07MCR35",
     "badge": "Cloudray Original",
     "laser_type": "CO2 Laser (10.6um)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/products/CO2LaserTube_1_697820c3-c700-4164-a485-52b4c9772f45.jpg?v=1623992882",
       "https://cdn.shopify.com/s/files/1/2222/7859/products/CO2LaserTube_2_d70a6651-4ada-4185-a0a2-3548c28260eb.jpg?v=1623992881",
@@ -342,11 +474,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LT07MCR35",
     "name_i18n": {
       "en": "Cloudray 35W 45W 50W CR Series Upgraded Metal Head CO2 Laser Tube",
-      "lt": "Cloudray 35W 45W 50W CR Series Upgraded Metal Head CO2 Laser Tube"
+      "lt": "Cloudray 35W 45W 50W CR Series Upgraded Metal Head CO2 Laser Tube",
+      "de": "Cloudray 35W 45W 50W CR Series Upgraded Metal Head CO2 Laser Tube",
+      "fr": "Cloudray 35W 45W 50W CR Series Upgraded Metal Head CO2 Laser Tube",
+      "es": "Cloudray 35W 45W 50W CR Series Upgraded Metal Head CO2 Laser Tube",
+      "pl": "Cloudray 35W 45W 50W CR Series Upgraded Metal Head CO2 Laser Tube",
+      "lv": "Cloudray 35W 45W 50W CR Series Upgraded Metal Head CO2 Laser Tube",
+      "et": "Cloudray 35W 45W 50W CR Series Upgraded Metal Head CO2 Laser Tube"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -354,14 +498,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 350W Helical Turbo Cyclone Dust Separator for Fume Extractor",
     "slug": "cloudray-cloudray-350w-helical-turbo-cyclone-dust-separator-for-fume-purifier",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 13.5,
     "compare_at_price": 18.23,
     "cost_price": 10,
     "supplier_sku": "CS26FLQ350W",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Dust-Separator_02_017a3d29-0c04-4d5b-bb08-e89eef93cf0b.jpg?v=1778729791",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Dust-Separator_03_b6111557-058e-45ae-9eaf-8bf93db204e7.jpg?v=1778729791",
@@ -371,11 +515,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "CS26FLQ350W",
     "name_i18n": {
       "en": "Cloudray 350W Helical Turbo Cyclone Dust Separator for Fume Extractor",
-      "lt": "Cloudray 350W Helical Turbo Cyclone Dust Separator for Fume Extractor"
+      "lt": "Cloudray 350W Helical Turbo Cyclone Dust Separator for Fume Extractor",
+      "de": "Cloudray 350W Helical Turbo Cyclone Dust Separator for Fume Extractor",
+      "fr": "Cloudray 350W Helical Turbo Cyclone Dust Separator for Fume Extractor",
+      "es": "Cloudray 350W Helical Turbo Cyclone Dust Separator for Fume Extractor",
+      "pl": "Cloudray 350W Helical Turbo Cyclone Dust Separator for Fume Extractor",
+      "lv": "Cloudray 350W Helical Turbo Cyclone Dust Separator for Fume Extractor",
+      "et": "Cloudray 350W Helical Turbo Cyclone Dust Separator for Fume Extractor"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -383,14 +539,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray K Series K4060 Laser Cutting Head Set Gold",
     "slug": "cloudray-cloudray-k-series-4060-d20-laser-cutting-head-set",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 39.15,
     "compare_at_price": 52.85,
     "cost_price": 29,
     "supplier_sku": "MP09K406012V2SG",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Head-Set1.jpg?v=1778119908",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Head-Set2.jpg?v=1778119908",
@@ -400,11 +556,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "MP09K406012V2SG",
     "name_i18n": {
       "en": "Cloudray K Series K4060 Laser Cutting Head Set Gold",
-      "lt": "Cloudray K Series K4060 Laser lazerio pjovimo galvutė Set Gold"
+      "lt": "Cloudray K Series K4060 Laser lazerio pjovimo galvutė Set Gold",
+      "de": "Cloudray K Series K4060 Laser Laserschneidkopf Set Gold",
+      "fr": "Cloudray K Series K4060 Laser Tête de découpe laser Set Gold",
+      "es": "Cloudray K Series K4060 Laser Cabezal de corte láser Set Gold",
+      "pl": "Cloudray K Series K4060 Laser Głowica tnąca laserowa Set Gold",
+      "lv": "Cloudray K Series K4060 Laser Lāzergriešanas galva Set Gold",
+      "et": "Cloudray K Series K4060 Laser Laserlõikepea Set Gold"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -412,14 +580,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray C Series Black CO2 Laser Head Set With Focus Lens & Reflective Mirror*3",
     "slug": "cloudray-cloudray-c-series-black-co2-laser-head-set-with-focus-lens-reflective-mirrors-3",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 141.75,
     "compare_at_price": 191.36,
     "cost_price": 105,
     "supplier_sku": "MP09CLP38AV21S",
     "badge": "Cloudray Original",
     "laser_type": "CO2 Laser (10.6um)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Head-Set_1_bd47a234-f113-4301-86f6-e6106c3344c7.jpg?v=1790239950",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Head-Set_2_6304b2f0-755d-4b6f-addb-67732aa89140.jpg?v=1790239950",
@@ -429,11 +597,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "MP09CLP38AV21S",
     "name_i18n": {
       "en": "Cloudray C Series Black CO2 Laser Head Set With Focus Lens & Reflective Mirror*3",
-      "lt": "Cloudray C Series Black CO2 Laser Head Set With fokusavimo lęšis & atspindintys veidrodžiai*3"
+      "lt": "Cloudray C Series Black CO2 Laser Head Set With fokusavimo lęšis & atspindintys veidrodžiai*3",
+      "de": "Cloudray C Series Black CO2 Laser Head Set With Fokuslinse ZnSe & Molybdän-Reflexionsspiegel*3",
+      "fr": "Cloudray C Series Black CO2 Laser Head Set With Lentille de focalisation & Miroirs réfléchissants molybdène*3",
+      "es": "Cloudray C Series Black CO2 Laser Head Set With Lente de enfoque & Espejos reflectantes de molibdeno*3",
+      "pl": "Cloudray C Series Black CO2 Laser Head Set With Soczewka skupiająca & Lustra odbijające molibdenowe*3",
+      "lv": "Cloudray C Series Black CO2 Laser Head Set With Fokusēšanas lēca & Molibdēna atstarojošie spoguļi*3",
+      "et": "Cloudray C Series Black CO2 Laser Head Set With Fokuseerimislääts & Molübdeenpeeglid*3"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -441,14 +621,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray E Series Black CO2 Laser Head Set With Focus Lens & Reflective Mirror*3",
     "slug": "cloudray-cloudray-e-series-black-co2-laser-head-set-with-focus-lens-reflective-mirror-3",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 133.65,
     "compare_at_price": 180.43,
     "cost_price": 99,
     "supplier_sku": "MP09ELP38AV2S",
     "badge": "Cloudray Original",
     "laser_type": "CO2 Laser (10.6um)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Head-Set-1_042045fc-2347-47f1-903d-aa5a7fc387a1.jpg?v=1776933513",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Head-Set-2_de724fb2-9747-4e3f-9a2a-f928f91de782.jpg?v=1776933513",
@@ -458,11 +638,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "MP09ELP38AV2S",
     "name_i18n": {
       "en": "Cloudray E Series Black CO2 Laser Head Set With Focus Lens & Reflective Mirror*3",
-      "lt": "Cloudray E Series Black CO2 Laser Head Set With fokusavimo lęšis & atspindintys veidrodžiai*3"
+      "lt": "Cloudray E Series Black CO2 Laser Head Set With fokusavimo lęšis & atspindintys veidrodžiai*3",
+      "de": "Cloudray E Series Black CO2 Laser Head Set With Fokuslinse ZnSe & Molybdän-Reflexionsspiegel*3",
+      "fr": "Cloudray E Series Black CO2 Laser Head Set With Lentille de focalisation & Miroirs réfléchissants molybdène*3",
+      "es": "Cloudray E Series Black CO2 Laser Head Set With Lente de enfoque & Espejos reflectantes de molibdeno*3",
+      "pl": "Cloudray E Series Black CO2 Laser Head Set With Soczewka skupiająca & Lustra odbijające molibdenowe*3",
+      "lv": "Cloudray E Series Black CO2 Laser Head Set With Fokusēšanas lēca & Molibdēna atstarojošie spoguļi*3",
+      "et": "Cloudray E Series Black CO2 Laser Head Set With Fokuseerimislääts & Molübdeenpeeglid*3"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -470,14 +662,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray External Dual Red Light Module for Focusing",
     "slug": "cloudray-cloudray-external-dual-red-light-module-for-laser-marking-machine",
     "category_id": "cat_acrylic",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 40.5,
     "compare_at_price": 54.68,
     "cost_price": 30,
     "supplier_sku": "RM04SMHGWB",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/External-Dual-Red-Light-Module_01_6a15793e-13ae-4117-9e61-c6b723640b41.jpg?v=1776413269",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/External-Dual-Red-Light-Module_02_3bad0d97-f8c5-424b-a45e-dbfc9479772a.jpg?v=1776413269",
@@ -487,11 +679,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "RM04SMHGWB",
     "name_i18n": {
       "en": "Cloudray External Dual Red Light Module for Focusing",
-      "lt": "Cloudray External Dual Red Light Module for Focusing"
+      "lt": "Cloudray External Dual Red Light Module for Focusing",
+      "de": "Cloudray External Dual Red Light Module for Focusing",
+      "fr": "Cloudray External Dual Red Light Module for Focusing",
+      "es": "Cloudray External Dual Red Light Module for Focusing",
+      "pl": "Cloudray External Dual Red Light Module for Focusing",
+      "lv": "Cloudray External Dual Red Light Module for Focusing",
+      "et": "Cloudray External Dual Red Light Module for Focusing"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -499,14 +703,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Leadshine M542C 2 Phase Stepper Driver",
     "slug": "cloudray-cloudray-leadshine-m542c-2-phase-stepper-driver",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 43.2,
     "compare_at_price": 58.32,
     "cost_price": 32,
     "supplier_sku": "SMD10L2PM542C",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Stepper-Driver-1_b7f92624-68ce-48e7-83ea-d76730659047.jpg?v=1775180540",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Stepper-Driver-2_f1c31674-7065-44d1-89b0-6af57647c026.jpg?v=1775180539",
@@ -516,11 +720,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "SMD10L2PM542C",
     "name_i18n": {
       "en": "Cloudray Leadshine M542C 2 Phase Stepper Driver",
-      "lt": "Cloudray Leadshine M542C 2 Phase žingsninio variklio valdiklis"
+      "lt": "Cloudray Leadshine M542C 2 Phase žingsninio variklio valdiklis",
+      "de": "Cloudray Leadshine M542C 2 Phase Schrittmotortreiber",
+      "fr": "Cloudray Leadshine M542C 2 Phase Pilote de moteur pas à pas",
+      "es": "Cloudray Leadshine M542C 2 Phase Controlador de motor paso a paso",
+      "pl": "Cloudray Leadshine M542C 2 Phase Sterownik silnika krokowego",
+      "lv": "Cloudray Leadshine M542C 2 Phase Soļu motora vadītājs",
+      "et": "Cloudray Leadshine M542C 2 Phase Samm-mootori draiver"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -528,14 +744,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Laser Tube Protective Windows For RECI W Series",
     "slug": "cloudray-cloudray-laser-tube-protective-windows-for-reci-w-t-series",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 47.25,
     "compare_at_price": 63.79,
     "cost_price": 35,
     "supplier_sku": "LT07RCPJW2",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Tube-Protective-Windows-1_9f08af9d-8042-48f2-914a-dcdf32cec72c.jpg?v=1773987257",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Tube-Protective-Windows-2_4da5c877-a436-4adc-bc6f-c1e65b9b1719.jpg?v=1773987257",
@@ -545,11 +761,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LT07RCPJW2",
     "name_i18n": {
       "en": "Cloudray Laser Tube Protective Windows For RECI W Series",
-      "lt": "Cloudray Laser Tube Protective Windows For RECI W Series"
+      "lt": "Cloudray Laser Tube Protective Windows For RECI W Series",
+      "de": "Cloudray Laser Tube Protective Windows For RECI W Series",
+      "fr": "Cloudray Laser Tube Protective Windows For RECI W Series",
+      "es": "Cloudray Laser Tube Protective Windows For RECI W Series",
+      "pl": "Cloudray Laser Tube Protective Windows For RECI W Series",
+      "lv": "Cloudray Laser Tube Protective Windows For RECI W Series",
+      "et": "Cloudray Laser Tube Protective Windows For RECI W Series"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -557,14 +785,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 24CS22C-400 2 Phase Nema 24 Open Loop Stepper Motor",
     "slug": "cloudray-cloudray-24cs22c-400-2-phase-nema-24-open-loop-stepper-motor",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 33.75,
     "compare_at_price": 45.56,
     "cost_price": 25,
     "supplier_sku": "SM47N24CS22C400",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/NEMA24-Stepper-01.jpg?v=1773382301",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/NEMA24-Stepper-02.jpg?v=1773382301",
@@ -574,11 +802,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "SM47N24CS22C400",
     "name_i18n": {
       "en": "Cloudray 24CS22C-400 2 Phase Nema 24 Open Loop Stepper Motor",
-      "lt": "Cloudray 24CS22C-400 2 Phase Nema 24 Open Loop Stepper Motor"
+      "lt": "Cloudray 24CS22C-400 2 Phase Nema 24 Open Loop Stepper Motor",
+      "de": "Cloudray 24CS22C-400 2 Phase Nema 24 Open Loop Stepper Motor",
+      "fr": "Cloudray 24CS22C-400 2 Phase Nema 24 Open Loop Stepper Motor",
+      "es": "Cloudray 24CS22C-400 2 Phase Nema 24 Open Loop Stepper Motor",
+      "pl": "Cloudray 24CS22C-400 2 Phase Nema 24 Open Loop Stepper Motor",
+      "lv": "Cloudray 24CS22C-400 2 Phase Nema 24 Open Loop Stepper Motor",
+      "et": "Cloudray 24CS22C-400 2 Phase Nema 24 Open Loop Stepper Motor"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -586,14 +826,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray WSX Fused Silica Fiber Laser Protective Windows",
     "slug": "cloudray-cloudray-wsx-fused-silica-fiber-laser-protective-windows",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 2.7,
     "compare_at_price": 3.65,
     "cost_price": 2,
     "supplier_sku": "PW02WSX18X2",
     "badge": "Cloudray Original",
     "laser_type": "Fiber / MOPA Laser (1064nm)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Protective-Windows_01_332b7f6d-9ad4-4aa0-87f8-feb4385a1e73.jpg?v=1770951200",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Protective-Windows_02_c86756bc-eca4-4a48-9e60-40dfeaa3d663.jpg?v=1770951200",
@@ -603,11 +843,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "PW02WSX18X2",
     "name_i18n": {
       "en": "Cloudray WSX Fused Silica Fiber Laser Protective Windows",
-      "lt": "Cloudray WSX Fused Silica Fiber Laser Protective Windows"
+      "lt": "Cloudray WSX Fused Silica Fiber Laser Protective Windows",
+      "de": "Cloudray WSX Fused Silica Fiber Laser Protective Windows",
+      "fr": "Cloudray WSX Fused Silica Fiber Laser Protective Windows",
+      "es": "Cloudray WSX Fused Silica Fiber Laser Protective Windows",
+      "pl": "Cloudray WSX Fused Silica Fiber Laser Protective Windows",
+      "lv": "Cloudray WSX Fused Silica Fiber Laser Protective Windows",
+      "et": "Cloudray WSX Fused Silica Fiber Laser Protective Windows"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -615,14 +867,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Foldable Laser Engraver Enclosure",
     "slug": "cloudray-cloudray-foldable-laser-engraver-enclosure",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 66.15,
     "compare_at_price": 89.3,
     "cost_price": 49,
     "supplier_sku": "FM14PSTYFHZ",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Engraver-Enclosure_01_ca3c3696-f687-4405-ad4c-ff7f8a0f7658.jpg?v=1770774086",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Engraver-Enclosure_02_1b8be661-dd6c-418f-a5d6-07d9588d8500.jpg?v=1770774086",
@@ -632,11 +884,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "FM14PSTYFHZ",
     "name_i18n": {
       "en": "Cloudray Foldable Laser Engraver Enclosure",
-      "lt": "Cloudray Foldable Laser Engraver ugniai atspari apsauginė palapinė"
+      "lt": "Cloudray Foldable Laser Engraver ugniai atspari apsauginė palapinė",
+      "de": "Cloudray Foldable Laser Engraver Feuerfestes Schutzgehäuse",
+      "fr": "Cloudray Foldable Laser Engraver Caisson de protection ignifugé",
+      "es": "Cloudray Foldable Laser Engraver Carcasa protectora ignífuga",
+      "pl": "Cloudray Foldable Laser Engraver Obudowa ochronna ognioodporna",
+      "lv": "Cloudray Foldable Laser Engraver Ugunsdrošs aizsargkorpuss",
+      "et": "Cloudray Foldable Laser Engraver Tulekindel kaitsekamber"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -644,14 +908,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray M50 50W 110/220V CO2 Laser Power Supply",
     "slug": "cloudray-cloudray-50w-110-220v-myjg-green-shell-co2-power-supply",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 147.15,
     "compare_at_price": 198.65,
     "cost_price": 109,
     "supplier_sku": "PS06ZL50W-USA",
     "badge": "Cloudray Original",
     "laser_type": "CO2 Laser (10.6um)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/50W-Laser-Power-Supply_01_afc65c43-aca8-4b08-a81b-eb7bbe544c3a.jpg?v=1769680261",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/50W-Laser-Power-Supply_02_3635c92c-b9c4-4aa6-8485-b6aae1d55079.jpg?v=1769680261",
@@ -661,11 +925,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "PS06ZL50W-USA",
     "name_i18n": {
       "en": "Cloudray M50 50W 110/220V CO2 Laser Power Supply",
-      "lt": "Cloudray M50 50W 110/220V CO2 Laser Power Supply"
+      "lt": "Cloudray M50 50W 110/220V CO2 Laser Power Supply",
+      "de": "Cloudray M50 50W 110/220V CO2 Laser Power Supply",
+      "fr": "Cloudray M50 50W 110/220V CO2 Laser Power Supply",
+      "es": "Cloudray M50 50W 110/220V CO2 Laser Power Supply",
+      "pl": "Cloudray M50 50W 110/220V CO2 Laser Power Supply",
+      "lv": "Cloudray M50 50W 110/220V CO2 Laser Power Supply",
+      "et": "Cloudray M50 50W 110/220V CO2 Laser Power Supply"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -673,14 +949,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray M40 35-50W CO2 Laser Power Supply",
     "slug": "cloudray-cloudray-m40-40w-co2-laser-power-supply",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 79.65,
     "compare_at_price": 107.53,
     "cost_price": 59,
     "supplier_sku": "PS06ZL40WB",
     "badge": "Cloudray Original",
     "laser_type": "CO2 Laser (10.6um)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/40W-Laser-Power-Supply_03_2f3eb171-6d03-4584-bece-eb5ab258aba3.jpg?v=1768962381",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/40W-Laser-Power-Supply_02_45d3e599-d57b-477a-82e4-f868df1c3300.jpg?v=1768962381",
@@ -690,11 +966,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "PS06ZL40WB",
     "name_i18n": {
       "en": "Cloudray M40 35-50W CO2 Laser Power Supply",
-      "lt": "Cloudray M40 35-50W CO2 Laser Power Supply"
+      "lt": "Cloudray M40 35-50W CO2 Laser Power Supply",
+      "de": "Cloudray M40 35-50W CO2 Laser Power Supply",
+      "fr": "Cloudray M40 35-50W CO2 Laser Power Supply",
+      "es": "Cloudray M40 35-50W CO2 Laser Power Supply",
+      "pl": "Cloudray M40 35-50W CO2 Laser Power Supply",
+      "lv": "Cloudray M40 35-50W CO2 Laser Power Supply",
+      "et": "Cloudray M40 35-50W CO2 Laser Power Supply"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -702,14 +990,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Ruida Laser Controller RDC8445S",
     "slug": "cloudray-cloudray-ruida-controller-rdc8445s",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 700.65,
     "compare_at_price": 945.88,
     "cost_price": 519,
     "supplier_sku": "LC08RDC8445S",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/CO2-Laser-Controller_07_85a3ec2f-dbb9-486a-81f2-eaa418e05bf8.jpg?v=1782354474",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/CO2-Laser-Controller_08_52576b1d-50a9-4672-94f5-a70da9a0a3d5.jpg?v=1782354474",
@@ -719,11 +1007,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LC08RDC8445S",
     "name_i18n": {
       "en": "Cloudray Ruida Laser Controller RDC8445S",
-      "lt": "Cloudray Ruida Laser Controller RDC8445S"
+      "lt": "Cloudray Ruida Laser Controller RDC8445S",
+      "de": "Cloudray Ruida Laser Controller RDC8445S",
+      "fr": "Cloudray Ruida Laser Controller RDC8445S",
+      "es": "Cloudray Ruida Laser Controller RDC8445S",
+      "pl": "Cloudray Ruida Laser Controller RDC8445S",
+      "lv": "Cloudray Ruida Laser Controller RDC8445S",
+      "et": "Cloudray Ruida Laser Controller RDC8445S"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -731,14 +1031,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Adjustable Honeycomb Table for Laser Engraver & Cutter",
     "slug": "cloudray-cloudray-adjustable-honeycomb-table-for-laser-engraver-cutter",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 39.15,
     "compare_at_price": 52.85,
     "cost_price": 29,
     "supplier_sku": "LM04DTB400X100H4",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Honeycomb-Table_01_b42a5510-e599-4128-abfe-617ae152f0fc.jpg?v=1767144887",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Honeycomb-Table_02_8a69a31a-8df3-4772-974c-ce252f9be110.jpg?v=1767144887",
@@ -748,11 +1048,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LM04DTB400X100H4",
     "name_i18n": {
       "en": "Cloudray Adjustable Honeycomb Table for Laser Engraver & Cutter",
-      "lt": "Cloudray Adjustable Honeycomb Table for Laser Engraver & Cutter"
+      "lt": "Cloudray Adjustable Honeycomb Table for Laser Engraver & Cutter",
+      "de": "Cloudray Adjustable Honeycomb Table for Laser Engraver & Cutter",
+      "fr": "Cloudray Adjustable Honeycomb Table for Laser Engraver & Cutter",
+      "es": "Cloudray Adjustable Honeycomb Table for Laser Engraver & Cutter",
+      "pl": "Cloudray Adjustable Honeycomb Table for Laser Engraver & Cutter",
+      "lv": "Cloudray Adjustable Honeycomb Table for Laser Engraver & Cutter",
+      "et": "Cloudray Adjustable Honeycomb Table for Laser Engraver & Cutter"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -760,14 +1072,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Nozzle Connector For Raytools BT240",
     "slug": "cloudray-cloudray-nozzle-connector-for-raytools-bt240-bt240s",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 93.15,
     "compare_at_price": 125.75,
     "cost_price": 69,
     "supplier_sku": "LH04RBT240A1",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Nozzle-Connector_01_cdaa2f38-7aff-4c33-9aed-c59ccc0b8b2a.jpg?v=1765876412",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Nozzle-Connector_02_8e62fef1-a8d8-4861-8e1c-6481ec64821c.jpg?v=1765876412",
@@ -777,11 +1089,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LH04RBT240A1",
     "name_i18n": {
       "en": "Cloudray Nozzle Connector For Raytools BT240",
-      "lt": "Cloudray Nozzle Connector For Raytools BT240"
+      "lt": "Cloudray Nozzle Connector For Raytools BT240",
+      "de": "Cloudray Nozzle Connector For Raytools BT240",
+      "fr": "Cloudray Nozzle Connector For Raytools BT240",
+      "es": "Cloudray Nozzle Connector For Raytools BT240",
+      "pl": "Cloudray Nozzle Connector For Raytools BT240",
+      "lv": "Cloudray Nozzle Connector For Raytools BT240",
+      "et": "Cloudray Nozzle Connector For Raytools BT240"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -789,14 +1113,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 100 Pcs Ultra-fine Cleanroom Wipes",
     "slug": "cloudray-cloudray-100-pcs-ultra-fine-cleanroom-wipes",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 20.25,
     "compare_at_price": 27.34,
     "cost_price": 15,
     "supplier_sku": "CP04K6106LE",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Ultra-fine-Cleanroom-Wipe_01_4557f688-5365-4b45-a45c-dbddde131cfa.jpg?v=1765507289",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Ultra-fine-Cleanroom-Wipe_02_e0c42e78-55b0-4fe5-8c30-bb93bfd43074.jpg?v=1765507289",
@@ -806,11 +1130,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "CP04K6106LE",
     "name_i18n": {
       "en": "Cloudray 100 Pcs Ultra-fine Cleanroom Wipes",
-      "lt": "Cloudray 100 Pcs Ultra-fine Cleanroom Wipes"
+      "lt": "Cloudray 100 Pcs Ultra-fine Cleanroom Wipes",
+      "de": "Cloudray 100 Pcs Ultra-fine Cleanroom Wipes",
+      "fr": "Cloudray 100 Pcs Ultra-fine Cleanroom Wipes",
+      "es": "Cloudray 100 Pcs Ultra-fine Cleanroom Wipes",
+      "pl": "Cloudray 100 Pcs Ultra-fine Cleanroom Wipes",
+      "lv": "Cloudray 100 Pcs Ultra-fine Cleanroom Wipes",
+      "et": "Cloudray 100 Pcs Ultra-fine Cleanroom Wipes"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -818,14 +1154,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 0-2KW Raytools BT220 2D/3D Fiber Laser Cutting Head",
     "slug": "cloudray-cloudray-0-2kw-raytools-bt220-2d-3d-fiber-laser-cutting-head",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 1240.65,
     "compare_at_price": 1674.88,
     "cost_price": 919,
     "supplier_sku": "LH04BT220B",
     "badge": "Cloudray Original",
     "laser_type": "Fiber / MOPA Laser (1064nm)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Raytools-BT220_01_119fd1fb-41b7-4216-a7cf-fe6ceaa1e895.jpg?v=1764838570",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Raytools-BT220_02_c2d7ebc3-b889-46ed-ba5b-69a94d09f481.jpg?v=1764838570",
@@ -835,11 +1171,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LH04BT220B",
     "name_i18n": {
       "en": "Cloudray 0-2KW Raytools BT220 2D/3D Fiber Laser Cutting Head",
-      "lt": "Cloudray 0-2KW Raytools BT220 2D/3D Fiber Laser lazerio pjovimo galvutė"
+      "lt": "Cloudray 0-2KW Raytools BT220 2D/3D Fiber Laser lazerio pjovimo galvutė",
+      "de": "Cloudray 0-2KW Raytools BT220 2D/3D Fiber Laser Laserschneidkopf",
+      "fr": "Cloudray 0-2KW Raytools BT220 2D/3D Fiber Laser Tête de découpe laser",
+      "es": "Cloudray 0-2KW Raytools BT220 2D/3D Fiber Laser Cabezal de corte láser",
+      "pl": "Cloudray 0-2KW Raytools BT220 2D/3D Fiber Laser Głowica tnąca laserowa",
+      "lv": "Cloudray 0-2KW Raytools BT220 2D/3D Fiber Laser Lāzergriešanas galva",
+      "et": "Cloudray 0-2KW Raytools BT220 2D/3D Fiber Laser Laserlõikepea"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -847,14 +1195,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Leadshine Hybrid Servo Motor Combo 573HBM20-1000",
     "slug": "cloudray-cloudray-leadshine-hybrid-servo-motor-combo-573hbm20-1000",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 195.75,
     "compare_at_price": 264.26,
     "cost_price": 145,
     "supplier_sku": "HSS10LHBS573S1",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Closed-Loop-Stepper-Driver-01.jpg?v=1764830811",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Closed-Loop-Stepper-Driver-02.jpg?v=1764830811",
@@ -864,11 +1212,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "HSS10LHBS573S1",
     "name_i18n": {
       "en": "Cloudray Leadshine Hybrid Servo Motor Combo 573HBM20-1000",
-      "lt": "Cloudray Leadshine Hybrid Servo Motor Combo 573HBM20-1000"
+      "lt": "Cloudray Leadshine Hybrid Servo Motor Combo 573HBM20-1000",
+      "de": "Cloudray Leadshine Hybrid Servo Motor Combo 573HBM20-1000",
+      "fr": "Cloudray Leadshine Hybrid Servo Motor Combo 573HBM20-1000",
+      "es": "Cloudray Leadshine Hybrid Servo Motor Combo 573HBM20-1000",
+      "pl": "Cloudray Leadshine Hybrid Servo Motor Combo 573HBM20-1000",
+      "lv": "Cloudray Leadshine Hybrid Servo Motor Combo 573HBM20-1000",
+      "et": "Cloudray Leadshine Hybrid Servo Motor Combo 573HBM20-1000"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -876,14 +1236,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 800mm Electric Lift Column For Fiber Laser Engraver",
     "slug": "cloudray-cloudray-electric-lift-column-for-fiber-laser-engraver",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 673.65,
     "compare_at_price": 909.43,
     "cost_price": 499,
     "supplier_sku": "AR24LMX800LZ57MS",
     "badge": "Cloudray Original",
     "laser_type": "Fiber / MOPA Laser (1064nm)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray_Electric_Lift_Column_For_Fiber_Laser_Engraver-1.png?v=1753437142",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray_Electric_Lift_Column_For_Fiber_Laser_Engraver-3.png?v=1753437958",
@@ -893,11 +1253,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "AR24LMX800LZ57MS",
     "name_i18n": {
       "en": "Cloudray 800mm Electric Lift Column For Fiber Laser Engraver",
-      "lt": "Cloudray 800mm Electric Lift Column For Fiber Laser Engraver"
+      "lt": "Cloudray 800mm Electric Lift Column For Fiber Laser Engraver",
+      "de": "Cloudray 800mm Electric Lift Column For Fiber Laser Engraver",
+      "fr": "Cloudray 800mm Electric Lift Column For Fiber Laser Engraver",
+      "es": "Cloudray 800mm Electric Lift Column For Fiber Laser Engraver",
+      "pl": "Cloudray 800mm Electric Lift Column For Fiber Laser Engraver",
+      "lv": "Cloudray 800mm Electric Lift Column For Fiber Laser Engraver",
+      "et": "Cloudray 800mm Electric Lift Column For Fiber Laser Engraver"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -905,14 +1277,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray CO2 Laser Tube Support for 80mm Dia. Laser Tube",
     "slug": "cloudray-cloudray-co2-laser-tube-support",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 20.25,
     "compare_at_price": 27.34,
     "cost_price": 15,
     "supplier_sku": "LTH07M80A",
     "badge": "Cloudray Original",
     "laser_type": "CO2 Laser (10.6um)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray_CO2_Laser_Tube_Support_for_80mm_Dia._Laser_Tube-01.jpg?v=1753775790",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray_CO2_Laser_Tube_Support_for_80mm_Dia._Laser_Tube-02.jpg?v=1753775825",
@@ -922,11 +1294,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LTH07M80A",
     "name_i18n": {
       "en": "Cloudray CO2 Laser Tube Support for 80mm Dia. Laser Tube",
-      "lt": "Cloudray CO2 Laser Tube Support for 80mm Dia. Laser Tube"
+      "lt": "Cloudray CO2 Laser Tube Support for 80mm Dia. Laser Tube",
+      "de": "Cloudray CO2 Laser Tube Support for 80mm Dia. Laser Tube",
+      "fr": "Cloudray CO2 Laser Tube Support for 80mm Dia. Laser Tube",
+      "es": "Cloudray CO2 Laser Tube Support for 80mm Dia. Laser Tube",
+      "pl": "Cloudray CO2 Laser Tube Support for 80mm Dia. Laser Tube",
+      "lv": "Cloudray CO2 Laser Tube Support for 80mm Dia. Laser Tube",
+      "et": "Cloudray CO2 Laser Tube Support for 80mm Dia. Laser Tube"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -934,14 +1318,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Blank Crystal Blocks for Laser Marking & Engraving",
     "slug": "cloudray-3d-laser-engraved-round-crystal",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 87.75,
     "compare_at_price": 118.46,
     "cost_price": 65,
     "supplier_sku": "SJK9F50X50X80A4P-USA",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray_11.jpg?v=1766556276",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray_1.jpg?v=1766556276",
@@ -951,11 +1335,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "SJK9F50X50X80A4P-USA",
     "name_i18n": {
       "en": "Cloudray Blank Crystal Blocks for Laser Marking & Engraving",
-      "lt": "Cloudray Blank Crystal Blocks for Laser Marking & Engraving"
+      "lt": "Cloudray Blank Crystal Blocks for Laser Marking & Engraving",
+      "de": "Cloudray Blank Crystal Blocks for Laser Marking & Engraving",
+      "fr": "Cloudray Blank Crystal Blocks for Laser Marking & Engraving",
+      "es": "Cloudray Blank Crystal Blocks for Laser Marking & Engraving",
+      "pl": "Cloudray Blank Crystal Blocks for Laser Marking & Engraving",
+      "lv": "Cloudray Blank Crystal Blocks for Laser Marking & Engraving",
+      "et": "Cloudray Blank Crystal Blocks for Laser Marking & Engraving"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -963,14 +1359,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Quick Release Toggle & Bench Dog Clamp",
     "slug": "cloudray-cloudray-quick-release-toggle-bench-dog-clamp",
     "category_id": "cat_acrylic",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 20.25,
     "compare_at_price": 27.34,
     "cost_price": 15,
     "supplier_sku": "LM35TT200WLF",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Toggle-Bench-Dog-Clamp-1.jpg?v=1745465964",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Toggle-Bench-Dog-Clamp-2.jpg?v=1745465977",
@@ -980,11 +1376,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LM35TT200WLF",
     "name_i18n": {
       "en": "Cloudray Quick Release Toggle & Bench Dog Clamp",
-      "lt": "Cloudray Quick Release Toggle & Bench Dog Clamp"
+      "lt": "Cloudray Quick Release Toggle & Bench Dog Clamp",
+      "de": "Cloudray Quick Release Toggle & Bench Dog Clamp",
+      "fr": "Cloudray Quick Release Toggle & Bench Dog Clamp",
+      "es": "Cloudray Quick Release Toggle & Bench Dog Clamp",
+      "pl": "Cloudray Quick Release Toggle & Bench Dog Clamp",
+      "lv": "Cloudray Quick Release Toggle & Bench Dog Clamp",
+      "et": "Cloudray Quick Release Toggle & Bench Dog Clamp"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -992,14 +1400,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Laser Engraver Protective Enclosure With LED Light",
     "slug": "cloudray-cloudray-lasersafe-enclosure-with-led-light-avaliable-for-all-litemarker",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 479.25,
     "compare_at_price": 646.99,
     "cost_price": 355,
     "supplier_sku": "FM14LPCLFA1-USA",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/LiteMarker-Lasersafe-Enclosure_02_3003897f-671c-4b25-96b6-d2e57214ee01.jpg?v=1746608643",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/LiteMarker-Lasersafe-Enclosure_01_1a655b88-e6bc-4299-9197-82d3cb8e240f.jpg?v=1746608622",
@@ -1009,11 +1417,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "FM14LPCLFA1-USA",
     "name_i18n": {
       "en": "Cloudray Laser Engraver Protective Enclosure With LED Light",
-      "lt": "Cloudray Laser Engraver Protective ugniai atspari apsauginė palapinė With LED Light"
+      "lt": "Cloudray Laser Engraver Protective ugniai atspari apsauginė palapinė With LED Light",
+      "de": "Cloudray Laser Engraver Protective Feuerfestes Schutzgehäuse With LED Light",
+      "fr": "Cloudray Laser Engraver Protective Caisson de protection ignifugé With LED Light",
+      "es": "Cloudray Laser Engraver Protective Carcasa protectora ignífuga With LED Light",
+      "pl": "Cloudray Laser Engraver Protective Obudowa ochronna ognioodporna With LED Light",
+      "lv": "Cloudray Laser Engraver Protective Ugunsdrošs aizsargkorpuss With LED Light",
+      "et": "Cloudray Laser Engraver Protective Tulekindel kaitsekamber With LED Light"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1021,14 +1441,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Flexible Pin Fixture for Irregular Parts",
     "slug": "cloudray-cloudray-flexible-fixture",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 363.15,
     "compare_at_price": 490.25,
     "cost_price": 269,
     "supplier_sku": "LM35PIN2530X40-USA",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray-Flexible-Fixture__01_bcc2b2c1-44d7-4197-af03-500a9d4fa79e.jpg?v=1760163174",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray-Flexible-Fixture__02_fff2849f-2035-4a92-917d-4aad9134fac1.jpg?v=1760163174",
@@ -1038,11 +1458,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LM35PIN2530X40-USA",
     "name_i18n": {
       "en": "Cloudray Flexible Pin Fixture for Irregular Parts",
-      "lt": "Cloudray Flexible Pin Fixture for Irregular Parts"
+      "lt": "Cloudray Flexible Pin Fixture for Irregular Parts",
+      "de": "Cloudray Flexible Pin Fixture for Irregular Parts",
+      "fr": "Cloudray Flexible Pin Fixture for Irregular Parts",
+      "es": "Cloudray Flexible Pin Fixture for Irregular Parts",
+      "pl": "Cloudray Flexible Pin Fixture for Irregular Parts",
+      "lv": "Cloudray Flexible Pin Fixture for Irregular Parts",
+      "et": "Cloudray Flexible Pin Fixture for Irregular Parts"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1050,14 +1482,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray TEYU CW5200 Industrial Water Chiller",
     "slug": "cloudray-cloudray-cw5200-industrial-chiller",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 776.25,
     "compare_at_price": 1047.94,
     "cost_price": 575,
     "supplier_sku": "IC13TYM1CW5200DH",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Industrial-Chiller_01_0482578a-88e0-433e-992b-9c3f59cbbda9.jpg?v=1790242131",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Industrial-Chiller_02_10601c0e-d5ad-480c-baf5-709ce9a7b524.jpg?v=1790242131",
@@ -1067,11 +1499,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "IC13TYM1CW5200DH",
     "name_i18n": {
       "en": "Cloudray TEYU CW5200 Industrial Water Chiller",
-      "lt": "Cloudray TEYU CW5200 Industrial Water Chiller"
+      "lt": "Cloudray TEYU CW5200 Industrial Water Chiller",
+      "de": "Cloudray TEYU CW5200 Industrial Water Chiller",
+      "fr": "Cloudray TEYU CW5200 Industrial Water Chiller",
+      "es": "Cloudray TEYU CW5200 Industrial Water Chiller",
+      "pl": "Cloudray TEYU CW5200 Industrial Water Chiller",
+      "lv": "Cloudray TEYU CW5200 Industrial Water Chiller",
+      "et": "Cloudray TEYU CW5200 Industrial Water Chiller"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1079,14 +1523,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 0-60W High Accuracy Laser Beam Power and Energy Meter",
     "slug": "cloudray-cloudray-0-60w-high-accuracy-laser-beam-power-and-energy-meter",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 1483.65,
     "compare_at_price": 2002.93,
     "cost_price": 1099,
     "supplier_sku": "PW13JPTLP1760WB",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/products/JPT-Power-Meter-1.jpg?v=1661335666",
       "https://cdn.shopify.com/s/files/1/2222/7859/products/JPT-Power-Meter-2.jpg?v=1661335664",
@@ -1096,11 +1540,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "PW13JPTLP1760WB",
     "name_i18n": {
       "en": "Cloudray 0-60W High Accuracy Laser Beam Power and Energy Meter",
-      "lt": "Cloudray 0-60W High Accuracy Laser Beam Power and Energy Meter"
+      "lt": "Cloudray 0-60W High Accuracy Laser Beam Power and Energy Meter",
+      "de": "Cloudray 0-60W High Accuracy Laser Beam Power and Energy Meter",
+      "fr": "Cloudray 0-60W High Accuracy Laser Beam Power and Energy Meter",
+      "es": "Cloudray 0-60W High Accuracy Laser Beam Power and Energy Meter",
+      "pl": "Cloudray 0-60W High Accuracy Laser Beam Power and Energy Meter",
+      "lv": "Cloudray 0-60W High Accuracy Laser Beam Power and Energy Meter",
+      "et": "Cloudray 0-60W High Accuracy Laser Beam Power and Energy Meter"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1108,14 +1564,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Precision Z-Axis Lift Table for Laser Marking",
     "slug": "cloudray-cloudray-z-axis-positioning-moving-workbench",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 87.75,
     "compare_at_price": 118.46,
     "cost_price": 65,
     "supplier_sku": "LM04YYW1D",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Marking-Workbench_02_0e007bd0-9af6-446a-a5d2-8152d5c44841.jpg?v=1763955343",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Marking-Workbench_01_4c280a1b-cefd-4629-906b-fb104e9b6526.jpg?v=1763955343",
@@ -1125,11 +1581,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LM04YYW1D",
     "name_i18n": {
       "en": "Cloudray Precision Z-Axis Lift Table for Laser Marking",
-      "lt": "Cloudray Precision Z-Axis Lift Table for Laser Marking"
+      "lt": "Cloudray Precision Z-Axis Lift Table for Laser Marking",
+      "de": "Cloudray Precision Z-Axis Lift Table for Laser Marking",
+      "fr": "Cloudray Precision Z-Axis Lift Table for Laser Marking",
+      "es": "Cloudray Precision Z-Axis Lift Table for Laser Marking",
+      "pl": "Cloudray Precision Z-Axis Lift Table for Laser Marking",
+      "lv": "Cloudray Precision Z-Axis Lift Table for Laser Marking",
+      "et": "Cloudray Precision Z-Axis Lift Table for Laser Marking"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1137,14 +1605,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Partner LightBurn Software For Laser Cutter Control / Galvo Laser Control",
     "slug": "cloudray-cloudray-laser-cutter-control-software-lightburn-for-ruida-6445g-6442s",
     "category_id": "cat_acrylic",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 268.65,
     "compare_at_price": 362.68,
     "cost_price": 199,
     "supplier_sku": "LC145LCCSLB",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/products/lightburn.jpg?v=1742779415",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/2_3c5825c9-bf05-46d3-aa08-a2ea536e9d68.svg?v=1742867927",
@@ -1154,11 +1622,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LC145LCCSLB",
     "name_i18n": {
       "en": "Cloudray Partner LightBurn Software For Laser Cutter Control / Galvo Laser Control",
-      "lt": "Cloudray Partner LightBurn Software For Laser Cutter Control / Galvo Laser Control"
+      "lt": "Cloudray Partner LightBurn Software For Laser Cutter Control / Galvo Laser Control",
+      "de": "Cloudray Partner LightBurn Software For Laser Cutter Control / Galvo Laser Control",
+      "fr": "Cloudray Partner LightBurn Software For Laser Cutter Control / Galvo Laser Control",
+      "es": "Cloudray Partner LightBurn Software For Laser Cutter Control / Galvo Laser Control",
+      "pl": "Cloudray Partner LightBurn Software For Laser Cutter Control / Galvo Laser Control",
+      "lv": "Cloudray Partner LightBurn Software For Laser Cutter Control / Galvo Laser Control",
+      "et": "Cloudray Partner LightBurn Software For Laser Cutter Control / Galvo Laser Control"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1166,14 +1646,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray HQPI Laser Controller Card for CO2 Laser Machine",
     "slug": "cloudray-cloudray-laser-controller-card-for-co2-laser-machine",
     "category_id": "cat_metal",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 106.65,
     "compare_at_price": 143.98,
     "cost_price": 79,
     "supplier_sku": "LC08HQPiIH2V13",
     "badge": "Cloudray Original",
     "laser_type": "CO2 Laser (10.6um)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/CO2-1.jpg?v=1736241317",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/CO2-2.jpg?v=1736241317",
@@ -1183,11 +1663,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LC08HQPiIH2V13",
     "name_i18n": {
       "en": "Cloudray HQPI Laser Controller Card for CO2 Laser Machine",
-      "lt": "Cloudray HQPI Laser Controller Card for CO2 Laser Machine"
+      "lt": "Cloudray HQPI Laser Controller Card for CO2 Laser Machine",
+      "de": "Cloudray HQPI Laser Controller Card for CO2 Laser Machine",
+      "fr": "Cloudray HQPI Laser Controller Card for CO2 Laser Machine",
+      "es": "Cloudray HQPI Laser Controller Card for CO2 Laser Machine",
+      "pl": "Cloudray HQPI Laser Controller Card for CO2 Laser Machine",
+      "lv": "Cloudray HQPI Laser Controller Card for CO2 Laser Machine",
+      "et": "Cloudray HQPI Laser Controller Card for CO2 Laser Machine"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1195,14 +1687,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray T5 1064nm Fiber Laser Safety Goggles",
     "slug": "cloudray-cloudray-1064nm-fiber-laser-safety-goggles-copy",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 35.1,
     "compare_at_price": 47.39,
     "cost_price": 26,
     "supplier_sku": "SG13FBM2",
     "badge": "Cloudray Original",
     "laser_type": "Fiber / MOPA Laser (1064nm)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Safety-Goggles-1_45e8dde5-e5be-45f1-9e18-aa36cf048de5.jpg?v=1735869848",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Laser-Safety-Goggles-1_ece03229-93eb-4913-aa01-6d84dbd4d3bc.jpg?v=1735869848",
@@ -1212,11 +1704,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "SG13FBM2",
     "name_i18n": {
       "en": "Cloudray T5 1064nm Fiber Laser Safety Goggles",
-      "lt": "Cloudray T5 1064nm Fiber Laser apsauginiai akiniai meistrams"
+      "lt": "Cloudray T5 1064nm Fiber Laser apsauginiai akiniai meistrams",
+      "de": "Cloudray T5 1064nm Fiber Laser Laserschutzbrille",
+      "fr": "Cloudray T5 1064nm Fiber Laser Lunettes de protection laser",
+      "es": "Cloudray T5 1064nm Fiber Laser Gafas de seguridad láser",
+      "pl": "Cloudray T5 1064nm Fiber Laser Okulary ochronne laserowe",
+      "lv": "Cloudray T5 1064nm Fiber Laser Lāzera aizsargbrilles",
+      "et": "Cloudray T5 1064nm Fiber Laser Laserkaitseprillid"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1224,14 +1728,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray J18Q.1.B Bridge Type Non-Opening Cable Drag Chains",
     "slug": "cloudray-cloudray-j18q-1-b-bridge-type-non-opening-cable-drag-chains",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 13.5,
     "compare_at_price": 18.23,
     "cost_price": 10,
     "supplier_sku": "CC11J18Q25BR28",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cable-Chain---J-Series1_0f7ebe54-1a76-40c2-995b-4e83ef0f8fb7.jpg?v=1734074910",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cable-Chain---J-Series2_d9038af7-3af3-414b-817a-be011fe6336f.jpg?v=1734074910",
@@ -1241,11 +1745,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "CC11J18Q25BR28",
     "name_i18n": {
       "en": "Cloudray J18Q.1.B Bridge Type Non-Opening Cable Drag Chains",
-      "lt": "Cloudray J18Q.1.B Bridge Type Non-Opening Cable Drag Chains"
+      "lt": "Cloudray J18Q.1.B Bridge Type Non-Opening Cable Drag Chains",
+      "de": "Cloudray J18Q.1.B Bridge Type Non-Opening Cable Drag Chains",
+      "fr": "Cloudray J18Q.1.B Bridge Type Non-Opening Cable Drag Chains",
+      "es": "Cloudray J18Q.1.B Bridge Type Non-Opening Cable Drag Chains",
+      "pl": "Cloudray J18Q.1.B Bridge Type Non-Opening Cable Drag Chains",
+      "lv": "Cloudray J18Q.1.B Bridge Type Non-Opening Cable Drag Chains",
+      "et": "Cloudray J18Q.1.B Bridge Type Non-Opening Cable Drag Chains"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1253,14 +1769,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Welding Head Cradle",
     "slug": "cloudray-cloudray-welding-head-cradle",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 120.15,
     "compare_at_price": 162.2,
     "cost_price": 89,
     "supplier_sku": "MC77TYDW02QJ",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Welding-Head1.jpg?v=1727171163",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Welding-Head2.jpg?v=1727171163",
@@ -1270,11 +1786,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "MC77TYDW02QJ",
     "name_i18n": {
       "en": "Cloudray Welding Head Cradle",
-      "lt": "Cloudray Welding Head Cradle"
+      "lt": "Cloudray Welding Head Cradle",
+      "de": "Cloudray Welding Head Cradle",
+      "fr": "Cloudray Welding Head Cradle",
+      "es": "Cloudray Welding Head Cradle",
+      "pl": "Cloudray Welding Head Cradle",
+      "lv": "Cloudray Welding Head Cradle",
+      "et": "Cloudray Welding Head Cradle"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1282,14 +1810,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray HTD 3M PU Open-ended Timing Belt",
     "slug": "cloudray-cloudray-htd-3m-pu-open-ended-timing-belt-width-5mm-1-meter-for-co2-laser-engraver",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 4.05,
     "compare_at_price": 5.47,
     "cost_price": 3,
     "supplier_sku": "TB12HTD3M5",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/3MTimingBelt01.jpg?v=1718268549",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/3MTimingBelt02.jpg?v=1718268549",
@@ -1299,11 +1827,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "TB12HTD3M5",
     "name_i18n": {
       "en": "Cloudray HTD 3M PU Open-ended Timing Belt",
-      "lt": "Cloudray HTD 3M PU Open-ended Timing Belt"
+      "lt": "Cloudray HTD 3M PU Open-ended Timing Belt",
+      "de": "Cloudray HTD 3M PU Open-ended Timing Belt",
+      "fr": "Cloudray HTD 3M PU Open-ended Timing Belt",
+      "es": "Cloudray HTD 3M PU Open-ended Timing Belt",
+      "pl": "Cloudray HTD 3M PU Open-ended Timing Belt",
+      "lv": "Cloudray HTD 3M PU Open-ended Timing Belt",
+      "et": "Cloudray HTD 3M PU Open-ended Timing Belt"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1311,14 +1851,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray UV F-theta Scan Lens Black",
     "slug": "cloudray-cloudray-black-uv-f-theta-scan-lens",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 526.5,
     "compare_at_price": 710.78,
     "cost_price": 390,
     "supplier_sku": "USFTL05ZF100HG",
     "badge": "Cloudray Original",
     "laser_type": "UV Laser (355nm)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/UV-F-Theta-Scan-Lens_01_6a2240c3-6312-4144-ba73-69d9151be041.jpg?v=1724224165",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/UV-F-Theta-Scan-Lens_02_e9cdf072-9bac-46a0-94bb-19c2ded43e15.jpg?v=1724224165",
@@ -1328,11 +1868,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "USFTL05ZF100HG",
     "name_i18n": {
       "en": "Cloudray UV F-theta Scan Lens Black",
-      "lt": "Cloudray UV F-theta Scan Lens Black"
+      "lt": "Cloudray UV F-theta Scan Lens Black",
+      "de": "Cloudray UV F-theta Scan Lens Black",
+      "fr": "Cloudray UV F-theta Scan Lens Black",
+      "es": "Cloudray UV F-theta Scan Lens Black",
+      "pl": "Cloudray UV F-theta Scan Lens Black",
+      "lv": "Cloudray UV F-theta Scan Lens Black",
+      "et": "Cloudray UV F-theta Scan Lens Black"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1340,14 +1892,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Welding Obtuse Angle Positioner for Fiber Laser Welding Head",
     "slug": "cloudray-cloudray-welding-bbtuse-angle-positioner-for-fiber-laser-welding-head",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 21.6,
     "compare_at_price": 29.16,
     "cost_price": 16,
     "supplier_sku": "LH03YJOD177",
     "badge": "Cloudray Original",
     "laser_type": "Fiber / MOPA Laser (1064nm)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray_Welding_Obtuse_Angle_Positioner_for_Fiber_Laser_Welding_Head-1.jpg?v=1754373115",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray_Welding_Obtuse_Angle_Positioner_for_Fiber_Laser_Welding_Head-2.jpg?v=1754373124",
@@ -1357,11 +1909,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LH03YJOD177",
     "name_i18n": {
       "en": "Cloudray Welding Obtuse Angle Positioner for Fiber Laser Welding Head",
-      "lt": "Cloudray Welding Obtuse Angle Positioner for Fiber Laser Welding Head"
+      "lt": "Cloudray Welding Obtuse Angle Positioner for Fiber Laser Welding Head",
+      "de": "Cloudray Welding Obtuse Angle Positioner for Fiber Laser Welding Head",
+      "fr": "Cloudray Welding Obtuse Angle Positioner for Fiber Laser Welding Head",
+      "es": "Cloudray Welding Obtuse Angle Positioner for Fiber Laser Welding Head",
+      "pl": "Cloudray Welding Obtuse Angle Positioner for Fiber Laser Welding Head",
+      "lv": "Cloudray Welding Obtuse Angle Positioner for Fiber Laser Welding Head",
+      "et": "Cloudray Welding Obtuse Angle Positioner for Fiber Laser Welding Head"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1369,14 +1933,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray 100Pcs Matte Black Business Name Cards For Laser Marking Machine",
     "slug": "cloudray-cloudray-100pcs-matte-black-business-name-cards-for-laser-marking-machine",
     "category_id": "cat_metal",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 20.25,
     "compare_at_price": 27.34,
     "cost_price": 15,
     "supplier_sku": "BNC04MBK100",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Metal-Business-Cards-1.jpg?v=1722581989",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Metal-Business-Cards-2.jpg?v=1722581989",
@@ -1386,11 +1950,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "BNC04MBK100",
     "name_i18n": {
       "en": "Cloudray 100Pcs Matte Black Business Name Cards For Laser Marking Machine",
-      "lt": "Cloudray 100Pcs Matte Black Business Name Cards For Laser Marking Machine"
+      "lt": "Cloudray 100Pcs Matte Black Business Name Cards For Laser Marking Machine",
+      "de": "Cloudray 100Pcs Matte Black Business Name Cards For Laser Marking Machine",
+      "fr": "Cloudray 100Pcs Matte Black Business Name Cards For Laser Marking Machine",
+      "es": "Cloudray 100Pcs Matte Black Business Name Cards For Laser Marking Machine",
+      "pl": "Cloudray 100Pcs Matte Black Business Name Cards For Laser Marking Machine",
+      "lv": "Cloudray 100Pcs Matte Black Business Name Cards For Laser Marking Machine",
+      "et": "Cloudray 100Pcs Matte Black Business Name Cards For Laser Marking Machine"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1398,14 +1974,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Output Protective Connector For 0-6kW RECI Fiber Laser",
     "slug": "cloudray-cloudray-output-protective-connector-for-0-6kw-reci-fiber-laser",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 37.8,
     "compare_at_price": 51.03,
     "cost_price": 28,
     "supplier_sku": "FL214RC13X17S",
     "badge": "Cloudray Original",
     "laser_type": "Fiber / MOPA Laser (1064nm)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Output-Protective-Connector-1_32b40a5d-830c-4462-a094-17999577603d.jpg?v=1721643860",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Output-Protective-Connector-2_387417d5-c1f2-4fcd-bc4b-5419b4f664f1.jpg?v=1721643860",
@@ -1415,11 +1991,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "FL214RC13X17S",
     "name_i18n": {
       "en": "Cloudray Output Protective Connector For 0-6kW RECI Fiber Laser",
-      "lt": "Cloudray Output Protective Connector For 0-6kW RECI Fiber Laser"
+      "lt": "Cloudray Output Protective Connector For 0-6kW RECI Fiber Laser",
+      "de": "Cloudray Output Protective Connector For 0-6kW RECI Fiber Laser",
+      "fr": "Cloudray Output Protective Connector For 0-6kW RECI Fiber Laser",
+      "es": "Cloudray Output Protective Connector For 0-6kW RECI Fiber Laser",
+      "pl": "Cloudray Output Protective Connector For 0-6kW RECI Fiber Laser",
+      "lv": "Cloudray Output Protective Connector For 0-6kW RECI Fiber Laser",
+      "et": "Cloudray Output Protective Connector For 0-6kW RECI Fiber Laser"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1427,14 +2015,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Laser Machine Protective Cover For CO2 Galvo Laser & UV Laser",
     "slug": "cloudray-cloudray-laser-machine-protective-cover-for-co2-galvo-laser-uv-laser",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 538.65,
     "compare_at_price": 727.18,
     "cost_price": 399,
     "supplier_sku": "UV14LPCF500V1",
     "badge": "Cloudray Original",
     "laser_type": "CO2 Laser (10.6um)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/2_b4586b9f-a25f-463f-9216-d98dc130b6ba.jpg?v=1739157068",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray-EC-30-LiteMarker-30W-_Max-up-to-38W_Split-Laser-Engraver-CO2-Laser-Marking-Machine-_5_be80703b-f97e-461a-9fd1-02cbbbd71fd7.jpg?v=1739157068",
@@ -1444,11 +2032,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "UV14LPCF500V1",
     "name_i18n": {
       "en": "Cloudray Laser Machine Protective Cover For CO2 Galvo Laser & UV Laser",
-      "lt": "Cloudray Laser Machine Protective Cover For CO2 Galvo Laser & UV Laser"
+      "lt": "Cloudray Laser Machine Protective Cover For CO2 Galvo Laser & UV Laser",
+      "de": "Cloudray Laser Machine Protective Cover For CO2 Galvo Laser & UV Laser",
+      "fr": "Cloudray Laser Machine Protective Cover For CO2 Galvo Laser & UV Laser",
+      "es": "Cloudray Laser Machine Protective Cover For CO2 Galvo Laser & UV Laser",
+      "pl": "Cloudray Laser Machine Protective Cover For CO2 Galvo Laser & UV Laser",
+      "lv": "Cloudray Laser Machine Protective Cover For CO2 Galvo Laser & UV Laser",
+      "et": "Cloudray Laser Machine Protective Cover For CO2 Galvo Laser & UV Laser"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1456,14 +2056,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray LED Ring Light For Laser Machine",
     "slug": "cloudray-cloudray-led-ring-light-for-laser-machine",
     "category_id": "cat_acrylic",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 20.25,
     "compare_at_price": 27.34,
     "cost_price": 15,
     "supplier_sku": "LEDRL96X58US",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray-LED-Ring-Light-01.jpg?v=1719900864",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray-LED-Ring-Light-02.jpg?v=1719900864",
@@ -1473,11 +2073,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LEDRL96X58US",
     "name_i18n": {
       "en": "Cloudray LED Ring Light For Laser Machine",
-      "lt": "Cloudray LED Ring Light For Laser Machine"
+      "lt": "Cloudray LED Ring Light For Laser Machine",
+      "de": "Cloudray LED Ring Light For Laser Machine",
+      "fr": "Cloudray LED Ring Light For Laser Machine",
+      "es": "Cloudray LED Ring Light For Laser Machine",
+      "pl": "Cloudray LED Ring Light For Laser Machine",
+      "lv": "Cloudray LED Ring Light For Laser Machine",
+      "et": "Cloudray LED Ring Light For Laser Machine"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1485,14 +2097,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Mount Bracket & LED Ring Light Kit For Laser Machine",
     "slug": "cloudray-cloudray-mount-bracket-led-ring-light-kit-for-laser-machine",
     "category_id": "cat_acrylic",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 26.87,
     "compare_at_price": 36.27,
     "cost_price": 19.9,
     "supplier_sku": "LEDRL96X58US7I",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Mount-Bracket-_-LED-01.jpg?v=1719900122",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Mount-Bracket-_-LED-02.jpg?v=1719900122",
@@ -1502,11 +2114,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LEDRL96X58US7I",
     "name_i18n": {
       "en": "Cloudray Mount Bracket & LED Ring Light Kit For Laser Machine",
-      "lt": "Cloudray Mount Bracket & LED Ring Light Kit For Laser Machine"
+      "lt": "Cloudray Mount Bracket & LED Ring Light Kit For Laser Machine",
+      "de": "Cloudray Mount Bracket & LED Ring Light Kit For Laser Machine",
+      "fr": "Cloudray Mount Bracket & LED Ring Light Kit For Laser Machine",
+      "es": "Cloudray Mount Bracket & LED Ring Light Kit For Laser Machine",
+      "pl": "Cloudray Mount Bracket & LED Ring Light Kit For Laser Machine",
+      "lv": "Cloudray Mount Bracket & LED Ring Light Kit For Laser Machine",
+      "et": "Cloudray Mount Bracket & LED Ring Light Kit For Laser Machine"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1514,14 +2138,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Laser HandheldLaser Welding Head",
     "slug": "cloudray-cloudray-laser-handheldlaser-welding-head",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 28.35,
     "compare_at_price": 38.27,
     "cost_price": 21,
     "supplier_sku": "WH71SUP20S600",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray-Laser-Welding-Head-Accessories-1_3ca5cc6b-5c60-4e82-b505-0002365202e5.jpg?v=1719306782",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray-Laser-Welding-Head-Accessories-5_b7e55afa-3bf2-4c87-9fee-79f06f560d44.jpg?v=1719306782",
@@ -1531,11 +2155,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "WH71SUP20S600",
     "name_i18n": {
       "en": "Cloudray Laser HandheldLaser Welding Head",
-      "lt": "Cloudray Laser HandheldLaser Welding Head"
+      "lt": "Cloudray Laser HandheldLaser Welding Head",
+      "de": "Cloudray Laser HandheldLaser Welding Head",
+      "fr": "Cloudray Laser HandheldLaser Welding Head",
+      "es": "Cloudray Laser HandheldLaser Welding Head",
+      "pl": "Cloudray Laser HandheldLaser Welding Head",
+      "lv": "Cloudray Laser HandheldLaser Welding Head",
+      "et": "Cloudray Laser HandheldLaser Welding Head"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1543,14 +2179,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Original Focusing &Collimating Lens For SUP Weiye Welding Cleaning Head",
     "slug": "cloudray-cloudray-original-focusing-collimating-lens-for-sup-weiye-welding-cleaning-head",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 24.3,
     "compare_at_price": 32.81,
     "cost_price": 18,
     "supplier_sku": "FCFL02S20X60T5",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Focusing-_-Collimating-Lens-1.jpg?v=1719367760",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Focusing-_-Collimating-Lens-2.jpg?v=1719367760",
@@ -1560,11 +2196,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "FCFL02S20X60T5",
     "name_i18n": {
       "en": "Cloudray Original Focusing &Collimating Lens For SUP Weiye Welding Cleaning Head",
-      "lt": "Cloudray Original Focusing &Collimating Lens For SUP Weiye Welding Cleaning Head"
+      "lt": "Cloudray Original Focusing &Collimating Lens For SUP Weiye Welding Cleaning Head",
+      "de": "Cloudray Original Focusing &Collimating Lens For SUP Weiye Welding Cleaning Head",
+      "fr": "Cloudray Original Focusing &Collimating Lens For SUP Weiye Welding Cleaning Head",
+      "es": "Cloudray Original Focusing &Collimating Lens For SUP Weiye Welding Cleaning Head",
+      "pl": "Cloudray Original Focusing &Collimating Lens For SUP Weiye Welding Cleaning Head",
+      "lv": "Cloudray Original Focusing &Collimating Lens For SUP Weiye Welding Cleaning Head",
+      "et": "Cloudray Original Focusing &Collimating Lens For SUP Weiye Welding Cleaning Head"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1572,14 +2220,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Topwisdom TL-A1 CO2 Laser Controller",
     "slug": "cloudray-cloudray-topwisdom-tl-a1-co2-laser-controller",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 403.65,
     "compare_at_price": 544.93,
     "cost_price": 299,
     "supplier_sku": "LC08TLA1TZ10E",
     "badge": "Cloudray Original",
     "laser_type": "CO2 Laser (10.6um)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/CO2-Laser-Controller-1_b343b522-fce6-43a7-bddf-0c26d52fc736.jpg?v=1719365112",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/CO2-Laser-Controller-2_a091564f-cccb-4c48-9813-7f47d7ea4830.jpg?v=1719365112",
@@ -1589,11 +2237,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LC08TLA1TZ10E",
     "name_i18n": {
       "en": "Cloudray Topwisdom TL-A1 CO2 Laser Controller",
-      "lt": "Cloudray Topwisdom TL-A1 CO2 Laser Controller"
+      "lt": "Cloudray Topwisdom TL-A1 CO2 Laser Controller",
+      "de": "Cloudray Topwisdom TL-A1 CO2 Laser Controller",
+      "fr": "Cloudray Topwisdom TL-A1 CO2 Laser Controller",
+      "es": "Cloudray Topwisdom TL-A1 CO2 Laser Controller",
+      "pl": "Cloudray Topwisdom TL-A1 CO2 Laser Controller",
+      "lv": "Cloudray Topwisdom TL-A1 CO2 Laser Controller",
+      "et": "Cloudray Topwisdom TL-A1 CO2 Laser Controller"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1601,14 +2261,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Topwisdom TL-A3S CO2 Laser Controller",
     "slug": "cloudray-cloudray-topwisdom-tl-a3s-co2-laser-controller",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 486,
     "compare_at_price": 656.1,
     "cost_price": 360,
     "supplier_sku": "LC08TLA3STZ10E",
     "badge": "Cloudray Original",
     "laser_type": "CO2 Laser (10.6um)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/CO2-Laser-Controller-1_7db4425e-1fe5-4088-b3ea-585fb7b4d336.jpg?v=1719364755",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/CO2-Laser-Controller-2_b61e82e4-0114-48cf-9509-d6dc8241820c.jpg?v=1719364755",
@@ -1618,11 +2278,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LC08TLA3STZ10E",
     "name_i18n": {
       "en": "Cloudray Topwisdom TL-A3S CO2 Laser Controller",
-      "lt": "Cloudray Topwisdom TL-A3S CO2 Laser Controller"
+      "lt": "Cloudray Topwisdom TL-A3S CO2 Laser Controller",
+      "de": "Cloudray Topwisdom TL-A3S CO2 Laser Controller",
+      "fr": "Cloudray Topwisdom TL-A3S CO2 Laser Controller",
+      "es": "Cloudray Topwisdom TL-A3S CO2 Laser Controller",
+      "pl": "Cloudray Topwisdom TL-A3S CO2 Laser Controller",
+      "lv": "Cloudray Topwisdom TL-A3S CO2 Laser Controller",
+      "et": "Cloudray Topwisdom TL-A3S CO2 Laser Controller"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1630,14 +2302,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Topwisdom TL-A4S CO2 Laser Controller",
     "slug": "cloudray-cloudray-topwisdom-tl-a4s-co2-laser-controller",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 580.5,
     "compare_at_price": 783.68,
     "cost_price": 430,
     "supplier_sku": "LC08TLA4STZ10E",
     "badge": "Cloudray Original",
     "laser_type": "CO2 Laser (10.6um)",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/CO2-Laser-Controller-1_219cccc4-2689-4933-879e-6213fd4baf53.jpg?v=1719306571",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/CO2-Laser-Controller-2.jpg?v=1719306570",
@@ -1647,11 +2319,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LC08TLA4STZ10E",
     "name_i18n": {
       "en": "Cloudray Topwisdom TL-A4S CO2 Laser Controller",
-      "lt": "Cloudray Topwisdom TL-A4S CO2 Laser Controller"
+      "lt": "Cloudray Topwisdom TL-A4S CO2 Laser Controller",
+      "de": "Cloudray Topwisdom TL-A4S CO2 Laser Controller",
+      "fr": "Cloudray Topwisdom TL-A4S CO2 Laser Controller",
+      "es": "Cloudray Topwisdom TL-A4S CO2 Laser Controller",
+      "pl": "Cloudray Topwisdom TL-A4S CO2 Laser Controller",
+      "lv": "Cloudray Topwisdom TL-A4S CO2 Laser Controller",
+      "et": "Cloudray Topwisdom TL-A4S CO2 Laser Controller"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1659,14 +2343,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Original Focusing & Collimating Lens Assembly for SUP Weiye Head",
     "slug": "cloudray-cloudray-original-focusing-collimating-lens-assembly-for-sup-weiye-head",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 74.25,
     "compare_at_price": 100.24,
     "cost_price": 55,
     "supplier_sku": "FCFL02S20STD20F150",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Original-Focusing--01.jpg?v=1719303059",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Original-Focusing--02.jpg?v=1719303059",
@@ -1676,11 +2360,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "FCFL02S20STD20F150",
     "name_i18n": {
       "en": "Cloudray Original Focusing & Collimating Lens Assembly for SUP Weiye Head",
-      "lt": "Cloudray Original Focusing & Collimating Lens Assembly for SUP Weiye Head"
+      "lt": "Cloudray Original Focusing & Collimating Lens Assembly for SUP Weiye Head",
+      "de": "Cloudray Original Focusing & Collimating Lens Assembly for SUP Weiye Head",
+      "fr": "Cloudray Original Focusing & Collimating Lens Assembly for SUP Weiye Head",
+      "es": "Cloudray Original Focusing & Collimating Lens Assembly for SUP Weiye Head",
+      "pl": "Cloudray Original Focusing & Collimating Lens Assembly for SUP Weiye Head",
+      "lv": "Cloudray Original Focusing & Collimating Lens Assembly for SUP Weiye Head",
+      "et": "Cloudray Original Focusing & Collimating Lens Assembly for SUP Weiye Head"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1688,14 +2384,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Original Reflective Lens with Holder for SUP Weiye Head",
     "slug": "cloudray-cloudray-original-reflective-lens-with-holder-for-sup-weiye-head",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 25.65,
     "compare_at_price": 34.63,
     "cost_price": 19,
     "supplier_sku": "FCFL02FM20X152T16",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Original-Reflective-Lens-1_ff8c7261-7d01-4d9c-a980-42abf7563641.jpg?v=1731476370",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Original-Reflective-Lens-2_c5696f14-2358-4bdb-8e44-1eca4545b880.jpg?v=1731476370",
@@ -1705,11 +2401,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "FCFL02FM20X152T16",
     "name_i18n": {
       "en": "Cloudray Original Reflective Lens with Holder for SUP Weiye Head",
-      "lt": "Cloudray Original Reflective Lens with Holder for SUP Weiye Head"
+      "lt": "Cloudray Original Reflective Lens with Holder for SUP Weiye Head",
+      "de": "Cloudray Original Reflective Lens with Holder for SUP Weiye Head",
+      "fr": "Cloudray Original Reflective Lens with Holder for SUP Weiye Head",
+      "es": "Cloudray Original Reflective Lens with Holder for SUP Weiye Head",
+      "pl": "Cloudray Original Reflective Lens with Holder for SUP Weiye Head",
+      "lv": "Cloudray Original Reflective Lens with Holder for SUP Weiye Head",
+      "et": "Cloudray Original Reflective Lens with Holder for SUP Weiye Head"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1717,14 +2425,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Original Protective Lens & Lens Assembly for SUP Weiye Head",
     "slug": "cloudray-original-protective-lens-lens-assembly-for-supweiye-head",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 4.05,
     "compare_at_price": 5.47,
     "cost_price": 3,
     "supplier_sku": "HW57RQ2KAP07",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Original-Protective-Lens-1.jpg?v=1719294429",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Original-Protective-Lens-2.jpg?v=1719294429",
@@ -1734,11 +2442,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "HW57RQ2KAP07",
     "name_i18n": {
       "en": "Cloudray Original Protective Lens & Lens Assembly for SUP Weiye Head",
-      "lt": "Cloudray Original Protective Lens & Lens Assembly for SUP Weiye Head"
+      "lt": "Cloudray Original Protective Lens & Lens Assembly for SUP Weiye Head",
+      "de": "Cloudray Original Protective Lens & Lens Assembly for SUP Weiye Head",
+      "fr": "Cloudray Original Protective Lens & Lens Assembly for SUP Weiye Head",
+      "es": "Cloudray Original Protective Lens & Lens Assembly for SUP Weiye Head",
+      "pl": "Cloudray Original Protective Lens & Lens Assembly for SUP Weiye Head",
+      "lv": "Cloudray Original Protective Lens & Lens Assembly for SUP Weiye Head",
+      "et": "Cloudray Original Protective Lens & Lens Assembly for SUP Weiye Head"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1746,14 +2466,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Original Sup Sealing Ring For Hand-held Laser Protective Windows",
     "slug": "cloudray-cloudray-original-sup-sealing-ring-for-hand-held-laser-protective-windows",
     "category_id": "cat_optics_safety",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 10.67,
     "compare_at_price": 14.4,
     "cost_price": 7.9,
     "supplier_sku": "PWW02YZ21X15",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Original-SUP-Sealing-Ring-1.jpg?v=1717049249",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Original-SUP-Sealing-Ring-2.jpg?v=1717049250",
@@ -1763,11 +2483,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "PWW02YZ21X15",
     "name_i18n": {
       "en": "Cloudray Original Sup Sealing Ring For Hand-held Laser Protective Windows",
-      "lt": "Cloudray Original Sup Sealing Ring For Hand-held Laser Protective Windows"
+      "lt": "Cloudray Original Sup Sealing Ring For Hand-held Laser Protective Windows",
+      "de": "Cloudray Original Sup Sealing Ring For Hand-held Laser Protective Windows",
+      "fr": "Cloudray Original Sup Sealing Ring For Hand-held Laser Protective Windows",
+      "es": "Cloudray Original Sup Sealing Ring For Hand-held Laser Protective Windows",
+      "pl": "Cloudray Original Sup Sealing Ring For Hand-held Laser Protective Windows",
+      "lv": "Cloudray Original Sup Sealing Ring For Hand-held Laser Protective Windows",
+      "et": "Cloudray Original Sup Sealing Ring For Hand-held Laser Protective Windows"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1775,14 +2507,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray BOCI Series Laser Cutting Ceramics D20 H28 M8",
     "slug": "cloudray-cloudray-boci-series-laser-cutting-ceramics-d20-h28-m8",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 21.47,
     "compare_at_price": 28.98,
     "cost_price": 15.9,
     "supplier_sku": "LC03BC04A",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray-Laser-Cutting-Ceramics-for-BOCI-Laser-Cutting-Head_01.jpg?v=1716370550",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray-Laser-Cutting-Ceramics-for-BOCI-Laser-Cutting-Head_02.jpg?v=1716370550",
@@ -1792,11 +2524,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LC03BC04A",
     "name_i18n": {
       "en": "Cloudray BOCI Series Laser Cutting Ceramics D20 H28 M8",
-      "lt": "Cloudray BOCI Series Laser Cutting Ceramics D20 H28 M8"
+      "lt": "Cloudray BOCI Series Laser Cutting Ceramics D20 H28 M8",
+      "de": "Cloudray BOCI Series Laser Cutting Ceramics D20 H28 M8",
+      "fr": "Cloudray BOCI Series Laser Cutting Ceramics D20 H28 M8",
+      "es": "Cloudray BOCI Series Laser Cutting Ceramics D20 H28 M8",
+      "pl": "Cloudray BOCI Series Laser Cutting Ceramics D20 H28 M8",
+      "lv": "Cloudray BOCI Series Laser Cutting Ceramics D20 H28 M8",
+      "et": "Cloudray BOCI Series Laser Cutting Ceramics D20 H28 M8"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1804,14 +2548,14 @@ export const PRODUCTS: Product[] = [
     "name": "Cloudray Laser Welding Nozzles M16 For QILIN Welding Head",
     "slug": "cloudray-cloudray-laser-welding-nozzle-m16-with-wire-feedfor-1064nmlaser-weldinghead-welding-machine",
     "category_id": "cat_hardware",
-    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 3.92,
     "compare_at_price": 5.29,
     "cost_price": 2.9,
     "supplier_sku": "LN03QLFYZA",
     "badge": "Cloudray Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Cloudray Component",
+    "recommended_power": "Verified Cloudray Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray-Laser-Welding_01_04c7fdf9-8d1c-422f-bb9b-8d7b248a14af.jpg?v=1737868119",
       "https://cdn.shopify.com/s/files/1/2222/7859/files/Cloudray-Laser-Welding_02_c10b3587-1da0-401e-ab49-4cf2a14b9cd5.jpg?v=1737868119",
@@ -1821,11 +2565,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "LN03QLFYZA",
     "name_i18n": {
       "en": "Cloudray Laser Welding Nozzles M16 For QILIN Welding Head",
-      "lt": "Cloudray Laser Welding Nozzles M16 For QILIN Welding Head"
+      "lt": "Cloudray Laser Welding Nozzles M16 For QILIN Welding Head",
+      "de": "Cloudray Laser Welding Nozzles M16 For QILIN Welding Head",
+      "fr": "Cloudray Laser Welding Nozzles M16 For QILIN Welding Head",
+      "es": "Cloudray Laser Welding Nozzles M16 For QILIN Welding Head",
+      "pl": "Cloudray Laser Welding Nozzles M16 For QILIN Welding Head",
+      "lv": "Cloudray Laser Welding Nozzles M16 For QILIN Welding Head",
+      "et": "Cloudray Laser Welding Nozzles M16 For QILIN Welding Head"
     },
     "description_i18n": {
-      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Cloudray profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Cloudray Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Cloudray. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Cloudray. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Cloudray. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Cloudray profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Cloudray professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1833,14 +2589,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun B40 Enclosure for Laser Engraver Smokeproof Fireproof with Fan",
     "slug": "sculpfun-sculpfun-b40-enclosure",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 363.15,
     "compare_at_price": 490.25,
     "cost_price": 269,
     "supplier_sku": "B40-US",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/1_170945c0-2f62-4121-b9a3-7a84b2bb636e.png?v=1786953151",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/2_55878f39-5faa-443d-a318-243cd407e5ac.png?v=1786953151",
@@ -1850,11 +2606,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "B40-US",
     "name_i18n": {
       "en": "Sculpfun B40 Enclosure for Laser Engraver Smokeproof Fireproof with Fan",
-      "lt": "Sculpfun B40 ugniai atspari apsauginė palapinė for Laser Engraver Smokeproof Fireproof with Fan"
+      "lt": "Sculpfun B40 ugniai atspari apsauginė palapinė for Laser Engraver Smokeproof Fireproof with Fan",
+      "de": "Sculpfun B40 Feuerfestes Schutzgehäuse for Laser Engraver Smokeproof Fireproof with Fan",
+      "fr": "Sculpfun B40 Caisson de protection ignifugé for Laser Engraver Smokeproof Fireproof with Fan",
+      "es": "Sculpfun B40 Carcasa protectora ignífuga for Laser Engraver Smokeproof Fireproof with Fan",
+      "pl": "Sculpfun B40 Obudowa ochronna ognioodporna for Laser Engraver Smokeproof Fireproof with Fan",
+      "lv": "Sculpfun B40 Ugunsdrošs aizsargkorpuss for Laser Engraver Smokeproof Fireproof with Fan",
+      "et": "Sculpfun B40 Tulekindel kaitsekamber for Laser Engraver Smokeproof Fireproof with Fan"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1862,14 +2630,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun Metal Risers for E1 Series - 4Pcs",
     "slug": "sculpfun-sculpfun-metal-risers-for-e1-series-4pcs",
     "category_id": "cat_metal",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 53.99,
     "compare_at_price": 72.89,
     "cost_price": 39.99,
     "supplier_sku": "E1-Riser",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/E1R_3.jpg?v=1782787255",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/E1R_2.jpg?v=1782787255",
@@ -1879,11 +2647,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "E1-Riser",
     "name_i18n": {
       "en": "Sculpfun Metal Risers for E1 Series - 4Pcs",
-      "lt": "Sculpfun Metal Risers for E1 Series - 4Pcs"
+      "lt": "Sculpfun Metal Risers for E1 Series - 4Pcs",
+      "de": "Sculpfun Metal Risers for E1 Series - 4Pcs",
+      "fr": "Sculpfun Metal Risers for E1 Series - 4Pcs",
+      "es": "Sculpfun Metal Risers for E1 Series - 4Pcs",
+      "pl": "Sculpfun Metal Risers for E1 Series - 4Pcs",
+      "lv": "Sculpfun Metal Risers for E1 Series - 4Pcs",
+      "et": "Sculpfun Metal Risers for E1 Series - 4Pcs"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1891,14 +2671,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun IR3 3W Infrared Laser Module for E1 Enclosed Laser Engraver",
     "slug": "sculpfun-sculpfun-ir3-3w-infrared-laser-module-for-e1-enclosed-laser-engraver",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 673.65,
     "compare_at_price": 909.43,
     "cost_price": 499,
     "supplier_sku": "IR-3",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/IR-3lasermodule_2.jpg?v=1781157902",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/IR-3lasermodule_3.jpg?v=1781157902",
@@ -1908,11 +2688,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "IR-3",
     "name_i18n": {
       "en": "Sculpfun IR3 3W Infrared Laser Module for E1 Enclosed Laser Engraver",
-      "lt": "Sculpfun IR3 3W Infrared lazerio optinis modulis for E1 Enclosed Laser Engraver"
+      "lt": "Sculpfun IR3 3W Infrared lazerio optinis modulis for E1 Enclosed Laser Engraver",
+      "de": "Sculpfun IR3 3W Infrared Lasermodul Optik for E1 Enclosed Laser Engraver",
+      "fr": "Sculpfun IR3 3W Infrared Module laser optique for E1 Enclosed Laser Engraver",
+      "es": "Sculpfun IR3 3W Infrared Módulo láser óptico for E1 Enclosed Laser Engraver",
+      "pl": "Sculpfun IR3 3W Infrared Optyczny moduł laserowy for E1 Enclosed Laser Engraver",
+      "lv": "Sculpfun IR3 3W Infrared Lāzera modulis for E1 Enclosed Laser Engraver",
+      "et": "Sculpfun IR3 3W Infrared Lasermoodul for E1 Enclosed Laser Engraver"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1920,14 +2712,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun E1 Pro Enclosed Dual Laser Engraving Machine",
     "slug": "sculpfun-sculpfun-e1-pro-enclosed-dual-laser-engraving-machine",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 1146.15,
     "compare_at_price": 1547.3,
     "cost_price": 849,
     "supplier_sku": "E1Pro-US",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/E1_49718c7e-36fe-4871-925e-0b23354b0c69.png?v=1780651031",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/E1-21W-1.jpg?v=1779435728",
@@ -1937,11 +2729,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "E1Pro-US",
     "name_i18n": {
       "en": "Sculpfun E1 Pro Enclosed Dual Laser Engraving Machine",
-      "lt": "Sculpfun E1 Pro Enclosed Dual Laser Engraving Machine"
+      "lt": "Sculpfun E1 Pro Enclosed Dual Laser Engraving Machine",
+      "de": "Sculpfun E1 Pro Enclosed Dual Laser Engraving Machine",
+      "fr": "Sculpfun E1 Pro Enclosed Dual Laser Engraving Machine",
+      "es": "Sculpfun E1 Pro Enclosed Dual Laser Engraving Machine",
+      "pl": "Sculpfun E1 Pro Enclosed Dual Laser Engraving Machine",
+      "lv": "Sculpfun E1 Pro Enclosed Dual Laser Engraving Machine",
+      "et": "Sculpfun E1 Pro Enclosed Dual Laser Engraving Machine"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1949,14 +2753,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun E1 Enclosed Dual Laser Engraving Machine",
     "slug": "sculpfun-sculpfun-e1-enclosed-dual-laser-engraving-machine",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 673.65,
     "compare_at_price": 909.43,
     "cost_price": 499,
     "supplier_sku": "E1-US",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/e1_20260507.png?v=1778142604",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/E1-12W-1-main.jpg?v=1779421930",
@@ -1966,11 +2770,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "E1-US",
     "name_i18n": {
       "en": "Sculpfun E1 Enclosed Dual Laser Engraving Machine",
-      "lt": "Sculpfun E1 Enclosed Dual Laser Engraving Machine"
+      "lt": "Sculpfun E1 Enclosed Dual Laser Engraving Machine",
+      "de": "Sculpfun E1 Enclosed Dual Laser Engraving Machine",
+      "fr": "Sculpfun E1 Enclosed Dual Laser Engraving Machine",
+      "es": "Sculpfun E1 Enclosed Dual Laser Engraving Machine",
+      "pl": "Sculpfun E1 Enclosed Dual Laser Engraving Machine",
+      "lv": "Sculpfun E1 Enclosed Dual Laser Engraving Machine",
+      "et": "Sculpfun E1 Enclosed Dual Laser Engraving Machine"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -1978,14 +2794,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun C1 6W Mini Portable Laser Engraver Ultra Fine Spot 150*130mm Engraving Area",
     "slug": "sculpfun-sculpfun-c1-mini-portable-laser-engraver-6w-ultra-fine-spot-150-130mm-engraving-area",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 201.15,
     "compare_at_price": 271.55,
     "cost_price": 149,
     "supplier_sku": "C1-6W-1",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/c1_6w1.jpg?v=1780988605",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/C16W_9.jpg?v=1777452291",
@@ -1995,11 +2811,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "C1-6W-1",
     "name_i18n": {
       "en": "Sculpfun C1 6W Mini Portable Laser Engraver Ultra Fine Spot 150*130mm Engraving Area",
-      "lt": "Sculpfun C1 6W Mini Portable Laser Engraver Ultra Fine Spot 150*130mm Engraving Area"
+      "lt": "Sculpfun C1 6W Mini Portable Laser Engraver Ultra Fine Spot 150*130mm Engraving Area",
+      "de": "Sculpfun C1 6W Mini Portable Laser Engraver Ultra Fine Spot 150*130mm Engraving Area",
+      "fr": "Sculpfun C1 6W Mini Portable Laser Engraver Ultra Fine Spot 150*130mm Engraving Area",
+      "es": "Sculpfun C1 6W Mini Portable Laser Engraver Ultra Fine Spot 150*130mm Engraving Area",
+      "pl": "Sculpfun C1 6W Mini Portable Laser Engraver Ultra Fine Spot 150*130mm Engraving Area",
+      "lv": "Sculpfun C1 6W Mini Portable Laser Engraver Ultra Fine Spot 150*130mm Engraving Area",
+      "et": "Sculpfun C1 6W Mini Portable Laser Engraver Ultra Fine Spot 150*130mm Engraving Area"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2007,14 +2835,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun MY4 K9 Blank Crystal Cube for Laser Engraving 6 Pcs",
     "slug": "sculpfun-sculpfun-my4-blank-crystal-cube-for-laser-engraving-6-pcs",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 133.65,
     "compare_at_price": 180.43,
     "cost_price": 99,
     "supplier_sku": "MY4-Crystal",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/crystal6pcs_2.jpg?v=1772787528",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/crystal6pcs_1.png?v=1772787529",
@@ -2023,11 +2851,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "MY4-Crystal",
     "name_i18n": {
       "en": "Sculpfun MY4 K9 Blank Crystal Cube for Laser Engraving 6 Pcs",
-      "lt": "Sculpfun MY4 K9 Blank Crystal Cube for Laser Engraving 6 Pcs"
+      "lt": "Sculpfun MY4 K9 Blank Crystal Cube for Laser Engraving 6 Pcs",
+      "de": "Sculpfun MY4 K9 Blank Crystal Cube for Laser Engraving 6 Pcs",
+      "fr": "Sculpfun MY4 K9 Blank Crystal Cube for Laser Engraving 6 Pcs",
+      "es": "Sculpfun MY4 K9 Blank Crystal Cube for Laser Engraving 6 Pcs",
+      "pl": "Sculpfun MY4 K9 Blank Crystal Cube for Laser Engraving 6 Pcs",
+      "lv": "Sculpfun MY4 K9 Blank Crystal Cube for Laser Engraving 6 Pcs",
+      "et": "Sculpfun MY4 K9 Blank Crystal Cube for Laser Engraving 6 Pcs"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2035,14 +2875,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
     "slug": "sculpfun-sculpfun-icube-ultra-original-lens-kit-6-pcs-for-the-12w-diode-laser",
     "category_id": "cat_optics_safety",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 67.49,
     "compare_at_price": 91.11,
     "cost_price": 49.99,
     "supplier_sku": "Lens-iCubeUltra",
     "badge": "Sculpfun Original",
     "laser_type": "Diode Laser (450nm)",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icubeultralensset_2.jpg?v=1772784277",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icubeultralensset_1.jpg?v=1772784277"
@@ -2050,11 +2890,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "Lens-iCubeUltra",
     "name_i18n": {
       "en": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
-      "lt": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser"
+      "lt": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
+      "de": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
+      "fr": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
+      "es": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
+      "pl": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
+      "lv": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser",
+      "et": "Sculpfun iCube Ultra Original Lens Kit (6 PCS) For The 12w Diode Laser"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2062,25 +2914,37 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun 40w Diode Laser Module for A9 Ultra Laser Engravers",
     "slug": "sculpfun-40w-diode-laser-module-for-a9-ultra-laser-engravers",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 472.5,
     "compare_at_price": 637.88,
     "cost_price": 350,
     "supplier_sku": "40w-diode",
     "badge": "Sculpfun Original",
     "laser_type": "Diode Laser (450nm)",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/a9ultrapackinglist_2.jpg?v=1770863682"
     ],
     "cj_pid": "40w-diode",
     "name_i18n": {
       "en": "Sculpfun 40w Diode Laser Module for A9 Ultra Laser Engravers",
-      "lt": "Sculpfun 40w Diode lazerio optinis modulis for A9 Ultra Laser Engravers"
+      "lt": "Sculpfun 40w Diode lazerio optinis modulis for A9 Ultra Laser Engravers",
+      "de": "Sculpfun 40w Diode Lasermodul Optik for A9 Ultra Laser Engravers",
+      "fr": "Sculpfun 40w Diode Module laser optique for A9 Ultra Laser Engravers",
+      "es": "Sculpfun 40w Diode Módulo láser óptico for A9 Ultra Laser Engravers",
+      "pl": "Sculpfun 40w Diode Optyczny moduł laserowy for A9 Ultra Laser Engravers",
+      "lv": "Sculpfun 40w Diode Lāzera modulis for A9 Ultra Laser Engravers",
+      "et": "Sculpfun 40w Diode Lasermoodul for A9 Ultra Laser Engravers"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2088,25 +2952,37 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
     "slug": "sculpfun-lightburn-software",
     "category_id": "cat_acrylic",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 133.65,
     "compare_at_price": 180.43,
     "cost_price": 99,
     "supplier_sku": "LightBurn",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/lightburn_fb7f574b-edd4-45e8-b63c-6dc6702af4e4.jpg?v=1731400943"
     ],
     "cj_pid": "LightBurn",
     "name_i18n": {
       "en": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
-      "lt": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key"
+      "lt": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
+      "de": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
+      "fr": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
+      "es": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
+      "pl": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
+      "lv": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key",
+      "et": "Sculpfun LightBurn Software Core /Gcode/ Pro License Key"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2114,14 +2990,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun 1.2w Infrared Laser Module for iCube Ultra Laser Engravers",
     "slug": "sculpfun-1-2w-infrared-laser-moudle-for-icube-ultra-laser-engravers",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 270,
     "compare_at_price": 364.5,
     "cost_price": 200,
     "supplier_sku": "1.2w-lasermodule",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icube_ultra_dual_main.png?v=1770369242",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/1.2w.jpg?v=1770708066",
@@ -2131,11 +3007,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "1.2w-lasermodule",
     "name_i18n": {
       "en": "Sculpfun 1.2w Infrared Laser Module for iCube Ultra Laser Engravers",
-      "lt": "Sculpfun 1.2w Infrared lazerio optinis modulis for iCube Ultra Laser Engravers"
+      "lt": "Sculpfun 1.2w Infrared lazerio optinis modulis for iCube Ultra Laser Engravers",
+      "de": "Sculpfun 1.2w Infrared Lasermodul Optik for iCube Ultra Laser Engravers",
+      "fr": "Sculpfun 1.2w Infrared Module laser optique for iCube Ultra Laser Engravers",
+      "es": "Sculpfun 1.2w Infrared Módulo láser óptico for iCube Ultra Laser Engravers",
+      "pl": "Sculpfun 1.2w Infrared Optyczny moduł laserowy for iCube Ultra Laser Engravers",
+      "lv": "Sculpfun 1.2w Infrared Lāzera modulis for iCube Ultra Laser Engravers",
+      "et": "Sculpfun 1.2w Infrared Lasermoodul for iCube Ultra Laser Engravers"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2143,14 +3031,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun C1 Mini 3W Portable Laser Engraver + RA Mini Roller Set for Curved Surface Engraving",
     "slug": "sculpfun-sculpfun-c1-mini-3w-portable-laser-engraver-ra-mini-roller-set-for-curved-surface-engraving",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 228.15,
     "compare_at_price": 308,
     "cost_price": 169,
     "supplier_sku": "C1+RA MINI-US",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/C1_RAMINI.png?v=1768389261",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/C01_69d21ce0-d15d-422b-a437-892258aed24f.jpg?v=1747895588",
@@ -2160,11 +3048,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "C1+RA MINI-US",
     "name_i18n": {
       "en": "Sculpfun C1 Mini 3W Portable Laser Engraver + RA Mini Roller Set for Curved Surface Engraving",
-      "lt": "Sculpfun C1 Mini 3W Portable Laser Engraver + RA Mini Roller Set for Curved Surface Engraving"
+      "lt": "Sculpfun C1 Mini 3W Portable Laser Engraver + RA Mini Roller Set for Curved Surface Engraving",
+      "de": "Sculpfun C1 Mini 3W Portable Laser Engraver + RA Mini Roller Set for Curved Surface Engraving",
+      "fr": "Sculpfun C1 Mini 3W Portable Laser Engraver + RA Mini Roller Set for Curved Surface Engraving",
+      "es": "Sculpfun C1 Mini 3W Portable Laser Engraver + RA Mini Roller Set for Curved Surface Engraving",
+      "pl": "Sculpfun C1 Mini 3W Portable Laser Engraver + RA Mini Roller Set for Curved Surface Engraving",
+      "lv": "Sculpfun C1 Mini 3W Portable Laser Engraver + RA Mini Roller Set for Curved Surface Engraving",
+      "et": "Sculpfun C1 Mini 3W Portable Laser Engraver + RA Mini Roller Set for Curved Surface Engraving"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2172,25 +3072,37 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun Make up the difference(Parts)",
     "slug": "sculpfun-make-up-the-difference-copy",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 1.35,
     "compare_at_price": 1.82,
     "cost_price": 1,
     "supplier_sku": "SCULPFUN-8507431583922",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/T02_2e9aee14-a293-48e6-ac69-3c7a115ddb6a.png?v=1716173370"
     ],
     "cj_pid": "SCULPFUN-8507431583922",
     "name_i18n": {
       "en": "Sculpfun Make up the difference(Parts)",
-      "lt": "Sculpfun Make up the difference(Parts)"
+      "lt": "Sculpfun Make up the difference(Parts)",
+      "de": "Sculpfun Make up the difference(Parts)",
+      "fr": "Sculpfun Make up the difference(Parts)",
+      "es": "Sculpfun Make up the difference(Parts)",
+      "pl": "Sculpfun Make up the difference(Parts)",
+      "lv": "Sculpfun Make up the difference(Parts)",
+      "et": "Sculpfun Make up the difference(Parts)"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2198,14 +3110,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun MY3 K9 Blank Crystal Cube for V5 Laser Engraving - 4 Pcs",
     "slug": "sculpfun-sculpfun-my3-blank-crystal-cube-for-v5-laser-engraving-4-pcs",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 134.99,
     "compare_at_price": 182.24,
     "cost_price": 99.99,
     "supplier_sku": "CrystalCube",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/01_32ed91ce-2762-49b6-8af8-39b1aab83e45.jpg?v=1764733412",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/02_bd8ea888-e387-46d7-8cef-274deb2e478c.jpg?v=1764733412",
@@ -2215,11 +3127,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "CrystalCube",
     "name_i18n": {
       "en": "Sculpfun MY3 K9 Blank Crystal Cube for V5 Laser Engraving - 4 Pcs",
-      "lt": "Sculpfun MY3 K9 Blank Crystal Cube for V5 Laser Engraving - 4 Pcs"
+      "lt": "Sculpfun MY3 K9 Blank Crystal Cube for V5 Laser Engraving - 4 Pcs",
+      "de": "Sculpfun MY3 K9 Blank Crystal Cube for V5 Laser Engraving - 4 Pcs",
+      "fr": "Sculpfun MY3 K9 Blank Crystal Cube for V5 Laser Engraving - 4 Pcs",
+      "es": "Sculpfun MY3 K9 Blank Crystal Cube for V5 Laser Engraving - 4 Pcs",
+      "pl": "Sculpfun MY3 K9 Blank Crystal Cube for V5 Laser Engraving - 4 Pcs",
+      "lv": "Sculpfun MY3 K9 Blank Crystal Cube for V5 Laser Engraving - 4 Pcs",
+      "et": "Sculpfun MY3 K9 Blank Crystal Cube for V5 Laser Engraving - 4 Pcs"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2227,25 +3151,37 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun iCube Ultra iCam Camera + RA Mini Rotary Roller + Air Assist 3 in 1 Accessory Kit",
     "slug": "sculpfun-icube-ultra-icam-camera-ra-mini-rotary-roller-air-assist-all-in-1-kit",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 187.65,
     "compare_at_price": 253.33,
     "cost_price": 139,
     "supplier_sku": "iCube Ultra PAC3",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/pac3.jpg?v=1760519479"
     ],
     "cj_pid": "iCube Ultra PAC3",
     "name_i18n": {
       "en": "Sculpfun iCube Ultra iCam Camera + RA Mini Rotary Roller + Air Assist 3 in 1 Accessory Kit",
-      "lt": "Sculpfun iCube Ultra iCam Camera + RA Mini sukamasis ritinėlis cilindrams + Air Assist 3 in 1 Accessory Kit"
+      "lt": "Sculpfun iCube Ultra iCam Camera + RA Mini sukamasis ritinėlis cilindrams + Air Assist 3 in 1 Accessory Kit",
+      "de": "Sculpfun iCube Ultra iCam Camera + RA Mini Rotationswalze für Zylinder + Air Assist 3 in 1 Accessory Kit",
+      "fr": "Sculpfun iCube Ultra iCam Camera + RA Mini Module rotatif pour cylindres + Air Assist 3 in 1 Accessory Kit",
+      "es": "Sculpfun iCube Ultra iCam Camera + RA Mini Rodillo rotatorio para cilindros + Air Assist 3 in 1 Accessory Kit",
+      "pl": "Sculpfun iCube Ultra iCam Camera + RA Mini Rolka obrotowa do cylindrów + Air Assist 3 in 1 Accessory Kit",
+      "lv": "Sculpfun iCube Ultra iCam Camera + RA Mini Rotējošais rullītis cilindriem + Air Assist 3 in 1 Accessory Kit",
+      "et": "Sculpfun iCube Ultra iCam Camera + RA Mini Pöörlev rull silindritele + Air Assist 3 in 1 Accessory Kit"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2253,14 +3189,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun IR20 20W Fiber Laser Module Kit",
     "slug": "sculpfun-sculpfun-ir20-20w-fiber-laser-module-kit",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 1213.65,
     "compare_at_price": 1638.43,
     "cost_price": 899,
     "supplier_sku": "IR20-US",
     "badge": "Sculpfun Original",
     "laser_type": "Fiber / MOPA Laser (1064nm)",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/IR20.jpg?v=1756437466",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/ir20_7.jpg?v=1756452335",
@@ -2270,11 +3206,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "IR20-US",
     "name_i18n": {
       "en": "Sculpfun IR20 20W Fiber Laser Module Kit",
-      "lt": "Sculpfun IR20 20W Fiber lazerio optinis modulis Kit"
+      "lt": "Sculpfun IR20 20W Fiber lazerio optinis modulis Kit",
+      "de": "Sculpfun IR20 20W Fiber Lasermodul Optik Kit",
+      "fr": "Sculpfun IR20 20W Fiber Module laser optique Kit",
+      "es": "Sculpfun IR20 20W Fiber Módulo láser óptico Kit",
+      "pl": "Sculpfun IR20 20W Fiber Optyczny moduł laserowy Kit",
+      "lv": "Sculpfun IR20 20W Fiber Lāzera modulis Kit",
+      "et": "Sculpfun IR20 20W Fiber Lasermoodul Kit"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2282,25 +3230,37 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun Shipping Protection",
     "slug": "sculpfun-shipping-protection",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 1.32,
     "compare_at_price": 1.78,
     "cost_price": 0.98,
     "supplier_sku": "XMHPACELSKU",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/logosp.png?v=1754643213"
     ],
     "cj_pid": "XMHPACELSKU",
     "name_i18n": {
       "en": "Sculpfun Shipping Protection",
-      "lt": "Sculpfun Shipping Protection"
+      "lt": "Sculpfun Shipping Protection",
+      "de": "Sculpfun Shipping Protection",
+      "fr": "Sculpfun Shipping Protection",
+      "es": "Sculpfun Shipping Protection",
+      "pl": "Sculpfun Shipping Protection",
+      "lv": "Sculpfun Shipping Protection",
+      "et": "Sculpfun Shipping Protection"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2308,14 +3268,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun Multi-Color Plywood Sheets – 6pcs A4 11.7\"x8.27\" 3mm, FSC Certified & DIY",
     "slug": "sculpfun-multi-color-plywood-sheets-6pcs-a4-11-7x8-27-3mm-fsc-certified-diy",
     "category_id": "cat_wood",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 26.99,
     "compare_at_price": 36.44,
     "cost_price": 19.99,
     "supplier_sku": "3701-026577-87U0A-1",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/A4coloredplywood_2.jpg?v=1754040872",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/A4coloredplywood_3.jpg?v=1754040872",
@@ -2325,11 +3285,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "3701-026577-87U0A-1",
     "name_i18n": {
       "en": "Sculpfun Multi-Color Plywood Sheets – 6pcs A4 11.7\"x8.27\" 3mm, FSC Certified & DIY",
-      "lt": "Sculpfun Multi-Color Plywood Sheets – 6pcs A4 11.7\"x8.27\" 3mm, FSC Certified & DIY"
+      "lt": "Sculpfun Multi-Color Plywood Sheets – 6pcs A4 11.7\"x8.27\" 3mm, FSC Certified & DIY",
+      "de": "Sculpfun Multi-Color Plywood Sheets – 6pcs A4 11.7\"x8.27\" 3mm, FSC Certified & DIY",
+      "fr": "Sculpfun Multi-Color Plywood Sheets – 6pcs A4 11.7\"x8.27\" 3mm, FSC Certified & DIY",
+      "es": "Sculpfun Multi-Color Plywood Sheets – 6pcs A4 11.7\"x8.27\" 3mm, FSC Certified & DIY",
+      "pl": "Sculpfun Multi-Color Plywood Sheets – 6pcs A4 11.7\"x8.27\" 3mm, FSC Certified & DIY",
+      "lv": "Sculpfun Multi-Color Plywood Sheets – 6pcs A4 11.7\"x8.27\" 3mm, FSC Certified & DIY",
+      "et": "Sculpfun Multi-Color Plywood Sheets – 6pcs A4 11.7\"x8.27\" 3mm, FSC Certified & DIY"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2337,14 +3309,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun Multi-Color Plywood Sheets – 8pcs 30x30cm 3mm, DIY & Laser-Safe",
     "slug": "sculpfun-multi-color-plywood-sheets-8pcs-30x30cm-3mm-diy-laser-safe",
     "category_id": "cat_wood",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 33.74,
     "compare_at_price": 45.55,
     "cost_price": 24.99,
     "supplier_sku": "3701-026532-87U0J-1-cn",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/coloredplywood_13_81fbc2fc-898a-43f5-9791-d6c201c26a3e.jpg?v=1754040751",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/coloredplywood_2_b493e72c-b8df-46ff-abe3-6cae24015ab7.jpg?v=1754877504",
@@ -2354,11 +3326,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "3701-026532-87U0J-1-cn",
     "name_i18n": {
       "en": "Sculpfun Multi-Color Plywood Sheets – 8pcs 30x30cm 3mm, DIY & Laser-Safe",
-      "lt": "Sculpfun Multi-Color Plywood Sheets – 8pcs 30x30cm 3mm, DIY & Laser-Safe"
+      "lt": "Sculpfun Multi-Color Plywood Sheets – 8pcs 30x30cm 3mm, DIY & Laser-Safe",
+      "de": "Sculpfun Multi-Color Plywood Sheets – 8pcs 30x30cm 3mm, DIY & Laser-Safe",
+      "fr": "Sculpfun Multi-Color Plywood Sheets – 8pcs 30x30cm 3mm, DIY & Laser-Safe",
+      "es": "Sculpfun Multi-Color Plywood Sheets – 8pcs 30x30cm 3mm, DIY & Laser-Safe",
+      "pl": "Sculpfun Multi-Color Plywood Sheets – 8pcs 30x30cm 3mm, DIY & Laser-Safe",
+      "lv": "Sculpfun Multi-Color Plywood Sheets – 8pcs 30x30cm 3mm, DIY & Laser-Safe",
+      "et": "Sculpfun Multi-Color Plywood Sheets – 8pcs 30x30cm 3mm, DIY & Laser-Safe"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2366,14 +3350,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun RA Mini Rotary Roller For iCube Ultra / iCube Series/ C1 Laser Engravers",
     "slug": "sculpfun-sculpfun-ra-mini-rotary-roller",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 94.49,
     "compare_at_price": 127.56,
     "cost_price": 69.99,
     "supplier_sku": "RAMINI",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/raminirotaryroller_10.jpg?v=1753067667",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/raminirotaryroller_11.jpg?v=1753067667",
@@ -2383,11 +3367,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "RAMINI",
     "name_i18n": {
       "en": "Sculpfun RA Mini Rotary Roller For iCube Ultra / iCube Series/ C1 Laser Engravers",
-      "lt": "Sculpfun RA Mini sukamasis ritinėlis cilindrams For iCube Ultra / iCube Series/ C1 Laser Engravers"
+      "lt": "Sculpfun RA Mini sukamasis ritinėlis cilindrams For iCube Ultra / iCube Series/ C1 Laser Engravers",
+      "de": "Sculpfun RA Mini Rotationswalze für Zylinder For iCube Ultra / iCube Series/ C1 Laser Engravers",
+      "fr": "Sculpfun RA Mini Module rotatif pour cylindres For iCube Ultra / iCube Series/ C1 Laser Engravers",
+      "es": "Sculpfun RA Mini Rodillo rotatorio para cilindros For iCube Ultra / iCube Series/ C1 Laser Engravers",
+      "pl": "Sculpfun RA Mini Rolka obrotowa do cylindrów For iCube Ultra / iCube Series/ C1 Laser Engravers",
+      "lv": "Sculpfun RA Mini Rotējošais rullītis cilindriem For iCube Ultra / iCube Series/ C1 Laser Engravers",
+      "et": "Sculpfun RA Mini Pöörlev rull silindritele For iCube Ultra / iCube Series/ C1 Laser Engravers"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2395,14 +3391,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun iCube Ultra: Flagship Portable Dual Laser Module Switching Engraver",
     "slug": "sculpfun-icube-ultra-portable-laser-engraving-machine",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 403.65,
     "compare_at_price": 544.93,
     "cost_price": 299,
     "supplier_sku": "iCubeUltra-US",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icube_392d32fc-98cf-4a19-9bef-866b62b92afd.jpg?v=1760598895",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icube_ultra_5.png?v=1760598895",
@@ -2412,11 +3408,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "iCubeUltra-US",
     "name_i18n": {
       "en": "Sculpfun iCube Ultra: Flagship Portable Dual Laser Module Switching Engraver",
-      "lt": "Sculpfun iCube Ultra: Flagship Portable Dual lazerio optinis modulis Switching Engraver"
+      "lt": "Sculpfun iCube Ultra: Flagship Portable Dual lazerio optinis modulis Switching Engraver",
+      "de": "Sculpfun iCube Ultra: Flagship Portable Dual Lasermodul Optik Switching Engraver",
+      "fr": "Sculpfun iCube Ultra: Flagship Portable Dual Module laser optique Switching Engraver",
+      "es": "Sculpfun iCube Ultra: Flagship Portable Dual Módulo láser óptico Switching Engraver",
+      "pl": "Sculpfun iCube Ultra: Flagship Portable Dual Optyczny moduł laserowy Switching Engraver",
+      "lv": "Sculpfun iCube Ultra: Flagship Portable Dual Lāzera modulis Switching Engraver",
+      "et": "Sculpfun iCube Ultra: Flagship Portable Dual Lasermoodul Switching Engraver"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2424,14 +3432,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun iCube Ultra Laser Engraver Air Assist Kit",
     "slug": "sculpfun-sculpfun-icube-ultra-air-assist-kit",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 94.49,
     "compare_at_price": 127.56,
     "cost_price": 69.99,
     "supplier_sku": "iCubeUltra-AP",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/iCubeUltra-AP_1.png?v=1753151305",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/iCubeUltra-AP_4.png?v=1753151305",
@@ -2441,11 +3449,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "iCubeUltra-AP",
     "name_i18n": {
       "en": "Sculpfun iCube Ultra Laser Engraver Air Assist Kit",
-      "lt": "Sculpfun iCube Ultra Laser Engraver Air Assist Kit"
+      "lt": "Sculpfun iCube Ultra Laser Engraver Air Assist Kit",
+      "de": "Sculpfun iCube Ultra Laser Engraver Air Assist Kit",
+      "fr": "Sculpfun iCube Ultra Laser Engraver Air Assist Kit",
+      "es": "Sculpfun iCube Ultra Laser Engraver Air Assist Kit",
+      "pl": "Sculpfun iCube Ultra Laser Engraver Air Assist Kit",
+      "lv": "Sculpfun iCube Ultra Laser Engraver Air Assist Kit",
+      "et": "Sculpfun iCube Ultra Laser Engraver Air Assist Kit"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2453,14 +3473,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun iCube Ultra iCAM Camera 5MP",
     "slug": "sculpfun-sculpfun-icube-ultra-icam-camera-5mp",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 80.99,
     "compare_at_price": 109.34,
     "cost_price": 59.99,
     "supplier_sku": "iCam",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icam_1_b97e3cf9-cf37-4575-9b53-3e8f83a3353b.png?v=1753065994",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icam_2_965bccbb-0121-4c65-bef2-d220ec9a389d.png?v=1753065994",
@@ -2470,11 +3490,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "iCam",
     "name_i18n": {
       "en": "Sculpfun iCube Ultra iCAM Camera 5MP",
-      "lt": "Sculpfun iCube Ultra iCAM Camera 5MP"
+      "lt": "Sculpfun iCube Ultra iCAM Camera 5MP",
+      "de": "Sculpfun iCube Ultra iCAM Camera 5MP",
+      "fr": "Sculpfun iCube Ultra iCAM Camera 5MP",
+      "es": "Sculpfun iCube Ultra iCAM Camera 5MP",
+      "pl": "Sculpfun iCube Ultra iCAM Camera 5MP",
+      "lv": "Sculpfun iCube Ultra iCAM Camera 5MP",
+      "et": "Sculpfun iCube Ultra iCAM Camera 5MP"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2482,14 +3514,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun TS1 3.5 inch Touch Screen for Laser Engravers Offline Working",
     "slug": "sculpfun-sculpfun-ts1-3-5-inch-touch-screen-for-laser-engravers-offline-working",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 74.24,
     "compare_at_price": 100.22,
     "cost_price": 54.99,
     "supplier_sku": "SCULPFUN-TS1-1",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/01_101003a1-0be6-415f-b749-dd69016402b9.jpg?v=1718337083",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/02_b2678fc2-e0fe-4990-a966-721321b45630.jpg?v=1718337083",
@@ -2499,11 +3531,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "SCULPFUN-TS1-1",
     "name_i18n": {
       "en": "Sculpfun TS1 3.5 inch Touch Screen for Laser Engravers Offline Working",
-      "lt": "Sculpfun TS1 3.5 inch Touch Screen for Laser Engravers Offline Working"
+      "lt": "Sculpfun TS1 3.5 inch Touch Screen for Laser Engravers Offline Working",
+      "de": "Sculpfun TS1 3.5 inch Touch Screen for Laser Engravers Offline Working",
+      "fr": "Sculpfun TS1 3.5 inch Touch Screen for Laser Engravers Offline Working",
+      "es": "Sculpfun TS1 3.5 inch Touch Screen for Laser Engravers Offline Working",
+      "pl": "Sculpfun TS1 3.5 inch Touch Screen for Laser Engravers Offline Working",
+      "lv": "Sculpfun TS1 3.5 inch Touch Screen for Laser Engravers Offline Working",
+      "et": "Sculpfun TS1 3.5 inch Touch Screen for Laser Engravers Offline Working"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2511,14 +3555,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
     "slug": "sculpfun-h1-pack1",
     "category_id": "cat_metal",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 94.49,
     "compare_at_price": 127.56,
     "cost_price": 69.99,
     "supplier_sku": "SCULPFUN-8533693759666",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/pad.jpg?v=1752134848",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/pack2.jpg?v=1752134990"
@@ -2526,11 +3570,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "SCULPFUN-8533693759666",
     "name_i18n": {
       "en": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
-      "lt": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad"
+      "lt": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
+      "de": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
+      "fr": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
+      "es": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
+      "pl": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
+      "lv": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad",
+      "et": "Sculpfun Sublimation Paper 8.5x11 Inch 120 Sheets + Heat Transfer Paper for Inkjet & Laserjet Printer (10 Sheets 8.5x11 light color + 10 Sheets 8.5x11 dark color）+30*100cm brown high temperature cloth roll + Pad"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2538,14 +3594,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun C1 3W Mini Portable Laser Engraver",
     "slug": "sculpfun-sculpfun-c1-mini-laser-engraver-3w",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 133.65,
     "compare_at_price": 180.43,
     "cost_price": 99,
     "supplier_sku": "C1-US",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/c1-3w.jpg?v=1789956698",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/A03_95dd3627-53fe-47e3-9d63-ea843f3acf58.jpg?v=1747895588",
@@ -2555,11 +3611,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "C1-US",
     "name_i18n": {
       "en": "Sculpfun C1 3W Mini Portable Laser Engraver",
-      "lt": "Sculpfun C1 3W Mini Portable Laser Engraver"
+      "lt": "Sculpfun C1 3W Mini Portable Laser Engraver",
+      "de": "Sculpfun C1 3W Mini Portable Laser Engraver",
+      "fr": "Sculpfun C1 3W Mini Portable Laser Engraver",
+      "es": "Sculpfun C1 3W Mini Portable Laser Engraver",
+      "pl": "Sculpfun C1 3W Mini Portable Laser Engraver",
+      "lv": "Sculpfun C1 3W Mini Portable Laser Engraver",
+      "et": "Sculpfun C1 3W Mini Portable Laser Engraver"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2567,14 +3635,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun laser lens with copper nozzle",
     "slug": "sculpfun-sculpfun-laser-lens-with-copper-nozzle",
     "category_id": "cat_optics_safety",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 39.15,
     "compare_at_price": 52.85,
     "cost_price": 29,
     "supplier_sku": "F-Lens-s30proM",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/lens-s30promax.jpg?v=1747810465",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/lasercode.png?v=1747984439",
@@ -2584,11 +3652,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "F-Lens-s30proM",
     "name_i18n": {
       "en": "Sculpfun laser lens with copper nozzle",
-      "lt": "Sculpfun fokusavimo lęšis with copper nozzle"
+      "lt": "Sculpfun fokusavimo lęšis with copper nozzle",
+      "de": "Sculpfun Fokuslinse ZnSe with copper nozzle",
+      "fr": "Sculpfun Lentille de focalisation with copper nozzle",
+      "es": "Sculpfun Lente de enfoque with copper nozzle",
+      "pl": "Sculpfun Soczewka skupiająca with copper nozzle",
+      "lv": "Sculpfun Fokusēšanas lēca with copper nozzle",
+      "et": "Sculpfun Fokuseerimislääts with copper nozzle"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2596,14 +3676,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun S40 MAX Original Lens Kit 6Pcs Official Standard Lenses",
     "slug": "sculpfun-sculpfun-s40-max-original-lens-kit-6pcs-official-standard-lenses",
     "category_id": "cat_optics_safety",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 80.99,
     "compare_at_price": 109.34,
     "cost_price": 59.99,
     "supplier_sku": "S40-Lens",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/s40_max_lens.jpg?v=1745746631",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/s40_max_lens1_2.jpg?v=1745746631",
@@ -2613,11 +3693,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "S40-Lens",
     "name_i18n": {
       "en": "Sculpfun S40 MAX Original Lens Kit 6Pcs Official Standard Lenses",
-      "lt": "Sculpfun S40 MAX Original Lens Kit 6Pcs Official Standard Lenses"
+      "lt": "Sculpfun S40 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "de": "Sculpfun S40 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "fr": "Sculpfun S40 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "es": "Sculpfun S40 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "pl": "Sculpfun S40 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "lv": "Sculpfun S40 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "et": "Sculpfun S40 MAX Original Lens Kit 6Pcs Official Standard Lenses"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2625,14 +3717,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun [U.S. Clearance Sale] SCULPFUN H5 Gen2 Honeycomb Cutting Exhaust Platform 650×650mm Honeycomb Laser Bed",
     "slug": "sculpfun-sculpfun-h5-gen2-honeycomb-cutting-exhaust-platform-650-650mm-honeycomb-laser-bed-with-fume-extraction-fan",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 175.49,
     "compare_at_price": 236.91,
     "cost_price": 129.99,
     "supplier_sku": "SCP-H5-US",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/sculpfunH5_3.jpg?v=1744095341",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/sculpfunH5_2.jpg?v=1744095341",
@@ -2642,11 +3734,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "SCP-H5-US",
     "name_i18n": {
       "en": "Sculpfun [U.S. Clearance Sale] SCULPFUN H5 Gen2 Honeycomb Cutting Exhaust Platform 650×650mm Honeycomb Laser Bed",
-      "lt": "Sculpfun [U.S. Clearance Sale] SCULPFUN H5 Gen2 Honeycomb Cutting Exhaust Platform 650×650mm Honeycomb Laser Bed"
+      "lt": "Sculpfun [U.S. Clearance Sale] SCULPFUN H5 Gen2 Honeycomb Cutting Exhaust Platform 650×650mm Honeycomb Laser Bed",
+      "de": "Sculpfun [U.S. Clearance Sale] SCULPFUN H5 Gen2 Honeycomb Cutting Exhaust Platform 650×650mm Honeycomb Laser Bed",
+      "fr": "Sculpfun [U.S. Clearance Sale] SCULPFUN H5 Gen2 Honeycomb Cutting Exhaust Platform 650×650mm Honeycomb Laser Bed",
+      "es": "Sculpfun [U.S. Clearance Sale] SCULPFUN H5 Gen2 Honeycomb Cutting Exhaust Platform 650×650mm Honeycomb Laser Bed",
+      "pl": "Sculpfun [U.S. Clearance Sale] SCULPFUN H5 Gen2 Honeycomb Cutting Exhaust Platform 650×650mm Honeycomb Laser Bed",
+      "lv": "Sculpfun [U.S. Clearance Sale] SCULPFUN H5 Gen2 Honeycomb Cutting Exhaust Platform 650×650mm Honeycomb Laser Bed",
+      "et": "Sculpfun [U.S. Clearance Sale] SCULPFUN H5 Gen2 Honeycomb Cutting Exhaust Platform 650×650mm Honeycomb Laser Bed"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2654,14 +3758,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun S40 MAX 48W Laser Engraver Cutting Machine 830*800mm Engraving Area",
     "slug": "sculpfun-sculpfun-s40-max-48w-laser-engraver-cutting-machine-830-800mm-engraving-area-one-click-auto-focus",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 1551.15,
     "compare_at_price": 2094.05,
     "cost_price": 1149,
     "supplier_sku": "S40MAX-US",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S40_max_new_front_view.jpg?v=1750747298",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/B02_ddf92f80-ba9c-47ec-97ae-2e734b0eb6a3.jpg?v=1751507305",
@@ -2671,11 +3775,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "S40MAX-US",
     "name_i18n": {
       "en": "Sculpfun S40 MAX 48W Laser Engraver Cutting Machine 830*800mm Engraving Area",
-      "lt": "Sculpfun S40 MAX 48W Laser Engraver Cutting Machine 830*800mm Engraving Area"
+      "lt": "Sculpfun S40 MAX 48W Laser Engraver Cutting Machine 830*800mm Engraving Area",
+      "de": "Sculpfun S40 MAX 48W Laser Engraver Cutting Machine 830*800mm Engraving Area",
+      "fr": "Sculpfun S40 MAX 48W Laser Engraver Cutting Machine 830*800mm Engraving Area",
+      "es": "Sculpfun S40 MAX 48W Laser Engraver Cutting Machine 830*800mm Engraving Area",
+      "pl": "Sculpfun S40 MAX 48W Laser Engraver Cutting Machine 830*800mm Engraving Area",
+      "lv": "Sculpfun S40 MAX 48W Laser Engraver Cutting Machine 830*800mm Engraving Area",
+      "et": "Sculpfun S40 MAX 48W Laser Engraver Cutting Machine 830*800mm Engraving Area"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2683,14 +3799,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun [Clearance Sale] SCULPFUN H1 Auto Heat Press Machine",
     "slug": "sculpfun-sculpfun-h1-auto-heat-press-machine",
     "category_id": "cat_hardware",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 268.65,
     "compare_at_price": 362.68,
     "cost_price": 199,
     "supplier_sku": "H1-US",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/sculpfun_h1_heat_press_machine_front_view.jpg?v=1750153442",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/sculpfun_h1_heat_press_machine_side_view.jpg?v=1746519002",
@@ -2700,11 +3816,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "H1-US",
     "name_i18n": {
       "en": "Sculpfun [Clearance Sale] SCULPFUN H1 Auto Heat Press Machine",
-      "lt": "Sculpfun [Clearance Sale] SCULPFUN H1 Auto Heat Press Machine"
+      "lt": "Sculpfun [Clearance Sale] SCULPFUN H1 Auto Heat Press Machine",
+      "de": "Sculpfun [Clearance Sale] SCULPFUN H1 Auto Heat Press Machine",
+      "fr": "Sculpfun [Clearance Sale] SCULPFUN H1 Auto Heat Press Machine",
+      "es": "Sculpfun [Clearance Sale] SCULPFUN H1 Auto Heat Press Machine",
+      "pl": "Sculpfun [Clearance Sale] SCULPFUN H1 Auto Heat Press Machine",
+      "lv": "Sculpfun [Clearance Sale] SCULPFUN H1 Auto Heat Press Machine",
+      "et": "Sculpfun [Clearance Sale] SCULPFUN H1 Auto Heat Press Machine"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2712,14 +3840,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun S70 MAX Original Lens Kit 6Pcs Official Standard Lenses",
     "slug": "sculpfun-sculpfun-s70-max-original-lens-kit-6pcs-official-standard-lenses",
     "category_id": "cat_optics_safety",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 89.09,
     "compare_at_price": 120.27,
     "cost_price": 65.99,
     "supplier_sku": "S70-Lens",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/s70_max_lens_7.png?v=1745996702",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/7_80376140-c654-49e2-8758-98f7d54beeae.png?v=1745996702",
@@ -2729,11 +3857,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "S70-Lens",
     "name_i18n": {
       "en": "Sculpfun S70 MAX Original Lens Kit 6Pcs Official Standard Lenses",
-      "lt": "Sculpfun S70 MAX Original Lens Kit 6Pcs Official Standard Lenses"
+      "lt": "Sculpfun S70 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "de": "Sculpfun S70 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "fr": "Sculpfun S70 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "es": "Sculpfun S70 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "pl": "Sculpfun S70 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "lv": "Sculpfun S70 MAX Original Lens Kit 6Pcs Official Standard Lenses",
+      "et": "Sculpfun S70 MAX Original Lens Kit 6Pcs Official Standard Lenses"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2741,14 +3881,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun iCube Pro Max 10W Portable Laser Engraving Machine + LightBurn Core License Key",
     "slug": "sculpfun-sculpfun-icube-pro-max-10w-portable-laser-engraving-machine-lightburn-core-license-key",
     "category_id": "cat_acrylic",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 484.64,
     "compare_at_price": 654.26,
     "cost_price": 358.99,
     "supplier_sku": "ICube-10W-US+LB",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icube_5_f279c1cc-1a48-4a92-a780-3c7e7ab5d3cb.jpg?v=1757323473",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icube_2_7e360dac-de09-4cad-92a9-93773ca43501.jpg?v=1757323473",
@@ -2758,11 +3898,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "ICube-10W-US+LB",
     "name_i18n": {
       "en": "Sculpfun iCube Pro Max 10W Portable Laser Engraving Machine + LightBurn Core License Key",
-      "lt": "Sculpfun iCube Pro Max 10W Portable Laser Engraving Machine + LightBurn Core License Key"
+      "lt": "Sculpfun iCube Pro Max 10W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "de": "Sculpfun iCube Pro Max 10W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "fr": "Sculpfun iCube Pro Max 10W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "es": "Sculpfun iCube Pro Max 10W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "pl": "Sculpfun iCube Pro Max 10W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "lv": "Sculpfun iCube Pro Max 10W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "et": "Sculpfun iCube Pro Max 10W Portable Laser Engraving Machine + LightBurn Core License Key"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2770,14 +3922,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun iCube 3W Portable Laser Engraving Machine + LightBurn Core License Key",
     "slug": "sculpfun-sculpfun-icube-3w-portable-laser-engraving-machine-lightburn-core-license-key",
     "category_id": "cat_acrylic",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 364.49,
     "compare_at_price": 492.06,
     "cost_price": 269.99,
     "supplier_sku": "ICube-3W-US+LB",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icube_5_be4b48bc-18d2-41f6-b7aa-1d115fcfe09a.jpg?v=1757328447",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icube_2_4c0c4eeb-677c-432c-98ce-020730bf87d5.jpg?v=1757328447",
@@ -2787,11 +3939,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "ICube-3W-US+LB",
     "name_i18n": {
       "en": "Sculpfun iCube 3W Portable Laser Engraving Machine + LightBurn Core License Key",
-      "lt": "Sculpfun iCube 3W Portable Laser Engraving Machine + LightBurn Core License Key"
+      "lt": "Sculpfun iCube 3W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "de": "Sculpfun iCube 3W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "fr": "Sculpfun iCube 3W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "es": "Sculpfun iCube 3W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "pl": "Sculpfun iCube 3W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "lv": "Sculpfun iCube 3W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "et": "Sculpfun iCube 3W Portable Laser Engraving Machine + LightBurn Core License Key"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2799,14 +3963,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun iCube Pro 5W Portable Laser Engraving Machine + LightBurn Core License Key",
     "slug": "sculpfun-sculpfun-icube-pro-5w-portable-laser-engraving-machine-lightburn-core-license-key",
     "category_id": "cat_acrylic",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 364.49,
     "compare_at_price": 492.06,
     "cost_price": 269.99,
     "supplier_sku": "ICube-5W-US+LB",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icube_5_ad31fa51-5c57-4d1a-ba2f-b6600ab9ce1d.jpg?v=1757328227",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icube_2_06fc3352-966c-46ff-87d0-598dd33d89c3.jpg?v=1757328227",
@@ -2816,11 +3980,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "ICube-5W-US+LB",
     "name_i18n": {
       "en": "Sculpfun iCube Pro 5W Portable Laser Engraving Machine + LightBurn Core License Key",
-      "lt": "Sculpfun iCube Pro 5W Portable Laser Engraving Machine + LightBurn Core License Key"
+      "lt": "Sculpfun iCube Pro 5W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "de": "Sculpfun iCube Pro 5W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "fr": "Sculpfun iCube Pro 5W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "es": "Sculpfun iCube Pro 5W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "pl": "Sculpfun iCube Pro 5W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "lv": "Sculpfun iCube Pro 5W Portable Laser Engraving Machine + LightBurn Core License Key",
+      "et": "Sculpfun iCube Pro 5W Portable Laser Engraving Machine + LightBurn Core License Key"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2828,14 +4004,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun SF-A9 40W Laser Engraver and Cutting Machine + LightBurn Core License Key",
     "slug": "sculpfun-sculpfun-sf-a9-40w-laser-engraver-and-cutting-machine-lightburn-core-license-key",
     "category_id": "cat_acrylic",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 1308.14,
     "compare_at_price": 1765.99,
     "cost_price": 968.99,
     "supplier_sku": "SF-A9-US+LB",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/A9-40W_7c2d8721-7152-4d43-b67c-0d8769ea2e6b.jpg?v=1739956023",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/02_0001b.jpg?v=1751348790",
@@ -2845,11 +4021,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "SF-A9-US+LB",
     "name_i18n": {
       "en": "Sculpfun SF-A9 40W Laser Engraver and Cutting Machine + LightBurn Core License Key",
-      "lt": "Sculpfun SF-A9 40W Laser Engraver and Cutting Machine + LightBurn Core License Key"
+      "lt": "Sculpfun SF-A9 40W Laser Engraver and Cutting Machine + LightBurn Core License Key",
+      "de": "Sculpfun SF-A9 40W Laser Engraver and Cutting Machine + LightBurn Core License Key",
+      "fr": "Sculpfun SF-A9 40W Laser Engraver and Cutting Machine + LightBurn Core License Key",
+      "es": "Sculpfun SF-A9 40W Laser Engraver and Cutting Machine + LightBurn Core License Key",
+      "pl": "Sculpfun SF-A9 40W Laser Engraver and Cutting Machine + LightBurn Core License Key",
+      "lv": "Sculpfun SF-A9 40W Laser Engraver and Cutting Machine + LightBurn Core License Key",
+      "et": "Sculpfun SF-A9 40W Laser Engraver and Cutting Machine + LightBurn Core License Key"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   },
   {
@@ -2857,14 +4045,14 @@ export const PRODUCTS: Product[] = [
     "name": "Sculpfun SF-A9 20W Laser Engraver And Cutting Machine + LightBurn Core License Key",
     "slug": "sculpfun-sculpfun-sf-a9-20w-laser-engraver-and-cutting-machine-lightburn-core-license-key",
     "category_id": "cat_acrylic",
-    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
+    "description": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
     "price": 849.14,
     "compare_at_price": 1146.34,
     "cost_price": 628.99,
     "supplier_sku": "A920W-US+LB",
     "badge": "Sculpfun Original",
     "laser_type": "Universal Diode & CO2",
-    "recommended_power": "High Quality Verified Sculpfun Component",
+    "recommended_power": "Verified Sculpfun Component",
     "images": [
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/A9-20W.jpg?v=1739955878",
       "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/02b0001.jpg?v=1751348830",
@@ -2874,11 +4062,23 @@ export const PRODUCTS: Product[] = [
     "cj_pid": "A920W-US+LB",
     "name_i18n": {
       "en": "Sculpfun SF-A9 20W Laser Engraver And Cutting Machine + LightBurn Core License Key",
-      "lt": "Sculpfun SF-A9 20W Laser Engraver And Cutting Machine + LightBurn Core License Key"
+      "lt": "Sculpfun SF-A9 20W Laser Engraver And Cutting Machine + LightBurn Core License Key",
+      "de": "Sculpfun SF-A9 20W Laser Engraver And Cutting Machine + LightBurn Core License Key",
+      "fr": "Sculpfun SF-A9 20W Laser Engraver And Cutting Machine + LightBurn Core License Key",
+      "es": "Sculpfun SF-A9 20W Laser Engraver And Cutting Machine + LightBurn Core License Key",
+      "pl": "Sculpfun SF-A9 20W Laser Engraver And Cutting Machine + LightBurn Core License Key",
+      "lv": "Sculpfun SF-A9 20W Laser Engraver And Cutting Machine + LightBurn Core License Key",
+      "et": "Sculpfun SF-A9 20W Laser Engraver And Cutting Machine + LightBurn Core License Key"
     },
     "description_i18n": {
-      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Compatible with LightBurn, LaserGRBL, and industry standard machines.",
-      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis."
+      "en": "Official Sculpfun professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
+      "lt": "Originalus Sculpfun profesionalus lazerio komponentas. Sukurtas dirbtuvėms ir gamybiniam pjovimui/graviravimui. Suderinamas su LightBurn ir populiariausiomis staklėmis.",
+      "de": "Offizielles Sculpfun Profi-Laserzubehör. Entwickelt für Maker-Werkstätten und präzise Fertigung. Voll kompatibel mit LightBurn und gängigen Lasern.",
+      "fr": "Accessoire laser professionnel officiel Sculpfun. Conçu avec précision pour les ateliers de fabrication et la découpe laser. Compatible LightBurn.",
+      "es": "Accesorio láser profesional oficial de Sculpfun. Diseñado para talleres de grabado y corte de precisión. Totalmente compatible con LightBurn.",
+      "pl": "Oficjalne profesjonalne akcesorium laserowe Sculpfun. Precyzyjnie wykonane dla pracowni i produkcji. W pełni kompatybilne z oprogramowaniem LightBurn.",
+      "lv": "Oficiāls Sculpfun profesionāls lāzera piederums. Paredzēts darbnīcām un precīzai lāzergriešanai. Savietojams ar LightBurn programmatūru.",
+      "et": "Ametlik Sculpfun professionaalne laseri lisatarvik. Täppistöötluseks ja tootmiseks. Täielikult ühilduv LightBurn tarkvaraga."
     }
   }
 ];
