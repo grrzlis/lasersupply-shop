@@ -35,7 +35,7 @@ export function Navbar({ locale = 'en' }: { locale?: Locale }) {
         {/* Brand / Logo */}
         <Link href={`/${locale}`} className="flex items-center gap-2">
           <span className="font-extrabold text-2xl tracking-tighter text-[#242423] font-sans">
-            LASER<span className="text-[#f5cb5c] bg-[#242423] px-1.5 py-0.5 ml-0.5 text-xl">CRAFT</span>
+            LASER<span className="text-[#f5cb5c] bg-[#242423] px-1.5 py-0.5 ml-0.5 text-xl">SUPPLY</span>
           </span>
           <span className="text-[10px] font-mono uppercase bg-[#f5cb5c] text-[#242423] font-bold px-1.5 py-0.5">
             EU

@@ -167,7 +167,7 @@ export default async function LocalizedHomePage({
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-[#3e3e3c]">
           <div className="space-y-3">
             <div className="font-extrabold text-lg tracking-tighter">
-              LASER<span className="text-[#f5cb5c]">CRAFT</span>
+              LASER<span className="text-[#f5cb5c]">SUPPLY</span>
             </div>
             <p className="text-[#a8a8a8] text-[12px] leading-relaxed">
               {t.subtitle}
@@ -177,10 +177,10 @@ export default async function LocalizedHomePage({
           <div className="space-y-2">
             <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">Categories</h4>
             <ul className="space-y-1.5 text-[#a8a8a8]">
-              <li><a href="#metal" className="hover:text-[#ffffff]">Anodized Metals</a></li>
-              <li><a href="#wood" className="hover:text-[#ffffff]">3mm Basswood Sheets</a></li>
-              <li><a href="#tumblers" className="hover:text-[#ffffff]">Stainless Tumblers</a></li>
-              <li><a href="#starter" className="hover:text-[#ffffff]">Starter Bundles</a></li>
+              <li><a href="#cat_filament" className="hover:text-[#ffffff]">3D Printer Filaments</a></li>
+              <li><a href="#cat_hardware" className="hover:text-[#ffffff]">Laser Parts & Modules</a></li>
+              <li><a href="#cat_optics_safety" className="hover:text-[#ffffff]">Optics & Laser Safety</a></li>
+              <li><a href="#cat_wood" className="hover:text-[#ffffff]">Plywood & Hardwood Blanks</a></li>
             </ul>
           </div>
 
@@ -203,7 +203,9 @@ export default async function LocalizedHomePage({
         </div>
 
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-[#888888]">
-          <div>© {new Date().getFullYear()} LaserSupply.org. All rights reserved.</div>
+          <div>
+            © {new Date().getFullYear()} LaserSupply.org. All rights reserved. · Sukurta MB „Gists Group“
+          </div>
           <div className="flex gap-4">
             <span>Stripe · Apple Pay · Google Pay · Visa · Mastercard</span>
           </div>
