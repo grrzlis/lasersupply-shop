@@ -92,17 +92,17 @@ export const PRODUCTS: Product[] = [
   },
   {
     "id": "prod_metal_pocket_knife_5",
-    "name": "Wood Inlay Laserable Pocket Knives (5-Pack Gift Set)",
-    "slug": "wood-inlay-laserable-pocket-knives-5pack",
+    "name": "Laserable Stainless Steel Folding Pocket Knives with Pocket Clip (5-Pack)",
+    "slug": "laserable-stainless-steel-folding-pocket-knives-5pack",
     "category_id": "cat_metal",
-    "description": "Stainless steel folding pocket knife with natural rosewood handle scales. Dual surface: engrave both the wood scales and the black oxide blade.",
-    "price": 29.99,
-    "compare_at_price": 44.99,
-    "cost_price": 13.5,
-    "supplier_sku": "CJ-BLANK-KNF-06",
+    "description": "High-grade stainless steel folding pocket knives with deep-carry pocket clip. Dual surface: engrave both the blank steel blade and the handle scales.",
+    "price": 24.99,
+    "compare_at_price": 38.99,
+    "cost_price": 9.5,
+    "supplier_sku": "CJ-CJYD2417033",
     "badge": "High Value",
     "laser_type": "Diode / Fiber / CO2",
-    "recommended_power": "Blade: Fiber / IR; Wood: Diode 20%",
+    "recommended_power": "Blade: Fiber / IR; Handle: Diode 25%",
     "images": [
       "/products/pocket_knife.jpg"
     ]
