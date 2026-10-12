@@ -46,19 +46,19 @@ export function Navbar({ locale = 'en' }: { locale?: Locale }) {
         <div className="hidden md:flex items-center gap-6 text-xs text-[#5f5e58] font-medium">
           <span className="flex items-center gap-1.5">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-            EU Wholesale & Dropship
+            {(t as any).usp1 || 'EU Wholesale & Dropship'}
           </span>
           <span className="text-[#d4d4d4]">|</span>
-          <span>Zero Customs Duty (EU Warehouses)</span>
+          <span>{(t as any).usp2 || 'Zero Customs Duty (EU Warehouses)'}</span>
           <span className="text-[#d4d4d4]">|</span>
-          <span>Tested for Diode, CO2 & Fiber</span>
+          <span>{(t as any).usp3 || 'Tested for Diode, CO2 & Fiber'}</span>
         </div>
 
         {/* Search, Language Switcher & Cart */}
         <div className="flex items-center gap-3">
           <div className="hidden sm:flex items-center bg-[#f6f6f6] border border-[#e5e5e5] px-3 py-1.5 rounded-full text-xs text-[#5f5e58] gap-2">
             <Search className="w-3.5 h-3.5" />
-            <span>Search...</span>
+            <span>{(t as any).searchPlaceholder || 'Search...'}</span>
             <kbd className="bg-[#ffffff] border border-[#d4d4d4] px-1.5 py-0.2 rounded text-[10px] font-mono">⌘K</kbd>
           </div>
 

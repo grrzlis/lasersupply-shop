@@ -25,6 +25,10 @@ export const messages = {
     recommendedSpeed: 'Tested Setting',
     inStock: 'In Stock · Ready to Ship',
     techSpecs: 'Technical Specifications',
+    usp1: 'EU Wholesale & Dropship',
+    usp2: 'Zero Customs Duty (EU Warehouses)',
+    usp3: 'Tested for Diode, CO2 & Fiber',
+    searchPlaceholder: 'Search...',
   },
   de: {
     announcement: 'Kostenloser Versand in Europa ab 50 € · Getestete Laser-Parameter',
@@ -128,7 +132,7 @@ export const messages = {
   },
   lt: {
     announcement: 'Nemokamas pristatymas Lietuvoje ir Europoje nuo 50 € · Patikrinti lazerio parametrai',
-    title: 'Lazerinio graviravimo ruošiniai ir medžiagos. Be broko.',
+    title: 'Lazerinio graviravimo ruošiniai ir medžiagos',
     subtitle: '100% lygus anoduotas aliuminis, liepos fanera (basswood) be klijų ertmių ir termo puodeliai. Greitas pristatymas visoje ES.',
     viewCatalog: 'Žiūrėti prekių katalogą',
     viewSettings: 'Gamykliniai nustatymai',
@@ -150,6 +154,12 @@ export const messages = {
     paymentMethods: 'Apple Pay · Google Pay · Banko kortelės',
     vatIncluded: '',
     recommendedSpeed: 'Išbandytas nustatymas',
+    inStock: 'Sandėlyje · Paruošta siuntimui',
+    techSpecs: 'Techninė specifikacija',
+    usp1: 'ES Didmena ir Tiesioginis Siuntimas',
+    usp2: 'Jokių Muitų Mokesčių (ES Sandėliai)',
+    usp3: 'Išbandyta su Diodo, CO2 ir Fiber Lazeriais',
+    searchPlaceholder: 'Ieškoti...',
   },
   lv: {
     announcement: 'Bezmaksas piegāde Baltijā un Eiropā no 50 € · Pārbaudīti lāzera iestatījumi',
