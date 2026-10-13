@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getRequestContext } from '@cloudflare/next-on-pages';
+import { env } from 'cloudflare:workers';
 import { verifyAdminToken } from '@/lib/admin-auth';
 
 export const runtime = 'edge';
@@ -15,11 +15,7 @@ export async function GET(req: Request) {
       return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 });
     }
 
-    let db: any = null;
-    try {
-      const ctx = getRequestContext();
-      db = (ctx?.env as any)?.DB;
-    } catch {}
+    const db = (env as any)?.DB;
 
     const now = Date.now();
     const onlineThreshold = now - 90 * 1000; // 90 seconds
@@ -64,7 +60,7 @@ export async function GET(req: Request) {
         orders = ordersQuery.results || [];
         stats.totalOrders = orders.length;
       } catch (orderErr) {
-        // Orders table might be empty or query err
+        // Orders table query error handling
       }
     }
 

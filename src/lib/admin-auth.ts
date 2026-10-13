@@ -1,13 +1,10 @@
-import { getRequestContext } from '@cloudflare/next-on-pages';
+import { env } from 'cloudflare:workers';
 
 export function getAdminPassword(): string {
-  let pw = process.env.ADMIN_PASSWORD;
   try {
-    const ctx = getRequestContext();
-    const envObj = ctx?.env as Record<string, string | undefined> | undefined;
-    if (envObj?.ADMIN_PASSWORD) pw = envObj.ADMIN_PASSWORD;
+    if (env?.ADMIN_PASSWORD) return env.ADMIN_PASSWORD;
   } catch {}
-  return pw || 'LaserMaker#2026';
+  return process.env.ADMIN_PASSWORD || 'LaserMaker#2026';
 }
 
 export async function createAdminToken(password: string): Promise<string> {

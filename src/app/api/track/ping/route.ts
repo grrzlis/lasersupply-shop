@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getRequestContext } from '@cloudflare/next-on-pages';
+import { env } from 'cloudflare:workers';
 
 export const runtime = 'edge';
 
@@ -26,7 +26,6 @@ export async function POST(req: Request) {
     const rawIp = headers.get('cf-connecting-ip') || headers.get('x-forwarded-for') || '127.0.0.1';
     const userAgent = headers.get('user-agent') || '';
 
-    // Device detection fallback
     let detectedDevice = device || 'desktop';
     if (!device) {
       if (/mobile|android|iphone|ipad|phone/i.test(userAgent)) {
@@ -37,14 +36,9 @@ export async function POST(req: Request) {
     const ipHash = await hashIp(rawIp);
     const now = Date.now();
 
-    let db: any = null;
-    try {
-      const ctx = getRequestContext();
-      db = (ctx?.env as any)?.DB;
-    } catch {}
+    const db = (env as any)?.DB;
 
     if (db) {
-      // Upsert visitor session
       await db.prepare(`
         INSERT INTO visitor_sessions (
           id, ip_hash, country, city, current_path, referrer, device, cart_count, last_active_at, created_at
@@ -66,15 +60,17 @@ export async function POST(req: Request) {
         now
       ).run();
 
-      // Occasionally prune sessions older than 24h (approx. 2% chance per ping)
-      if (Math.random() < 0.02) {
-        const一天ago = now - 24 * 60 * 60 * 1000;
-        await db.prepare('DELETE FROM visitor_sessions WHERE last_active_at < ?').bind(一天ago).run();
+      // Prune sessions older than 24h
+      if (Math.random() < 0.05) {
+        const oneDayAgo = now - 24 * 60 * 60 * 1000;
+        await db.prepare('DELETE FROM visitor_sessions WHERE last_active_at < ?').bind(oneDayAgo).run();
       }
     }
 
     return NextResponse.json({ ok: true });
   } catch (err: unknown) {
-    return NextResponse.json({ ok: false }, { status: 200 });
+    const msg = err instanceof Error ? err.message : 'Error';
+    console.error('Ping tracking error:', msg);
+    return NextResponse.json({ ok: false, error: msg }, { status: 200 });
   }
 }
