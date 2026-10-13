@@ -168,6 +168,36 @@ export async function POST(req: Request) {
         `,
       });
 
+      // 4. Save order to D1 Database
+      try {
+        const { env } = await import('cloudflare:workers');
+        const db = (env as any)?.DB;
+        if (db) {
+          const supplierId = aliOrderResult?.orderList?.join(', ') || cjOrderResult?.orderId || '';
+          const fulfillmentStatus = aliOrderResult?.success ? 'ali_dispatched' : cjOrderResult?.success ? 'cj_dispatched' : 'pending_fulfillment';
+
+          await db.prepare(`
+            INSERT OR REPLACE INTO orders (
+              id, customer_email, customer_name, shipping_address, total_amount, currency, payment_status, fulfillment_status, supplier_order_id, items
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          `).bind(
+            orderId,
+            customerEmail || 'unknown@customer.com',
+            customerName,
+            formattedAddress,
+            Number(amountTotal),
+            currency,
+            'paid',
+            fulfillmentStatus,
+            supplierId,
+            session.metadata?.order_items || '[]'
+          ).run();
+          console.log('💾 [ORDER SAVED TO D1]:', orderId);
+        }
+      } catch (dbErr) {
+        console.error('Failed to save order to D1:', dbErr);
+      }
+
     }
 
     return NextResponse.json({ received: true });
