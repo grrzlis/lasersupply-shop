@@ -224,3 +224,107 @@ export async function placeAliExpressOrder(
     };
   }
 }
+
+export interface AliExpressOrderStatusResult {
+  success: boolean;
+  orderStatus?: string; // e.g., 'WAIT_SELLER_SEND_GOODS', 'SELLER_PART_SEND_GOODS', 'WAIT_BUYER_ACCEPT_GOODS', 'FINISH'
+  isShipped?: boolean;
+  logisticsServiceName?: string;
+  trackingNumber?: string;
+  trackingUrl?: string;
+  errorMessage?: string;
+  raw?: unknown;
+}
+
+/**
+ * Query AliExpress dropshipping order details and tracking status
+ * API method: aliexpress.trade.ds.order.get
+ */
+export async function queryAliExpressOrderStatus(
+  orderId: string | number
+): Promise<AliExpressOrderStatusResult> {
+  const config = await getAliExpressConfig();
+  if (!config) {
+    return {
+      success: false,
+      errorMessage: 'AliExpress credentials not configured.',
+    };
+  }
+
+  const timestamp = String(Date.now());
+  const method = 'aliexpress.trade.ds.order.get';
+
+  const sysParams: Record<string, string> = {
+    app_key: config.appKey,
+    timestamp,
+    format: 'json',
+    v: '2.0',
+    sign_method: 'sha256',
+    method,
+    access_token: config.accessToken,
+    session: config.accessToken,
+    single_order_query: JSON.stringify({ order_id: String(orderId) }),
+  };
+
+  try {
+    const signature = await generateAliExpressSignature(method, sysParams, config.appSecret);
+    sysParams.sign = signature;
+
+    const urlParams = new URLSearchParams(sysParams);
+    const endpoint = `${config.gatewayUrl || 'https://api-sg.aliexpress.com/rest'}?${urlParams.toString()}`;
+
+    const res = await fetch(endpoint, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8',
+      },
+    });
+
+    const data = (await res.json()) as any;
+    const resultObj =
+      data.aliexpress_trade_ds_order_get_response?.result ||
+      data.result ||
+      data;
+
+    if (resultObj && (resultObj.order_status || resultObj.order_id)) {
+      const orderStatus = resultObj.order_status || '';
+      // Statuses indicating shipment:
+      // WAIT_BUYER_ACCEPT_GOODS = Dispatched / In transit
+      // FINISH = Delivered / Completed
+      const isShipped = ['WAIT_BUYER_ACCEPT_GOODS', 'FINISH', 'WAIT_SELLER_EXAMINE'].includes(orderStatus);
+
+      // Extract tracking number if present in logistics info
+      const logisticsList = resultObj.logistics_info_list?.logistics_info || [];
+      const primaryLogistics = Array.isArray(logisticsList) ? logisticsList[0] : logisticsList;
+      const trackingNumber = primaryLogistics?.logistics_no || primaryLogistics?.tracking_no || resultObj.logistics_no || '';
+      const logisticsServiceName = primaryLogistics?.logistics_service_name || 'AliExpress Standard Shipping';
+      const trackingUrl = trackingNumber ? `https://t.17track.net/en#nums=${trackingNumber}` : '';
+
+      return {
+        success: true,
+        orderStatus,
+        isShipped,
+        logisticsServiceName,
+        trackingNumber: trackingNumber || undefined,
+        trackingUrl: trackingUrl || undefined,
+        raw: data,
+      };
+    }
+
+    const errCode = data.error_response?.code || resultObj?.error_code || 'AE_QUERY_FAILED';
+    const errSub = data.error_response?.sub_msg || resultObj?.error_msg || data.error_response?.msg || 'Failed to query order';
+
+    return {
+      success: false,
+      errorMessage: errSub,
+      raw: data,
+    };
+  } catch (err: unknown) {
+    const msg = err instanceof Error ? err.message : 'Unknown network error';
+    return {
+      success: false,
+      errorMessage: msg,
+    };
+  }
+}
+

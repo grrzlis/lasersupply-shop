@@ -43,6 +43,9 @@ interface Order {
   currency: string;
   payment_status: string;
   fulfillment_status: string;
+  supplier_order_id?: string;
+  tracking_number?: string;
+  tracking_url?: string;
   created_at: string;
   items: string;
 }
@@ -97,6 +100,7 @@ export default function AdminPage() {
 
   const [data, setData] = useState<AdminData | null>(null);
   const [isLoadingData, setIsLoadingData] = useState(false);
+  const [isSyncingFulfillment, setIsSyncingFulfillment] = useState(false);
   const [autoRefresh, setAutoRefresh] = useState(true);
   const [activeTab, setActiveTab] = useState<'visitors' | 'orders' | 'system'>('visitors');
   const [currentTime, setCurrentTime] = useState(Date.now());
@@ -123,6 +127,18 @@ export default function AdminPage() {
       setIsLoadingData(false);
     }
   }, []);
+
+  const handleSyncFulfillment = async () => {
+    try {
+      setIsSyncingFulfillment(true);
+      await fetch('/api/sync-fulfillment', { method: 'POST' });
+      await fetchData();
+    } catch (err) {
+      console.error('Failed to sync fulfillment:', err);
+    } finally {
+      setIsSyncingFulfillment(false);
+    }
+  };
 
   useEffect(() => {
     fetchData();
@@ -559,9 +575,19 @@ export default function AdminPage() {
         {/* Tab 2: Orders List */}
         {activeTab === 'orders' && (
           <div className="bg-[#181817] border border-[#262624] rounded-2xl overflow-hidden shadow-xl">
-            <div className="p-4 border-b border-[#262624]">
-              <h2 className="font-bold text-white text-sm">Gauti užsakymai (D1 Duomenų Bazė)</h2>
-              <p className="text-xs text-stone-400">Sinchronizuota su Stripe Checkout ir Dropshipping tiekėjais</p>
+            <div className="p-4 border-b border-[#262624] flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
+                <h2 className="font-bold text-white text-sm">Gauti užsakymai (D1 Duomenų Bazė)</h2>
+                <p className="text-xs text-stone-400">Sinchronizuota su Stripe Checkout ir AliExpress Dropshipping</p>
+              </div>
+              <button
+                onClick={handleSyncFulfillment}
+                disabled={isSyncingFulfillment}
+                className="inline-flex items-center gap-2 bg-[#262624] hover:bg-[#333330] border border-[#3a3a37] text-[#f5cb5c] px-3.5 py-2 rounded-xl text-xs font-semibold transition-all disabled:opacity-50"
+              >
+                <RefreshCw className={`w-3.5 h-3.5 ${isSyncingFulfillment ? 'animate-spin' : ''}`} />
+                <span>{isSyncingFulfillment ? 'Tikrinama AliExpress...' : 'Atnaujinti siuntų statusus'}</span>
+              </button>
             </div>
 
             {orders.length === 0 ? (
@@ -580,6 +606,7 @@ export default function AdminPage() {
                       <th className="py-3 px-4">Suma</th>
                       <th className="py-3 px-4">Mokėjimas</th>
                       <th className="py-3 px-4">Tiekėjo statusas</th>
+                      <th className="py-3 px-4">Siuntos sekimas</th>
                       <th className="py-3 px-4">Data</th>
                     </tr>
                   </thead>
@@ -601,8 +628,36 @@ export default function AdminPage() {
                             {o.payment_status || 'Apmokėta'}
                           </span>
                         </td>
-                        <td className="py-3.5 px-4 whitespace-nowrap text-stone-400">
-                          {o.fulfillment_status || 'Vykdoma'}
+                        <td className="py-3.5 px-4 whitespace-nowrap">
+                          {o.fulfillment_status === 'fulfilled' ? (
+                            <span className="px-2 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-950/60 border border-emerald-500/30 text-emerald-400 flex items-center gap-1 w-fit">
+                              <CheckCircle2 className="w-3 h-3" />
+                              Išsiųsta (Fulfilled)
+                            </span>
+                          ) : o.fulfillment_status === 'simulated_test' ? (
+                            <span className="px-2 py-0.5 rounded-full text-[11px] font-semibold bg-amber-950/60 border border-amber-500/30 text-amber-300">
+                              Simuliacinis testas
+                            </span>
+                          ) : (
+                            <span className="px-2 py-0.5 rounded-full text-[11px] font-semibold bg-stone-800 border border-stone-700 text-stone-300">
+                              {o.fulfillment_status || 'Vykdoma'}
+                            </span>
+                          )}
+                        </td>
+                        <td className="py-3.5 px-4 whitespace-nowrap">
+                          {o.tracking_number ? (
+                            <a
+                              href={o.tracking_url || `https://t.17track.net/en#nums=${o.tracking_number}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1.5 font-mono text-xs text-[#f5cb5c] hover:underline bg-[#f5cb5c]/10 px-2 py-1 rounded border border-[#f5cb5c]/20"
+                            >
+                              <span>{o.tracking_number}</span>
+                              <ExternalLink className="w-3 h-3" />
+                            </a>
+                          ) : (
+                            <span className="text-stone-500 text-[11px]">Ruošiama siunta</span>
+                          )}
                         </td>
                         <td className="py-3.5 px-4 whitespace-nowrap text-stone-400 font-mono text-[11px]">
                           {new Date(o.created_at).toLocaleString('lt-LT')}

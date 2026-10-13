@@ -52,7 +52,7 @@ export async function GET(req: Request) {
       // 2. Fetch orders
       try {
         const ordersQuery = await db.prepare(`
-          SELECT id, customer_name, customer_email, shipping_address, total_amount, currency, payment_status, fulfillment_status, created_at, items
+          SELECT id, customer_name, customer_email, shipping_address, total_amount, currency, payment_status, fulfillment_status, supplier_order_id, tracking_number, tracking_url, created_at, items
           FROM orders
           ORDER BY created_at DESC
           LIMIT 50
