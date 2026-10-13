@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Spline_Sans, IBM_Plex_Sans } from "next/font/google";
+import { VisitorTracker } from "@/components/VisitorTracker";
 import "./globals.css";
 
 export const runtime = 'edge';
@@ -36,6 +37,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col antialiased" suppressHydrationWarning>
+        <VisitorTracker />
         {children}
       </body>
     </html>

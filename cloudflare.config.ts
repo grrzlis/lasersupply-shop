@@ -18,6 +18,7 @@ export default defineConfig({
       ALIEXPRESS_APP_SECRET: bindings.text("sGSfN94PE0gxWX1XfHuIzsbg0rqmW1Yt"),
       ALIEXPRESS_ACCESS_TOKEN: bindings.text("50000700320cBHtYbrSjsgJFsyNyCabm14765485xhmUgwwD9dhRCK01Gj7vRNzFPOM3"),
       ALIEXPRESS_REFRESH_TOKEN: bindings.text("50001700620rpPvJesEnBNXsuc97IvFo14b01583tewTjbjBS5rT2ColxkPFbKV1TNYv"),
+      ADMIN_PASSWORD: bindings.text("LaserMaker#2026"),
     },
   }),
 });
