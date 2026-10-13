@@ -16,6 +16,8 @@ export default defineConfig({
       ADMIN_NOTIFICATION_EMAIL: bindings.text("akdarbas@gmail.com"),
       ALIEXPRESS_APP_KEY: bindings.text("552890"),
       ALIEXPRESS_APP_SECRET: bindings.text("sGSfN94PE0gxWX1XfHuIzsbg0rqmW1Yt"),
+      ALIEXPRESS_ACCESS_TOKEN: bindings.text("50000700320cBHtYbrSjsgJFsyNyCabm14765485xhmUgwwD9dhRCK01Gj7vRNzFPOM3"),
+      ALIEXPRESS_REFRESH_TOKEN: bindings.text("50001700620rpPvJesEnBNXsuc97IvFo14b01583tewTjbjBS5rT2ColxkPFbKV1TNYv"),
     },
   }),
 });

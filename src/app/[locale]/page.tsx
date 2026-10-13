@@ -185,18 +185,6 @@ export default async function LocalizedHomePage({
       <Navbar locale={locale} />
       <SlideOverCart locale={locale} />
 
-      {authCode && (
-        <div className="bg-emerald-950 border-b border-emerald-500/50 py-4 px-4 text-center">
-          <div className="max-w-xl mx-auto">
-            <p className="text-emerald-300 font-bold text-sm">✅ AliExpress autorizacijos kodas sėkmingai gautas:</p>
-            <code className="block bg-black/80 text-amber-300 font-mono text-xs p-3 rounded mt-2 select-all break-all border border-emerald-500/40">
-              {authCode}
-            </code>
-            <p className="text-stone-400 text-xs mt-1.5">Nukopijuokite šį kodą ir įklijuokite į pokalbį.</p>
-          </div>
-        </div>
-      )}
-
       {/* Clean Premium Hero Section */}
       <section className="relative bg-gradient-to-b from-[#1c1c1b] via-[#181817] to-[#121211] text-[#ffffff] py-10 sm:py-16 overflow-hidden border-b border-[#282826]">
         {/* Soft atmospheric amber light highlight in background */}
