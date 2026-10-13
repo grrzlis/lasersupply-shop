@@ -15,10 +15,10 @@ export const NEW_BLANK_PRODUCTS: Product[] = [
     laser_type: 'Diode, Fiber & CO2 Laser',
     recommended_power: 'Diode: 10W-20W (Speed: 3000-5000mm/min)',
     images: [
-      'https://ae-pic-a1.aliexpress-media.com/kf/S8f967ad108c44c5c84a0dcfb651030e4v.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S59c904353efd46cd93e449a029ee8b19x.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S7aefcbce2c7041fbbd547dcf30756770l.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S6bbfa639e2464bc0b784a148a04294a50.jpg'
+      '/products/metal_cards.jpg',
+      '/products/metal_cards_blank_1791787343541.jpg',
+      'https://cdn.shopify.com/s/files/1/2222/7859/files/Metal-Business-Cards-1.jpg?v=1722581989',
+      'https://cdn.shopify.com/s/files/1/2222/7859/files/Metal-Business-Cards-2.jpg?v=1722581989'
     ],
     name_i18n: {
       en: '100Pcs Anodized Aluminum Business Card Blanks (0.22mm Thick, 86x54mm)',
@@ -73,10 +73,9 @@ export const NEW_BLANK_PRODUCTS: Product[] = [
     laser_type: 'Diode & CO2 Laser',
     recommended_power: 'Diode: 10W-40W (Power: 80%, Speed: 2500-3500mm/min)',
     images: [
-      'https://ae-pic-a1.aliexpress-media.com/kf/S3ea77cbe02b144fa997c4856f6c77bb3q.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S71bc8040bc1d4e0e852ceef4138a3917m.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/Sbf9c2ab27909405d8fceb5c47935fa29Z.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S4d439906ae014524be3f21b7fcf768b75.jpg'
+      '/products/slate_coasters.jpg',
+      '/products/slate_coasters_blank_1791787360720.jpg',
+      '/products/ceramic_tiles.jpg'
     ],
     name_i18n: {
       en: '8Pcs Natural Slate Drink Coasters (10x10cm Square) with Non-Slip Rubber Feet',
@@ -131,10 +130,10 @@ export const NEW_BLANK_PRODUCTS: Product[] = [
     laser_type: 'Diode, CO2 & Fiber Laser',
     recommended_power: 'Diode: 5W-20W (Power: 40-60%, Speed: 4000mm/min)',
     images: [
-      'https://ae-pic-a1.aliexpress-media.com/kf/S55447171e72b4c10a30bfeec0654ec99M.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S6bb9315573484fcdbf4581177651c6e1R.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S4237d83cb86348bb95b03f0b2fca0c598.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/Sf6cb6c3c5b5c4f2bb7323b7ff6c07172Q.jpg'
+      '/products/wood_coasters_e6b.jpg',
+      '/products/wood_coasters.jpg',
+      '/products/leather_keychains.jpg',
+      '/products/leather_keychains_blank_1791787488492.jpg'
     ],
     name_i18n: {
       en: '20Pcs Natural Beech Wood & Stainless Steel Keyring Blanks (Laser Ready)',
@@ -189,10 +188,10 @@ export const NEW_BLANK_PRODUCTS: Product[] = [
     laser_type: 'Diode & CO2 Laser',
     recommended_power: 'Diode: 10W-30W (Power: 60-80%, Speed: 3000mm/min)',
     images: [
-      'https://ae-pic-a1.aliexpress-media.com/kf/S50db50b7b6204c329b359c11da859187X.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S32dcb347ecfe49a799017ba50f38b0f4k.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/Sff0bcf22aebc45339665bc7f4ffb4aa8O.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/Sf608f654b42d4a51a9ec6ca46f68e0a1U.jpg'
+      '/products/bamboo_boards.jpg',
+      '/products/bamboo_boards_900.jpg',
+      '/products/acacia_board.jpg',
+      '/products/acacia_cutting_board_1791787514029.jpg'
     ],
     name_i18n: {
       en: '4Pcs Organic Bamboo Cutting & Serving Board Blanks with Hanging Hole',
@@ -247,10 +246,9 @@ export const NEW_BLANK_PRODUCTS: Product[] = [
     laser_type: 'Fiber, Infrared (1064nm) & Diode',
     recommended_power: 'Fiber: 20-30W / 1064nm Infrared: 2W / Diode: 20W+ with marking spray',
     images: [
-      'https://ae-pic-a1.aliexpress-media.com/kf/Scb099b2eb8eb4aefbeae3347b9195a63R.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S7a0eb5a6e8724ec5b369ba0f48da253d8.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S4f707f43ec8b49ec93e7b1e2ca47dd8bh.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/Sf5cb39c15b1a43ad9d0be5d44866ca5cQ.jpg'
+      '/products/dog_tags.jpg',
+      '/products/pet_tags.jpg',
+      '/products/pet_tags_blank_1791787378830.jpg'
     ],
     name_i18n: {
       en: '30Pcs Polished Stainless Steel Military Dog Tag Blanks with Ball Chains',
@@ -305,10 +303,8 @@ export const NEW_BLANK_PRODUCTS: Product[] = [
     laser_type: 'Diode & CO2 Laser',
     recommended_power: 'Diode: 5W-20W (Power: 25-40%, Speed: 4000-6000mm/min)',
     images: [
-      'https://ae-pic-a1.aliexpress-media.com/kf/S51f04aa29472483597fe29b68ad941a5w.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S0f88b560abec492e804f56f34ae3bc62h.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S1b61c9e9929845aa811a7f0e69ca84dc5.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S37c3558c70ca4437a8581e220556ad31h.jpg'
+      '/products/hat_patches.jpg',
+      '/products/laser_hat_patches_1791787417950.jpg'
     ],
     name_i18n: {
       en: '50Pcs Laserable Leatherette Hat Patches (Heat Adhesive Backing, Assorted Shapes)',
@@ -363,10 +359,9 @@ export const NEW_BLANK_PRODUCTS: Product[] = [
     laser_type: 'Acrylic Cutting Laser (CO2 & Diode)',
     recommended_power: 'Slot Width: 4.0mm (Fits 3.8 - 4.2mm Cast Acrylic)',
     images: [
-      'https://ae-pic-a1.aliexpress-media.com/kf/S7ca0cb09307c4bc5bdf8e9ea298ec2a6r.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S4d23d8c117eb4be6b38c03c5112fa7216.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S91b9318b761a4c9e8be77e6f8df7cb337.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S3bfa9930cb99479e83ec891f7c3275c6V.jpg'
+      '/products/led_lamp.jpg',
+      '/products/led_night_light_base_1791787546369.jpg',
+      '/products/acrylic_plates.jpg'
     ],
     name_i18n: {
       en: '5Pcs 3D Acrylic Night Light LED Bases with USB Cable & Touch Switch (Laser Blanks)',
@@ -421,10 +416,9 @@ export const NEW_BLANK_PRODUCTS: Product[] = [
     laser_type: 'Diode, Fiber & CO2 Laser',
     recommended_power: 'Diode: 10W-20W (Power: 70%, Speed: 3500mm/min)',
     images: [
-      'https://ae-pic-a1.aliexpress-media.com/kf/S9fbcf07cb2ea41508db8c66e2c34d314G.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S50b182cb62194dce95e9f1a0ea4c1946w.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/S6bb9315573484fcdbf4581177651c6e1R.jpg',
-      'https://ae-pic-a1.aliexpress-media.com/kf/Scb099b2eb8eb4aefbeae3347b9195a63R.jpg'
+      '/products/metal_flask.jpg',
+      '/products/tumbler.jpg',
+      '/products/matte_black_tumbler_1791787462543.jpg'
     ],
     name_i18n: {
       en: '6Pcs Matte Black Stainless Steel Hip Flasks (8oz / 240ml) for Laser Engraving',
