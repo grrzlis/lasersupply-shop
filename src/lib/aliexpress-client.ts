@@ -8,8 +8,6 @@
  * Gateway: https://api-sg.aliexpress.com/rest or https://eco.taobao.com/router/rest
  */
 
-import { getRequestContext } from '@cloudflare/next-on-pages';
-
 export interface AliExpressConfig {
   appKey: string;
   appSecret: string;
@@ -18,23 +16,23 @@ export interface AliExpressConfig {
 }
 
 export interface PlaceAliExpressOrderParams {
-  outOrderId: string; // Your internal order reference (e.g. LS-89A12B)
+  outOrderId: string;
   shippingAddress: {
     contactPerson: string;
     fullName?: string;
-    phoneCountry: string; // e.g. "+370"
+    phoneCountry: string;
     mobileNo: string;
-    country: string; // e.g. "LT", "DE", "FR"
+    country: string;
     province?: string;
     city: string;
     address: string;
     address2?: string;
     zip: string;
-    taxId?: string; // CPF/RUT if required for LATAM
+    taxId?: string;
   };
   productItems: Array<{
-    productId: string | number; // AliExpress Product ID
-    skuAttr?: string; // AliExpress SKU variation string
+    productId: string | number;
+    skuAttr?: string;
     productCount: number;
     logisticsServiceName?: string;
   }>;
@@ -48,22 +46,30 @@ export interface AliExpressOrderResult {
   raw?: unknown;
 }
 
-export function getAliExpressConfig(): AliExpressConfig | null {
+let cachedWorkerEnv: any = null;
+async function getWorkerEnv() {
+  if (cachedWorkerEnv) return cachedWorkerEnv;
+  try {
+    // @ts-ignore
+    const mod = await import('cloudflare:workers');
+    cachedWorkerEnv = mod?.env;
+  } catch {}
+  return cachedWorkerEnv;
+}
+
+export async function getAliExpressConfig(): Promise<AliExpressConfig | null> {
   let appKey = process.env.ALIEXPRESS_APP_KEY;
   let appSecret = process.env.ALIEXPRESS_APP_SECRET;
   let accessToken = process.env.ALIEXPRESS_ACCESS_TOKEN;
   let gatewayUrl = process.env.ALIEXPRESS_GATEWAY_URL || 'https://api-sg.aliexpress.com/rest';
 
-  try {
-    const ctx = getRequestContext();
-    const envObj = ctx?.env as Record<string, string | undefined> | undefined;
-    if (envObj) {
-      if (envObj.ALIEXPRESS_APP_KEY) appKey = envObj.ALIEXPRESS_APP_KEY;
-      if (envObj.ALIEXPRESS_APP_SECRET) appSecret = envObj.ALIEXPRESS_APP_SECRET;
-      if (envObj.ALIEXPRESS_ACCESS_TOKEN) accessToken = envObj.ALIEXPRESS_ACCESS_TOKEN;
-      if (envObj.ALIEXPRESS_GATEWAY_URL) gatewayUrl = envObj.ALIEXPRESS_GATEWAY_URL;
-    }
-  } catch {}
+  const wEnv = await getWorkerEnv();
+  if (wEnv) {
+    if (wEnv.ALIEXPRESS_APP_KEY) appKey = wEnv.ALIEXPRESS_APP_KEY;
+    if (wEnv.ALIEXPRESS_APP_SECRET) appSecret = wEnv.ALIEXPRESS_APP_SECRET;
+    if (wEnv.ALIEXPRESS_ACCESS_TOKEN) accessToken = wEnv.ALIEXPRESS_ACCESS_TOKEN;
+    if (wEnv.ALIEXPRESS_GATEWAY_URL) gatewayUrl = wEnv.ALIEXPRESS_GATEWAY_URL;
+  }
 
   if (appKey && appSecret && accessToken) {
     return {
@@ -81,11 +87,12 @@ export function getAliExpressConfig(): AliExpressConfig | null {
  * Generate HMAC-SHA256 signature for AliExpress / Taobao Open Platform
  */
 async function generateAliExpressSignature(
+  method: string,
   params: Record<string, string>,
   appSecret: string
 ): Promise<string> {
   const sortedKeys = Object.keys(params).sort();
-  let queryStr = '';
+  let queryStr = method || '';
   for (const key of sortedKeys) {
     queryStr += `${key}${params[key]}`;
   }
@@ -119,7 +126,7 @@ async function generateAliExpressSignature(
 export async function placeAliExpressOrder(
   order: PlaceAliExpressOrderParams
 ): Promise<AliExpressOrderResult> {
-  const config = getAliExpressConfig();
+  const config = await getAliExpressConfig();
   if (!config) {
     return {
       success: false,
@@ -165,12 +172,13 @@ export async function placeAliExpressOrder(
     v: '2.0',
     sign_method: 'sha256',
     method,
+    access_token: config.accessToken,
     session: config.accessToken,
     param_place_order_request4_open_api_d_t_o: JSON.stringify(requestDto),
   };
 
   try {
-    const signature = await generateAliExpressSignature(sysParams, config.appSecret);
+    const signature = await generateAliExpressSignature(method, sysParams, config.appSecret);
     sysParams.sign = signature;
 
     const urlParams = new URLSearchParams(sysParams);
