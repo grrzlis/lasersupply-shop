@@ -35,6 +35,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "**.alicdn.com",
       },
+      {
+        protocol: "https",
+        hostname: "**.aliexpress-media.com",
+      },
     ],
   },
   eslint: {

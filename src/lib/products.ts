@@ -1,6 +1,8 @@
 import { Product } from '@/types/product';
+import { NEW_BLANK_PRODUCTS } from './new-blanks';
 
 export const PRODUCTS: Product[] = [
+  ...NEW_BLANK_PRODUCTS,
   {
     "id": "prod_cloudray_1",
     "name": "Cloudray Laser Welding Protective Shield OD8+ 1064nm for Handheld Laser Welding Guns",
