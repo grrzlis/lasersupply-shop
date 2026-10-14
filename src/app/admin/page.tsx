@@ -18,7 +18,10 @@ import {
   Clock, 
   ExternalLink,
   Shield,
-  Radio
+  Radio,
+  BarChart3,
+  TrendingUp,
+  ArrowUpRight
 } from 'lucide-react';
 
 interface Visitor {
@@ -50,6 +53,13 @@ interface Order {
   items: string;
 }
 
+interface ChartPoint {
+  label: string;
+  visitors: number;
+  carts: number;
+  orders: number;
+}
+
 interface AdminData {
   stats: {
     onlineNow: number;
@@ -59,6 +69,10 @@ interface AdminData {
   };
   visitors: Visitor[];
   orders: Order[];
+  charts?: {
+    hourly: ChartPoint[];
+    daily: ChartPoint[];
+  };
   timestamp: number;
 }
 
@@ -102,7 +116,9 @@ export default function AdminPage() {
   const [isLoadingData, setIsLoadingData] = useState(false);
   const [isSyncingFulfillment, setIsSyncingFulfillment] = useState(false);
   const [autoRefresh, setAutoRefresh] = useState(true);
-  const [activeTab, setActiveTab] = useState<'visitors' | 'orders' | 'system'>('visitors');
+  const [activeTab, setActiveTab] = useState<'analytics' | 'visitors' | 'orders' | 'system'>('analytics');
+  const [chartPeriod, setChartPeriod] = useState<'hourly' | 'daily'>('hourly');
+  const [hoveredPoint, setHoveredPoint] = useState<ChartPoint | null>(null);
   const [currentTime, setCurrentTime] = useState(Date.now());
 
   // Check login and fetch initial data
@@ -399,7 +415,19 @@ export default function AdminPage() {
         </div>
 
         {/* Tab Selection */}
-        <div className="flex items-center gap-2 border-b border-[#262624] pb-4">
+        <div className="flex items-center gap-2 border-b border-[#262624] pb-4 flex-wrap">
+          <button
+            onClick={() => setActiveTab('analytics')}
+            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
+              activeTab === 'analytics'
+                ? 'bg-[#f5cb5c] text-[#1c1c1b] shadow-lg shadow-[#f5cb5c]/20'
+                : 'bg-[#1a1a19] text-stone-400 hover:text-white border border-[#2e2e2c]'
+            }`}
+          >
+            <BarChart3 className="w-4 h-4" />
+            <span>Srauto ir Užsakymų Grafikai</span>
+          </button>
+
           <button
             onClick={() => setActiveTab('visitors')}
             className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 ${
@@ -436,6 +464,206 @@ export default function AdminPage() {
             <span>Sistemos būsena (API & Ryšiai)</span>
           </button>
         </div>
+
+        {/* Tab 0: Srauto ir Užsakymų Grafikai (Analytics & Comparison) */}
+        {activeTab === 'analytics' && (() => {
+          const currentSeries = (chartPeriod === 'hourly' ? data?.charts?.hourly : data?.charts?.daily) || [];
+          const maxVal = Math.max(1, ...currentSeries.map(p => Math.max(p.visitors, p.carts, p.orders)));
+          
+          const totalSeriesVisitors = currentSeries.reduce((acc, p) => acc + p.visitors, 0);
+          const totalSeriesOrders = currentSeries.reduce((acc, p) => acc + p.orders, 0);
+          const totalSeriesCarts = currentSeries.reduce((acc, p) => acc + p.carts, 0);
+          const conversionRate = totalSeriesVisitors > 0 ? ((totalSeriesOrders / totalSeriesVisitors) * 100).toFixed(1) : '0.0';
+          const cartCheckoutRate = (totalSeriesCarts + totalSeriesOrders) > 0 ? ((totalSeriesOrders / (totalSeriesCarts + totalSeriesOrders)) * 100).toFixed(1) : '0.0';
+
+          return (
+            <div className="space-y-6">
+              {/* Analytics Header & Period Filter */}
+              <div className="bg-[#181817] border border-[#262624] rounded-2xl p-6 shadow-xl">
+                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-[#262624]">
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <TrendingUp className="w-5 h-5 text-[#f5cb5c]" />
+                      <h2 className="text-lg font-bold text-white tracking-tight">Klientų Srauto ir Užsakymų Palyginimas</h2>
+                    </div>
+                    <p className="text-xs text-stone-400 mt-1">
+                      Lyginamasis grafikas: lankytojų kiekis, aktyvūs pirkinių krepšeliai ir įvykdyti užsakymai realiu laiku
+                    </p>
+                  </div>
+
+                  {/* Period Switcher */}
+                  <div className="flex items-center gap-1.5 bg-[#121211] p-1.5 rounded-xl border border-[#2b2b29] self-start md:self-auto">
+                    <button
+                      onClick={() => { setChartPeriod('hourly'); setHoveredPoint(null); }}
+                      className={`text-xs px-3.5 py-1.5 rounded-lg font-bold transition-all ${
+                        chartPeriod === 'hourly'
+                          ? 'bg-[#f5cb5c] text-[#121211] shadow'
+                          : 'text-stone-400 hover:text-white'
+                      }`}
+                    >
+                      Paskutinės 24 val. (Valandinis)
+                    </button>
+                    <button
+                      onClick={() => { setChartPeriod('daily'); setHoveredPoint(null); }}
+                      className={`text-xs px-3.5 py-1.5 rounded-lg font-bold transition-all ${
+                        chartPeriod === 'daily'
+                          ? 'bg-[#f5cb5c] text-[#121211] shadow'
+                          : 'text-stone-400 hover:text-white'
+                      }`}
+                    >
+                      Paskutinės 7 dienos (Dieninis)
+                    </button>
+                  </div>
+                </div>
+
+                {/* Conversion & Summary Badges */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6">
+                  <div className="bg-[#121211] border border-[#262624] rounded-xl p-4">
+                    <div className="flex items-center justify-between text-stone-400 text-xs">
+                      <span>Lankytojų srautas</span>
+                      <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block" />
+                    </div>
+                    <div className="text-2xl font-black text-emerald-400 mt-2">{totalSeriesVisitors}</div>
+                    <div className="text-[11px] text-stone-500 mt-0.5">Per pasirinktą periodą</div>
+                  </div>
+
+                  <div className="bg-[#121211] border border-[#262624] rounded-xl p-4">
+                    <div className="flex items-center justify-between text-stone-400 text-xs">
+                      <span>Krepšeliai</span>
+                      <span className="w-2.5 h-2.5 rounded-full bg-amber-400 inline-block" />
+                    </div>
+                    <div className="text-2xl font-black text-amber-400 mt-2">{totalSeriesCarts}</div>
+                    <div className="text-[11px] text-stone-500 mt-0.5">Sudėti pirkinių krepšeliai</div>
+                  </div>
+
+                  <div className="bg-[#121211] border border-[#262624] rounded-xl p-4">
+                    <div className="flex items-center justify-between text-stone-400 text-xs">
+                      <span>Gauti Užsakymai</span>
+                      <span className="w-2.5 h-2.5 rounded-full bg-sky-400 inline-block" />
+                    </div>
+                    <div className="text-2xl font-black text-sky-400 mt-2">{totalSeriesOrders}</div>
+                    <div className="text-[11px] text-stone-500 mt-0.5">Sėkmingai apmokėti</div>
+                  </div>
+
+                  <div className="bg-[#121211] border border-[#262624] rounded-xl p-4">
+                    <div className="flex items-center justify-between text-stone-400 text-xs">
+                      <span>Konversijos rodiklis</span>
+                      <ArrowUpRight className="w-4 h-4 text-[#f5cb5c]" />
+                    </div>
+                    <div className="text-2xl font-black text-[#f5cb5c] mt-2">{conversionRate}%</div>
+                    <div className="text-[11px] text-stone-500 mt-0.5">Užsakymai / Lankytojai</div>
+                  </div>
+                </div>
+
+                {/* Legend */}
+                <div className="flex flex-wrap items-center gap-6 mt-6 pt-4 border-t border-[#262624]/60 text-xs">
+                  <span className="text-stone-400 font-medium">Legenda:</span>
+                  <div className="flex items-center gap-2">
+                    <span className="w-3 h-3 rounded bg-emerald-500" />
+                    <span className="text-stone-300">Lankytojų srautas</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-3 h-3 rounded bg-amber-400" />
+                    <span className="text-stone-300">Krepšeliai su prekėmis</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-3 h-3 rounded bg-sky-400 shadow-sm shadow-sky-400/50" />
+                    <span className="text-white font-bold">Gauti užsakymai (Apmokėta)</span>
+                  </div>
+                  {hoveredPoint && (
+                    <div className="ml-auto text-xs font-mono text-[#f5cb5c] bg-[#121211] px-3 py-1 rounded-lg border border-[#333330]">
+                      {hoveredPoint.label}: <span className="text-emerald-400 font-bold">{hoveredPoint.visitors}</span> lank. • <span className="text-amber-400 font-bold">{hoveredPoint.carts}</span> krepš. • <span className="text-sky-400 font-bold">{hoveredPoint.orders}</span> užsak.
+                    </div>
+                  )}
+                </div>
+
+                {/* SVG Visual Comparison Chart */}
+                <div className="mt-6 pt-4">
+                  <div className="relative h-64 w-full bg-[#121211] rounded-xl border border-[#2b2b29] p-4 flex flex-col justify-end overflow-hidden">
+                    {/* Background Grid Lines */}
+                    <div className="absolute inset-x-4 top-4 bottom-8 flex flex-col justify-between pointer-events-none opacity-15">
+                      <div className="border-b border-stone-400 w-full" />
+                      <div className="border-b border-stone-400 w-full" />
+                      <div className="border-b border-stone-400 w-full" />
+                      <div className="border-b border-stone-400 w-full" />
+                    </div>
+
+                    {/* Bars Container */}
+                    <div className="relative z-10 h-48 flex items-end justify-between gap-1 sm:gap-2">
+                      {currentSeries.map((point, idx) => {
+                        const visitorHeight = Math.max(4, Math.round((point.visitors / maxVal) * 100));
+                        const cartHeight = Math.max(4, Math.round((point.carts / maxVal) * 100));
+                        const orderHeight = Math.max(4, Math.round((point.orders / maxVal) * 100));
+                        const isHovered = hoveredPoint?.label === point.label;
+
+                        return (
+                          <div
+                            key={idx}
+                            onMouseEnter={() => setHoveredPoint(point)}
+                            className={`flex-1 h-full flex items-end justify-center gap-0.5 sm:gap-1 group cursor-pointer transition-all duration-150 rounded-t-md ${
+                              isHovered ? 'bg-white/5' : ''
+                            }`}
+                          >
+                            {/* Visitor Bar */}
+                            <div
+                              style={{ height: `${visitorHeight}%` }}
+                              className={`w-full max-w-[8px] sm:max-w-[12px] bg-emerald-500/80 group-hover:bg-emerald-400 rounded-t transition-all ${
+                                point.visitors > 0 ? 'opacity-100' : 'opacity-20'
+                              }`}
+                              title={`${point.label}: ${point.visitors} lankytojų`}
+                            />
+
+                            {/* Cart Bar */}
+                            <div
+                              style={{ height: `${cartHeight}%` }}
+                              className={`w-full max-w-[8px] sm:max-w-[12px] bg-amber-400/80 group-hover:bg-amber-300 rounded-t transition-all ${
+                                point.carts > 0 ? 'opacity-100' : 'opacity-20'
+                              }`}
+                              title={`${point.label}: ${point.carts} krepšelių`}
+                            />
+
+                            {/* Order Bar (Prominent Sky Blue) */}
+                            <div
+                              style={{ height: `${orderHeight}%` }}
+                              className={`w-full max-w-[8px] sm:max-w-[12px] bg-sky-400 group-hover:bg-sky-300 rounded-t shadow-sm shadow-sky-400/50 transition-all ${
+                                point.orders > 0 ? 'opacity-100 ring-1 ring-sky-300' : 'opacity-20'
+                              }`}
+                              title={`${point.label}: ${point.orders} užsakymų`}
+                            />
+                          </div>
+                        );
+                      })}
+                    </div>
+
+                    {/* X-Axis Labels */}
+                    <div className="relative z-10 h-6 pt-2 flex items-center justify-between text-[10px] font-mono text-stone-500 border-t border-[#262624]">
+                      {currentSeries.map((point, idx) => {
+                        // Skip labels on small screens to avoid clutter if too many
+                        const showLabel = chartPeriod === 'daily' || idx % 3 === 0 || idx === currentSeries.length - 1;
+                        return (
+                          <div key={idx} className="flex-1 text-center truncate">
+                            {showLabel ? point.label : ''}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Additional Insights Footer */}
+                <div className="mt-4 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-400 bg-[#121211] p-3 rounded-xl border border-[#242422] gap-2">
+                  <div className="flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                    <span>Realaus laiko agregacija iš Cloudflare D1 duomenų bazės.</span>
+                  </div>
+                  <div className="font-mono text-stone-300 text-[11px]">
+                    Krepšelio atsiskaitymo santykis: <strong className="text-amber-400">{cartCheckoutRate}%</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })()}
 
         {/* Tab 1: Live Visitors Radar */}
         {activeTab === 'visitors' && (

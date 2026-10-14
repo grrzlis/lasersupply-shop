@@ -55,7 +55,7 @@ export async function GET(req: Request) {
           SELECT id, customer_name, customer_email, shipping_address, total_amount, currency, payment_status, fulfillment_status, supplier_order_id, tracking_number, tracking_url, created_at, items
           FROM orders
           ORDER BY created_at DESC
-          LIMIT 50
+          LIMIT 100
         `).all();
         orders = ordersQuery.results || [];
         stats.totalOrders = orders.length;
@@ -64,11 +64,67 @@ export async function GET(req: Request) {
       }
     }
 
+    // 3. Compute Hourly Comparison Series (Last 24 Hours)
+    // 24 buckets of 1 hour each
+    const hourlySeries = [];
+    for (let i = 23; i >= 0; i--) {
+      const bucketStart = now - (i + 1) * 60 * 60 * 1000;
+      const bucketEnd = now - i * 60 * 60 * 1000;
+      const dateObj = new Date(bucketEnd);
+      const label = `${String(dateObj.getHours()).padStart(2, '0')}:00`;
+
+      const bucketVisitors = visitors.filter((v: any) => v.last_active_at >= bucketStart && v.last_active_at < bucketEnd).length;
+      const bucketCarts = visitors.filter((v: any) => v.cart_count > 0 && v.last_active_at >= bucketStart && v.last_active_at < bucketEnd).length;
+      
+      const bucketOrders = orders.filter((o: any) => {
+        const orderTime = new Date(o.created_at).getTime();
+        return !isNaN(orderTime) && orderTime >= bucketStart && orderTime < bucketEnd;
+      }).length;
+
+      hourlySeries.push({
+        label,
+        visitors: bucketVisitors,
+        carts: bucketCarts,
+        orders: bucketOrders,
+      });
+    }
+
+    // 4. Compute Daily Comparison Series (Last 7 Days)
+    const dailySeries = [];
+    for (let i = 6; i >= 0; i--) {
+      const d = new Date();
+      d.setDate(d.getDate() - i);
+      d.setHours(0, 0, 0, 0);
+      const dayStart = d.getTime();
+      const dayEnd = dayStart + 24 * 60 * 60 * 1000;
+      
+      const dayName = d.toLocaleDateString('lt-LT', { weekday: 'short', month: 'numeric', day: 'numeric' });
+
+      const dayVisitors = visitors.filter((v: any) => v.last_active_at >= dayStart && v.last_active_at < dayEnd).length;
+      const dayCarts = visitors.filter((v: any) => v.cart_count > 0 && v.last_active_at >= dayStart && v.last_active_at < dayEnd).length;
+      
+      const dayOrders = orders.filter((o: any) => {
+        const orderTime = new Date(o.created_at).getTime();
+        return !isNaN(orderTime) && orderTime >= dayStart && orderTime < dayEnd;
+      }).length;
+
+      dailySeries.push({
+        label: dayName,
+        visitors: dayVisitors,
+        carts: dayCarts,
+        orders: dayOrders,
+      });
+    }
+
     return NextResponse.json({
       ok: true,
       stats,
       visitors,
       orders,
+      charts: {
+        hourly: hourlySeries,
+        daily: dailySeries,
+      },
       timestamp: now,
     });
   } catch (err: unknown) {
