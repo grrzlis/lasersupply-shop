@@ -81,25 +81,10 @@ export function SlideOverCart({ locale = 'en' }: { locale?: Locale }) {
           </div>
 
           {/* Free Shipping Bar */}
-          <div className="px-5 py-3 bg-[#f6f5f2] border-b border-[#ddd9cf] text-xs">
-            {totalPrice >= freeShippingThreshold ? (
-              <span className="text-emerald-700 font-semibold flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4" /> {t.freeShippingUnlocked}
-              </span>
-            ) : (
-              <div className="space-y-1.5">
-                <div className="flex justify-between text-[#5f5e58] text-[12px]">
-                  <span>{(freeShippingThreshold - totalPrice).toFixed(2)} € {t.awayFromFreeShipping}</span>
-                  <span className="font-mono">{progressToFreeShipping.toFixed(0)}%</span>
-                </div>
-                <div className="w-full h-1.5 bg-[#ddd9cf] overflow-hidden">
-                  <div
-                    className="h-full bg-[#f0c84a] transition-all duration-300"
-                    style={{ width: `${progressToFreeShipping}%` }}
-                  />
-                </div>
-              </div>
-            )}
+          <div className="px-5 py-3 bg-emerald-50/80 border-b border-emerald-200/60 text-xs">
+            <span className="text-emerald-800 font-bold flex items-center gap-1.5">
+              <ShieldCheck className="w-4 h-4 text-emerald-600" /> {t.freeShippingUnlocked}
+            </span>
           </div>
 
           {/* Cart Items List */}

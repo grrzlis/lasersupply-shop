@@ -134,6 +134,7 @@ export default async function LocalizedHomePage({
               availability: 'https://schema.org/InStock',
               url: `https://lasersupply.org/${locale}#${p.slug}`,
               priceValidUntil: '2027-12-31',
+              validFrom: '2026-01-01T00:00:00Z',
               shippingDetails: {
                 '@type': 'OfferShippingDetails',
                 shippingRate: {
@@ -143,20 +144,20 @@ export default async function LocalizedHomePage({
                 },
                 shippingDestination: {
                   '@type': 'DefinedRegion',
-                  addressCountry: ['LT', 'LV', 'EE', 'DE', 'FR', 'PL', 'ES'],
+                  addressCountry: ['LT', 'LV', 'EE', 'DE', 'FR', 'PL', 'ES', 'IT', 'NL', 'BE', 'AT', 'SE', 'FI', 'IE', 'DK', 'NO', 'CH', 'GB', 'US'],
                 },
                 deliveryTime: {
                   '@type': 'ShippingDeliveryTime',
                   handlingTime: {
                     '@type': 'QuantitativeValue',
-                    minValue: 0,
-                    maxValue: 1,
+                    minValue: 1,
+                    maxValue: 3,
                     unitCode: 'd',
                   },
                   transitTime: {
                     '@type': 'QuantitativeValue',
-                    minValue: 2,
-                    maxValue: 5,
+                    minValue: 5,
+                    maxValue: 12,
                     unitCode: 'd',
                   },
                 },
@@ -165,7 +166,7 @@ export default async function LocalizedHomePage({
                 '@type': 'MerchantReturnPolicy',
                 applicableCountry: 'EU',
                 returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
-                merchantReturnDays: 14,
+                merchantReturnDays: 30,
                 returnMethod: 'https://schema.org/ReturnByMail',
                 returnFees: 'https://schema.org/FreeReturn',
               },
@@ -319,7 +320,7 @@ export default async function LocalizedHomePage({
             <ul className="space-y-1.5 text-[#a8a8a8]">
               <li><a href="#" className="hover:text-[#ffffff]">LightBurn Cheatsheet</a></li>
               <li><a href="#" className="hover:text-[#ffffff]">Shipping & Delivery</a></li>
-              <li><a href="#" className="hover:text-[#ffffff]">Returns Policy</a></li>
+              <li><a href="/returns" className="hover:text-[#ffffff]">Returns Policy</a></li>
               <li><a href="#" className="hover:text-[#ffffff]">Privacy Policy</a></li>
             </ul>
           </div>
