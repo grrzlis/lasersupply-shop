@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Spline_Sans, IBM_Plex_Sans } from "next/font/google";
+import Script from "next/script";
 import { VisitorTracker } from "@/components/VisitorTracker";
 import "./globals.css";
 
@@ -36,6 +37,22 @@ export default function RootLayout({
       className={`${splineSans.variable} ${ibmPlex.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        {/* Google tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=GT-WPL6HZXN"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'GT-WPL6HZXN');
+          `}
+        </Script>
+      </head>
       <body className="min-h-full flex flex-col antialiased" suppressHydrationWarning>
         <VisitorTracker />
         {children}
