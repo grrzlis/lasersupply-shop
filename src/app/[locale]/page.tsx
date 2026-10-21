@@ -100,39 +100,17 @@ export default async function LocalizedHomePage({
             name: p.name_i18n?.[locale] || p.name,
             description: p.description_i18n?.[locale] || p.description,
             image: p.images[0],
-            sku: p.supplier_sku,
+            sku: p.supplier_sku || p.id,
             brand: {
               '@type': 'Brand',
               name: p.specs?.Brand || 'LaserSupply',
             },
-            aggregateRating: {
-              '@type': 'AggregateRating',
-              ratingValue: '4.9',
-              reviewCount: '128',
-              bestRating: '5',
-              worstRating: '1',
-            },
-            review: [
-              {
-                '@type': 'Review',
-                reviewRating: {
-                  '@type': 'Rating',
-                  ratingValue: '5',
-                  bestRating: '5',
-                },
-                author: {
-                  '@type': 'Person',
-                  name: 'Verified EU Maker',
-                },
-                reviewBody: 'Excellent high-precision component. Fast delivery across Europe and 100% genuine.',
-              },
-            ],
             offers: {
               '@type': 'Offer',
               price: p.price.toFixed(2),
               priceCurrency: 'EUR',
               availability: 'https://schema.org/InStock',
-              url: `https://lasersupply.org/${locale}#${p.slug}`,
+              url: `https://lasersupply.org/${locale}#${p.id}`,
               priceValidUntil: '2027-12-31',
               validFrom: '2026-01-01T00:00:00Z',
               shippingDetails: {
@@ -315,21 +293,22 @@ export default async function LocalizedHomePage({
 
           <div className="space-y-2">
             <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">
-              {(t as any).footerSupport || 'Support & Specs'}
+              {(t as any).footerSupport || 'Support & Policies'}
             </h4>
             <ul className="space-y-1.5 text-[#a8a8a8]">
-              <li><a href="#" className="hover:text-[#ffffff]">LightBurn Cheatsheet</a></li>
-              <li><a href="#" className="hover:text-[#ffffff]">Shipping & Delivery</a></li>
-              <li><a href="/returns" className="hover:text-[#ffffff]">Returns Policy</a></li>
-              <li><a href="#" className="hover:text-[#ffffff]">Privacy Policy</a></li>
+              <li><a href="/shipping" className="hover:text-[#ffffff]">Shipping & Delivery Policy</a></li>
+              <li><a href="/returns" className="hover:text-[#ffffff]">Returns & Refund Policy</a></li>
+              <li><a href="/privacy" className="hover:text-[#ffffff]">Privacy Policy & Terms</a></li>
+              <li><a href="#catalog" className="hover:text-[#ffffff]">LightBurn Tested Materials</a></li>
             </ul>
           </div>
 
           <div className="space-y-2">
             <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">
-              {(t as any).footerContact || 'Contact'}
+              {(t as any).footerContact || 'Company & Contact'}
             </h4>
-            <p className="text-[#a8a8a8]">{(t as any).footerOrders || 'B2B & Maker Orders:'}</p>
+            <p className="text-[#ffffff] font-semibold">MB „Gists Group“</p>
+            <p className="text-[#a8a8a8]">Vilnius, Republic of Lithuania (EU)</p>
             <p className="text-[#ffffff] font-bold">info@lasersupply.org</p>
             <p className="text-[#a8a8a8]">{(t as any).footerHours || 'Mon–Fri 09:00 – 18:00 CET'}</p>
           </div>
@@ -337,7 +316,7 @@ export default async function LocalizedHomePage({
 
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-[#888888]">
           <div>
-            © {new Date().getFullYear()} LaserSupply.org. All rights reserved. · Sukurta MB „Gists Group“
+            © {new Date().getFullYear()} LaserSupply.org · Operated by MB „Gists Group“ (Lithuania, EU). All rights reserved.
           </div>
           <div className="flex gap-4">
             <span>Stripe · Apple Pay · Google Pay · Visa · Mastercard</span>
