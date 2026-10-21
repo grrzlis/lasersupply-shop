@@ -92,7 +92,7 @@ export default async function LocalizedHomePage({
       },
       {
         '@type': 'ItemList',
-        itemListElement: PRODUCTS.slice(0, 20).map((p, idx) => ({
+        itemListElement: PRODUCTS.slice(0, 10).map((p, idx) => ({
           '@type': 'ListItem',
           position: idx + 1,
           item: {
@@ -264,7 +264,7 @@ export default async function LocalizedHomePage({
         </div>
 
         {/* Main Catalog with Categories Sidebar */}
-        <CatalogWithSidebar products={PRODUCTS} locale={locale} />
+        <CatalogWithSidebar locale={locale} />
       </main>
 
       {/* Footer */}

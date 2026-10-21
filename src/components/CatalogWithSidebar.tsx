@@ -29,11 +29,13 @@ const iconMap: Record<string, React.ReactNode> = {
   Package: <Package className="w-4 h-4" />,
 };
 
+import { PRODUCTS } from '@/lib/products';
+
 export function CatalogWithSidebar({
-  products,
+  products = PRODUCTS,
   locale = 'en',
 }: {
-  products: Product[];
+  products?: Product[];
   locale?: Locale;
 }) {
   const [activeCategory, setActiveCategory] = useState<string>('all');

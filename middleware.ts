@@ -5,10 +5,17 @@ import { locales, defaultLocale, countryToLocaleMap, Locale } from '@/lib/i18n';
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Skip static files, api routes, and next internals
+  // Skip static files, api routes, admin, and standalone pages
   if (
     pathname.startsWith('/_next') ||
     pathname.startsWith('/api') ||
+    pathname.startsWith('/admin') ||
+    pathname.startsWith('/shipping') ||
+    pathname.startsWith('/returns') ||
+    pathname.startsWith('/privacy') ||
+    pathname.startsWith('/google-shopping') ||
+    pathname.startsWith('/sitemap') ||
+    pathname.startsWith('/robots') ||
     pathname.includes('.') ||
     pathname.startsWith('/favicon.ico')
   ) {
