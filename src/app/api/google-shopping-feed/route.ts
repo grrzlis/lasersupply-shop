@@ -164,6 +164,11 @@ ${additionalImagesXml ? additionalImagesXml + '\n' : ''}      <g:condition>new</
         <g:service>Standard International Tracked</g:service>
         <g:price>0.00 EUR</g:price>
       </g:shipping>
+      <g:shipping>
+        <g:country>CA</g:country>
+        <g:service>Standard International Tracked</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
     </item>`;
     }).join('\n');
 

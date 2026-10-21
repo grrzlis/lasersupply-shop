@@ -122,7 +122,7 @@ export default async function LocalizedHomePage({
                 },
                 shippingDestination: {
                   '@type': 'DefinedRegion',
-                  addressCountry: ['LT', 'LV', 'EE', 'DE', 'FR', 'PL', 'ES', 'IT', 'NL', 'BE', 'AT', 'SE', 'FI', 'IE', 'DK', 'NO', 'CH', 'GB', 'US'],
+                  addressCountry: ['LT', 'LV', 'EE', 'DE', 'FR', 'PL', 'ES', 'IT', 'NL', 'BE', 'AT', 'SE', 'FI', 'IE', 'DK', 'NO', 'CH', 'GB', 'US', 'CA'],
                 },
                 deliveryTime: {
                   '@type': 'ShippingDeliveryTime',

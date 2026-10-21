@@ -39,7 +39,7 @@ export default function ShippingPolicyPage() {
                 <span>1. Free Shipping on All Orders (Nemokamas pristatymas)</span>
               </h2>
               <p>
-                We offer <strong>100% Free Tracked Shipping (0.00 EUR)</strong> on all orders across the European Union, United Kingdom, Norway, Switzerland, and the United States. There is no minimum order value required.
+                We offer <strong>100% Free Tracked Shipping (0.00 EUR)</strong> on all orders across the European Union, United Kingdom, Norway, Switzerland, the United States, and Canada. There is no minimum order value required.
               </p>
             </section>
 
@@ -65,7 +65,7 @@ export default function ShippingPolicyPage() {
                 We ship directly from our partnered European and international fulfillment centers to your doorstep or local parcel locker. Once your order is dispatched, you will automatically receive an email with a live <strong>Tracking Number</strong> and tracking link.
               </p>
               <p className="text-stone-400">
-                Supported Countries: Lithuania (LT), Latvia (LV), Estonia (EE), Germany (DE), France (FR), Poland (PL), Spain (ES), Italy (IT), Netherlands (NL), Belgium (BE), Austria (AT), Denmark (DK), Sweden (SE), Finland (FI), Ireland (IE), Norway (NO), Switzerland (CH), United Kingdom (GB), and United States (US).
+                Supported Countries: Lithuania (LT), Latvia (LV), Estonia (EE), Germany (DE), France (FR), Poland (PL), Spain (ES), Italy (IT), Netherlands (NL), Belgium (BE), Austria (AT), Denmark (DK), Sweden (SE), Finland (FI), Ireland (IE), Norway (NO), Switzerland (CH), United Kingdom (GB), United States (US), and Canada (CA).
               </p>
             </section>
 
