@@ -1,8 +1,22 @@
 import React from 'react';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { ArrowLeft, Shield, Lock, CheckCircle2, Mail } from 'lucide-react';
 
 export const runtime = 'edge';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy & Terms | LaserSupply.org',
+  description: 'LaserSupply.org privacy policy, GDPR compliance, encrypted payment processing, and customer data rights for EU, US & CA customers.',
+  alternates: {
+    canonical: 'https://lasersupply.org/privacy',
+  },
+  openGraph: {
+    title: 'Privacy Policy & Terms | LaserSupply.org',
+    description: 'GDPR compliance, encrypted payment processing, and customer data protection.',
+    url: 'https://lasersupply.org/privacy',
+  },
+};
 
 export default function PrivacyPolicyPage() {
   return (

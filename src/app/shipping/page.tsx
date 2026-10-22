@@ -1,8 +1,22 @@
 import React from 'react';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { ArrowLeft, Truck, Clock, Globe, ShieldCheck, Mail } from 'lucide-react';
 
 export const runtime = 'edge';
+
+export const metadata: Metadata = {
+  title: 'Shipping & Delivery Policy | LaserSupply.org',
+  description: 'Free tracked shipping across EU, USA & Canada (5–12 business days). Transparent delivery timeframes, dispatch hubs, and tracking information.',
+  alternates: {
+    canonical: 'https://lasersupply.org/shipping',
+  },
+  openGraph: {
+    title: 'Shipping & Delivery Policy | LaserSupply.org',
+    description: 'Free tracked shipping across EU, USA & Canada (5–12 business days).',
+    url: 'https://lasersupply.org/shipping',
+  },
+};
 
 export default function ShippingPolicyPage() {
   return (

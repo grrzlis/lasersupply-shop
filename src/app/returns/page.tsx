@@ -1,8 +1,22 @@
 import React from 'react';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { ShieldCheck, ArrowLeft, RotateCcw, Clock, Mail, CheckCircle2 } from 'lucide-react';
 
 export const runtime = 'edge';
+
+export const metadata: Metadata = {
+  title: 'Returns & Refund Policy | LaserSupply.org',
+  description: 'Official 30-day return policy and money-back guarantee for LaserSupply.org. Free returns on damaged or defective laser maker items.',
+  alternates: {
+    canonical: 'https://lasersupply.org/returns',
+  },
+  openGraph: {
+    title: 'Returns & Refund Policy | LaserSupply.org',
+    description: '30-day return policy and money-back guarantee for LaserSupply.org.',
+    url: 'https://lasersupply.org/returns',
+  },
+};
 
 export default function ReturnPolicyPage() {
   return (

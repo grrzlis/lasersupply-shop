@@ -19,12 +19,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // Add return policy
+  // Add policies
+  entries.push({
+    url: `${baseUrl}/shipping`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  });
   entries.push({
     url: `${baseUrl}/returns`,
     lastModified: now,
     changeFrequency: 'monthly',
-    priority: 0.5,
+    priority: 0.7,
+  });
+  entries.push({
+    url: `${baseUrl}/privacy`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.6,
   });
 
   return entries;
