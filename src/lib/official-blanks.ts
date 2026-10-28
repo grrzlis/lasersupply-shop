@@ -468,4 +468,423 @@ export const OFFICIAL_BLANK_PRODUCTS: Product[] = [
       'Laser Systems': 'Diode, Fiber, UV & Green Sub-Surface Marking'
     }
   }
+,
+{
+  "id": "prod_ae_slate_10",
+  "name": "Natural Black Slate Coasters with Soft Feet – 10 Pcs Set (10x10cm / 4\"x4\")",
+  "slug": "natural-black-slate-coasters-with-soft-feet-10-pcs-set",
+  "category_id": "cat_drinkware",
+  "description": "Pack of 10 genuine dark rock slate coasters (10x10cm, 5-7mm thick) with natural chiseled rustic edges. Fitted with soft anti-scratch EVA bottom pads. Lasers engrave a brilliant, crisp, frosty-white permanent contrast.",
+  "price": 21.9,
+  "compare_at_price": 32,
+  "cost_price": 7.2,
+  "supplier_sku": "AE-SLATE-10P-SQ",
+  "aliexpress_product_id": "1005006328194012",
+  "aliexpress_sku": "SQ-10P-NATURAL",
+  "badge": "Bestseller Blank",
+  "laser_type": "Diode, Fiber & CO2 Laser (White Etch)",
+  "recommended_power": "Diode 10W: Speed 3000 mm/min, Power 50% | CO2: Speed 300 mm/s, Power 25%",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/2222/7859/products/55BA1D43-4634-40b1-ADA3-601B0837E42C.jpg?v=1675403873",
+    "https://cdn.shopify.com/s/files/1/2222/7859/products/7096B257-BBF3-49a2-AB1D-D17F44FE7D55.jpg?v=1675404234",
+    "https://cdn.shopify.com/s/files/1/2222/7859/products/E3A5530C-1708-433e-85B9-43E6262CD457.jpg?v=1675404234",
+    "https://cdn.shopify.com/s/files/1/2222/7859/products/914D9FBB-D0E8-4be7-A314-A902CBCBD5CA.jpg?v=1675404234"
+  ],
+  "name_i18n": {
+    "en": "Natural Black Slate Coasters with Soft Feet – 10 Pcs Set (10x10cm / 4\"x4\")",
+    "lt": "Natūralaus Skalūno Padėkliukai su Kojelėmis – 10 vnt. Komplektas (10x10cm)",
+    "de": "Natürliche Schieferuntersetzer mit Schutzfüßen – 10er-Set (10x10cm)",
+    "fr": "Dessous de Verre en Ardoise Naturelle avec Patins – Lot de 10 (10x10cm)",
+    "es": "Posavasos de Pizarra Natural con Almohadillas – Set de 10 (10x10cm)",
+    "pl": "Podkładki z Naturalnego Łupka Kamiennego – Zestaw 10 Szt. (10x10cm)",
+    "lv": "Dabīgā Šīfera Paliktņi ar Kājiņām – 10 Gab. Komplekts (10x10cm)",
+    "et": "Naturaalsest Kildakivist Klaasialused – 10 Tk Komplekt (10x10cm)"
+  },
+  "description_i18n": {
+    "en": "Pack of 10 genuine dark rock slate coasters (10x10cm, 5-7mm thick) with natural chiseled rustic edges. Fitted with soft anti-scratch EVA bottom pads. Lasers engrave a brilliant, crisp, frosty-white permanent contrast.",
+    "lt": "10 vnt. natūralaus tamsaus akmens skalūno padėkliukai (10x10cm, 5–7mm storio) su skaldytais autentiškais kraštais. Komplektuojami su minkštomis apsauginėmis kojelėmis. Lazeris išgraviruoja sniego baltumo kontrastą be chemikalų.",
+    "de": "10er-Pack echte Naturschiefer-Untersetzer (10x10cm, 5-7mm stark) mit rustikal gebrochenen Kanten. Mit weichen Moosgummifüßen gegen Kratzer. Ergibt graviert einen schneeweißen, dauerhaften Kontrast.",
+    "fr": "Lot de 10 dessous de verre en ardoise noire naturelle (10x10cm, épaisseur 5-7mm) aux bords bruts ciselés. Munis de patins protecteurs anti-rayures. Gravure laser blanche éclatante.",
+    "es": "Pack de 10 posavasos de pizarra natural (10x10cm, grosor 5-7mm) con bordes rústicos biselados. Equipados con almohadillas protectoras. El láser crea un grabado blanco de alto contraste.",
+    "pl": "Zestaw 10 podkładek pod kubki z naturalnego łupka kamiennego (10x10cm, 5-7mm) z łupanymi krawędziami. Posiadają piankowe nóżki ochronne. Grawer laserowy daje śnieżnobiały, trwały kontrast.",
+    "lv": "10 gab. dabīgā šīfera akmens paliktņi (10x10cm) ar neregulārām dabīgām malām un aizsargkājām. Lāzergravējums atklāj spilgti baltu, paliekošu kontrastu.",
+    "et": "10 tk naturaalsest mustast kildakivist klaasialust (10x10cm) rustikaalsete murtud servadega. Kaitsvate libisemisvastaste jalgadega. Lasergraveering annab säravvalge kontrasti."
+  },
+  "full_description": "### Premium Slate Rock & Laser Engraving Guide\n- **Rock Material:** 100% natural quarried sedimentary slate rock with organic cleft surface\n- **Size & Thickness:** 100 x 100 x 5-7 mm (Standard 4\" x 4\" format)\n- **Tabletop Protection:** 4 pre-applied soft EVA foam bumper pads on the underside of every coaster prevent scratches\n- **Laser Reaction:** Thermal micro-fracturing turns the dark carbonaceous slate into a permanent, weather-proof, brilliant frosty white mark\n- **LightBurn Settings:** Diode 10W: Speed 3000 mm/min, Power 50%, Line Interval 0.08mm. CO2 40W: Speed 300 mm/s, Power 25%.\n- **Commercial Markets:** Custom wedding guest favors, craft brewery branded merchandise, barware, personalized housewarming gifts.",
+  "full_description_i18n": {
+    "en": "### Premium Slate Rock & Laser Engraving Guide\n- **Rock Material:** 100% natural quarried sedimentary slate rock with organic cleft surface\n- **Size & Thickness:** 100 x 100 x 5-7 mm (Standard 4\" x 4\" format)\n- **Tabletop Protection:** 4 pre-applied soft EVA foam bumper pads on the underside of every coaster prevent scratches\n- **Laser Reaction:** Thermal micro-fracturing turns the dark carbonaceous slate into a permanent, weather-proof, brilliant frosty white mark\n- **LightBurn Settings:** Diode 10W: Speed 3000 mm/min, Power 50%, Line Interval 0.08mm. CO2 40W: Speed 300 mm/s, Power 25%.\n- **Commercial Markets:** Custom wedding guest favors, craft brewery branded merchandise, barware, personalized housewarming gifts.",
+    "lt": "### Natūralaus skalūno kokybė ir Lazerio nustatymai\n- **Medžiaga:** 100% tikras natūralus skalūno akmuo su autentišku reljefu\n- **Išmatavimai:** 100 x 100 x 5–7 mm (Standartinis kvadratinis dydis)\n- **Apsauga stalui:** Kiekvienas padėkliukas apačioje turi 4 minkštas EVA putos kojeles, saugančias stalviršį nuo subraižymo\n- **Graviravimo rezultatas:** Lazerio spindulys akimirksniu pakeičia akmens mineralų struktūrą, sukuriant permanentinį, vandeniui ir karščiui atsparų baltą užrašą\n- **LightBurn rekomenduojami nustatymai:** Diodas 10W: Greitis 3000 mm/min, Galia 50%, Žingsnis 0.08mm. CO2 40W: Greitis 300 mm/s, Galia 25%.\n- **Pritaikymas:** Vestuvių dovanos svečiams, barų ir kavinukių atributika, personalizuoti suvenyrai.",
+    "de": "### Schiefer-Qualität & Laserparameter\n- **Material:** 100% natürlicher Schieferstein mit rustikaler Bruchstruktur\n- **Maße:** 100 x 100 x 5-7 mm\n- **Möbelschutz:** 4 weiche Moosgummifüße pro Untersetzer\n- **LightBurn:** Diode 10W: 3000 mm/min bei 50% Leistung. CO2: 300 mm/s bei 25%.\n- **Projekte:** Hochzeitsgeschenke, Bar-Deko, Restaurantbedarf.",
+    "fr": "### Ardoise Naturelle & Paramètres Laser\n- **Matériau :** 100% ardoise naturelle clivée\n- **Dimensions :** 100 x 100 x 5-7 mm\n- **Protection :** 4 patins en mousse EVA anti-rayures\n- **Gravure :** Rendu blanc givré éclatant sans additifs.",
+    "es": "### Pizarra Natural y Guía de Grabado\n- **Material:** Pizarra sedimentaria 100% auténtica\n- **Medidas:** 100 x 100 x 5-7 mm\n- **Protección:** 4 almohadillas EVA antirrayas por pieza\n- **Acabado:** Grabado blanco brillante indeleble.",
+    "pl": "### Jakość Łupka i Parametry Lasera\n- **Materiał:** 100% naturalny łupek kamienny\n- **Wymiary:** 100 x 100 x 5-7 mm\n- **Ochrona:** 4 miękkie podkładki EVA od spodu\n- **LightBurn:** Dioda 10W: 3000 mm/min, 50% mocy. CO2: 300 mm/s, 25% mocy.",
+    "lv": "### Šīfera kvalitāte un Lāzera iestatījumi\n- **Materiāls:** Dabīgs kalnu šīferis (100x100mm)\n- **Aizsardzība:** 4 mīkstas pēdiņas katram paliktnim.",
+    "et": "### Kildakivi omadused ja Seaded\n- **Materjal:** 100% ehtne naturaalne kildakivi (100x100mm)\n- **Pinnakaitse:** 4 pehmet vahtpatja kriimustuste vältimiseks."
+  },
+  "specs": {
+    "Pack Quantity": "10 Coasters",
+    "Dimensions": "100 x 100 x 6 mm (4\" x 4\")",
+    "Material": "100% Natural Black Slate Stone",
+    "Surface Finish": "Natural Cleft Top with Soft EVA Bottom Bumpers",
+    "Laser Settings": "Diode 10W: 3000 mm/min @ 50% Power"
+  }
+},
+{
+  "id": "prod_ae_pins_50",
+  "name": "Universal Laser Honeycomb Bed Hold-Down Pins & Anti-Warp Clamps (50 Pcs Set)",
+  "slug": "universal-laser-honeycomb-bed-hold-down-pins-50-pcs-set",
+  "category_id": "cat_hardware",
+  "description": "Pack of 50 heavy-duty flexible honeycomb bed hold-down pins. Universally fits 7.5mm to 9.5mm cell honeycomb grids. Flattens bowed plywood and sheet acrylic firmly against the bed to ensure razor-sharp focal consistency.",
+  "price": 14.9,
+  "compare_at_price": 22,
+  "cost_price": 3.9,
+  "supplier_sku": "AE-PIN-HONEYCOMB-50",
+  "aliexpress_product_id": "1005005829147183",
+  "aliexpress_sku": "PINS-50P-7595",
+  "badge": "Must-Have Accessory",
+  "laser_type": "Universal Diode, CO2 & Fiber Honeycomb Beds",
+  "recommended_power": "Mechanical Hold-Down Pin (Prevents Focal Blur on Warped Wood)",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/2222/7859/files/Positioning-Bar-1.jpg?v=1713859342",
+    "https://cdn.shopify.com/s/files/1/2222/7859/files/Positioning-Bar-2.jpg?v=1713859341",
+    "https://cdn.shopify.com/s/files/1/2222/7859/files/Positioning-Bar-3.jpg?v=1713859343",
+    "https://cdn.shopify.com/s/files/1/2222/7859/files/Positioning-Bar-4.jpg?v=1713859342"
+  ],
+  "name_i18n": {
+    "en": "Universal Laser Honeycomb Bed Hold-Down Pins & Anti-Warp Clamps (50 Pcs Set)",
+    "lt": "Universalūs Lazerio Korių Fiksavimo Smeigtukai ir Spaustuvai (50 vnt. Komplektas)",
+    "de": "Universelle Wabentisch-Niederhalte-Pins & Klemmen (50er-Set)",
+    "fr": "Goupilles de Fixation et Pinces pour Lit en Nid d'Abeille Laser (Lot de 50)",
+    "es": "Pasadores de Sujeción para Mesa de Nido de Abeja Láser (Set de 50)",
+    "pl": "Kołki Dociskowe do Stołu Plastra Miodu Plotera Laserowego (50 Szt.)",
+    "lv": "Universālās Šūnu Galda Stiprinājuma Tapas Lāzeram (50 Gab. Komplekts)",
+    "et": "Universaalsed Kärglaua Kinnitustihvtid ja Klambrid (50 Tk Komplekt)"
+  },
+  "description_i18n": {
+    "en": "Pack of 50 heavy-duty flexible honeycomb bed hold-down pins. Universally fits 7.5mm to 9.5mm cell honeycomb grids. Flattens bowed plywood and sheet acrylic firmly against the bed to ensure razor-sharp focal consistency.",
+    "lt": "50 vnt. elastingų korio stalo fiksavimo smeigtukų rinkinys. Tinka visiems standartiniams 7.5mm–9.5mm skylučių koriams. Prispaudžia išlinkusią fanerą ar akrilą visiškai lygiai prie stalo, eliminuojant foko išsiderinimą.",
+    "de": "50 flexible Niederhaltestifte für Lasergravur-Wabentische (für 7,5 bis 9,5 mm Wabenlöcher). Drückt gewölbtes Holz und Acryl absolut plan für perfekte Fokusstabilität.",
+    "fr": "Lot de 50 goupilles de maintien pour plateau en nid d'abeille (mailles 7.5 à 9.5 mm). Plaque parfaitement le bois voilé pour éviter toute perte de mise au point.",
+    "es": "Pack de 50 pasadores flexibles para mesas de nido de abeja (7.5 a 9.5 mm). Aplana la madera contrachapada curvada para un enfoque nítido.",
+    "pl": "Zestaw 50 elastycznych kołków dociskowych do plastra miodu (7.5–9.5 mm). Dociska wygiętą sklejkę i akryl idealnie płasko, zapobiegając rozmyciu wiązki.",
+    "lv": "50 gab. elastīgas šūnu galda tapas (7.5–9.5 mm). Piespiež izliektu saplāksni ideāli līdzeni pie galda virsmas.",
+    "et": "50 tk painduvat kinnitustihvti kärglauale (7.5–9.5 mm). Surub kõverdunud vineeri ja akrüüli täpselt lamedaks."
+  },
+  "full_description": "### Essential Honeycomb Grid Fixture\n- **Compatibility:** Universally engineered for all laser cutters with honeycomb workbenches (xTool, Creality Falcon, Sculpfun, Ortur, TwoTrees, OMTech, Cloudray)\n- **Grid Aperture:** Fluted conical body firmly seats into 7.5 mm to 9.5 mm honeycomb mesh cells\n- **Eliminate Material Warping:** Uneven or bowed plywood causes the focal distance to shift by 1-3mm, resulting in incomplete cuts and scorch marks. These pins lock sheets 100% flush\n- **Heat & Fire Resistant:** Injection-molded from durable high-temperature polymer that withstands reflected beam splatter without melting\n- **Quantity:** 50 pieces per pack allows simultaneous multi-sheet production.",
+  "full_description_i18n": {
+    "en": "### Essential Honeycomb Grid Fixture\n- **Compatibility:** Universally engineered for all laser cutters with honeycomb workbenches (xTool, Creality Falcon, Sculpfun, Ortur, TwoTrees, OMTech, Cloudray)\n- **Grid Aperture:** Fluted conical body firmly seats into 7.5 mm to 9.5 mm honeycomb mesh cells\n- **Eliminate Material Warping:** Uneven or bowed plywood causes the focal distance to shift by 1-3mm, resulting in incomplete cuts and scorch marks. These pins lock sheets 100% flush\n- **Heat & Fire Resistant:** Injection-molded from durable high-temperature polymer that withstands reflected beam splatter without melting\n- **Quantity:** 50 pieces per pack allows simultaneous multi-sheet production.",
+    "lt": "### Būtinas korinio stalo priedas\n- **Suderinamumas:** Sukurta visiems diodiniams ir CO2 lazeriams su korio stalu (xTool, Creality, Sculpfun, Ortur, TwoTrees, OMTech, Cloudray)\n- **Lizdo dydis:** Kūginė gofruota forma standžiai įsistato į 7.5–9.5 mm korio akutes\n- **Panaikina medienos išlinkimus:** Išlinkusi fanera pakeičia židinio nuotolį 1–3 mm, todėl lazeris neperpjauna medžiagos arba atsiranda suodžių. Šie smeigtukai užfiksuoja medžiagą 100% tiesiai\n- **Karščiui atspari medžiaga:** Pagaminta iš ugniai atsparaus inžinerinio polimero, atsparaus atspindėtam lazerio spinduliui\n- **Kiekis:** 50 vnt. pakuotėje pakanka keliems dideliems lakštams vienu metu prispausti.",
+    "de": "### Unverzichtbares Laserzubehör\n- **Kompatibel mit:** xTool, Sculpfun, Ortur, Creality, OMTech, Cloudray\n- **Passform:** 7,5 bis 9,5 mm Wabengröße\n- **Vorteil:** Verhindert Fehlfokussierung durch unebenes Sperrholz\n- **Material:** Hitze- und feuerbeständiger Spezialkunststoff.",
+    "fr": "### Accessoire Indispensable\n- **Compatibilité :** Universel pour lits en nid d'abeille de 7.5 à 9.5 mm\n- **Efficacité :** Supprime les déformations du bois pour des découpes nettes\n- **Matériau :** Polymère résistant aux hautes températures.",
+    "es": "### Accesorio Imprescindible\n- **Compatibilidad:** Para mesas de panal de 7.5 a 9.5 mm\n- **Función:** Elimina el pandeo de la madera para un enfoque constante\n- **Resistencia:** Polímero resistente al calor.",
+    "pl": "### Niezbędnik Warsztatowy\n- **Kompatybilność:** Stoły plastra miodu 7.5–9.5 mm (xTool, Sculpfun, Ortur, OMTech)\n- **Zastosowanie:** Likwiduje falowanie sklejki, gwarantując idealne cięcie bez niedocięć.",
+    "lv": "### Būtisks piederums\n- **Saderība:** Visiem lāzera šūnu galdiem 7.5–9.5 mm\n- **Funkcija:** Novērš koka izliekumus, nodrošinot stabilu fokusu.",
+    "et": "### Vajalik lisatarvik\n- **Ühilduvus:** Kärglauad mõõduga 7.5–9.5 mm\n- **Kasu:** Hoiab puidu tasasena ülitäpseks lõikuseks."
+  },
+  "specs": {
+    "Pack Size": "50 Hold-Down Pins",
+    "Grid Size Compatibility": "7.5 mm to 9.5 mm Honeycomb Cells",
+    "Material": "High-Temperature Flame-Retardant Polymer",
+    "Height": "32 mm with Ergonomic Grip Head"
+  }
+},
+{
+  "id": "prod_ae_marking_paper",
+  "name": "High-Density Laser Marking Color Transfer Paper for Metal, Glass & Ceramic (5 Pcs A4)",
+  "slug": "high-density-laser-marking-color-transfer-paper-metal-glass-ceramic",
+  "category_id": "cat_optics_safety",
+  "description": "Pack of 5 sheets A4 black thermal laser marking transfer paper (39x27cm). Enables diode and CO2 lasers to bond permanent, scratch-proof, high-contrast jet black markings onto stainless steel, bare metals, ceramic mugs, and glassware.",
+  "price": 19.9,
+  "compare_at_price": 28.5,
+  "cost_price": 5.8,
+  "supplier_sku": "AE-MARKING-PAPER-A4-5P",
+  "aliexpress_product_id": "1005005519203817",
+  "aliexpress_sku": "PAPER-A4-BLK-5P",
+  "badge": "Pro Marking Film",
+  "laser_type": "Diode, Fiber & CO2 (Deep Black Metal & Glass Etch)",
+  "recommended_power": "Diode 10W-20W: Speed 800-1500 mm/min, Power 90-100% | CO2: Speed 150 mm/s, Power 40%",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/2222/7859/files/Transfer-Paper-for-Crafts-1.jpg?v=1704684476",
+    "https://cdn.shopify.com/s/files/1/2222/7859/files/Transfer-Paper-for-Crafts-2.jpg?v=1704684476",
+    "https://cdn.shopify.com/s/files/1/2222/7859/files/Transfer-Paper-for-Crafts-3.jpg?v=1704684477",
+    "https://cdn.shopify.com/s/files/1/2222/7859/files/Transfer-Paper-for-Crafts-4.jpg?v=1704684476"
+  ],
+  "name_i18n": {
+    "en": "High-Density Laser Marking Color Transfer Paper for Metal, Glass & Ceramic (5 Pcs A4)",
+    "lt": "Lazerinio Žymėjimo Termo Popierius Metalui, Stiklui ir Keramikai (5 vnt. A4)",
+    "de": "Hochdichtes Laser-Markierpapier für Metall, Glas & Keramik (5 Stück A4)",
+    "fr": "Papier de Marquage Laser Thermique pour Métal, Verre et Céramique (5 Pcs A4)",
+    "es": "Papel de Marcado Láser Térmico para Metal, Vidrio y Cerámica (5 Uds. A4)",
+    "pl": "Papier Termiczny do Znakowania Laserowego Metalu, Szkła i Ceramiki (5 Szt. A4)",
+    "lv": "Lāzera Termopapīrs Metāla, Stikla un Keramikas Marķēšanai (5 Gab. A4)",
+    "et": "Termosiirdepaber Metalli, Klaasi ja Keraamika Lasermarkeerimiseks (5 Tk A4)"
+  },
+  "description_i18n": {
+    "en": "Pack of 5 sheets A4 black thermal laser marking transfer paper (39x27cm). Enables diode and CO2 lasers to bond permanent, scratch-proof, high-contrast jet black markings onto stainless steel, bare metals, ceramic mugs, and glassware.",
+    "lt": "5 vnt. A4 dydžio lazerinio žymėjimo termo lakštai (39x27cm). Leidžia su standartiniais diodiniais ir CO2 lazeriais išgauti neištrinamą, trinčiai atsparų ryškiai juodą graviravimą ant nerūdijančio plieno, stiklo ir keramikos.",
+    "de": "5er-Pack A4 Laser-Markierpapier (39x27cm). Ermöglicht Dioden- und CO2-Lasern dauerhafte, abriebfeste tiefschwarze Markierungen auf Edelstahl, Glas, Keramiktassen und Fliesen.",
+    "fr": "Lot de 5 feuilles A4 de papier de marquage thermique laser. Permet aux lasers diode et CO2 de réaliser des gravures noires inaltérables sur inox, verre et céramique.",
+    "es": "Pack de 5 hojas A4 de papel térmico para marcado láser. Permite grabar en negro intenso sobre acero inoxidable, vidrio y tazas de cerámica con láseres diodo y CO2.",
+    "pl": "Zestaw 5 arkuszy A4 termicznego papieru do znakowania laserowego. Umożliwia laserom diodowym i CO2 trwałe, czarne znakowanie stali nierdzewnej, szkła i ceramiki.",
+    "lv": "5 gab. A4 lāzera termopapīra loksnes. Ļauj ar diodes un CO2 lāzeriem iegūt noturīgu, melnu gravējumu uz tērauda, stikla un keramikas.",
+    "et": "5 tk A4 termopaberit lasermarkeerimiseks. Võimaldab diood- ja CO2-laseritega luua püsivaid sügavmusti märgistusi roostevabale terasele, klaasile ja keraamikale."
+  },
+  "full_description": "### How It Works & Professional Laser Bonding\n- **Universal Marking Solution:** Eliminates the need for expensive fiber laser units or messy aerosol chemical sprays\n- **Substrate Versatility:** Works flawlessly on 304/316 Stainless Steel, Aluminum, Brass, Clear Glass Drinkware, Ceramic Tiles, and Porcelain\n- **Simple 3-Step Workflow:** 1) Soak sheet in water for 1 minute and slide film onto clean surface; 2) Squeegee out air bubbles and let dry; 3) Run laser pass. Rinse excess film under water to reveal crisp black graphic\n- **Durability:** The heat-fused pigment chemically bonds into microscopic surface pores, resisting dishwashers, alcohol, and outdoor exposure\n- **Recommended LightBurn Settings:** Diode 10W: Speed 1000-1400 mm/min, Power 100%, Line Interval 0.06mm.",
+  "full_description_i18n": {
+    "en": "### How It Works & Professional Laser Bonding\n- **Universal Marking Solution:** Eliminates the need for expensive fiber laser units or messy aerosol chemical sprays\n- **Substrate Versatility:** Works flawlessly on 304/316 Stainless Steel, Aluminum, Brass, Clear Glass Drinkware, Ceramic Tiles, and Porcelain\n- **Simple 3-Step Workflow:** 1) Soak sheet in water for 1 minute and slide film onto clean surface; 2) Squeegee out air bubbles and let dry; 3) Run laser pass. Rinse excess film under water to reveal crisp black graphic\n- **Durability:** The heat-fused pigment chemically bonds into microscopic surface pores, resisting dishwashers, alcohol, and outdoor exposure\n- **Recommended LightBurn Settings:** Diode 10W: Speed 1000-1400 mm/min, Power 100%, Line Interval 0.06mm.",
+    "lt": "### Veikimo principas ir Lazerio nustatymai\n- **Universalus sprendimas:** Atveria galimybę graviruoti metalus ir stiklą be brangaus fiber lazerio ir be toksiškų cheminių aerozolių\n- **Medžiagų įvairovė:** Tinka nerūdijančiam plienui (304/316), aliuminiui, stiklinėms, keramikiniams puodeliams ir plytelėms\n- **Paprastas naudojimas:** 1) Pamirkykite lapelį vandenyje 1 min. ir uždėkite plėvelę ant nuvalyto daikto; 2) Pašalinkite oro burbuliukus ir leiskite nudžiūti; 3) Išgraviruokite lazeriu; 4) Nuplaukite vandeniu – lieka tobulas juodas tekstas\n- **Patvarumas:** Lazerio sulydytas pigmentas įsigeria į paviršiaus mikroporas – nenusitrina plaunant indaplovėje, atsparus alkoholiui ir UV spinduliams\n- **LightBurn nustatymai:** Diodas 10W: Greitis 1000–1400 mm/min, Galia 100%, Linijos žingsnis 0.06mm.",
+    "de": "### Funktionsweise & Anwendung\n- **Universal einsetzbar:** Macht Faserlaser für Metall- und Glasgravur überflüssig\n- **Einfache Anwendung:** Wässern, aufbringen, lasern, abspülen – fertig\n- **Widerstandsfähig:** Spülmaschinenfest, UV- und kratzbeständig\n- **LightBurn:** Diode 10W: 1000-1400 mm/min bei 100% Leistung.",
+    "fr": "### Utilisation & Avantages\n- **Polyvalent :** Inox, verre, céramique sans laser fibre\n- **Procédé simple :** Tremper dans l'eau, appliquer, graver, rincer\n- **Résistance :** Résiste au lave-vaisselle et aux rayures.",
+    "es": "### Cómo Funciona\n- **Universal:** Graba metal y vidrio con láseres diodo normales\n- **Aplicación:** Remojar, colocar, grabar y lavar el sobrante\n- **Durabilidad:** Resistente al lavavajillas y arañazos.",
+    "pl": "### Zasada Działania\n- **Uniwersalność:** Znakowanie stali i szkła zwykłym laserem diodowym\n- **Prosty proces:** Zmocz w wodzie, nałóż na przedmiot, wygraweruj, zmyj wodą\n- **Trwałość:** Odporność na zmywarkę, alkohole i ścieranie.",
+    "lv": "### Lietošana\n- **Universāls:** Ļauj marķēt metālu un stiklu ar parasto diodes lāzeru.",
+    "et": "### Tööpõhimõte\n- **Universaalne:** Võimaldab märgistada metalli ja klaasi tavalise dioodlaseriga."
+  },
+  "specs": {
+    "Pack Size": "5 Sheets A4 Large Format",
+    "Sheet Dimensions": "390 x 270 mm (15.3\" x 10.6\")",
+    "Color Output": "High-Density Jet Black",
+    "Supported Materials": "Stainless Steel, Bare Metal, Glass, Ceramic, Tiles",
+    "Recommended Power": "10W-20W Diode: Speed 1000-1400 mm/min @ 100% Power"
+  }
+},
+{
+  "id": "prod_ae_leather_patches",
+  "name": "Pre-Cut Laserable Faux Leather Patches with Heat-Activated Adhesive (50 Pcs Assorted Shapes)",
+  "slug": "pre-cut-laserable-faux-leather-patches-heat-adhesive-50-pcs",
+  "category_id": "cat_leather",
+  "description": "Pack of 50 pre-cut premium laserable faux leatherette patches with pre-applied commercial heat-activated adhesive backing. Includes circles, hexagons, and rectangles in Cognac Brown, Rawhide, and Charcoal. Burns rich dark brown/black.",
+  "price": 18.9,
+  "compare_at_price": 29,
+  "cost_price": 6.1,
+  "supplier_sku": "AE-LEATHER-PATCH-50P",
+  "aliexpress_product_id": "1005006129481920",
+  "aliexpress_sku": "PATCH-50P-MULTI",
+  "badge": "Top Trending Craft",
+  "laser_type": "Diode & CO2 Laser Engraving & Scoring",
+  "recommended_power": "Diode 10W: Speed 3500-4500 mm/min, Power 20-35% | CO2: Speed 350 mm/s, Power 15%",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/GS109028-1.jpg?v=1689991255",
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/GS109028-7.jpg?v=1689991248",
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/GS109028-3.jpg?v=1689991245",
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/GS109028-4.jpg?v=1689991252"
+  ],
+  "name_i18n": {
+    "en": "Pre-Cut Laserable Faux Leather Patches with Heat-Activated Adhesive (50 Pcs Assorted Shapes)",
+    "lt": "Graviruojami Dirbtinės Odos Lopai su Karštais Klijais Kepurėms (50 vnt. Rinkinys)",
+    "de": "Laserbare Kunstleder-Aufnäher mit Schmelzkleber für Mützen (50er-Set)",
+    "fr": "Écussons en Similicuir Gravables au Laser avec Thermocollant (Lot de 50)",
+    "es": "Parches de Cuero Sintético Grabables con Adhesivo Térmico para Gorras (Set de 50)",
+    "pl": "Naszywki z Ekoskóry do Grawerowania Laserowego z Klejem Termicznym (50 Szt.)",
+    "lv": "Lāzergravējamas Mākslīgās Ādas Uzšuves ar Termolīmi Cepurēm (50 Gab. Komplekts)",
+    "et": "Lasergraveeritavad Kunstnahast Mütsimärgid Kuumliimiga (50 Tk Komplekt)"
+  },
+  "description_i18n": {
+    "en": "Pack of 50 pre-cut premium laserable faux leatherette patches with pre-applied commercial heat-activated adhesive backing. Includes circles, hexagons, and rectangles in Cognac Brown, Rawhide, and Charcoal. Burns rich dark brown/black.",
+    "lt": "50 vnt. lazeriniam graviravimui paruoštų kokybiškos dirbtinės odos antsiuvų su gamykliniu termo klijų sluoksniu. Rinkinyje: apvalūs, heksagonai ir stačiakampiai populiarių atspalvių. Lazeris palieka sodriai tamsų, precizišką įspaudą.",
+    "de": "50 vorgeschnittene Aufnäher aus gravierbarem Premium-Kunstleder mit rückseitigem Schmelzkleber. Kreise, Sechsecke und Rechtecke in Cognac und Vintage-Braun. Dunkler sauberer Kontrast.",
+    "fr": "Lot de 50 patchs pré-découpés en similicuir gravable avec dos thermocollant. Formes rondes, hexagonales et rectangulaires. Gravure contrastée marron foncé/noir.",
+    "es": "Pack de 50 parches precortados de polipiel para grabado láser con adhesivo térmico. Formas variadas para gorras, mochilas y ropa. Grabado nítido oscuro.",
+    "pl": "Zestaw 50 wykrojonych naszywek z ekoskóry z warstwą kleju termotopliwego. Kółka, heksagony i prostokąty na czapki i odzież. Wyraźny, ciemny grawer.",
+    "lv": "50 gab. mākslīgās ādas uzšuves ar termolīmi uzklāšanai uz cepurēm un apģērba. Dažādas formas un tumšs kontrastējošs gravējums.",
+    "et": "50 tk valmislõigatud kunstnahast mütsimärki kuumutatava liimikihiga. Ümmargused, kuusnurksed ja ristkülikukujulised toorikud mütsidele ja riietele."
+  },
+  "full_description": "### The #1 Best-Selling Laser Craft Niche\n- **Assorted Geometry:** Includes 50 pre-cut shapes: 76mm circles, 76x50mm rectangles with rounded corners, and 76x64mm hexagons\n- **Dual-Layer Texture:** Durable PU leatherette surface that engraves with rich dark carbonized contrast without scorching or peeling\n- **Industrial Heat Seal Backing:** Iron-on or heat-press ready (15 seconds at 150°C / 300°F). Bonds permanently to baseball caps, trucker hats, beanies, denim jackets, and canvas totes\n- **No Stink Cutting:** Specially formulated laser-safe polymer that generates minimal smoke and zero harmful chlorine fumes\n- **LightBurn Settings:** Diode 10W: Speed 3500-4500 mm/min, Power 25%, Line Interval 0.08mm. Fast raster engraving allows completing 10 patches in under 3 minutes.",
+  "full_description_i18n": {
+    "en": "### The #1 Best-Selling Laser Craft Niche\n- **Assorted Geometry:** Includes 50 pre-cut shapes: 76mm circles, 76x50mm rectangles with rounded corners, and 76x64mm hexagons\n- **Dual-Layer Texture:** Durable PU leatherette surface that engraves with rich dark carbonized contrast without scorching or peeling\n- **Industrial Heat Seal Backing:** Iron-on or heat-press ready (15 seconds at 150°C / 300°F). Bonds permanently to baseball caps, trucker hats, beanies, denim jackets, and canvas totes\n- **No Stink Cutting:** Specially formulated laser-safe polymer that generates minimal smoke and zero harmful chlorine fumes\n- **LightBurn Settings:** Diode 10W: Speed 3500-4500 mm/min, Power 25%, Line Interval 0.08mm. Fast raster engraving allows completing 10 patches in under 3 minutes.",
+    "lt": "### Populiariausia lazerinės kūrybos niša\n- **Įvairios formos:** 50 vnt. lazeriu išpjautų formų: 76mm apskritimai, 76x50mm stačiakampiai suapvalintais kampais ir 76x64mm heksagonai\n- **Dvisluoksnė tekstūra:** Patvari dirbtinė oda graviruojant atidengia sodriai juodą/tamsiai rudą kontrastą be pridegimų\n- **Pramoniniai termo klijai:** Paruošta klijavimui su lygintuvu arba termo presu (15 sek. prie 150°C). Tvirtai prilimpa prie kepurių su snapeliu, žieminių kepurių, kuprinių ir džinsinių švarkų\n- **Saugumas:** Neturi toksiškų chloro dūmų, minimalus kvapas graviruojant\n- **LightBurn nustatymai:** Diodas 10W: Greitis 3500–4500 mm/min, Galia 25%, Linijos žingsnis 0.08mm. 10 lopų išgraviruojami greičiau nei per 3 minutes.",
+    "de": "### Der Bestseller im Lasermarkt\n- **Formen:** 50 Stück (Kreise, Sechsecke, Rechtecke ca. 76mm)\n- **Befestigung:** Mit Bügeleisen oder Transferpresse (15 Sek. bei 150°C)\n- **Haltbarkeit:** Hält dauerhaft auf Mützen, Caps und Jacken.",
+    "fr": "### Le Bestseller de la Personnalisation\n- **Formes :** 50 patchs (ronds, hexagones, rectangles 76mm)\n- **Thermocollant :** Fixation en 15 secondes à 150°C au fer ou presse\n- **Usage :** Casquettes trucker, bonnets, sacs.",
+    "es": "### Éxito de Ventas en Grabado Láser\n- **Formas:** 50 unidades variadas (círculos, hexágonos, rectángulos)\n- **Adhesivo:** Fijación térmica en 15 segundos a 150°C\n- **Ideal para:** Gorras de béisbol, mochilas y chaquetas.",
+    "pl": "### Hit Sprzedażowy dla Twórców\n- **Zestaw:** 50 wykrojonych naszywek (koła, heksagony, prostokąty)\n- **Termoklej:** Wgrzewanie żelazkiem lub prasą (15 sek. w 150°C)\n- **Przeznaczenie:** Czapki z daszkiem, czapki zimowe, odzież robocza.",
+    "lv": "### Populārs produkts meistariem\n- **Komplektā:** 50 uzšuves ar termolīmi cepurēm un somām.",
+    "et": "### Enimmüüdud toode käsitöölistele\n- **Komplektis:** 50 kuumliimiga märki mütsidele ja kottidele."
+  },
+  "specs": {
+    "Pack Size": "50 Pre-Cut Patches",
+    "Assorted Dimensions": "Circles (Ø76mm), Rectangles (76x50mm), Hexagons (76x64mm)",
+    "Material": "Laser-Safe Synthetic PU Leatherette",
+    "Adhesive": "Commercial Heat-Activated Seal Backing (150°C / 300°F)",
+    "Laser Settings": "Diode 10W: 3500-4500 mm/min @ 25% Power"
+  }
+},
+{
+  "id": "prod_ae_dog_tags",
+  "name": "304 Mirror-Polished Stainless Steel Military Dog Tags with Ball Chains (30 Pcs Set)",
+  "slug": "304-mirror-polished-stainless-steel-military-dog-tags-30-pcs",
+  "category_id": "cat_jewelry",
+  "description": "Set of 30 surgical grade 304 stainless steel dog tags (50x28x1.8mm) with high-luster mirror polish on both sides. Includes 30 matching stainless steel ball chains. Precision deburred safety edges for pet tags, military IDs, and QR code charms.",
+  "price": 17.9,
+  "compare_at_price": 26,
+  "cost_price": 5.2,
+  "supplier_sku": "AE-DOGTAG-304-30P",
+  "aliexpress_product_id": "1005005421948291",
+  "aliexpress_sku": "TAG-30P-304-SILVER",
+  "badge": "Mirror Stainless",
+  "laser_type": "Fiber, Infrared (1064nm) & Diode (with Marking Paper)",
+  "recommended_power": "Fiber 20W-30W: Speed 1500 mm/s, Power 45-60%, 35kHz | Diode: With Marking Paper",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/OMT-NL02-10_IDW_MainImage11x.webp?v=1766634411",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/OMT-NL02-10_IDW_MainImage21x.webp?v=1766634411",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/OMT-NL02-10_IDW_MainImage31x.webp?v=1766634411",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/OMT-NL02-10_IDW_MainImage41x.webp?v=1766634411"
+  ],
+  "name_i18n": {
+    "en": "304 Mirror-Polished Stainless Steel Military Dog Tags with Ball Chains (30 Pcs Set)",
+    "lt": "304 Nerūdijančio Plieno Veidrodiniai Žetonai su Grandinėlėmis (30 vnt. Komplektas)",
+    "de": "304 Hochglanzpolierte Edelstahl-Erkennungsmarken mit Kugelkette (30er-Set)",
+    "fr": "Plaques Militaires en Acier Inoxydable 304 Poli Miroir avec Chaînes (Lot de 30)",
+    "es": "Placas Militares de Acero Inoxidable 304 Pulido Espejo con Cadenas (Set de 30)",
+    "pl": "Nieśmiertelniki ze Stali Nierdzewnej 304 Polerowane na Błysk z Łańcuszkami (30 Szt.)",
+    "lv": "304 Spoguļpulēta Nerūsējošā Tērauda Žetoni ar Ķēdītēm (30 Gab. Komplekts)",
+    "et": "304 Peegelläikega Roostevabast Terasest Žetoonid Kettidega (30 Tk Komplekt)"
+  },
+  "description_i18n": {
+    "en": "Set of 30 surgical grade 304 stainless steel dog tags (50x28x1.8mm) with high-luster mirror polish on both sides. Includes 30 matching stainless steel ball chains. Precision deburred safety edges for pet tags, military IDs, and QR code charms.",
+    "lt": "30 vnt. aukščiausios 304 markės nerūdijančio plieno kariškų žetonų komplektas (50x28x1.8mm) su veidrodiniu poliravimu iš abiejų pusių. Pridedamos 30 vnt. plieninių rutulinių grandinėlių. Saugūs suapvalinti kraštai be aštrių atplaišų.",
+    "de": "30er-Set Erkennungsmarken aus rostfreiem 304-Edelstahl (50x28x1,8mm) mit beidseitigem Spiegelglanz. Inklusive 30 passenden Edelstahl-Kugelketten. Entgratete Kanten für Haustier- und Schlüsselanhänger.",
+    "fr": "Lot de 30 plaques militaires en inox 304 (50x28x1.8mm) avec finition miroir éclatante recto-verso. Livré avec 30 chaînes à billes assorties. Bords adoucis sécurisés.",
+    "es": "Set de 30 placas militares de acero inoxidable 304 (50x28x1.8mm) con pulido brillante tipo espejo en ambas caras. Incluye 30 cadenas de bolitas. Bordes pulidos sin rebabas.",
+    "pl": "Zestaw 30 nieśmiertelników ze stali nierdzewnej 304 (50x28x1.8mm) z lustrzanym połyskiem po obu stronach. W komplecie 30 łańcuszków kulkowych. Zaokrąglone krawędzie bez zadziorów.",
+    "lv": "30 gab. 304 nerūsējošā tērauda armijas žetoni (50x28x1.8mm) ar spoguļpulējumu un ķēdītēm. Piemēroti mājdzīvnieku birkām un piekariņiem.",
+    "et": "30 tk 304 roostevabast terasest peegelläikega žetooni (50x28x1.8mm) kettidega. Ohutud ümarad servad lemmikloomasiltidele ja võtmehoidjatele."
+  },
+  "full_description": "### Premium 304 Stainless Steel Craftsmanship\n- **Corrosion & Rust Proof:** Solid AISI 304 stainless steel resists sweat, salt water, and chemical tarnishing indefinitely\n- **Mirror-Grade Finish:** Optical reflective surface provides maximum contrast when annealed dark with a 1064nm fiber/infrared laser\n- **Dimensions & Weight:** 50 x 28 x 1.8 mm – solid, premium heft in the hand compared to thin stamped tin plates\n- **Complete Set:** Each tag comes with a 60 cm stainless steel ball chain with connector\n- **Laser Processing:** Fiber Laser: Direct black annealing (high frequency, lower speed). Diode Laser: Achieve high-density black marks by using laser marking paper.",
+  "full_description_i18n": {
+    "en": "### Premium 304 Stainless Steel Craftsmanship\n- **Corrosion & Rust Proof:** Solid AISI 304 stainless steel resists sweat, salt water, and chemical tarnishing indefinitely\n- **Mirror-Grade Finish:** Optical reflective surface provides maximum contrast when annealed dark with a 1064nm fiber/infrared laser\n- **Dimensions & Weight:** 50 x 28 x 1.8 mm – solid, premium heft in the hand compared to thin stamped tin plates\n- **Complete Set:** Each tag comes with a 60 cm stainless steel ball chain with connector\n- **Laser Processing:** Fiber Laser: Direct black annealing (high frequency, lower speed). Diode Laser: Achieve high-density black marks by using laser marking paper.",
+    "lt": "### 304 Nerūdijančio plieno kokybė ir Savybės\n- **Atsparumas korozijai:** Tikras AISI 304 plienas niekada nerūdija, atsparus prakaitui, jūros vandeniui ir trinčiai\n- **Veidrodinis poliravimas:** Tobulai lygus atspindintis paviršius sukuria maksimalų estetinį kontrastą su juodu lazeriniu graviravimu\n- **Matmenys ir svoris:** 50 x 28 x 1.8 mm – malonus masyvumo jausmas rankoje, nesilanksto ir nesideformuoja\n- **Pilna komplektacija:** Kiekvienas žetonas komplektuojamas su 60 cm ilgio nerūdijančio plieno grandinėle\n- **Lazerinis apdirbimas:** Fiber lazeriu: tiesioginis juodinimas (annealing). Diodiniu lazeriu: naudojant lazerinį termo popierių.",
+    "de": "### Details & Qualität\n- **Material:** Rostfreier Edelstahl 304 (AISI 304)\n- **Maße:** 50 x 28 x 1,8 mm mit 60 cm Kette\n- **Oberfläche:** Beidseitig spiegelpoliert\n- **Lasern:** Für Faserlaser (Direktgravur) und Diodenlaser (mit Markierpapier).",
+    "fr": "### Qualité Supérieure\n- **Matière :** Acier inoxydable AISI 304 inaltérable\n- **Dimensions :** 50 x 28 x 1.8 mm avec chaîne de 60 cm\n- **Finition :** Miroir poli haute brillance.",
+    "es": "### Acero Inoxidable 304\n- **Material:** Acero macizo resistente a la corrosión\n- **Medidas:** 50 x 28 x 1.8 mm con cadena de 60 cm\n- **Uso:** Chapas de identificación, regalos personalizados.",
+    "pl": "### Cechy i Parametry\n- **Materiał:** Stal kwasoodporna AISI 304\n- **Wymiary:** 50 x 28 x 1.8 mm z łańcuszkiem 60 cm\n- **Wykończenie:** Polerowane obustronnie na lustro.",
+    "lv": "### Specifikācija\n- **Materiāls:** Nerūsējošais tērauds 304 (50x28x1.8mm) ar ķēdīti.",
+    "et": "### Tehniline info\n- **Materjal:** Roostevaba teras 304 (50x28x1.8mm) koos ketiga."
+  },
+  "specs": {
+    "Pack Quantity": "30 Dog Tags + 30 Ball Chains (60 cm)",
+    "Dimensions": "50 x 28 x 1.8 mm",
+    "Material": "AISI 304 Surgical Grade Stainless Steel",
+    "Surface Finish": "Double-Sided Mirror High-Gloss Polish",
+    "Hole Diameter": "3.2 mm Deburred"
+  }
+},
+{
+  "id": "prod_ae_tumbler_20oz",
+  "name": "Matte Powder-Coated Double-Wall Vacuum Insulated Laser Tumbler with Lid & Straw (20oz / 600ml)",
+  "slug": "matte-powder-coated-double-wall-vacuum-insulated-laser-tumbler-20oz",
+  "category_id": "cat_drinkware",
+  "description": "20oz (600ml) straight skinny double-wall vacuum insulated stainless steel tumbler with matte powder-coated exterior. Engineered for rotary laser engraving. Laser cleanly strips the colored coating revealing radiant stainless steel.",
+  "price": 19.9,
+  "compare_at_price": 29.9,
+  "cost_price": 6.8,
+  "supplier_sku": "AE-TUMBLER-20OZ-BLK",
+  "aliexpress_product_id": "1005006019384712",
+  "aliexpress_sku": "TUMBLER-20OZ-MATTE-BLK",
+  "badge": "Rotary Laser Ready",
+  "laser_type": "Diode, Fiber & CO2 (With Rotary Attachment)",
+  "recommended_power": "Diode 10W: Speed 2000-2500 mm/min, Power 80-100% | CO2: Speed 300 mm/s, Power 30-40%",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/1_a267f742-bb38-4129-a3a1-4bc0701897c1.jpg?v=1737712556",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/2_2a4bfea9-87ca-4b34-abbf-588f09257551.jpg?v=1737712556",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/3_90fa131b-419f-4b57-b8cd-e96fe8753eda.jpg?v=1737712556",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/4_5231cfe0-3182-4646-9fca-d71f6a8f9e2c.jpg?v=1737712556"
+  ],
+  "name_i18n": {
+    "en": "Matte Powder-Coated Double-Wall Vacuum Insulated Laser Tumbler with Lid & Straw (20oz / 600ml)",
+    "lt": "Matinis Milteliniu Būdu Dengtas Termo Puodelis Lazeriui su Dangteliu ir Šiaudeliu (600ml)",
+    "de": "Matt pulverbeschichteter doppelwandiger Laser-Thermobecher mit Deckel & Strohhalm (600ml)",
+    "fr": "Gobelet Thermos Isolé sous Vide Revêtement Mat pour Gravure Laser (600ml)",
+    "es": "Vaso Térmico con Aislamiento al Vacío Recubrimiento Mate para Grabado Láser (600ml)",
+    "pl": "Kubek Termiczny z Powłoką Proszkową do Grawerowania Laserowego (600ml)",
+    "lv": "Matēts Pulverkrāsots Vakuuma Termokrūze Lāzeram ar Vāciņu (600ml)",
+    "et": "Matt Pulbervärvitud Vaakumisolatsiooniga Termostops Laserile (600ml)"
+  },
+  "description_i18n": {
+    "en": "20oz (600ml) straight skinny double-wall vacuum insulated stainless steel tumbler with matte powder-coated exterior. Engineered for rotary laser engraving. Laser cleanly strips the colored coating revealing radiant stainless steel.",
+    "lt": "600ml (20oz) tiesus vakuuminis dvigubų sienelių nerūdijančio plieno termo puodelis su matine milteline danga. Sukurtas rotaciniam lazeriniam graviravimui. Lazeris švariai nugarina spalvą ir atidengia blizgantį plieninį logotipą.",
+    "de": "600ml schlanker doppelwandiger Edelstahl-Vakuum-Thermobecher mit matter Pulverbeschichtung. Perfekt für Laser-Drehvorrichtungen. Der Laser trägt die Beschichtung sauber ab für glänzende Edelstahl-Gravuren.",
+    "fr": "Gobelet isotherme 600ml en inox double paroi avec revêtement poudre mat. Idéal pour gravure laser avec axe rotatif. Finition nette révélant l'acier brillant.",
+    "es": "Vaso térmico de 600ml de acero inoxidable con doble pared y acabado en polvo mate. Diseñado para grabado con accesorio rotativo. Revela el acero inoxidable brillante.",
+    "pl": "Kubek termiczny 600ml ze stali nierdzewnej z podwójną ścianką próżniową i matową powłoką proszkową. Idealny pod przystawkę obrotową. Czysty grawer odsłaniający stal.",
+    "lv": "600ml vakuuma nerūsējošā tērauda termokrūze ar matētu pārklājumu. Piemērota rotācijas lāzergravēšanai.",
+    "et": "600ml topeltseinaga vaakumisolatsiooniga terasest termostops mati pulbervärviga. Spetsiaalselt loodud pöördseadmega lasergraveerimiseks."
+  },
+  "full_description": "### Engineered for Rotary Laser Engraving\n- **Straight Body Profile:** True cylindrical profile from top to bottom ensures zero focal drift when turning on roller attachments or chuck rotaries\n- **Thermal Retention:** Double-wall 18/8 food-grade stainless steel with copper vacuum lining keeps beverages iced for 24 hours or piping hot for 12 hours\n- **Powder Coat Durability:** Industrial electro-statically cured polymer coating vaporizes cleanly without sticky residue under 10W-40W diode lasers and all CO2 cutters\n- **Complete Set:** Includes splash-proof BPA-free slide lid and stainless steel reusable drinking straw\n- **Recommended LightBurn Settings:** Diode 10W: Speed 2000-2500 mm/min, Power 90%, Line Interval 0.08mm. Wipe with isopropyl alcohol after pass.",
+  "full_description_i18n": {
+    "en": "### Engineered for Rotary Laser Engraving\n- **Straight Body Profile:** True cylindrical profile from top to bottom ensures zero focal drift when turning on roller attachments or chuck rotaries\n- **Thermal Retention:** Double-wall 18/8 food-grade stainless steel with copper vacuum lining keeps beverages iced for 24 hours or piping hot for 12 hours\n- **Powder Coat Durability:** Industrial electro-statically cured polymer coating vaporizes cleanly without sticky residue under 10W-40W diode lasers and all CO2 cutters\n- **Complete Set:** Includes splash-proof BPA-free slide lid and stainless steel reusable drinking straw\n- **Recommended LightBurn Settings:** Diode 10W: Speed 2000-2500 mm/min, Power 90%, Line Interval 0.08mm. Wipe with isopropyl alcohol after pass.",
+    "lt": "### Sukurtas rotaciniam graviravimui lazeriu\n- **Tiesi cilindrinė forma:** Vienodas skersmuo per visą puodelio aukštį užtikrina pastovų židinio nuotolį sukant ant rotacinio priedo (roller / chuck)\n- **Temperatūros išlaikymas:** Dvigubos sienelės 18/8 maistinio nerūdijančio plieno su vario vakuumo izoliacija išlaiko gėrimus šaltus 24 val., o karštus – 12 val.\n- **Miltelinė danga:** Pramoninis dažų sluoksnis nugaruoja švariai be klijingų likučių naudojant 10W–40W diodinius bei CO2 lazerius\n- **Komplektacija:** Sandarus dangtelis su stumdomu vožtuvu ir nerūdijančio plieno daugkartinis šiaudelis\n- **LightBurn nustatymai:** Diodas 10W: Greitis 2000–2500 mm/min, Galia 90%, Žingsnis 0.08mm. Po graviravimo nuvalykite izopropilo alkoholiu.",
+    "de": "### Perfekt für Drehvorrichtungen\n- **Zylindrische Form:** Gerader Körper für gleichmäßigen Fokus beim Drehen\n- **Isolierung:** Hält 24h kalt, 12h heiß\n- **Material:** 18/8 Edelstahl mit BPA-freiem Deckel & Strohhalm.",
+    "fr": "### Conçu pour Axe Rotatif\n- **Profil Droit :** Corps cylindrique parfait pour une rotation stable\n- **Isolation :** Double paroi inox 18/8, 24h froid / 12h chaud\n- **Inclus :** Couvercle coulissant et paille inox.",
+    "es": "### Diseñado para Grabado Rotativo\n- **Cuerpo Cilíndrico:** Diámetro uniforme de arriba a abajo\n- **Aislamiento:** Acero inoxidable 18/8, 24h frío / 12h caliente\n- **Incluye:** Tapa hermética y pajita de acero inoxidable.",
+    "pl": "### Stworzony pod Przystawki Obrotowe\n- **Prosty kształt:** Jednolita średnica na całej wysokości dla równego ogniska\n- **Izolacja:** Stal 18/8, trzyma chłód do 24h i ciepło do 12h\n- **W zestawie:** Przykrywka BPA-Free oraz stalowa słomka.",
+    "lv": "### Pielāgots rotācijas lāzeram\n- **Forma:** Taisns cilindrisks korpuss vienmērīgam fokusam (600ml).",
+    "et": "### Loodud pöördseadmele\n- **Kuju:** Täiesti sirge silindriline korpus stabiilse fookuse tagamiseks (600ml)."
+  },
+  "specs": {
+    "Capacity": "20 oz / 600 ml",
+    "Material": "18/8 Pro-Grade Stainless Steel Double-Wall Vacuum",
+    "Exterior Finish": "Matte Powder Coating (Laser Strippable)",
+    "Dimensions": "Height 21.5 cm x Diameter 7.3 cm (Straight Skinny Profile)",
+    "Included Accessories": "Splash-Proof Sliding Lid + Reusable Stainless Straw"
+  }
+},
+{
+  "id": "prod_ae_leather_sheets",
+  "name": "Premium Laser Craft PU Leatherette Sheets 12\"x12\" (300x300x1.1mm) – 6 Pack Multi-Color",
+  "slug": "premium-laser-craft-pu-leatherette-sheets-12x12-6-pack",
+  "category_id": "cat_leather",
+  "description": "Pack of 6 premium laser craft leatherette sheets (300x300x1.1mm / 12\"x12\"). Formulated specifically for diode and CO2 lasers to produce crisp, high-contrast dark engravings without burning through. 6 distinct artisan colors.",
+  "price": 24.9,
+  "compare_at_price": 36,
+  "cost_price": 8.5,
+  "supplier_sku": "AE-LEATHER-SHEET-6P",
+  "aliexpress_product_id": "1005005918274190",
+  "aliexpress_sku": "LEATHER-6P-3030",
+  "badge": "Large Format Sheets",
+  "laser_type": "Diode & CO2 Laser Cut & Engrave",
+  "recommended_power": "Diode 10W: Cut 400 mm/min @ 90% | Engrave 3500 mm/min @ 25%",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/1_51a744d8-91ec-4d03-80fe-f3712503bfdf.jpg?v=1778133365",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/2_9eb7534d-4131-46e6-b709-a6fdf3f6ea03.jpg?v=1778133365",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/3_9e3996db-8cfe-46c6-80b3-ea11d075c429.jpg?v=1778133365",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/5_09a4169e-9ca2-4906-a6a7-afa36b730c9b.jpg?v=1778133365"
+  ],
+  "name_i18n": {
+    "en": "Premium Laser Craft PU Leatherette Sheets 12\"x12\" (300x300x1.1mm) – 6 Pack Multi-Color",
+    "lt": "Lazerinė Dirbtinė Oda Kūrėjams 30x30cm (1.1mm) – 6 vnt. Spalvotas Komplektas",
+    "de": "Premium Laser-Kunstlederplatten 30x30cm (1,1mm) – 6er-Pack Mehrfarbig",
+    "fr": "Feuilles de Similicuir pour Gravure Laser 30x30cm (1.1mm) – Lot de 6 Couleurs",
+    "es": "Láminas de Cuero Sintético para Grabado Láser 30x30cm (1.1mm) – Pack de 6 Colores",
+    "pl": "Arkusze Ekoskóry do Grawerowania i Cięcia Laserem 30x30cm (1.1mm) – 6 Szt. Wielokolorowe",
+    "lv": "Lāzera Mākslīgās Ādas Loksnes 30x30cm (1.1mm) – 6 Gab. Krāsu Komplekts",
+    "et": "Laserkäsitöö Kunstnahast Lehed 30x30cm (1.1mm) – 6 Tk Värvikomplekt"
+  },
+  "description_i18n": {
+    "en": "Pack of 6 premium laser craft leatherette sheets (300x300x1.1mm / 12\"x12\"). Formulated specifically for diode and CO2 lasers to produce crisp, high-contrast dark engravings without burning through. 6 distinct artisan colors.",
+    "lt": "6 vnt. didelio formato (300x300x1.1mm) dirbtinės odos lakštai lazeriniam graviravimui ir pjovimui. 6 skirtingi prabangūs atspalviai. Pjaunant lazeriu kraštai tolygiai užsilydo be šerpetojimo, graviravimas lieka ryškus.",
+    "de": "6er-Pack hochwertige Kunstlederplatten (300x300x1,1mm). Speziell für Dioden- und CO2-Laser entwickelt für randscharfe, kontrastreiche Gravuren und saubere Schnittkanten ohne Ausfransen.",
+    "fr": "Lot de 6 feuilles de similicuir spécial laser (300x300x1.1mm). 6 teintes artisanales. Découpe propre avec bords scellés et gravure contrastée.",
+    "es": "Pack de 6 láminas de cuero sintético (300x300x1.1mm) en 6 colores surtidos. Diseñado para corte y grabado láser limpio sin deshilachado.",
+    "pl": "Zestaw 6 arkuszy ekoskóry (300x300x1.1mm) w 6 kolorach. Do wycinania portfeli, breloków, etui na telefony i naszywek. Idealne krawędzie bez strzępienia.",
+    "lv": "6 gab. mākslīgās ādas loksnes (300x300x1.1mm) 6 krāsās lāzergriešanai un gravēšanai.",
+    "et": "6 tk kunstnahast lehte (300x300x1.1mm) 6 värvitoonis lasertöötluseks."
+  },
+  "full_description": "### Premium Laser Leather Craft Material\n- **Square Workshop Dimensions:** 300 x 300 x 1.1 mm (12\" x 12\") fits directly into standard 30x30 cm diode laser beds\n- **6 Distinct Colors:** Includes Rustic Cognac, Chestnut Brown, Midnight Black, Slate Grey, Navy, and Vintage Tan\n- **Laser Sealed Edges:** When cut with a laser beam, the polymer edge self-seals cleanly, preventing fraying or fiber unravelling\n- **End Applications:** Hand-stitched wallets, custom journal notebook covers, valet trays, key fobs, luggage tags, patch production\n- **LightBurn Settings:** Diode 10W: Cut 400 mm/min @ 90% power (1 pass with air assist); Raster Engrave 3500 mm/min @ 25% power.",
+  "full_description_i18n": {
+    "en": "### Premium Laser Leather Craft Material\n- **Square Workshop Dimensions:** 300 x 300 x 1.1 mm (12\" x 12\") fits directly into standard 30x30 cm diode laser beds\n- **6 Distinct Colors:** Includes Rustic Cognac, Chestnut Brown, Midnight Black, Slate Grey, Navy, and Vintage Tan\n- **Laser Sealed Edges:** When cut with a laser beam, the polymer edge self-seals cleanly, preventing fraying or fiber unravelling\n- **End Applications:** Hand-stitched wallets, custom journal notebook covers, valet trays, key fobs, luggage tags, patch production\n- **LightBurn Settings:** Diode 10W: Cut 400 mm/min @ 90% power (1 pass with air assist); Raster Engrave 3500 mm/min @ 25% power.",
+    "lt": "### Lazerinės odos savybės ir Kūrybinis panaudojimas\n- **Kvadratinis formatas:** 300 x 300 x 1.1 mm telpa tiesiai ant standartinio 30x30 cm staklių stalo\n- **6 prabangios spalvos:** Konjako ruda, kaštoninė, gili juoda, skalūno pilka, tamsiai mėlyna ir vintažinė smėlio\n- **Lazeriu užlydyti kraštai:** Pjaunant lazeriu polimeras gražiai susilydo, todėl kraštai niekada nesiardo\n- **Pritaikymas:** Siuvamos piniginės, knygų viršeliai, raktų pakabukai, rankinių detalės, stalo padėklai\n- **LightBurn nustatymai:** Diodas 10W: Pjovimas 400 mm/min, 90% galia (1 praėjimas su oru); Graviravimas 3500 mm/min, 25% galia.",
+    "de": "### Details & Kunsthandwerk\n- **Format:** 300 x 300 x 1,1 mm\n- **6 Farben:** Edle Farbtöne für Lederarbeiten\n- **Kanten:** Verschmelzen beim Lasern sauber ohne Ausfransen.",
+    "fr": "### Caractéristiques Similicuir\n- **Format :** 300 x 300 x 1.1 mm\n- **6 Couleurs :** Pour maroquinerie, portefeuilles, porte-clés\n- **Finition :** Bords soudés au laser.",
+    "es": "### Características\n- **Medidas:** 300 x 300 x 1.1 mm\n- **6 Colores:** Acabados artesanales elegantes\n- **Uso:** Carteras, fundas de libretas, llaveros.",
+    "pl": "### Szczegóły i Zastosowanie\n- **Wymiary:** 300 x 300 x 1.1 mm\n- **6 Kolorów:** Paleta barw do galanterii skórzanej\n- **Zaleta:** Krawędzie zgrzewają się podczas cięcia, nie strzępiąc się.",
+    "lv": "### Specifikācija\n- **Izmērs:** 300 x 300 x 1.1 mm (6 krāsas) maktiem un atslēgu piekariņiem.",
+    "et": "### Kirjeldus\n- **Mõõtmed:** 300 x 300 x 1.1 mm (6 värvi) rahakottide ja kaante tegemiseks."
+  },
+  "specs": {
+    "Pack Quantity": "6 Sheets (6 Artisan Colors)",
+    "Dimensions": "300 x 300 x 1.1 mm (12\" x 12\")",
+    "Material": "Laser-Safe Polyurethane Leatherette with Soft Backing",
+    "Laser Settings": "10W Diode: Cut 400 mm/min @ 90% Power"
+  }
+}
 ];
