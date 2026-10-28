@@ -78,7 +78,7 @@ export function ProductCard({
 
           {/* Pricing and Action */}
           <div className="pt-3 border-t border-[#f0f0f0] space-y-2.5">
-            <div className="flex items-baseline justify-between">
+            <div className="flex items-center justify-between gap-1.5 flex-wrap">
               <div className="flex items-baseline gap-2">
                 <span className="text-lg font-extrabold text-[#242423]">
                   {product.price.toFixed(2)} €
@@ -89,6 +89,9 @@ export function ProductCard({
                   </span>
                 )}
               </div>
+              <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded tracking-tight">
+                ✓ {t.freeTrackedShipping || 'Free Shipping'}
+              </span>
             </div>
 
             <button

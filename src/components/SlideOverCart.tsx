@@ -153,6 +153,22 @@ export function SlideOverCart({ locale = 'en' }: { locale?: Locale }) {
           {/* Footer */}
           {items.length > 0 && (
             <div className="p-5 border-t border-[#ddd9cf] bg-[#fafaf8] space-y-3.5">
+              {/* Shipping & Guarantees breakdown */}
+              <div className="space-y-1.5 pb-2.5 border-b border-[#e5e2da] text-[12px]">
+                <div className="flex justify-between items-center text-[#5f5e58]">
+                  <span className="font-medium">{t.freeTrackedShipping}</span>
+                  <span className="font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200 text-[11px]">
+                    {t.shippingCost || '0.00 €'}
+                  </span>
+                </div>
+                <div className="text-[11px] text-[#5f5e58] font-medium">
+                  {t.deliveryEstimate}
+                </div>
+                <div className="text-[11px] text-emerald-700 font-medium">
+                  {t.moneyBackGuarantee} · {t.noExtraCustoms}
+                </div>
+              </div>
+
               <div className="flex justify-between items-baseline">
                 <span className="text-[12px] font-bold text-[#5f5e58]">{t.totalWithVat}</span>
                 <span className="text-xl font-bold text-[#1c1c1a] bg-[#f0c84a] px-2 py-0.5">

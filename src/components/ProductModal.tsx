@@ -89,12 +89,12 @@ export function ProductModal({
             {/* Value Guarantees */}
             <div className="grid grid-cols-2 gap-2 pt-2 text-[12px] text-[#5f5e58]">
               <div className="flex items-center gap-2 p-2 bg-[#f9f9f9] border border-[#f0f0f0]">
-                <Truck className="w-4 h-4 text-[#f5cb5c] shrink-0" />
-                <span>EU Fast Tracked Dispatch</span>
+                <Truck className="w-4 h-4 text-emerald-600 shrink-0" />
+                <span className="font-medium text-emerald-800 text-[11px]">{t.freeTrackedShipping || 'Free Tracked Shipping'}</span>
               </div>
               <div className="flex items-center gap-2 p-2 bg-[#f9f9f9] border border-[#f0f0f0]">
-                <ShieldCheck className="w-4 h-4 text-[#f5cb5c] shrink-0" />
-                <span>100% Genuine Guaranteed</span>
+                <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
+                <span className="font-medium text-[11px]">{t.moneyBackGuarantee || '30-Day Guarantee'}</span>
               </div>
             </div>
           </div>
