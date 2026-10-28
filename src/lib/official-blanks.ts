@@ -887,4 +887,363 @@ export const OFFICIAL_BLANK_PRODUCTS: Product[] = [
     "Laser Settings": "10W Diode: Cut 400 mm/min @ 90% Power"
   }
 }
+,
+{
+  "id": "prod_ae_led_lamp_kit",
+  "name": "Solid Beech Wood LED Night Light Base with 5 Pcs Cast Acrylic Blanks (USB Powered)",
+  "slug": "solid-beech-wood-led-night-light-base-with-5-pcs-cast-acrylic-blanks",
+  "category_id": "cat_acrylic",
+  "description": "Complete DIY edge-lit LED acrylic night lamp kit. Includes 1 solid natural beech wood base with warm white LEDs, USB switch cable, and 5 optical cast acrylic blank sheets (150x120x4mm). Lazer engrave logos, portraits, and night lights.",
+  "price": 18.9,
+  "compare_at_price": 28,
+  "cost_price": 5.8,
+  "supplier_sku": "AE-LED-BASE-ACRYLIC-5P",
+  "aliexpress_product_id": "1005005891247019",
+  "aliexpress_sku": "LED-WARM-BEECH-5P",
+  "badge": "Viral Gift Maker",
+  "laser_type": "Diode, Fiber & CO2 (Cast Acrylic Edge-Lit Frosting)",
+  "recommended_power": "Diode 10W: Speed 3000 mm/min, Power 35% | CO2: Speed 350 mm/s, Power 20%",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0928/2859/8586/files/LED_Lamp_Creative_Kit_4.jpg?v=1751004903",
+    "https://cdn.shopify.com/s/files/1/0928/2859/8586/files/LED_Lamp_Creative_Kit_2.jpg?v=1751004904",
+    "https://cdn.shopify.com/s/files/1/0928/2859/8586/files/LED_Lamp_Creative_Kit_3.jpg?v=1751004903"
+  ],
+  "name_i18n": {
+    "en": "Solid Beech Wood LED Night Light Base with 5 Pcs Cast Acrylic Blanks (USB Powered)",
+    "lt": "Medinis LED Naktinės Lempos Pagrindas su 5 vnt. Akrilo Plokštelėmis (USB)",
+    "de": "Buchenholz LED-Leuchtsockel mit 5 gegossenen Acrylglas-Rohlingen (USB)",
+    "fr": "Socle Lampe LED en Hêtre Massif avec 5 Plaques Acrylique Coulé (USB)",
+    "es": "Base de Madera de Haya LED con 5 Placas de Metacrilato para Lámpara (USB)",
+    "pl": "Drewniana Podstawka LED z Drewna Bukowego z 5 Płytami Akrylowymi (USB)",
+    "lv": "Dabīgā Dižskābarža LED Lampas Pamatne ar 5 Akrila Plāksnēm (USB)",
+    "et": "Pöögi Puidust LED-Lambi Alus koos 5 Valatud Akrüülplaadiga (USB)"
+  },
+  "description_i18n": {
+    "en": "Complete DIY edge-lit LED acrylic night lamp kit. Includes 1 solid natural beech wood base with warm white LEDs, USB switch cable, and 5 optical cast acrylic blank sheets (150x120x4mm). Lazer engrave logos, portraits, and night lights.",
+    "lt": "Pilnas naktinio LED šviestuvo gamybos komplektas. Komplekte: natūralaus buko medžio LED stovas su šilta šviesa ir USB jungikliu bei 5 vnt. skaidraus optinio lietaus akrilo plokštelės (150x120x4mm). Tobulai tinka vaikiškoms naktinėms lempelėms ir dovanoms.",
+    "de": "Komplett-Set für LED-Acryllampen. Massiver Buchenholzsockel mit warmweißen LEDs, USB-Schalterkabel und 5 gegossene Acrylglasplatten (150x120x4mm). Eingravierte Motive leuchten magisch auf.",
+    "fr": "Kit complet veilleuse LED gravable. Socle en hêtre massif avec ruban LED blanc chaud, câble USB et 5 plaques d'acrylique coulé optique (150x120x4mm). Effet lumineux saisissant.",
+    "es": "Kit completo para lámpara de noche LED grabable. Base de haya maciza con LEDs cálidos y 5 placas de acrílico colado transparente (150x120x4mm). Gran demanda para regalos personalizados.",
+    "pl": "Kompletny zestaw do lampki nocnej LED. Podstawka z litego buku z ciepłym światłem LED oraz 5 arkuszy przezroczystego akrylu wylewanego (150x120x4mm). Efektowne podświetlenie krawędziowe.",
+    "lv": "Komplekts LED akrila lampas izgatavošanai. Masīvkoka pamatne ar siltu LED gaismu un 5 caurspīdīgas akrila plāksnes (150x120x4mm).",
+    "et": "Täielik komplekt LED-öövalgusti valmistamiseks. Naturaalsest pöögipuidust LED-alus ja 5 läbipaistvat valatud akrüülplaati (150x120x4mm)."
+  },
+  "full_description": "### The #1 Personalized Gift Product in Maker Communities\n- **Base Dimensions:** 150 x 45 x 30 mm, precision CNC milled from genuine European beech wood with smooth hand-sanded satin oil finish\n- **Cast Acrylic Advantage:** Includes 5 sheets of Grade-A cell cast PMMA (150 x 120 x 4.0 mm). Unlike cheap extruded plastic, cast acrylic engraves with a bright frosty milk-white contrast that diffuses LED illumination with zero glare\n- **LED Lighting System:** High-CRI warm white SMD LED ribbon embedded within the base slot. Inline push-button switch with 1.5m USB cable (runs off phone chargers, power banks, or PCs)\n- **Laser Parameters:** Diode 10W: Speed 3000 mm/min, Power 35%, Line Interval 0.08mm (Reverse raster on back for depth). CO2: Speed 350 mm/s, Power 20%.\n- **Commercial Potential:** High-ticket personalized night lamps sell on Etsy and gift shops for €35–€55, giving makers a huge margin.",
+  "full_description_i18n": {
+    "en": "### The #1 Personalized Gift Product in Maker Communities\n- **Base Dimensions:** 150 x 45 x 30 mm, precision CNC milled from genuine European beech wood with smooth hand-sanded satin oil finish\n- **Cast Acrylic Advantage:** Includes 5 sheets of Grade-A cell cast PMMA (150 x 120 x 4.0 mm). Unlike cheap extruded plastic, cast acrylic engraves with a bright frosty milk-white contrast that diffuses LED illumination with zero glare\n- **LED Lighting System:** High-CRI warm white SMD LED ribbon embedded within the base slot. Inline push-button switch with 1.5m USB cable (runs off phone chargers, power banks, or PCs)\n- **Laser Parameters:** Diode 10W: Speed 3000 mm/min, Power 35%, Line Interval 0.08mm (Reverse raster on back for depth). CO2: Speed 350 mm/s, Power 20%.\n- **Commercial Potential:** High-ticket personalized night lamps sell on Etsy and gift shops for €35–€55, giving makers a huge margin.",
+    "lt": "### Populiariausia personalizuotų dovanų prekė\n- **Stovo išmatavimai:** 150 x 45 x 30 mm, CNC frezuotas iš natūralios europinės buko medienos su šilkiniu alyvavimo padengimu\n- **Lietaus akrilo pranašumas:** Komplekte 5 vnt. A-klasės lietaus akrilo (PMMA, 150 x 120 x 4.0 mm). Skirtingai nuo pigaus ekstruduoto plastiko, lietas akrilas graviruojasi tolygiai baltu matiniu paviršiumi, kuris idealiai paskirsto LED šviesą be atspindžių\n- **LED apšvietimas:** Šiltos baltos šviesos SMD LED juosta pagrindo viduje su 1.5 m USB laidu ir mygtukiniu jungikliu\n- **LightBurn nustatymai:** Diodas 10W: Greitis 3000 mm/min, Galia 35%, Žingsnis 0.08mm (veidrodinis graviravimas iš kitos pusės suteikia 3D gylio efektą)\n- **Pelnas:** Galutinis gaminys su personalizuotu vaiko vardu ar šeimos nuotrauka parduodamas už 35–55 €.",
+    "de": "### Der Bestseller für personalisierte Geschenke\n- **Sockel:** Massives europäisches Buchenholz (150 x 45 x 30 mm)\n- **Acryl:** 5 gegossene Acrylglasplatten (150 x 120 x 4 mm) für milchig-weiße Leuchtkontraste\n- **Beleuchtung:** Warmweiße LEDs mit 1,5m USB-Kabel und Schalter\n- **Verkaufspreis:** Fertige Lampen erzielen 35-55 € im Verkauf.",
+    "fr": "### Le Produit Phare des Créateurs\n- **Socle :** Hêtre massif européen (150 x 45 x 30 mm)\n- **Acrylique :** 5 plaques d'acrylique coulé 4mm pour une diffusion lumineuse parfaite\n- **LED :** Blanc chaud avec câble USB et interrupteur intégré.",
+    "es": "### Éxito de Ventas en Regalos Personalizados\n- **Base:** Madera de haya maciza (150 x 45 x 30 mm)\n- **Metacrilato:** 5 placas de acrílico colado (150 x 120 x 4 mm) de gran difusión\n- **Iluminación:** LED blanco cálido con conexión USB.",
+    "pl": "### Hit Rynku Upominków Personalizowanych\n- **Podstawa:** Lity buk europejski (150 x 45 x 30 mm)\n- **Akryl:** 5 formatek akrylu wylewanego (150 x 120 x 4 mm) zapewniającego idealne rozproszenie światła\n- **Oświetlenie:** Ciepłe białe diody LED z kablem USB.",
+    "lv": "### Populārs produkts personalizētām dāvanām\n- **Pamatne:** Masīvs dižskābardis (150 x 45 x 30 mm) ar siltu LED gaismu un 5 akrila plāksnēm.",
+    "et": "### Enimmüüdud toode personaalsete meenete jaoks\n- **Alus:** Täispuidust pöök (150 x 45 x 30 mm) sooja LED-valgusega ja 5 akrüültoorikut."
+  },
+  "specs": {
+    "Pack Contents": "1 Solid Beech Wood LED Base + 5 Optical Cast Acrylic Sheets",
+    "Acrylic Sheet Dimensions": "150 x 120 x 4.0 mm",
+    "Base Dimensions": "150 x 45 x 30 mm (Slot Width 4.2mm)",
+    "Lighting": "Warm White High-CRI SMD LEDs with 1.5m USB Cable",
+    "Laser Settings": "Diode 10W: 3000 mm/min @ 35% Power (Mirrored Back)"
+  }
+},
+{
+  "id": "prod_ae_bottle_opener_50",
+  "name": "Laserable Stainless Steel Credit Card Bottle Opener Blanks (50 Pcs Bulk Pack)",
+  "slug": "laserable-stainless-steel-credit-card-bottle-opener-blanks-50-pcs",
+  "category_id": "cat_metal",
+  "description": "Pack of 50 heavy-gauge 304 brushed stainless steel credit card bottle openers (85x54x1.5mm). Sized to fit perfectly into standard wallet card slots. Deburred smooth edges, laser marks deep black with fiber lasers or laser marking paper.",
+  "price": 22.9,
+  "compare_at_price": 34,
+  "cost_price": 7.5,
+  "supplier_sku": "AE-OPENER-CARD-50P",
+  "aliexpress_product_id": "1005005728194018",
+  "aliexpress_sku": "OPENER-50P-STEEL",
+  "badge": "B2B Event Favorite",
+  "laser_type": "Fiber, MOPA (1064nm) & Diode (with Laser Marking Paper)",
+  "recommended_power": "Fiber 20W: Speed 1500 mm/s, Power 50% | Diode: With Marking Paper",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/1_0be0f782-bd03-4c26-ba77-6abe9048679c.jpg?v=1779702052",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/2_4091a457-36e7-497d-aa27-b50a04918e80.jpg?v=1779702052",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/3_14cff255-a50e-436d-b87e-d309e390c50a.jpg?v=1779702052",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/4_3c8ad6f5-5028-4fc1-a9e9-d757d5ee7d2f.jpg?v=1779702052"
+  ],
+  "name_i18n": {
+    "en": "Laserable Stainless Steel Credit Card Bottle Opener Blanks (50 Pcs Bulk Pack)",
+    "lt": "Plieniniai Butelių Atidarytuvai-Kortelės Piniginei (50 vnt. Didmeninis Komplektas)",
+    "de": "Edelstahl Flaschenöffner im Kreditkartenformat (50er-Großpackung)",
+    "fr": "Décapsuleurs en Acier Inoxydable Format Carte Bancaire (Lot de 50)",
+    "es": "Abrebotellas de Acero Inoxidable Tamaño Tarjeta de Crédito (Pack de 50)",
+    "pl": "Otwieracze do Butelek ze Stali Nierdzewnej Karta Kredytowa (50 Szt.)",
+    "lv": "Nerūsējošā Tērauda Pudeļu Atvērēji Kredītkartes Formātā (50 Gab.)",
+    "et": "Roostevabast Terasest Krediitkaardi Mõõtu Pudeliavajad (50 Tk Pakk)"
+  },
+  "description_i18n": {
+    "en": "Pack of 50 heavy-gauge 304 brushed stainless steel credit card bottle openers (85x54x1.5mm). Sized to fit perfectly into standard wallet card slots. Deburred smooth edges, laser marks deep black with fiber lasers or laser marking paper.",
+    "lt": "50 vnt. masyvių 304 nerūdijančio plieno butelių atidarytuvų-kortelių rinkinys (85x54x1.5mm). Idealus dydis nešiotis piniginėje. Glotnūs kraštai, tvirtas 1.5mm plienas nesilanksto atidarant butelius. Puikiai graviruojasi juodai.",
+    "de": "50er-Pack massive Flaschenöffner aus gebürstetem 304-Edelstahl (85x54x1,5mm). Passt perfekt in jede Brieftasche. Extrem stabil, gravierbar mit Faser- oder Diodenlasern.",
+    "fr": "Lot de 50 décapsuleurs extra-plats en acier inoxydable 304 brossé (85x54x1.5mm). Format portefeuille pratique. Ne plie pas, gravure nette inaltérable.",
+    "es": "Pack de 50 abrebotellas planos de acero inoxidable 304 (85x54x1.5mm). Cabe en la cartera como una tarjeta de crédito. Acero grueso indeformable.",
+    "pl": "Zestaw 50 płaskich otwieraczy do butelek ze stali nierdzewnej 304 (85x54x1.5mm). Format karty do portfela. Gruba blacha 1.5mm nie wygina się.",
+    "lv": "50 gab. 304 nerūsējošā tērauda pudeļu atvērēji kredītkartes izmērā (85x54x1.5mm) ievietošanai makā.",
+    "et": "50 tk roostevabast terasest krediitkaardi mõõtu pudeliavajat (85x54x1.5mm) rahakotis kandmiseks."
+  },
+  "full_description": "### Industrial Grade 304 Stainless Steel Card Openers\n- **Credit Card Dimensions:** 85.5 x 54 x 1.5 mm slides straight into standard card slots in any wallet\n- **High Strength Construction:** Fabricated from solid 1.5mm heavy-gauge cold-rolled 304 stainless steel. Will never bend, crack, or flex when popping off crown bottle caps\n- **Brushed Satin Finish:** Resists fingerprints and scratches during everyday pocket carry\n- **B2B Volume Product:** Unmatched popularity for corporate promotional giveaways, brewery merchandise, bachelor parties, and event gift bags\n- **Laser Marking Guide:** Fiber Laser (1064nm): High contrast black annealing at 20W (Speed 1200 mm/s, Power 55%). Diode Laser: Achieve jet black markings using laser marking thermal paper.",
+  "full_description_i18n": {
+    "en": "### Industrial Grade 304 Stainless Steel Card Openers\n- **Credit Card Dimensions:** 85.5 x 54 x 1.5 mm slides straight into standard card slots in any wallet\n- **High Strength Construction:** Fabricated from solid 1.5mm heavy-gauge cold-rolled 304 stainless steel. Will never bend, crack, or flex when popping off crown bottle caps\n- **Brushed Satin Finish:** Resists fingerprints and scratches during everyday pocket carry\n- **B2B Volume Product:** Unmatched popularity for corporate promotional giveaways, brewery merchandise, bachelor parties, and event gift bags\n- **Laser Marking Guide:** Fiber Laser (1064nm): High contrast black annealing at 20W (Speed 1200 mm/s, Power 55%). Diode Laser: Achieve jet black markings using laser marking thermal paper.",
+    "lt": "### 304 Nerūdijančio plieno kokybė ir Naudojimas\n- **Kortelės išmatavimai:** 85.5 x 54 x 1.5 mm telpa į bet kurią piniginės kortelių kišenėlę\n- **Ypatingas tvirtumas:** Pagaminta iš 1.5 mm storio 304 plieno. Nesilanksto ir nelūžta net atidarant tūkstančius butelių\n- **Šukuoto plieno danga:** Satino blizgesys paslepia pirštų atspaudus ir smulkius įbrėžimus\n- **Didmeninė verslo dovana:** Neprilygstamas populiarumas aludarių atributikai, įmonių renginiams, bernvakariams ir VIP klientų suvenyrams\n- **Lazerio nustatymai:** Fiber lazeris: Juodinimas prie 20W (Greitis 1200 mm/s, Galia 55%). Diodinis lazeris: Su lazeriniu žymėjimo popieriumi išgaunamas tobulas juodas užrašas.",
+    "de": "### Details & Einsatzbereiche\n- **Format:** 85,5 x 54 x 1,5 mm passend für jede Geldbörse\n- **Material:** 1,5mm massiver 304 Edelstahl, verwindungssteif\n- **Oberfläche:** Gebürstetes Satin-Finish\n- **Anwendung:** Firmen-Giveaways, Brauereien, Junggesellenabschiede.",
+    "fr": "### Caractéristiques & Finition\n- **Dimensions :** 85.5 x 54 x 1.5 mm format carte standard\n- **Robustesse :** Inox 304 épais indéformable\n- **Idéal pour :** Cadeaux d'affaires, brasseries, mariages.",
+    "es": "### Especificaciones Técnicas\n- **Medidas:** 85.5 x 54 x 1.5 mm (tarjeta estándar)\n- **Material:** Acero inoxidable 304 grueso indeformable\n- **Uso:** Regalos promocionales, eventos y despedidas.",
+    "pl": "### Cechy Produktu\n- **Wymiary:** 85.5 x 54 x 1.5 mm (format karty płatniczej)\n- **Trwałość:** Lita stal 304 o grubości 1.5 mm, nie odkształca się\n- **Zastosowanie:** Gadżety reklamowe dla firm, browarów i na wieczory kawalerskie.",
+    "lv": "### Specifikācija\n- **Izmērs:** 85.5 x 54 x 1.5 mm nerūsējošais tērauds 304 reklāmas dāvanām.",
+    "et": "### Tehniline info\n- **Mõõtmed:** 85.5 x 54 x 1.5 mm roostevaba teras 304 reklaammeenetele."
+  },
+  "specs": {
+    "Pack Quantity": "50 Card Bottle Openers",
+    "Dimensions": "85.5 x 54 x 1.5 mm (Standard Credit Card)",
+    "Material": "Solid 304 Surgical Grade Stainless Steel",
+    "Surface Finish": "Brushed Satin Anti-Fingerprint Finish",
+    "Laser Systems": "Fiber Laser, MOPA, UV & Diode (with Marking Paper)"
+  }
+},
+{
+  "id": "prod_ae_basswood_12",
+  "name": "Premium Grade-AAA Unfinished Basswood Sheets 12\"x12\"x1/8\" (300x300x3mm) – 12 Pack",
+  "slug": "premium-grade-aaa-unfinished-basswood-sheets-12x12-12-pack",
+  "category_id": "cat_wood",
+  "description": "Pack of 12 unwarped triple-inspected Grade-AAA natural basswood plywood sheets (300x300x3mm / 12\"x12\"). Engineered with zero glue voids and ultra-low resin for laser cutters. Cuts cleanly in a single pass with 10W-20W diode lasers.",
+  "price": 26.9,
+  "compare_at_price": 39,
+  "cost_price": 9.9,
+  "supplier_sku": "AE-BASSWOOD-12P-3030",
+  "aliexpress_product_id": "1005005918237410",
+  "aliexpress_sku": "BASSWOOD-12P-3MM",
+  "badge": "Zero-Void Core",
+  "laser_type": "Diode & CO2 Laser Cut & Engrave (Ultra-Clean Cut)",
+  "recommended_power": "Diode 10W: Speed 300 mm/min, Power 100% (1 pass cut) | Engrave: 4500 mm/min @ 25%",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/51ffnbUbi3L.jpg?v=1761188829",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/61HauFqCj7L.jpg?v=1761188829",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/61F1a2v8H-L.jpg?v=1761188829",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/714w_7ZJ0NL.jpg?v=1761188829"
+  ],
+  "name_i18n": {
+    "en": "Premium Grade-AAA Unfinished Basswood Sheets 12\"x12\"x1/8\" (300x300x3mm) – 12 Pack",
+    "lt": "Aukščiausios AAA Klasės Liepos Fanera Lazeriniam Pjovimui 30x30cm (3mm) – 12 vnt. Pakuotė",
+    "de": "Premium AAA-Lindenholzplatten für Laserschnitt 30x30cm (3mm) – 12er-Pack",
+    "fr": "Feuilles de Bois de Tilleul Qualité Supérieure AAA 30x30cm (3mm) – Lot de 12",
+    "es": "Láminas de Madera de Tilo Grado AAA para Corte Láser 30x30cm (3mm) – Pack de 12",
+    "pl": "Sklejka Lipowa Klasy AAA do Cięcia Laserowego 30x30cm (3mm) – Zestaw 12 Szt.",
+    "lv": "Augstākās AAA Klases Liepas Saplāksnis Lāzergriešanai 30x30cm (3mm) – 12 Gab.",
+    "et": "Kõrgeima AAA-Klassi Pärnavineer Laserlõikuseks 30x30cm (3mm) – 12 Tk Pakk"
+  },
+  "description_i18n": {
+    "en": "Pack of 12 unwarped triple-inspected Grade-AAA natural basswood plywood sheets (300x300x3mm / 12\"x12\"). Engineered with zero glue voids and ultra-low resin for laser cutters. Cuts cleanly in a single pass with 10W-20W diode lasers.",
+    "lt": "12 vnt. aukščiausios AAA klasės natūralios liepos faneros lakštai (300x300x3mm). Visiškai lygūs, be vidinių klijų ertmių ar šakų. 10W–20W diodinis lazeris perpjauna vienu praėjimu be apdegusių briaunų.",
+    "de": "12er-Pack planliegende Lindenholzplatten (300x300x3mm) in AAA-Qualität. Keine Hohlräume oder Leimnester im Kern. Perfekt sauberer Schnitt mit Diodenlasern in einem einzigen Durchgang.",
+    "fr": "Lot de 12 planches de tilleul naturel qualité AAA (300x300x3mm). Bois sans vides de colle ni nœuds. Découpe laser nette en une seule passe sans brûlures excessives.",
+    "es": "Pack de 12 láminas de madera de tilo de grado AAA (300x300x3mm). Núcleo sin huecos de pegamento ni nudos. Corte limpio en una sola pasada con láseres diodo.",
+    "pl": "Zestaw 12 arkuszy sklejki lipowej klasy AAA (300x300x3mm). Jednolita struktura bez sęków i kieszeni klejowych. Czyste cięcie w 1 przejściu bez okopceń.",
+    "lv": "12 gab. AAA klases liepas saplākšņa loksnes (300x300x3mm) bez līmes tukšumiem tīrai lāzergriešanai.",
+    "et": "12 tk AAA-klassi pärnavineeri lehte (300x300x3mm) ilma liimitühikuteta puhta laserlõikuse jaoks."
+  },
+  "full_description": "### Pure Grade-AAA Basswood Specially Sourced for Laser Cutting\n- **Flawless Internal Core:** Standard construction plywood frequently contains dense glue pockets that diode lasers cannot penetrate. Our basswood uses thin uniform micro-plies with zero voids\n- **Square 300x300mm Geometry:** Fits directly into standard desktop diode cutters (xTool D1, Creality Falcon, Sculpfun S9/S30, Ortur LM3) without prep trimming\n- **Ultra-Flat Kiln Drying:** Multi-stage hydraulic hot pressing keeps sheets flat to preserve uniform focus across all 900 square centimeters\n- **Smooth Sanded Both Sides:** Pre-sanded to 320-grit smooth finish. Ready for immediate staining, painting, or raw wood assembly\n- **Recommended LightBurn Speed/Power:** 10W Diode: 280-320 mm/min at 100% power (single pass with air assist); 20W Diode: 550-650 mm/min at 90% power.",
+  "full_description_i18n": {
+    "en": "### Pure Grade-AAA Basswood Specially Sourced for Laser Cutting\n- **Flawless Internal Core:** Standard construction plywood frequently contains dense glue pockets that diode lasers cannot penetrate. Our basswood uses thin uniform micro-plies with zero voids\n- **Square 300x300mm Geometry:** Fits directly into standard desktop diode cutters (xTool D1, Creality Falcon, Sculpfun S9/S30, Ortur LM3) without prep trimming\n- **Ultra-Flat Kiln Drying:** Multi-stage hydraulic hot pressing keeps sheets flat to preserve uniform focus across all 900 square centimeters\n- **Smooth Sanded Both Sides:** Pre-sanded to 320-grit smooth finish. Ready for immediate staining, painting, or raw wood assembly\n- **Recommended LightBurn Speed/Power:** 10W Diode: 280-320 mm/min at 100% power (single pass with air assist); 20W Diode: 550-650 mm/min at 90% power.",
+    "lt": "### Specialiai lazeriniam pjovimui paruošta AAA liepos mediena\n- **Nepriekaištinga vidinė struktūra:** Įprasta statybinė fanera turi klijų kišenes, kurių diodinis lazeris neperpjauna. Ši liepos fanera turi tolygius mikrosluoksnius be jokių klijų gumulų\n- **300x300mm dydis:** Telpa tiesiai ant populiariausių stalinių lazerių stalo be išankstinio pjaustymo\n- **Tobulas lygumas:** Hidraulinio karšto presavimo dėka lakštai nesikraipo, todėl fokusas išlieka identiškas visame 900 cm² plote\n- **Nušlifuota iš abiejų pusių:** Nušlifuota iki 320 grūdėtumo šilkinio lygumo – paruošta dažymui ar lakavimui\n- **LightBurn nustatymai:** 10W diodas: 280–320 mm/min prie 100% galios (1 praėjimas su oro padavimu); 20W diodas: 550–650 mm/min prie 90% galios.",
+    "de": "### Spezielles Laser-Lindenholz\n- **Kern:** Ohne Hohlräume für garantierten Durchschnitt\n- **Format:** 300 x 300 x 3 mm planliegend\n- **Oberfläche:** Beidseitig fein geschliffen (Körnung 320)\n- **LightBurn:** 10W: 300 mm/min bei 100% (1 Durchgang).",
+    "fr": "### Bois de Tilleul Spécial Laser\n- **Qualité :** Sans vides de colle pour des découpes parfaites\n- **Format :** 300 x 300 x 3 mm adapté aux découpeurs de bureau\n- **Ponçage :** Grain 320 prêt à peindre ou teinter.",
+    "es": "### Madera de Tilo Seleccionada para Láser\n- **Núcleo:** Sin bolsas de pegamento para corte continuo\n- **Medidas:** 300 x 300 x 3 mm sin deformaciones\n- **Lijado:** Grano fino 320 en ambas caras.",
+    "pl": "### Czysta Sklejka Lipowa AAA do Lasera\n- **Struktura:** Jednolita bez pustek klejowych, gwarantuje przecięcie za 1 razem\n- **Format:** 300 x 300 x 3 mm idealny na pole robocze\n- **Szlifowanie:** Gładka powierzchnia granulacja 320.",
+    "lv": "### AAA klases liepas koksne\n- **Kvalitāte:** Bez līmes kabatām ērtai griešanai ar diodi (300x300x3mm).",
+    "et": "### AAA-klassi pärnavineer\n- **Kvaliteet:** Ilma liimitaskuteta ühtlaseks lõikamiseks dioodlaseriga."
+  },
+  "specs": {
+    "Pack Quantity": "12 Sheets",
+    "Dimensions": "300 x 300 x 3.0 mm (12\" x 12\" x 1/8\")",
+    "Wood Species": "100% Natural Grade-AAA European Basswood",
+    "Thickness Tolerance": "±0.15 mm Precision Calibrated",
+    "Laser Settings": "10W Diode: 300 mm/min @ 100% Power (1 pass)"
+  }
+},
+{
+  "id": "prod_ae_leather_keyfob_50",
+  "name": "PU Leather Key Fob Blanks with Heavy Brass Rivets & Key Rings (50 Pcs Bulk Kit)",
+  "slug": "pu-leather-key-fob-blanks-with-brass-rivets-50-pcs-bulk-kit",
+  "category_id": "cat_leather",
+  "description": "Pack of 50 premium tear-drop PU leather key fob blanks with vintage brass rivets and reinforced key rings. Available in Saddle Tan, Rustic Brown, and Jet Black. Laser engraves dark high-definition text, monograms, and coordinates.",
+  "price": 19.9,
+  "compare_at_price": 29.5,
+  "cost_price": 6.4,
+  "supplier_sku": "AE-KEYFOB-LEATHER-50P",
+  "aliexpress_product_id": "1005005819284711",
+  "aliexpress_sku": "KEYFOB-50P-BROWN",
+  "badge": "High Turn-Over Blank",
+  "laser_type": "Diode & CO2 Laser Engraving & Personalization",
+  "recommended_power": "Diode 10W: Speed 4000 mm/min, Power 25% | CO2: Speed 350 mm/s, Power 15%",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/1_df8bb2aa-79fa-4a37-9964-ff051eec5aad.jpg?v=1725864953",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/2_880315a6-43d7-4663-875f-3315a25e1a12.jpg?v=1725864953",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/3_e7a17724-c13f-45a2-9ee7-2ea1da1c0d59.jpg?v=1725864953",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/4_6d5f7f32-5bfd-4c3d-bd8d-1906a2e4ffb0.jpg?v=1725864953"
+  ],
+  "name_i18n": {
+    "en": "PU Leather Key Fob Blanks with Heavy Brass Rivets & Key Rings (50 Pcs Bulk Kit)",
+    "lt": "Odiniai Raktų Pakabukų Ruošiniai su Žiedeliais ir Kniedėmis (50 vnt. Komplektas)",
+    "de": "Kunstleder-Schlüsselanhänger Rohlinge mit Nieten & Ringen (50er-Set)",
+    "fr": "Porte-Clés Vierges en Similicuir avec Rivets et Anneaux (Lot de 50)",
+    "es": "Llaveros de Cuero Sintético Grabables con Remaches y Anillas (Set de 50)",
+    "pl": "Breloki ze Skóry Ekologicznej do Grawerowania z Nitami i Kółkami (50 Szt.)",
+    "lv": "Mākslīgās Ādas Atslēgu Piekariņu Sagataves ar Gredzeniem (50 Gab. Komplekts)",
+    "et": "Kunstnahast Võtmehoidja Toorikud Neetide ja Rõngastega (50 Tk Komplekt)"
+  },
+  "description_i18n": {
+    "en": "Pack of 50 premium tear-drop PU leather key fob blanks with vintage brass rivets and reinforced key rings. Available in Saddle Tan, Rustic Brown, and Jet Black. Laser engraves dark high-definition text, monograms, and coordinates.",
+    "lt": "50 vnt. kokybiškų dirbtinės odos lašo formos raktų pakabukų su žalvarinėmis kniedėmis ir tvirtais metaliniais žiedeliais. Lazeris išgraviruoja sodriai tamsius tekstus, inicialus, GPS koordinates ar viešbučių kambarių numerius.",
+    "de": "50er-Set tropfenförmige Kunstleder-Schlüsselanhänger mit antiken Messingnieten und Ringen. In Vintage-Braun und Schwarz. Das Lasern erzeugt tiefe, kontrastreiche Gravuren.",
+    "fr": "Lot de 50 porte-clés en similicuir en forme de goutte avec rivets en laiton et anneaux renforcés. Gravure nette marron foncé pour hôtels, mariages et cadeaux.",
+    "es": "Set de 50 llaveros de polipiel con remaches de latón y anillas de acero. Grabado oscuro y detallado para regalos personalizados y hoteles.",
+    "pl": "Zestaw 50 breloków ze skóry syntetycznej w kształcie łezki z mosiężnymi nitami i kółkami. Ciemny, trwały grawer z diodą lub CO2.",
+    "lv": "50 gab. mākslīgās ādas atslēgu piekariņi ar misiņa kniedēm un riņķiem lāzergravēšanai.",
+    "et": "50 tk kunstnahast tilgakujulist võtmehoidjat messingneetide ja rõngastega lasergraveerimiseks."
+  },
+  "full_description": "### Fast-Turnaround Laser Craft Money Maker\n- **Drop Shape Dimensions:** 65 x 35 x 2.2 mm with 30mm heavy-duty flat-split key ring\n- **High-Density PU Leatherette:** Formulated to engrave with a crisp dark charcoal contrast without melting gummy edges\n- **Hardware Included:** Solid brass-plated antiqued rivet and hardened steel split key ring pre-assembled on every tag\n- **Mass Personalization:** 50 key fobs can be batch-engraved on a jig in under 6 minutes\n- **Hot Niches:** Hotel & Airbnb room tags, automotive dealership key rings, wedding date keepsakes, real estate closing gifts.",
+  "full_description_i18n": {
+    "en": "### Fast-Turnaround Laser Craft Money Maker\n- **Drop Shape Dimensions:** 65 x 35 x 2.2 mm with 30mm heavy-duty flat-split key ring\n- **High-Density PU Leatherette:** Formulated to engrave with a crisp dark charcoal contrast without melting gummy edges\n- **Hardware Included:** Solid brass-plated antiqued rivet and hardened steel split key ring pre-assembled on every tag\n- **Mass Personalization:** 50 key fobs can be batch-engraved on a jig in under 6 minutes\n- **Hot Niches:** Hotel & Airbnb room tags, automotive dealership key rings, wedding date keepsakes, real estate closing gifts.",
+    "lt": "### Greitas ir pelningas lazerinės gamybos produktas\n- **Matmenys:** 65 x 35 x 2.2 mm su 30 mm tvirtu plokščiu plieno žiedeliu\n- **Kokybiška dvisluoksnė oda:** Sukurta lazeriui – graviruojant atidengia tamsų anglį primenantį kontrastą be išsilydžiusių klijų\n- **Pilnai sukomplektuota:** Kiekvienas pakabukas jau turi žalvarinę kniedę ir tvirtą raktų žiedą\n- **Serijinė gamyba:** Užsidėjus ant šablono, 50 vnt. pakabukų išgraviruojami greičiau nei per 6 minutes\n- **Paklausiausios nišos:** Viešbučių ir Airbnb kambarių raktai, automobilių salonų dovanos, vestuvių atminimo suvenyrai.",
+    "de": "### Schnelle Serienfertigung & Hohe Marge\n- **Maße:** 65 x 35 x 2,2 mm mit 30mm Flachring\n- **Qualität:** Dunkler Kontrast ohne klebrige Ränder\n- **Einsatz:** Hotelzimmerschlüssel, Autohäuser, Souvenirs.",
+    "fr": "### Rentabilité Maximale en Atelier\n- **Dimensions :** 65 x 35 x 2.2 mm avec anneau 30mm\n- **Applications :** Hôtels, Airbnb, concessions automobiles.",
+    "es": "### Alta Rentabilidad para Talleres Láser\n- **Medidas:** 65 x 35 x 2.2 mm con anilla plana de 30mm\n- **Uso:** Hoteles, concesionarios, recuerdos turísticos.",
+    "pl": "### Szybki Zysk w Warsztacie\n- **Wymiary:** 65 x 35 x 2.2 mm z kółkiem 30mm\n- **Zastosowanie:** Breloki hotelowe, salony samochodowe, upominki.",
+    "lv": "### Ātra un ienesīga ražošana\n- **Izmērs:** 65 x 35 x 2.2 mm ar gredzenu viesnīcām un suvenīriem.",
+    "et": "### Kiire ja tulus toode töökojale\n- **Mõõtmed:** 65 x 35 x 2.2 mm hotellidele ja meenetele."
+  },
+  "specs": {
+    "Pack Quantity": "50 Key Fobs Complete",
+    "Leather Dimensions": "65 x 35 x 2.2 mm (Tear-Drop Contour)",
+    "Ring Size": "30 mm Heavy-Duty Split Key Ring with Brass Rivet",
+    "Laser Settings": "Diode 10W: 4000 mm/min @ 25% Power"
+  }
+},
+{
+  "id": "prod_ae_colored_acrylic_6",
+  "name": "Vibrant Cast Acrylic Sheets 12\"x8\" (300x200x3mm) – 6 Pack Multi-Color Transparent Set",
+  "slug": "vibrant-cast-acrylic-sheets-12x8-6-pack-multi-color-transparent",
+  "category_id": "cat_acrylic",
+  "description": "Pack of 6 premium transparent colored cell-cast acrylic sheets (300x200x3mm / 12\"x8\"). Features flame-polished optical edges when laser cut. Includes Ruby Red, Amber Orange, Neon Green, Sapphire Blue, Amethyst Purple, and Jet Smoke.",
+  "price": 23.9,
+  "compare_at_price": 35,
+  "cost_price": 7.9,
+  "supplier_sku": "AE-ACRYLIC-6P-3020",
+  "aliexpress_product_id": "1005005829184712",
+  "aliexpress_sku": "ACRYLIC-6P-COLOR",
+  "badge": "Cell Cast Premium",
+  "laser_type": "CO2 & High-Power Blue Diode (Flame Polished Cut Edges)",
+  "recommended_power": "CO2 40W: Speed 18 mm/s, Power 65% | 10W-20W Diode (Dark Shades): Speed 200 mm/min, Power 95%",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/1_d11bf665-4139-4fc6-bb4c-70f05da23cb0.jpg?v=1779700542",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/2_405e3204-032a-4467-bc13-8be80687797a.jpg?v=1779700542",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/3_3735e5d3-83eb-4dfb-9b4b-91d14878a816.jpg?v=1779700542",
+    "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/4_7ec6d819-fc36-47a3-8685-6d0fa73347f8.jpg?v=1779700542"
+  ],
+  "name_i18n": {
+    "en": "Vibrant Cast Acrylic Sheets 12\"x8\" (300x200x3mm) – 6 Pack Multi-Color Transparent Set",
+    "lt": "Spalvoti Lietaus Akrilo Lakštai Lazeriniam Pjovimui 30x20cm (3mm) – 6 vnt. Komplektas",
+    "de": "Bunte gegossene Acrylglasplatten 30x20cm (3mm) – 6er-Pack Transparent",
+    "fr": "Plaques d'Acrylique Coulé Teinté 30x20cm (3mm) – Lot de 6 Couleurs Transparentes",
+    "es": "Láminas de Metacrilato Colado de Colores 30x20cm (3mm) – Pack de 6 Transparentes",
+    "pl": "Kolorowe Arkusze Akrylu Wylewanego 30x20cm (3mm) – Zestaw 6 Szt. Transparentne",
+    "lv": "Krāsainā Lietā Akrila Loksnes 30x20cm (3mm) – 6 Gab. Caurspīdīgs Komplekts",
+    "et": "Värvilised Valatud Akrüülplaadid 30x20cm (3mm) – 6 Tk Läbipaistev Komplekt"
+  },
+  "description_i18n": {
+    "en": "Pack of 6 premium transparent colored cell-cast acrylic sheets (300x200x3mm / 12\"x8\"). Features flame-polished optical edges when laser cut. Includes Ruby Red, Amber Orange, Neon Green, Sapphire Blue, Amethyst Purple, and Jet Smoke.",
+    "lt": "6 vnt. skaidraus spalvoto lietaus akrilo lakštai (300x200x3mm). Pjaunant lazeriu briaunos tampa visiškai skaidrios ir poliruotos be rankinio apdirbimo. Komplekte 6 ryškios spalvos: raudona, oranžinė, neoninė žalia, safyro mėlyna, violetinė ir tamsinta dūminė.",
+    "de": "6er-Set farbig-transparente gegossene Acrylglasplatten (300x200x3mm). Ergibt beim Laserschneiden glasklare, flammpolierte Schnittkanten. 6 leuchtende Farbtöne.",
+    "fr": "Lot de 6 plaques en acrylique coulé transparent coloré (300x200x3mm). Découpe laser à bords polis miroir. 6 couleurs éclatantes pour décoration et enseignes.",
+    "es": "Pack de 6 láminas de acrílico colado transparente de colores (300x200x3mm). Bordes pulidos al fuego tras el corte láser. 6 colores vivos para rotulación y diseño.",
+    "pl": "Zestaw 6 arkuszy kolorowego akrylu wylewanego (300x200x3mm). Lazer daje idealnie gładkie, przezroczyste krawędzie bez polerowania. 6 intensywnych kolorów.",
+    "lv": "6 gab. krāsaina caurspīdīga lietā akrila loksnes (300x200x3mm) ar pulētām malām pēc griešanas.",
+    "et": "6 tk värvilist läbipaistvat valatud akrüülplaati (300x200x3mm) leekpoleeritud servadega pärast laserlõikust."
+  },
+  "full_description": "### Pure Cell-Cast PMMA Technology\n- **Cell Cast Advantage:** Unlike cheaper extruded sheets that melt and gum up cutter lenses, 100% cell cast acrylic cuts with crystal-clear flame-polished edges and zero burrs\n- **Protective Paper Masking:** Double-sided kraft paper masking shields surfaces from smoke residue, flashback scorches, and transport scratches (peel after cutting)\n- **UV & Weather Resistance:** 100% UV stable, will not fade, yellow, or crack during outdoor sign usage\n- **Laser Compatibility:** CO2 lasers cut all colors effortlessly. High-power blue diode lasers (10W-40W) cut dark translucent colors (Red, Blue, Smoke, Purple)\n- **Maker Projects:** Neon signage, jewelry earrings, custom keychains, layered wall art, mechanical enclosures.",
+  "full_description_i18n": {
+    "en": "### Pure Cell-Cast PMMA Technology\n- **Cell Cast Advantage:** Unlike cheaper extruded sheets that melt and gum up cutter lenses, 100% cell cast acrylic cuts with crystal-clear flame-polished edges and zero burrs\n- **Protective Paper Masking:** Double-sided kraft paper masking shields surfaces from smoke residue, flashback scorches, and transport scratches (peel after cutting)\n- **UV & Weather Resistance:** 100% UV stable, will not fade, yellow, or crack during outdoor sign usage\n- **Laser Compatibility:** CO2 lasers cut all colors effortlessly. High-power blue diode lasers (10W-40W) cut dark translucent colors (Red, Blue, Smoke, Purple)\n- **Maker Projects:** Neon signage, jewelry earrings, custom keychains, layered wall art, mechanical enclosures.",
+    "lt": "### Gryna Lietaus Akrilo (PMMA) technologija\n- **Lietaus akrilo privalumas:** Skirtingai nei pigus ekstruduotas akrilas, kuris lydosi ir teršia lęšius, lietas akrilas pjaunamas su tobulai skaidriomis, ugnimi poliruotomis briaunomis be jokių atplaišų\n- **Apsauginis popierius iš abiejų pusių:** Kraft popieriaus plėvelė apsaugo paviršių nuo dūmų apnašų ir korio atspindžių (nulupama po pjovimo)\n- **Atsparumas UV:** 100% atsparus UV spinduliams, nepagelsta ir nesutrūkinėja lauke\n- **Suderinamumas su lazeriais:** CO2 lazeriai pjauna visas spalvas. Galingi mėlyni diodiniai lazeriai (10W–40W) pjauna tamsius atspalvius (raudoną, mėlyną, dūminį, violetinį)\n- **Kūrybiniai projektai:** Šviečiančios iškabos, dizainerių auskarai, stilingi raktų pakabukai, daugiasluoksniai paveikslai.",
+    "de": "### Gegossenes Acrylglas (GS)\n- **Vorteil:** Glasklare Schnittkanten ohne Nachpolieren\n- **Schutz:** Beidseitige Kraftpapier-Maskierung\n- **Wetterfest:** UV-stabil, kein Vergilben im Außenbereich.",
+    "fr": "### Acrylique Coulé Supérieur\n- **Atout :** Bords polis thermiquement nets et brillants\n- **Protection :** Film papier kraft double face anti-fumée.",
+    "es": "### Metacrilato Colado de Alta Calidad\n- **Ventaja:** Cortes limpios con cantos brillantes sin pulir\n- **Protección:** Papel kraft adhesivo en ambas caras.",
+    "pl": "### Czysty Akryl Wylewany (PMMA)\n- **Zaleta:** Idealnie przezroczysta krawędź cięcia jak po polerowaniu\n- **Zabezpieczenie:** Obustronny papier ochronny kraft.",
+    "lv": "### Lietais akrils\n- **Priekšrocība:** Spoguļgludas malas bez papildu apstrādes.",
+    "et": "### Valatud akrüül\n- **Eelis:** Kristallselged lõikeservad ilma poleerimiseta."
+  },
+  "specs": {
+    "Pack Quantity": "6 Sheets (6 Translucent Colors)",
+    "Dimensions": "300 x 200 x 3.0 mm (12\" x 8\")",
+    "Material": "100% Optical Grade Cell-Cast Acrylic (PMMA)",
+    "Masking": "Double-Sided Protective Kraft Paper",
+    "Laser Systems": "CO2 Laser & High-Power Blue Diode Cut & Engrave"
+  }
+},
+{
+  "id": "prod_ae_metal_pet_tags_20",
+  "name": "Anodized Aluminum Bone-Shaped Pet ID Tag Blanks with Split Rings (20 Pcs Assorted Colors)",
+  "slug": "anodized-aluminum-bone-shaped-pet-id-tag-blanks-20-pcs",
+  "category_id": "cat_metal",
+  "description": "Pack of 20 dual-sided colored anodized aluminum bone-shaped pet ID tags (38x25x1.0mm) with 20 split rings. Laser engraving vaporizes the anodized color, revealing radiant white metallic letters. 10 vibrant metallic shades.",
+  "price": 15.9,
+  "compare_at_price": 24,
+  "cost_price": 4.5,
+  "supplier_sku": "AE-BONE-TAG-20P",
+  "aliexpress_product_id": "1005005719284102",
+  "aliexpress_sku": "BONE-TAG-20P-MULTI",
+  "badge": "Vibrant Anodized",
+  "laser_type": "Diode, Fiber & CO2 Laser (High-Contrast Silver Etch)",
+  "recommended_power": "Diode 10W: Speed 3500 mm/min, Power 50% | Fiber 20W: Speed 2000 mm/s, Power 35%",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/GS108608-1.jpg?v=1689991104",
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/GS108608-2.jpg?v=1689991113",
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/GS108608-3.jpg?v=1689991096",
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/GS108608-4.jpg?v=1689991110"
+  ],
+  "name_i18n": {
+    "en": "Anodized Aluminum Bone-Shaped Pet ID Tag Blanks with Split Rings (20 Pcs Assorted Colors)",
+    "lt": "Spalvoti Anoduoto Aliuminio Kauliuko Formos Žetonai Augintiniams (20 vnt. Komplektas)",
+    "de": "Eloxierte Aluminium-Hundemarken Knochenform mit Ringen (20er-Set Bunt)",
+    "fr": "Médailles pour Animaux en Aluminium Anodisé Forme Os (Lot de 20 Couleurs)",
+    "es": "Placas para Mascotas en Forma de Hueso de Aluminio Anodizado (Pack de 20)",
+    "pl": "Zawieszki dla Zwierząt w Kształcie Kości z Anodowanego Aluminium (20 Szt.)",
+    "lv": "Anodēta Alumīnija Kaula Formas Žetoni Dzīvniekiem ar Gredzeniem (20 Gab.)",
+    "et": "Kondikujulised Anodeeritud Alumiiniumist Lemmikloomasildid (20 Tk Komplekt)"
+  },
+  "description_i18n": {
+    "en": "Pack of 20 dual-sided colored anodized aluminum bone-shaped pet ID tags (38x25x1.0mm) with 20 split rings. Laser engraving vaporizes the anodized color, revealing radiant white metallic letters. 10 vibrant metallic shades.",
+    "lt": "20 vnt. spalvotų anoduoto aliuminio kauliuko formos žetonų šunims ir katėms rinkinys (38x25x1.0mm) su tvirtinimo žiedeliais. Lazeris akimirksniu pašalina spalvotą sluoksnį ir atidengia ryškiai sidabrinį tekstą. 10 ryškių spalvų.",
+    "de": "20 bunte eloxierte Aluminium-Hundemarken in Knochenform (38x25x1mm) mit Befestigungsringen. Lasern erzeugt weiße, kontraststarke Gravuren für Telefonnummern und Namen.",
+    "fr": "Lot de 20 médailles en aluminium anodisé en forme d'os (38x25x1mm) avec anneaux. Gravure blanche contrastée pour numéros de téléphone et noms d'animaux.",
+    "es": "Pack de 20 placas para mascotas en forma de hueso (38x25x1mm) en 10 colores. Grabado láser plateado de alto contraste para nombres y teléfonos.",
+    "pl": "Zestaw 20 kolorowych adresówek dla psa w kształcie kości (38x25x1mm) z kółkami. Laser odsłania lśniący, biało-srebrny grawer.",
+    "lv": "20 gab. krāsaini kaula formas žetoni mājdzīvniekiem (38x25x1mm) ar gredzeniem lāzergravēšanai.",
+    "et": "20 tk värvilist kondikujulist anodeeritud alumiiniumist loomasilti (38x25x1mm) rõngastega."
+  },
+  "full_description": "### The Classic High-Margin Pet ID Business Product\n- **Bone Dimensions:** 38 x 25 x 1.0 mm – ideal size for small, medium, and large dogs as well as cats\n- **10 Metallic Anodized Shades:** Includes Royal Blue, Crimson Red, Jet Black, Emerald Green, Rose Gold, Violet, Gold, Teal, Orange, and Pink\n- **Corrosion & Weather Proof:** Electrochemical oxide layer will not peel or flake in rain or mud\n- **Super-Fast Engraving:** Vaporizes completely in under 8 seconds per tag on any 5W-20W diode laser or fiber engraver\n- **Turnkey Retail Value:** Pet owners routinely pay €8–€12 for an engraved tag, allowing makers to turn a 20-pack into €160–€240 of customer revenue.",
+  "full_description_i18n": {
+    "en": "### The Classic High-Margin Pet ID Business Product\n- **Bone Dimensions:** 38 x 25 x 1.0 mm – ideal size for small, medium, and large dogs as well as cats\n- **10 Metallic Anodized Shades:** Includes Royal Blue, Crimson Red, Jet Black, Emerald Green, Rose Gold, Violet, Gold, Teal, Orange, and Pink\n- **Corrosion & Weather Proof:** Electrochemical oxide layer will not peel or flake in rain or mud\n- **Super-Fast Engraving:** Vaporizes completely in under 8 seconds per tag on any 5W-20W diode laser or fiber engraver\n- **Turnkey Retail Value:** Pet owners routinely pay €8–€12 for an engraved tag, allowing makers to turn a 20-pack into €160–€240 of customer revenue.",
+    "lt": "### Klasikinis ir labai pelningas augintinių atributikos produktas\n- **Kauliuko matmenys:** 38 x 25 x 1.0 mm – optimalus dydis tiek mažiems, tiek dideliems šunims bei katėms\n- **10 blizgių metalizuotų spalvų:** Mėlyna, raudona, juoda, smaragdo žalia, rožinis auksas, violetinė, auksinė, turkio, oranžinė ir rožinė\n- **Atsparumas orams:** Elektrocheminis anoduotas sluoksnis nesisluoksniuoja ir nerūdija nuo lietaus ar purvo\n- **Žaibiškas graviravimas:** Vienas žetonas išgraviruojamas greičiau nei per 8 sekundes su bet kokiu 5W–20W diodiniu ar fiber lazeriu\n- **Pardavimo vertė:** Išgraviruotas žetonas augintinių parduotuvėse parduodamas po 8–12 €, todėl 20 vnt. pakuotė atneša 160–240 € apyvartos.",
+    "de": "### Beliebter Bestseller für Haustiere\n- **Maße:** 38 x 25 x 1,0 mm für Hunde und Katzen\n- **10 Farben:** Witterungsbeständig eloxiert\n- **Laser:** Schnellgravur in unter 8 Sekunden pro Marke.",
+    "fr": "### Le Classique Incontournable\n- **Dimensions :** 38 x 25 x 1.0 mm\n- **10 Couleurs :** Anodisation résistante à l'eau et à la boue\n- **Vitesse :** Gravé en moins de 8 secondes.",
+    "es": "### Éxito Seguro para Mascotas\n- **Medidas:** 38 x 25 x 1.0 mm\n- **10 Colores:** Resistente a la intemperie y arañazos\n- **Rapidez:** Grabado en menos de 8 segundos.",
+    "pl": "### Klasyczny Bestseller dla Zwierząt\n- **Wymiary:** 38 x 25 x 1.0 mm z kółeczkami mocującymi\n- **10 Kolorów:** Trwała powłoka odporna na błoto i deszcz\n- **Szybkość:** Błyskawiczny grawer w 8 sekund.",
+    "lv": "### Piederums mājdzīvniekiem\n- **Izmērs:** 38 x 25 x 1.0 mm (10 krāsas) vārda un tālruņa gravēšanai.",
+    "et": "### Bestseller lemmikloomadele\n- **Mõõtmed:** 38 x 25 x 1.0 mm (10 värvi) nime ja telefoni graveerimiseks."
+  },
+  "specs": {
+    "Pack Quantity": "20 Bone Tags + 20 Steel Split Rings",
+    "Dimensions": "38 x 25 x 1.0 mm (Bone Shape)",
+    "Material": "High-Purity Anodized Aluminum Alloy",
+    "Color Palette": "10 Assorted Vibrant Metallic Colors",
+    "Laser Systems": "Diode 5W-20W, Fiber & CO2 Laser"
+  }
+}
 ];
