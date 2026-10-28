@@ -32,6 +32,35 @@ function escapeXml(unsafe: string): string {
     .replace(/'/g, '&apos;');
 }
 
+// Excluded products from Google Shopping feed:
+// Complete heavy machines and hardware where dropship supplier cost exceeds Google market retail benchmarks
+const EXCLUDED_FEED_IDS = new Set([
+  'prod_sculpfun_72', // Sculpfun C1 Mini + RA Roller (Cost 169 > Benchmark 151.30)
+  'prod_sculpfun_69', // Sculpfun C1 6W Mini
+  'prod_sculpfun_82', // Sculpfun C1 3W Mini
+  'prod_sculpfun_78', // Sculpfun iCube Ultra Machine
+  'prod_sculpfun_89', // Sculpfun iCube Pro Max 10W Machine
+  'prod_sculpfun_90', // Sculpfun iCube 3W Machine
+  'prod_sculpfun_91', // Sculpfun iCube Pro 5W Machine
+  'prod_sculpfun_86', // Sculpfun S40 MAX 48W Machine
+  'prod_sculpfun_92', // Sculpfun SF-A9 40W Machine
+  'prod_sculpfun_93', // Sculpfun SF-A9 20W Machine
+  'prod_sculpfun_67', // Sculpfun E1 Pro Enclosed Machine
+  'prod_sculpfun_68', // Sculpfun E1 Enclosed Machine
+  'prod_sculpfun_79', // Sculpfun iCube Air Assist Kit (Cost 69.99 > Benchmark 62.75)
+  'prod_sculpfun_80', // Sculpfun iCube iCAM Camera
+  'prod_cloudray_16', // Cloudray E Series Head Set (Cost 99 > Benchmark 61.46)
+  'prod_cloudray_29', // Cloudray 0-2KW Raytools BT220 (Industrial 1240 €)
+  'prod_cloudray_31', // Cloudray 800mm Electric Lift Column (673 €)
+  'prod_cloudray_37', // Cloudray TEYU CW5200 Industrial Water Chiller (776 €)
+  'prod_cloudray_38', // Cloudray 0-60W Power Meter (1483 €)
+  'prod_ortur_100',   // Ortur R2 Smart Laser Engraver (984 €)
+  'prod_ortur_99',    // Ortur Laser Master 2 Pro S2 (377 €)
+  'prod_ortur_98',    // Ortur 1.3W IR LR4-1A Module (403 €)
+  'prod_ortur_97',    // Ortur R1 Laser Engraver (309 €)
+  'prod_ortur_95',    // Ortur Laser Master 3 LE (134 €)
+]);
+
 export async function GET(req: Request) {
   try {
     const url = new URL(req.url);
@@ -40,7 +69,10 @@ export async function GET(req: Request) {
 
     const baseUrl = 'https://lasersupply.org';
 
-    const itemsXml = PRODUCTS.map((p) => {
+    // Only include competitive, profitable products in the Google Shopping Feed
+    const eligibleProducts = PRODUCTS.filter((p) => !EXCLUDED_FEED_IDS.has(p.id));
+
+    const itemsXml = eligibleProducts.map((p) => {
       // Localized name & description
       const title = p.name_i18n?.[locale] || p.name;
       const description = p.description_i18n?.[locale] || p.description;
@@ -48,7 +80,15 @@ export async function GET(req: Request) {
       const mainImage = p.images?.[0] || 'https://lasersupply.org/icon-512.png';
       const additionalImages = (p.images || []).slice(1, 5);
       const googleCat = getGoogleCategory(p.category_id);
-      const brand = (p.specs?.Brand as string) || (p.badge?.includes('Cloudray') ? 'Cloudray' : 'LaserSupply');
+      let brand = (p.specs?.Brand as string) || '';
+      if (!brand) {
+        if (p.name.includes('Cloudray') || p.badge?.includes('Cloudray')) brand = 'Cloudray';
+        else if (p.name.includes('Sculpfun') || p.badge?.includes('Sculpfun')) brand = 'Sculpfun';
+        else if (p.name.includes('Ortur') || p.badge?.includes('Ortur')) brand = 'Ortur';
+        else if (p.name.includes('Elegoo') || p.badge?.includes('Elegoo')) brand = 'Elegoo';
+        else if (p.name.includes('Polymaker') || p.badge?.includes('Polymaker')) brand = 'Polymaker';
+        else brand = 'LaserSupply';
+      }
       const mpn = p.supplier_sku || p.cj_pid || p.id;
       const priceFormatted = `${Number(p.price).toFixed(2)} EUR`;
 

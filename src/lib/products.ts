@@ -189,7 +189,7 @@ export const PRODUCTS: Product[] = [
   "slug": "cloudray-cloudray-laser-engraver-fence-kit-for-workpiece-positioning",
   "category_id": "cat_hardware",
   "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-  "price": 20.25,
+  "price": 18.90,
   "compare_at_price": 27.34,
   "cost_price": 15,
   "supplier_sku": "LC86M43DXWTZ",
@@ -309,7 +309,7 @@ export const PRODUCTS: Product[] = [
   "slug": "cloudray-cloudray-air-assist-pump-and-flexible-air-hose-with-base-for-laser-engravers",
   "category_id": "cat_hardware",
   "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-  "price": 67.5,
+  "price": 58.90,
   "compare_at_price": 91.13,
   "cost_price": 50,
   "supplier_sku": "LM06APS16WZGTM",
@@ -609,7 +609,7 @@ export const PRODUCTS: Product[] = [
   "slug": "cloudray-cloudray-350w-helical-turbo-cyclone-dust-separator-for-fume-purifier",
   "category_id": "cat_hardware",
   "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-  "price": 13.5,
+  "price": 11.90,
   "compare_at_price": 18.23,
   "cost_price": 10,
   "supplier_sku": "CS26FLQ350W",
@@ -669,7 +669,7 @@ export const PRODUCTS: Product[] = [
   "slug": "cloudray-cloudray-k-series-4060-d20-laser-cutting-head-set",
   "category_id": "cat_hardware",
   "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-  "price": 39.15,
+  "price": 34.90,
   "compare_at_price": 52.85,
   "cost_price": 29,
   "supplier_sku": "MP09K406012V2SG",
@@ -909,7 +909,7 @@ export const PRODUCTS: Product[] = [
   "slug": "cloudray-cloudray-leadshine-m542c-2-phase-stepper-driver",
   "category_id": "cat_hardware",
   "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-  "price": 43.2,
+  "price": 38.90,
   "compare_at_price": 58.32,
   "cost_price": 32,
   "supplier_sku": "SMD10L2PM542C",
@@ -1029,7 +1029,7 @@ export const PRODUCTS: Product[] = [
   "slug": "cloudray-cloudray-24cs22c-400-2-phase-nema-24-open-loop-stepper-motor",
   "category_id": "cat_hardware",
   "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-  "price": 33.75,
+  "price": 29.90,
   "compare_at_price": 45.56,
   "cost_price": 25,
   "supplier_sku": "SM47N24CS22C400",
@@ -1149,7 +1149,7 @@ export const PRODUCTS: Product[] = [
   "slug": "cloudray-cloudray-foldable-laser-engraver-enclosure",
   "category_id": "cat_hardware",
   "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-  "price": 66.15,
+  "price": 59.90,
   "compare_at_price": 89.3,
   "cost_price": 49,
   "supplier_sku": "FM14PSTYFHZ",
@@ -1389,7 +1389,7 @@ export const PRODUCTS: Product[] = [
   "slug": "cloudray-cloudray-adjustable-honeycomb-table-for-laser-engraver-cutter",
   "category_id": "cat_hardware",
   "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-  "price": 39.15,
+  "price": 34.90,
   "compare_at_price": 52.85,
   "cost_price": 29,
   "supplier_sku": "LM04DTB400X100H4",
@@ -1509,7 +1509,7 @@ export const PRODUCTS: Product[] = [
   "slug": "cloudray-cloudray-100-pcs-ultra-fine-cleanroom-wipes",
   "category_id": "cat_hardware",
   "description": "Official Cloudray professional laser accessory. Precision-engineered for maker workshops and production laser cutting. Fully compatible with LightBurn and popular European machines.",
-  "price": 20.25,
+  "price": 17.90,
   "compare_at_price": 27.34,
   "cost_price": 15,
   "supplier_sku": "CP04K6106LE",
@@ -5549,7 +5549,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Matte PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Charcoal Black, Cotton White, Slate Grey, Olive Green, Lava Red, Ocean Blue.",
     "et": "Kvaliteetne Polymaker Matte PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Charcoal Black, Cotton White, Slate Grey, Olive Green, Lava Red, Ocean Blue."
   },
-  "price": 25.64,
+  "price": 24.90,
   "compare_at_price": 34.61,
   "cost_price": 18.99,
   "supplier_sku": "FIL-POL-CA04015",
@@ -5616,7 +5616,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Silk PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Silk Gold, Silk Silver, Silk Bronze, Silk Ruby, Silk Emerald, Silk Sapphire.",
     "et": "Kvaliteetne Polymaker Silk PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Silk Gold, Silk Silver, Silk Bronze, Silk Ruby, Silk Emerald, Silk Sapphire."
   },
-  "price": 29.69,
+  "price": 27.90,
   "compare_at_price": 40.08,
   "cost_price": 21.99,
   "supplier_sku": "FIL-POL-CA03001",
@@ -5683,7 +5683,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Dual-Color Silk PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Gold-Silver, Blue-Green, Red-Gold, Purple-Blue, Black-Rose Gold.",
     "et": "Kvaliteetne Polymaker Dual-Color Silk PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Gold-Silver, Blue-Green, Red-Gold, Purple-Blue, Black-Rose Gold."
   },
-  "price": 31.04,
+  "price": 28.90,
   "compare_at_price": 41.9,
   "cost_price": 22.99,
   "supplier_sku": "FIL-POL-CA03022",
@@ -5750,7 +5750,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker PLA Pro (Tough PLA) 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: True Black, Cold White, Industrial Grey, Signal Red, Cobalt Blue.",
     "et": "Kvaliteetne Polymaker PLA Pro (Tough PLA) 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: True Black, Cold White, Industrial Grey, Signal Red, Cobalt Blue."
   },
-  "price": 32.39,
+  "price": 25.90,
   "compare_at_price": 43.73,
   "cost_price": 23.99,
   "supplier_sku": "FIL-POL-PA13002",
@@ -5817,7 +5817,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Pure Grade PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Jet Black, Pure White, Silver, Yellow, Teal, Magenta, Orange.",
     "et": "Kvaliteetne Polymaker Pure Grade PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Jet Black, Pure White, Silver, Yellow, Teal, Magenta, Orange."
   },
-  "price": 26.99,
+  "price": 24.90,
   "compare_at_price": 36.44,
   "cost_price": 19.99,
   "supplier_sku": "FIL-POL-PA02001",
@@ -5884,7 +5884,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Galaxy Sparkle PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Galaxy Black, Galaxy Purple, Galaxy Blue, Deep Space Silver.",
     "et": "Kvaliteetne Polymaker Galaxy Sparkle PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Galaxy Black, Galaxy Purple, Galaxy Blue, Deep Space Silver."
   },
-  "price": 33.74,
+  "price": 25.90,
   "compare_at_price": 45.55,
   "cost_price": 24.99,
   "supplier_sku": "FIL-POL-CA02024",
@@ -5951,7 +5951,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Architectural Marble PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Natural White Marble, Granite Grey, Sandstone Beige.",
     "et": "Kvaliteetne Polymaker Architectural Marble PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Natural White Marble, Granite Grey, Sandstone Beige."
   },
-  "price": 28.34,
+  "price": 27.90,
   "compare_at_price": 38.26,
   "cost_price": 20.99,
   "supplier_sku": "FIL-POL-CA04005",
@@ -6018,7 +6018,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Wood Polymer Composite 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Oak Light, Walnut Dark, Natural Birch.",
     "et": "Kvaliteetne Polymaker Wood Polymer Composite 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Oak Light, Walnut Dark, Natural Birch."
   },
-  "price": 40.49,
+  "price": 31.90,
   "compare_at_price": 54.66,
   "cost_price": 29.99,
   "supplier_sku": "FIL-POL-PA08005",
@@ -6085,7 +6085,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Carbon Fiber Reinforced PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Carbon Black, Slate Grey, Dark Titanium.",
     "et": "Kvaliteetne Polymaker Carbon Fiber Reinforced PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Carbon Black, Slate Grey, Dark Titanium."
   },
-  "price": 40.49,
+  "price": 34.90,
   "compare_at_price": 54.66,
   "cost_price": 29.99,
   "supplier_sku": "FIL-POL-PA10001",
@@ -6152,7 +6152,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Phosphorescent Glow PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Glow Green, Glow Blue, Glow Aqua, Glow Orange.",
     "et": "Kvaliteetne Polymaker Phosphorescent Glow PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Glow Green, Glow Blue, Glow Aqua, Glow Orange."
   },
-  "price": 33.74,
+  "price": 34.90,
   "compare_at_price": 45.55,
   "cost_price": 24.99,
   "supplier_sku": "FIL-POL-CA02030",
@@ -6219,7 +6219,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Standard PETG 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Solid Black, Solid White, Transparent Clear, Ruby Red, Sapphire Blue.",
     "et": "Kvaliteetne Polymaker Standard PETG 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Solid Black, Solid White, Transparent Clear, Ruby Red, Sapphire Blue."
   },
-  "price": 26.99,
+  "price": 29.90,
   "compare_at_price": 36.44,
   "cost_price": 19.99,
   "supplier_sku": "FIL-POL-PB05001",
@@ -6286,7 +6286,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Translucent Optical PETG 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Clear Transparent, Translucent Red, Translucent Blue, Translucent Green, Amber Orange.",
     "et": "Kvaliteetne Polymaker Translucent Optical PETG 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Clear Transparent, Translucent Red, Translucent Blue, Translucent Green, Amber Orange."
   },
-  "price": 26.99,
+  "price": 29.90,
   "compare_at_price": 36.44,
   "cost_price": 19.99,
   "supplier_sku": "FIL-POL-PB01032",
@@ -6353,7 +6353,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker PETG + 8% Carbon Fiber 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Graphite Carbon Black, Industrial Grey.",
     "et": "Kvaliteetne Polymaker PETG + 8% Carbon Fiber 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Graphite Carbon Black, Industrial Grey."
   },
-  "price": 26.99,
+  "price": 25.90,
   "compare_at_price": 36.44,
   "cost_price": 19.99,
   "supplier_sku": "FIL-POL-FB04001",
@@ -6420,7 +6420,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker ESD Electrostatic Dissipative PETG 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: ESD Black.",
     "et": "Kvaliteetne Polymaker ESD Electrostatic Dissipative PETG 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: ESD Black."
   },
-  "price": 44.54,
+  "price": 25.90,
   "compare_at_price": 60.13,
   "cost_price": 32.99,
   "supplier_sku": "FIL-POL-FB03001",
@@ -6487,7 +6487,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Pure Engineered ABS 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Black, White, Grey, Red, Blue, Orange.",
     "et": "Kvaliteetne Polymaker Pure Engineered ABS 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Black, White, Grey, Red, Blue, Orange."
   },
-  "price": 26.99,
+  "price": 27.90,
   "compare_at_price": 36.44,
   "cost_price": 19.99,
   "supplier_sku": "FIL-POL-PE01001",
@@ -6554,7 +6554,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Modified Low-Warp ABS 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Jet Black, Signal White, Steel Grey.",
     "et": "Kvaliteetne Polymaker Modified Low-Warp ABS 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Jet Black, Signal White, Steel Grey."
   },
-  "price": 33.74,
+  "price": 27.90,
   "compare_at_price": 45.55,
   "cost_price": 24.99,
   "supplier_sku": "FIL-POL-PE02001",
@@ -6621,7 +6621,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Thermoplastic Polyurethane 95A 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Solid Black, Natural White, Neon Orange, Vivid Red, Electric Blue.",
     "et": "Kvaliteetne Polymaker Thermoplastic Polyurethane 95A 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Solid Black, Natural White, Neon Orange, Vivid Red, Electric Blue."
   },
-  "price": 40.49,
+  "price": 27.90,
   "compare_at_price": 54.66,
   "cost_price": 29.99,
   "supplier_sku": "FIL-POL-PD01001",
@@ -6688,7 +6688,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Polymaker Soft Polyurethane TPU 90A 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Rubber Black, Milky Translucent.",
     "et": "Kvaliteetne Polymaker Soft Polyurethane TPU 90A 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Rubber Black, Milky Translucent."
   },
-  "price": 53.99,
+  "price": 28.90,
   "compare_at_price": 72.89,
   "cost_price": 39.99,
   "supplier_sku": "FIL-POL-PD02001",
@@ -6755,7 +6755,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo Standard Virgin PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Black, White, Grey, Red, Blue, Yellow, Green, Orange, Purple, Brown.",
     "et": "Kvaliteetne Elegoo Standard Virgin PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Black, White, Grey, Red, Blue, Yellow, Green, Orange, Purple, Brown."
   },
-  "price": 17.81,
+  "price": 16.90,
   "compare_at_price": 24.04,
   "cost_price": 13.19,
   "supplier_sku": "FIL-ELE-EL-PLA-N001",
@@ -6822,7 +6822,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo Rapid High-Flow PLA+ 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Space Grey, Matte Black, Pure White, Crimson Red, Navy Blue.",
     "et": "Kvaliteetne Elegoo Rapid High-Flow PLA+ 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Space Grey, Matte Black, Pure White, Crimson Red, Navy Blue."
   },
-  "price": 24.29,
+  "price": 18.90,
   "compare_at_price": 32.79,
   "cost_price": 17.99,
   "supplier_sku": "FIL-ELE-SPUK-EL-RPP-01",
@@ -6889,7 +6889,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo Matte PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Matte Black, Matte White, Slate Grey, Olive Green, Sakura Pink, Lavender Purple.",
     "et": "Kvaliteetne Elegoo Matte PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Matte Black, Matte White, Slate Grey, Olive Green, Sakura Pink, Lavender Purple."
   },
-  "price": 25.64,
+  "price": 19.90,
   "compare_at_price": 34.61,
   "cost_price": 18.99,
   "supplier_sku": "FIL-ELE-SPUK-EL-MAT-101",
@@ -6956,7 +6956,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo Silk Shiny PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Silk Gold, Silk Silver, Silk Copper, Silk Cyan, Silk Rose Gold, Silk Violet.",
     "et": "Kvaliteetne Elegoo Silk Shiny PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Silk Gold, Silk Silver, Silk Copper, Silk Cyan, Silk Rose Gold, Silk Violet."
   },
-  "price": 26.99,
+  "price": 19.90,
   "compare_at_price": 36.44,
   "cost_price": 19.99,
   "supplier_sku": "FIL-ELE-SPUK-EL-3D-S01",
@@ -7023,7 +7023,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo Galaxy Sparkle PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Galaxy Nebula Black, Galaxy Space Blue, Galaxy Starry Silver.",
     "et": "Kvaliteetne Elegoo Galaxy Sparkle PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Galaxy Nebula Black, Galaxy Space Blue, Galaxy Starry Silver."
   },
-  "price": 25.64,
+  "price": 19.90,
   "compare_at_price": 34.61,
   "cost_price": 18.99,
   "supplier_sku": "FIL-ELE-EL-PLA-108",
@@ -7090,7 +7090,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo Glitter Crystal PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Sparkle Emerald, Sparkle Ruby, Sparkle Sapphire, Sparkle Onyx.",
     "et": "Kvaliteetne Elegoo Glitter Crystal PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Sparkle Emerald, Sparkle Ruby, Sparkle Sapphire, Sparkle Onyx."
   },
-  "price": 24.29,
+  "price": 19.90,
   "compare_at_price": 32.79,
   "cost_price": 17.99,
   "supplier_sku": "FIL-ELE-EL-PLA-132",
@@ -7157,7 +7157,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo Luminescent Night Glow PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Fluorescent Green Glow, Neon Blue Glow.",
     "et": "Kvaliteetne Elegoo Luminescent Night Glow PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Fluorescent Green Glow, Neon Blue Glow."
   },
-  "price": 26.99,
+  "price": 21.90,
   "compare_at_price": 36.44,
   "cost_price": 19.99,
   "supplier_sku": "FIL-ELE-EL-3DF-PLG0802",
@@ -7223,7 +7223,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo Wood Polymer Composite 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Natural Oak, Sandalwood Brown, Light Birch.",
     "et": "Kvaliteetne Elegoo Wood Polymer Composite 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Natural Oak, Sandalwood Brown, Light Birch."
   },
-  "price": 25.64,
+  "price": 26.90,
   "compare_at_price": 34.61,
   "cost_price": 18.99,
   "supplier_sku": "FIL-ELE-7760533553200",
@@ -7290,7 +7290,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo Marble Composite PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Classic White Carrara Marble, Grey Granite.",
     "et": "Kvaliteetne Elegoo Marble Composite PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Classic White Carrara Marble, Grey Granite."
   },
-  "price": 25.64,
+  "price": 21.90,
   "compare_at_price": 34.61,
   "cost_price": 18.99,
   "supplier_sku": "FIL-ELE-7745483735088",
@@ -7357,7 +7357,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo Metallic Particle PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Machined Aluminum, Gunmetal Iron, Copper Ore.",
     "et": "Kvaliteetne Elegoo Metallic Particle PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Machined Aluminum, Gunmetal Iron, Copper Ore."
   },
-  "price": 25.64,
+  "price": 19.90,
   "compare_at_price": 34.61,
   "cost_price": 18.99,
   "supplier_sku": "FIL-ELE-EL-3DF-P0740",
@@ -7422,7 +7422,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo Carbon Fiber Infused PLA 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Matte Carbon Black, Carbon Ash Grey.",
     "et": "Kvaliteetne Elegoo Carbon Fiber Infused PLA 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Matte Carbon Black, Carbon Ash Grey."
   },
-  "price": 29.69,
+  "price": 19.90,
   "compare_at_price": 40.08,
   "cost_price": 21.99,
   "supplier_sku": "FIL-ELE-EL-PCF-101",
@@ -7489,7 +7489,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo High-Flow Rapid PETG 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Industrial Black, Solid White, Transparent Clear, Signal Red, Cobalt Blue.",
     "et": "Kvaliteetne Elegoo High-Flow Rapid PETG 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Industrial Black, Solid White, Transparent Clear, Signal Red, Cobalt Blue."
   },
-  "price": 19.56,
+  "price": 21.90,
   "compare_at_price": 26.41,
   "cost_price": 14.49,
   "supplier_sku": "FIL-ELE-SPUK-EL-PTG-107",
@@ -7556,7 +7556,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo PETG + Carbon Fiber Composite 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Stealth Black Carbon.",
     "et": "Kvaliteetne Elegoo PETG + Carbon Fiber Composite 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Stealth Black Carbon."
   },
-  "price": 28.34,
+  "price": 23.90,
   "compare_at_price": 38.26,
   "cost_price": 20.99,
   "supplier_sku": "FIL-ELE-EL-GCF-001",
@@ -7623,7 +7623,7 @@ export const PRODUCTS: Product[] = [
     "lv": "Augstākās kvalitātes Elegoo High-Elasticity TPU 95A 3D printera kvēldiegs (1,75 mm, 1 kg). Precīzs diametrs, teicama starpslāņu saķere un uzticama padeve. Krāsas: Carbon Black, Snow White, Vibrant Red, Electric Blue, Bright Yellow.",
     "et": "Kvaliteetne Elegoo High-Elasticity TPU 95A 3D-printeri hõõgniit (1,75 mm, 1 kg). Täpne läbimõõt, suurepärane kihtidevaheline nake ja sujuv printimine. Värvid: Carbon Black, Snow White, Vibrant Red, Electric Blue, Bright Yellow."
   },
-  "price": 25.64,
+  "price": 23.90,
   "compare_at_price": 34.61,
   "cost_price": 18.99,
   "supplier_sku": "FIL-ELE-SPUK-EL-TPU-110",
