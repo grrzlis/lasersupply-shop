@@ -1,11 +1,81 @@
+import { env } from 'cloudflare:workers';
+
 interface SendEmailParams {
   to: { email: string; name?: string }[];
   subject: string;
   htmlContent: string;
 }
 
+async function getBrevoApiKey(): Promise<string | undefined> {
+  let apiKey = process.env.BREVO_API_KEY;
+  try {
+    const cfEnv = env as any;
+    if (cfEnv?.BREVO_API_KEY) apiKey = cfEnv.BREVO_API_KEY;
+  } catch {
+    // local / non-workers runtime
+  }
+  return apiKey?.trim() || undefined;
+}
+
+async function getNewsletterListId(): Promise<number> {
+  let raw = process.env.BREVO_NEWSLETTER_LIST_ID || '7';
+  try {
+    const cfEnv = env as any;
+    if (cfEnv?.BREVO_NEWSLETTER_LIST_ID) raw = cfEnv.BREVO_NEWSLETTER_LIST_ID;
+  } catch {
+    // local / non-workers runtime
+  }
+  const id = Number(raw);
+  return Number.isFinite(id) && id > 0 ? id : 7;
+}
+
+export async function subscribeToNewsletter(email: string, locale?: string) {
+  const apiKey = await getBrevoApiKey();
+  if (!apiKey) {
+    console.warn('⚠️ [BREVO] BREVO_API_KEY not configured. Skipping newsletter subscribe.');
+    return { success: false as const, reason: 'missing_key' };
+  }
+
+  const listId = await getNewsletterListId();
+  const normalized = email.trim().toLowerCase();
+
+  try {
+    const res = await fetch('https://api.brevo.com/v3/contacts', {
+      method: 'POST',
+      headers: {
+        'api-key': apiKey,
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        email: normalized,
+        updateEnabled: true,
+        listIds: [listId],
+        attributes: locale ? { LOCALE: locale } : undefined,
+      }),
+    });
+
+    if (res.ok || res.status === 204) {
+      return { success: true as const };
+    }
+
+    // Duplicate contact still counts as subscribed when updateEnabled is true,
+    // but Brevo may return 400 for invalid email.
+    const errText = await res.text();
+    if (res.status === 400 && /already|duplicate|exist/i.test(errText)) {
+      return { success: true as const, already: true };
+    }
+
+    console.error('❌ [BREVO] Newsletter subscribe failed:', res.status, errText);
+    return { success: false as const, error: errText };
+  } catch (error) {
+    console.error('❌ [BREVO] Newsletter subscribe network error:', error);
+    return { success: false as const, error };
+  }
+}
+
 export async function sendEmail({ to, subject, htmlContent }: SendEmailParams) {
-  const apiKey = process.env.BREVO_API_KEY;
+  const apiKey = await getBrevoApiKey();
   if (!apiKey) {
     console.warn('⚠️ [BREVO] BREVO_API_KEY not configured. Skipping email send.');
     return { success: false, reason: 'missing_key' };

@@ -1,9 +1,9 @@
 import { Navbar } from '@/components/Navbar';
 import { SlideOverCart } from '@/components/SlideOverCart';
 import { CatalogWithSidebar } from '@/components/CatalogWithSidebar';
-import { HeroShowcase } from '@/components/HeroShowcase';
+import { CategoryShowcase, NewsletterBand } from '@/components/CategoryShowcase';
+import { BackToTop } from '@/components/BackToTop';
 import { PRODUCTS } from '@/lib/products';
-import { Truck, ShieldCheck, Zap, Award, Layers, Clock, ChevronRight, Flame } from 'lucide-react';
 import { Locale, locales, defaultLocale } from '@/lib/i18n';
 import { messages } from '@/lib/translations';
 import type { Metadata } from 'next';
@@ -122,7 +122,7 @@ export default async function LocalizedHomePage({
                 },
                 shippingDestination: {
                   '@type': 'DefinedRegion',
-                  addressCountry: ['LT', 'LV', 'EE', 'DE', 'FR', 'PL', 'ES', 'IT', 'NL', 'BE', 'AT', 'SE', 'FI', 'IE', 'DK', 'NO', 'CH', 'GB', 'US', 'CA'],
+                  addressCountry: ['LT', 'LV', 'EE', 'DE', 'FR', 'PL', 'ES', 'IT', 'NL', 'BE', 'AT', 'SE', 'FI', 'IE', 'DK', 'NO', 'CH', 'GB'],
                 },
                 deliveryTime: {
                   '@type': 'ShippingDeliveryTime',
@@ -155,170 +155,113 @@ export default async function LocalizedHomePage({
     ],
   };
 
+  const copy = homeCopy[locale] || homeCopy.en;
+
   return (
-    <div className="min-h-screen bg-[#ffffff] text-[#242423] flex flex-col font-sans">
+    <div className="min-h-screen bg-[#f1f4f6] text-[#1b283a] flex flex-col">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Navbar locale={locale} />
       <SlideOverCart locale={locale} />
+      <BackToTop label={locale === 'lt' ? 'Į viršų' : 'Back to top'} />
 
-      {/* Clean Premium Hero Section */}
-      <section className="relative bg-gradient-to-b from-[#1c1c1b] via-[#181817] to-[#121211] text-[#ffffff] py-10 sm:py-16 overflow-hidden border-b border-[#282826]">
-        {/* Soft atmospheric amber light highlight in background */}
-        <div className="absolute top-0 right-1/4 w-[500px] h-[350px] bg-amber-500/[0.07] rounded-full blur-[130px] pointer-events-none" />
-
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 relative z-10 flex flex-col lg:flex-row items-center justify-between gap-10">
-          {/* Left Column: Headlines & CTAs */}
-          <div className="space-y-6 max-w-2xl text-center lg:text-left">
-            <div className="inline-flex items-center gap-2.5 bg-gradient-to-r from-[#f5cb5c]/15 via-amber-500/10 to-transparent border border-[#f5cb5c]/30 text-[#f5cb5c] font-black text-xs uppercase px-3.5 py-1.5 rounded-full tracking-wider shadow-sm">
-              <span className="flex h-2 w-2 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#f5cb5c] opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-[#f5cb5c]"></span>
-              </span>
-              <span>LaserSupply.org · European Maker & 3D Hub</span>
-            </div>
-
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] text-white">
-              {t.title}
+      <section className="relative w-full min-h-[380px] sm:min-h-[480px] lg:min-h-[560px] overflow-hidden bg-[#1b283a]">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/hero-laser.jpg"
+          alt=""
+          className="hero-photo absolute inset-0 w-full h-full object-cover object-[70%_45%]"
+        />
+        <div className="relative z-10 w-full max-w-[1760px] mx-auto px-5 sm:px-8 lg:px-12 py-12 sm:py-16 flex items-center min-h-[380px] sm:min-h-[480px] lg:min-h-[560px]">
+          <div className="hero-offer-card w-full max-w-[540px] bg-[#9f241d] text-white rounded-md px-6 py-8 sm:px-10 sm:py-12">
+            <p className="text-[12px] font-bold uppercase tracking-[0.14em]">
+              {copy.eyebrow}
+            </p>
+            <h1 className="mt-3 text-[32px] sm:text-[44px] font-extrabold uppercase leading-[1.05] tracking-tight">
+              {copy.title}
             </h1>
-
-            <p className="text-stone-300 text-sm sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 font-normal">
+            <p className="mt-4 text-[15px] leading-relaxed text-white/90">
               {t.subtitle}
             </p>
-
-            {/* CTAs with glowing primary button */}
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
-              <a
-                href="#catalog"
-                className="group relative inline-flex items-center gap-2.5 px-7 py-4 bg-[#f5cb5c] hover:bg-[#eab308] text-[#1c1c1b] font-black text-sm uppercase tracking-wider rounded-xl transition-all duration-300 shadow-xl shadow-[#f5cb5c]/25 hover:shadow-[#f5cb5c]/45 hover:-translate-y-0.5"
-              >
-                <span>{t.viewCatalog}</span>
-                <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </a>
-              <a
-                href="#materials"
-                className="inline-flex items-center gap-2 px-6 py-4 bg-white/5 hover:bg-white/10 text-stone-200 hover:text-white border border-white/15 hover:border-white/30 rounded-xl font-bold text-sm tracking-wider transition-all duration-200 backdrop-blur-sm"
-              >
-                <span>{t.viewSettings}</span>
-              </a>
-            </div>
-
-            {/* Micro guarantees */}
-            <div className="pt-2 flex flex-wrap items-center justify-center lg:justify-start gap-y-2 gap-x-6 text-xs text-stone-400 font-medium">
-              <div className="flex items-center gap-2">
-                <span className="text-emerald-400 font-bold">✓</span>
-                <span>{t.compatibilityText}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="text-emerald-400 font-bold">✓</span>
-                <span>{t.customsText}</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Right Column: Live Interactive Bestseller Showcase */}
-          <div className="w-full lg:w-auto flex justify-center">
-            <HeroShowcase locale={locale} />
+            <a
+              href="#products"
+              className="mt-6 inline-flex items-center gap-2 h-11 px-5 bg-white text-[#1b283a] text-[13px] font-bold uppercase tracking-wide hover:bg-[#f4f6f8]"
+            >
+              {copy.cta}
+              <span aria-hidden>»</span>
+            </a>
           </div>
         </div>
       </section>
 
-      {/* Trust bar */}
-      <section className="bg-[#f7f7f7] border-b border-[#e5e5e5] py-4">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-xs font-semibold text-[#242423]">
-          <div className="flex items-center gap-2.5 justify-center sm:justify-start">
-            <Truck className="w-4 h-4 text-[#242423]" />
-            <span>{(t as any).trust1 || 'Fast Tracked EU Delivery (2–5 d.)'}</span>
-          </div>
-          <div className="flex items-center gap-2.5 justify-center sm:justify-start">
-            <ShieldCheck className="w-4 h-4 text-emerald-600" />
-            <span>{(t as any).trust2 || '100% Quality & Flatness Guarantee'}</span>
-          </div>
-          <div className="flex items-center gap-2.5 justify-center sm:justify-start">
-            <Layers className="w-4 h-4 text-[#242423]" />
-            <span>{(t as any).trust3 || 'Maker & B2B Volume Pricing'}</span>
-          </div>
-          <div className="flex items-center gap-2.5 justify-center sm:justify-start">
-            <Clock className="w-4 h-4 text-[#242423]" />
-            <span>{(t as any).trust4 || 'Expert Technical Support'}</span>
-          </div>
-        </div>
-      </section>
+      <main className="max-w-[1760px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 py-10 flex-1 w-full space-y-12">
+        <section id="catalog" className="space-y-6 scroll-mt-6">
+          <h2 className="text-[34px] sm:text-[40px] font-bold tracking-tight text-[#1b283a]">
+            {copy.catalog}
+          </h2>
+          <CategoryShowcase locale={locale} seeAll={copy.seeAll} viewAll={copy.viewAll} />
+        </section>
 
-      {/* Main Catalog */}
-      <main id="catalog" className="max-w-[1280px] mx-auto px-4 sm:px-6 py-12 flex-1 w-full space-y-8">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-[#e5e5e5] pb-4">
-          <div>
-            <div className="text-xs font-mono font-bold text-[#f5cb5c] bg-[#242423] inline-block px-2 py-0.5 uppercase mb-1">
-              LaserSupply.org
-            </div>
-            <h2 className="text-2xl font-black text-[#242423] tracking-tight">
-              {t.catalogTitle}
-            </h2>
-          </div>
-          <div className="text-xs text-[#5f5e58]">
-            {t.catalogSubtitle}
-          </div>
-        </div>
+        <section id="products" className="space-y-6 scroll-mt-6">
+          <h2 className="text-[34px] sm:text-[40px] font-bold tracking-tight text-[#1b283a]">
+            {copy.offers}
+          </h2>
+          <CatalogWithSidebar locale={locale} />
+        </section>
 
-        {/* Main Catalog with Categories Sidebar */}
-        <CatalogWithSidebar locale={locale} />
+        <section className="grid lg:grid-cols-[280px_1fr] bg-white overflow-hidden">
+          <div className="bg-[#9f241d] text-white p-8 flex flex-col justify-end min-h-[220px]">
+            <div className="text-[72px] font-black leading-none">ES</div>
+            <p className="mt-2 text-[15px] font-semibold">{copy.warehouse}</p>
+          </div>
+          <div className="p-8 sm:p-10">
+            <h2 className="text-[32px] font-bold tracking-tight">{copy.about}</h2>
+            <p className="mt-3 text-[#9f241d] font-semibold">{copy.aboutLead}</p>
+            <p className="mt-4 text-[15px] leading-relaxed text-[#3c4a5a] max-w-2xl">{t.subtitle}</p>
+          </div>
+        </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-[#242423] text-[#ffffff] border-t border-[#1c1c1a] pt-12 pb-8 text-xs">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-[#3e3e3c]">
-          <div className="space-y-3">
-            <div className="font-extrabold text-lg tracking-tighter">
-              LASER<span className="text-[#f5cb5c]">SUPPLY</span>
-            </div>
-            <p className="text-[#a8a8a8] text-[12px] leading-relaxed">
-              {t.subtitle}
-            </p>
-          </div>
+      <NewsletterBand
+        title={copy.newsTitle}
+        text={copy.newsText}
+        placeholder={copy.email}
+        button={copy.subscribe}
+        thanks={copy.thanks}
+        locale={locale}
+        errorText={copy.subscribeError}
+      />
 
-          <div className="space-y-2">
-            <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">
-              {(t as any).footerCategories || 'Categories'}
-            </h4>
-            <ul className="space-y-1.5 text-[#a8a8a8]">
-              <li><a href="#cat_filament" className="hover:text-[#ffffff]">3D Printer Filaments</a></li>
-              <li><a href="#cat_hardware" className="hover:text-[#ffffff]">Laser Parts & Modules</a></li>
-              <li><a href="#cat_optics_safety" className="hover:text-[#ffffff]">Optics & Laser Safety</a></li>
-              <li><a href="#cat_wood" className="hover:text-[#ffffff]">Plywood & Hardwood Blanks</a></li>
+      <footer id="contact" className="bg-[#1b283a] text-white">
+        <div className="max-w-[1760px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 py-12 grid md:grid-cols-3 gap-10">
+          <div>
+            <h2 className="text-[28px] font-bold">{copy.contactTitle}</h2>
+            <p className="mt-4 text-[15px] text-white/80">MB „Gists Group“</p>
+            <p className="text-[15px] text-white/80">Vilnius, Lietuva</p>
+            <a href="mailto:info@lasersupply.org" className="mt-3 inline-block text-[15px] underline underline-offset-4">
+              info@lasersupply.org
+            </a>
+            <p className="mt-2 text-[14px] text-white/70">{(t as { footerHours?: string }).footerHours || 'Mon–Fri 09:00 – 18:00'}</p>
+          </div>
+          <div>
+            <h3 className="text-[15px] font-bold uppercase tracking-wide">{copy.info}</h3>
+            <ul className="mt-4 space-y-2 text-[15px] text-white/80">
+              <li><a className="hover:text-white" href={`/shipping?lang=${locale}`}>{copy.shipping}</a></li>
+              <li><a className="hover:text-white" href={`/returns?lang=${locale}`}>{copy.returns}</a></li>
+              <li><a className="hover:text-white" href={`/privacy?lang=${locale}`}>{copy.privacy}</a></li>
+              <li><a className="hover:text-white" href="#catalog">{copy.catalog}</a></li>
             </ul>
           </div>
-
-          <div className="space-y-2">
-            <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">
-              {(t as any).footerSupport || 'Support & Policies'}
-            </h4>
-            <ul className="space-y-1.5 text-[#a8a8a8]">
-              <li><a href="/shipping" className="hover:text-[#ffffff]">Shipping & Delivery Policy</a></li>
-              <li><a href="/returns" className="hover:text-[#ffffff]">Returns & Refund Policy</a></li>
-              <li><a href="/privacy" className="hover:text-[#ffffff]">Privacy Policy & Terms</a></li>
-              <li><a href="#catalog" className="hover:text-[#ffffff]">LightBurn Tested Materials</a></li>
-            </ul>
-          </div>
-
-          <div className="space-y-2">
-            <h4 className="font-bold text-[#f5cb5c] uppercase text-[11px] tracking-wider">
-              {(t as any).footerContact || 'Company & Contact'}
-            </h4>
-            <p className="text-[#ffffff] font-semibold">MB „Gists Group“</p>
-            <p className="text-[#a8a8a8]">Vilnius, Republic of Lithuania (EU)</p>
-            <p className="text-[#ffffff] font-bold">info@lasersupply.org</p>
-            <p className="text-[#a8a8a8]">{(t as any).footerHours || 'Mon–Fri 09:00 – 18:00 CET'}</p>
+          <div>
+            <h3 className="text-[15px] font-bold uppercase tracking-wide">LaserSupply</h3>
+            <p className="mt-4 text-[15px] leading-relaxed text-white/75">{t.subtitle}</p>
           </div>
         </div>
-
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-[#888888]">
-          <div>
-            © {new Date().getFullYear()} LaserSupply.org · Operated by MB „Gists Group“ (Lithuania, EU). All rights reserved.
-          </div>
-          <div className="flex gap-4">
+        <div className="border-t border-white/10">
+          <div className="max-w-[1760px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 py-5 text-[13px] text-white/60 flex flex-col sm:flex-row justify-between gap-2">
+            <span>© {new Date().getFullYear()} LaserSupply.org · MB „Gists Group“</span>
             <span>Stripe · Apple Pay · Google Pay · Visa · Mastercard</span>
           </div>
         </div>
@@ -326,3 +269,212 @@ export default async function LocalizedHomePage({
     </div>
   );
 }
+
+const homeCopy: Record<Locale, {
+  eyebrow: string;
+  title: string;
+  cta: string;
+  catalog: string;
+  offers: string;
+  seeAll: string;
+  viewAll: string;
+  warehouse: string;
+  about: string;
+  aboutLead: string;
+  newsTitle: string;
+  newsText: string;
+  email: string;
+  subscribe: string;
+  thanks: string;
+  subscribeError: string;
+  contactTitle: string;
+  info: string;
+  shipping: string;
+  returns: string;
+  privacy: string;
+}> = {
+  en: {
+    eyebrow: 'Special offer',
+    title: 'Laser blanks and materials',
+    cta: 'Shop now',
+    catalog: 'Product catalog',
+    offers: 'This week',
+    seeAll: 'View all',
+    viewAll: 'View all',
+    warehouse: 'EU warehouse, ready to ship',
+    about: 'Laser materials shop',
+    aboutLead: 'Checked blanks for diode, CO2 and fiber',
+    newsTitle: 'Subscribe for offers',
+    newsText: 'Useful notes and real offers. No spam.',
+    email: 'Your email address',
+    subscribe: 'Subscribe',
+    thanks: 'You are on the list.',
+    subscribeError: 'Could not subscribe. Please try again.',
+    contactTitle: 'Contact us',
+    info: 'Information',
+    shipping: 'Shipping',
+    returns: 'Returns',
+    privacy: 'Privacy policy',
+  },
+  lt: {
+    eyebrow: 'Ypatingas pasiūlymas',
+    title: 'Lazerio medžiagos ir ruošiniai',
+    cta: 'Rinktis',
+    catalog: 'Prekių katalogas',
+    offers: 'Savaitės pasiūlymai',
+    seeAll: 'Žiūrėti viską',
+    viewAll: 'Žiūrėti viską',
+    warehouse: 'ES sandėlis, paruošta siuntimui',
+    about: 'Lazerio medžiagų parduotuvė',
+    aboutLead: 'Patikrinti ruošiniai diodiniam, CO2 ir fiber lazeriui',
+    newsTitle: 'Prenumeruokite naujienas ir geriausius pasiūlymus!',
+    newsText: 'Nesiunčiame šlamšto. Tik naudingą informaciją ir tikrus pasiūlymus.',
+    email: 'Jūsų el. pašto adresas',
+    subscribe: 'Prenumeruoti',
+    thanks: 'Įrašėme. Ačiū.',
+    subscribeError: 'Nepavyko užprenumeruoti. Bandykite dar kartą.',
+    contactTitle: 'Susisiekite su mumis',
+    info: 'Informacija',
+    shipping: 'Pristatymas',
+    returns: 'Grąžinimas',
+    privacy: 'Privatumo politika',
+  },
+  de: {
+    eyebrow: 'Angebot',
+    title: 'Laserrohlinge und Materialien',
+    cta: 'Auswählen',
+    catalog: 'Produktkatalog',
+    offers: 'Diese Woche',
+    seeAll: 'Alles ansehen',
+    viewAll: 'Alles ansehen',
+    warehouse: 'EU-Lager, versandbereit',
+    about: 'Shop für Lasermaterial',
+    aboutLead: 'Geprüfte Rohlinge für Dioden-, CO2- und Faserlaser',
+    newsTitle: 'Angebote abonnieren',
+    newsText: 'Nur nützliche Hinweise und echte Angebote.',
+    email: 'E-Mail-Adresse',
+    subscribe: 'Abonnieren',
+    thanks: 'Sie sind dabei.',
+    subscribeError: 'Abonnement fehlgeschlagen. Bitte erneut versuchen.',
+    contactTitle: 'Kontakt',
+    info: 'Information',
+    shipping: 'Versand',
+    returns: 'Rückgabe',
+    privacy: 'Datenschutz',
+  },
+  fr: {
+    eyebrow: 'Offre spéciale',
+    title: 'Supports et matériaux laser',
+    cta: 'Choisir',
+    catalog: 'Catalogue',
+    offers: 'Cette semaine',
+    seeAll: 'Tout voir',
+    viewAll: 'Tout voir',
+    warehouse: 'Entrepôt UE, prêt à expédier',
+    about: 'Boutique de matériaux laser',
+    aboutLead: 'Supports contrôlés pour diode, CO2 et fibre',
+    newsTitle: 'Recevoir les offres',
+    newsText: 'Uniquement des informations utiles.',
+    email: 'Votre e-mail',
+    subscribe: "S'abonner",
+    thanks: 'Vous êtes inscrit.',
+    subscribeError: "Inscription impossible. Réessayez.",
+    contactTitle: 'Contact',
+    info: 'Information',
+    shipping: 'Livraison',
+    returns: 'Retours',
+    privacy: 'Confidentialité',
+  },
+  es: {
+    eyebrow: 'Oferta especial',
+    title: 'Materiales y soportes láser',
+    cta: 'Elegir',
+    catalog: 'Catálogo',
+    offers: 'Esta semana',
+    seeAll: 'Ver todo',
+    viewAll: 'Ver todo',
+    warehouse: 'Almacén UE, listo para enviar',
+    about: 'Tienda de materiales láser',
+    aboutLead: 'Soportes comprobados para diodo, CO2 y fibra',
+    newsTitle: 'Recibe ofertas',
+    newsText: 'Solo información útil y ofertas reales.',
+    email: 'Tu correo',
+    subscribe: 'Suscribirse',
+    thanks: 'Listo.',
+    subscribeError: 'No se pudo suscribir. Inténtalo de nuevo.',
+    contactTitle: 'Contacto',
+    info: 'Información',
+    shipping: 'Envío',
+    returns: 'Devoluciones',
+    privacy: 'Privacidad',
+  },
+  pl: {
+    eyebrow: 'Oferta specjalna',
+    title: 'Materiały i bazy laserowe',
+    cta: 'Wybierz',
+    catalog: 'Katalog',
+    offers: 'W tym tygodniu',
+    seeAll: 'Zobacz wszystko',
+    viewAll: 'Zobacz wszystko',
+    warehouse: 'Magazyn UE, gotowe do wysyłki',
+    about: 'Sklep z materiałami laserowymi',
+    aboutLead: 'Sprawdzone bazy do diody, CO2 i fibera',
+    newsTitle: 'Zapisz się na oferty',
+    newsText: 'Tylko przydatne informacje.',
+    email: 'Twój e-mail',
+    subscribe: 'Zapisz się',
+    thanks: 'Zapisane.',
+    subscribeError: 'Nie udało się zapisać. Spróbuj ponownie.',
+    contactTitle: 'Kontakt',
+    info: 'Informacje',
+    shipping: 'Dostawa',
+    returns: 'Zwroty',
+    privacy: 'Prywatność',
+  },
+  lv: {
+    eyebrow: 'Īpašais piedāvājums',
+    title: 'Lāzera materiāli un sagataves',
+    cta: 'Izvēlēties',
+    catalog: 'Katalogs',
+    offers: 'Šonedēļ',
+    seeAll: 'Skatīt visu',
+    viewAll: 'Skatīt visu',
+    warehouse: 'ES noliktava, gatavs nosūtīšanai',
+    about: 'Lāzera materiālu veikals',
+    aboutLead: 'Pārbaudītas sagataves diodei, CO2 un šķiedrai',
+    newsTitle: 'Pieteikties piedāvājumiem',
+    newsText: 'Tikai noderīga informācija.',
+    email: 'Jūsu e-pasts',
+    subscribe: 'Pieteikties',
+    thanks: 'Pieteikts.',
+    subscribeError: 'Neizdevās pieteikties. Mēģiniet vēlreiz.',
+    contactTitle: 'Sazinieties',
+    info: 'Informācija',
+    shipping: 'Piegāde',
+    returns: 'Atgriešana',
+    privacy: 'Privātums',
+  },
+  et: {
+    eyebrow: 'Eripakkumine',
+    title: 'Lasermaterjalid ja toorikud',
+    cta: 'Vali',
+    catalog: 'Kataloog',
+    offers: 'Sel nädalal',
+    seeAll: 'Vaata kõike',
+    viewAll: 'Vaata kõike',
+    warehouse: 'EL ladu, valmis saatmiseks',
+    about: 'Lasermaterjalide pood',
+    aboutLead: 'Kontrollitud toorikud dioodile, CO2-le ja fiibrile',
+    newsTitle: 'Telli pakkumised',
+    newsText: 'Ainult kasulik info.',
+    email: 'Sinu e-post',
+    subscribe: 'Telli',
+    thanks: 'Oled nimekirjas.',
+    subscribeError: 'Tellimine ebaõnnestus. Proovi uuesti.',
+    contactTitle: 'Võta ühendust',
+    info: 'Info',
+    shipping: 'Tarne',
+    returns: 'Tagastus',
+    privacy: 'Privaatsus',
+  },
+};

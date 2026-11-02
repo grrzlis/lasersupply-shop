@@ -7,6 +7,8 @@ import { X, Check, Gauge, ShieldCheck, Truck, Wrench, ChevronRight } from 'lucid
 import Image from 'next/image';
 import { Locale } from '@/lib/i18n';
 import { messages } from '@/lib/translations';
+import { laserTypeLabel, settingLabel } from '@/lib/laser-type';
+import { specLabel } from '@/lib/spec-label';
 
 export function ProductModal({
   product,
@@ -45,7 +47,7 @@ export function ProductModal({
         <button
           onClick={onClose}
           className="absolute top-4 right-4 z-10 bg-[#f5f5f5] hover:bg-[#242423] hover:text-[#ffffff] p-2 transition-colors border border-[#e5e5e5]"
-          aria-label="Close modal"
+          aria-label={locale === 'lt' ? 'Uždaryti' : locale === 'de' ? 'Schließen' : locale === 'fr' ? 'Fermer' : locale === 'es' ? 'Cerrar' : locale === 'pl' ? 'Zamknij' : locale === 'lv' ? 'Aizvērt' : locale === 'et' ? 'Sulge' : 'Close'}
         >
           <X className="w-5 h-5" />
         </button>
@@ -105,7 +107,7 @@ export function ProductModal({
               <div className="flex items-center gap-2 text-xs font-mono text-[#888888] uppercase tracking-wider">
                 <span>SKU: {product.supplier_sku}</span>
                 <span>•</span>
-                <span className="text-[#242423] font-bold">{product.laser_type}</span>
+                <span className="text-[#242423] font-bold">{laserTypeLabel(product.laser_type, locale)}</span>
               </div>
 
               <h2 className="text-xl sm:text-2xl font-extrabold text-[#242423] leading-snug">
@@ -130,7 +132,7 @@ export function ProductModal({
               {/* Laser Power / Specs Highlight */}
               <div className="flex items-center gap-2 text-xs font-mono bg-[#f7f7f7] border border-[#e5e5e5] p-2.5">
                 <Gauge className="w-4 h-4 text-[#f5cb5c] shrink-0" />
-                <span>{product.recommended_power}</span>
+                <span>{settingLabel(product.recommended_power, locale)}</span>
               </div>
 
               {/* Comprehensive Description Body */}
@@ -149,7 +151,7 @@ export function ProductModal({
                   <div className="grid grid-cols-2 gap-1.5 text-xs">
                     {Object.entries(product.specs).map(([key, val]) => (
                       <div key={key} className="bg-[#fafafa] p-1.5 border border-[#eeeeee]">
-                        <span className="text-[#888888] block text-[10px]">{key}</span>
+                        <span className="text-[#888888] block text-[10px]">{specLabel(key, locale)}</span>
                         <span className="font-semibold text-[#242423] truncate block">{val}</span>
                       </div>
                     ))}
@@ -165,7 +167,7 @@ export function ProductModal({
                 className={`w-full py-3.5 px-6 font-extrabold text-sm uppercase tracking-wider transition-all duration-200 flex items-center justify-center gap-2 ${
                   added
                     ? 'bg-[#2e7d32] text-[#ffffff]'
-                    : 'bg-[#f5cb5c] hover:bg-[#e6be4f] text-[#242423]'
+                    : 'bg-[#9f241d] hover:bg-[#8c1f19] text-white'
                 }`}
               >
                 {added ? (

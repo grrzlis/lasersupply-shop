@@ -34,12 +34,32 @@ export function SlideOverCart({ locale = 'en' }: { locale?: Locale }) {
       if (data.url) {
         window.location.href = data.url;
       } else {
-        alert(data.error || 'Checkout initialization failed');
+        const failed = {
+          en: 'Checkout could not start',
+          lt: 'Apmokėjimo pradėti nepavyko',
+          de: 'Die Kasse konnte nicht starten',
+          fr: 'Le paiement n’a pas pu démarrer',
+          es: 'No se pudo iniciar el pago',
+          pl: 'Nie udało się zacząć płatności',
+          lv: 'Apmaksu neizdevās sākt',
+          et: 'Makset ei saanud alustada',
+        }[locale];
+        alert(data.error || failed);
       }
     } catch (err: unknown) {
       console.error('Checkout error:', err);
-      const msg = err instanceof Error ? err.message : 'Unknown error';
-      alert('Checkout error: ' + msg);
+      const failed = {
+        en: 'Checkout error',
+        lt: 'Apmokėjimo klaida',
+        de: 'Fehler an der Kasse',
+        fr: 'Erreur de paiement',
+        es: 'Error de pago',
+        pl: 'Błąd płatności',
+        lv: 'Apmaksas kļūda',
+        et: 'Makse viga',
+      }[locale];
+      const msg = err instanceof Error ? err.message : failed;
+      alert(failed + ': ' + msg);
     } finally {
       setLoading(false);
     }
@@ -64,7 +84,7 @@ export function SlideOverCart({ locale = 'en' }: { locale?: Locale }) {
           {/* Header */}
           <div className="p-5 border-b border-[#ddd9cf] flex items-center justify-between bg-[#fafaf8]">
             <div className="flex items-center gap-2">
-              <span className="bg-[#1c1c1a] text-[#f0c84a] p-1 font-bold">
+              <span className="bg-[#9f241d] text-white p-1 font-bold">
                 <Zap className="w-3.5 h-3.5 fill-[#f0c84a]" />
               </span>
               <h2 className="text-[15px] font-bold tracking-tight">{t.cart}</h2>
@@ -94,7 +114,7 @@ export function SlideOverCart({ locale = 'en' }: { locale?: Locale }) {
                 <p className="text-sm">{t.cartEmpty}</p>
                 <button
                   onClick={closeCart}
-                  className="px-4 py-2 bg-[#f0c84a] text-[#1c1c1a] font-bold text-xs border border-[#ddd9cf] cursor-pointer"
+                  className="px-4 py-2 bg-[#9f241d] text-white font-bold text-xs cursor-pointer"
                 >
                   {t.browseBlanks}
                 </button>
@@ -171,7 +191,7 @@ export function SlideOverCart({ locale = 'en' }: { locale?: Locale }) {
 
               <div className="flex justify-between items-baseline">
                 <span className="text-[12px] font-bold text-[#5f5e58]">{t.totalWithVat}</span>
-                <span className="text-xl font-bold text-[#1c1c1a] bg-[#f0c84a] px-2 py-0.5">
+                <span className="text-xl font-bold text-[#9f241d]">
                   {totalPrice.toFixed(2)} €
                 </span>
               </div>
@@ -179,7 +199,7 @@ export function SlideOverCart({ locale = 'en' }: { locale?: Locale }) {
               <button
                 onClick={handleCheckout}
                 disabled={loading}
-                className="w-full min-h-[44px] px-4 bg-[#f0c84a] hover:bg-[#e5bc3b] text-[#1c1c1a] font-bold text-[13px] flex items-center justify-center gap-2 border border-[#1c1c1a]/15 shadow-sm transition cursor-pointer disabled:opacity-50"
+                className="w-full min-h-[48px] px-4 bg-[#9f241d] hover:bg-[#8c1f19] text-white font-bold text-[13px] uppercase tracking-wide flex items-center justify-center gap-2 transition cursor-pointer disabled:opacity-50"
               >
                 {loading ? '...' : t.checkoutStripe}
                 <ArrowRight className="w-4 h-4" />

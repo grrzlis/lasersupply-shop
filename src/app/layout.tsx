@@ -1,20 +1,13 @@
 import type { Metadata } from "next";
-import { Spline_Sans, IBM_Plex_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import { VisitorTracker } from "@/components/VisitorTracker";
 import "./globals.css";
 
 export const runtime = 'edge';
 
-const splineSans = Spline_Sans({
-  variable: "--font-spline",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
-});
-
-const ibmPlex = IBM_Plex_Sans({
-  variable: "--font-ibm",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -33,7 +26,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${splineSans.variable} ${ibmPlex.variable} h-full antialiased`}
+      className={`${inter.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col antialiased" suppressHydrationWarning>

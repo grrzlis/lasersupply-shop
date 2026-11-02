@@ -1,6 +1,7 @@
 import { bindings, defineConfig, defineWorker } from "cf/config";
 
 export default defineConfig({
+  accountId: "8e5ade2175f6ddeecf5b634d25145a38",
   worker: defineWorker({
     name: "lasersupply-shop",
     entrypoint: "vinext/server/fetch-handler",
@@ -18,6 +19,7 @@ export default defineConfig({
       ALIEXPRESS_APP_SECRET: bindings.text("sGSfN94PE0gxWX1XfHuIzsbg0rqmW1Yt"),
       ALIEXPRESS_ACCESS_TOKEN: bindings.text("50000700320cBHtYbrSjsgJFsyNyCabm14765485xhmUgwwD9dhRCK01Gj7vRNzFPOM3"),
       ALIEXPRESS_REFRESH_TOKEN: bindings.text("50001700620rpPvJesEnBNXsuc97IvFo14b01583tewTjbjBS5rT2ColxkPFbKV1TNYv"),
+      BREVO_NEWSLETTER_LIST_ID: bindings.text("7"),
       ADMIN_PASSWORD: bindings.text("LaserMaker#2026"),
     },
   }),

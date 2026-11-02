@@ -56,7 +56,7 @@ export async function POST(req: Request) {
 
     const allowedCountries = [
       'LT', 'LV', 'EE', 'DE', 'FR', 'PL', 'IT', 'ES', 'NL', 'BE', 'AT', 'DK', 'SE', 'FI', 'IE',
-      'US', 'CA', 'GB', 'NO', 'CH'
+      'GB', 'NO', 'CH',
     ];
     allowedCountries.forEach((country, index) => {
       formParams.append(`shipping_address_collection[allowed_countries][${index}]`, country);

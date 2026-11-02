@@ -123,7 +123,16 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-1.5 px-2.5 py-1.5 bg-[#f6f6f6] hover:bg-[#eaeaea] border border-[#e5e5e5] rounded-md text-xs font-semibold text-[#242423] transition cursor-pointer"
-        aria-label="Choose language"
+        aria-label={{
+          en: 'Choose language',
+          lt: 'Pasirinkti kalbą',
+          de: 'Sprache wählen',
+          fr: 'Choisir la langue',
+          es: 'Elegir idioma',
+          pl: 'Wybierz język',
+          lv: 'Izvēlēties valodu',
+          et: 'Vali keel',
+        }[currentLocale]}
       >
         <CountryFlag code={current.countryCode} />
         <span className="uppercase text-[11px] font-mono font-bold">{currentLocale}</span>
@@ -140,7 +149,7 @@ export function LanguageSwitcher({ currentLocale }: { currentLocale: Locale }) {
                 key={loc}
                 onClick={() => switchLanguage(loc)}
                 className={`w-full flex items-center justify-between px-3 py-2 text-xs text-left transition cursor-pointer ${
-                  isSelected ? 'bg-[#f5cb5c]/20 font-bold text-[#242423]' : 'hover:bg-[#f6f6f6] text-[#242423]'
+                  isSelected ? 'bg-[#9f241d]/10 font-bold text-[#9f241d]' : 'hover:bg-[#f6f6f6] text-[#1b283a]'
                 }`}
               >
                 <span className="flex items-center gap-2">

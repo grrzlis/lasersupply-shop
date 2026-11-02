@@ -1,23 +1,144 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #f6f5f2;
-  --ink: #1c1c1a;
-  --muted: #5f5e58;
-  --line: #ddd9cf;
+  --bg: #f1f4f6;
+  --ink: #1b283a;
+  --muted: #5c6770;
+  --line: #e4e8ec;
   --card: #ffffff;
-  --yellow: #f0c84a;
-  --yellow-hover: #e5bc3b;
-  --yellow-ink: #1c1c1a;
+  --red: #9f241d;
+  --navy: #1b283a;
 }
 
 body {
-  background: #e9e6df;
+  background: var(--bg);
   color: var(--ink);
-  font-family: var(--font-ibm), system-ui, -apple-system, sans-serif;
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
   line-height: 1.45;
 }
 
 h1, h2, h3, .font-heading {
-  font-family: var(--font-spline), sans-serif;
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+.category-marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 8px;
+  animation: marquee-left 42s linear infinite;
+}
+
+.category-marquee-track.is-right {
+  animation-name: marquee-right;
+}
+
+.category-marquee:hover .category-marquee-track,
+.category-marquee:focus-within .category-marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes marquee-right {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+
+.product-card {
+  animation: card-in 480ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(27, 40, 58, 0.08);
+}
+
+.brand-tile {
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.category-card {
+  transition:
+    transform 200ms ease,
+    box-shadow 200ms ease;
+}
+
+.category-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(27, 40, 58, 0.07);
+}
+
+.brand-tile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(27, 40, 58, 0.07);
+}
+
+.hero-offer-card {
+  animation: hero-card-in 650ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero-photo {
+  animation: hero-photo-in 900ms ease both;
+  transition: transform 8s ease;
+}
+
+.hero-photo:hover {
+  transform: scale(1.03);
+}
+
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hero-card-in {
+  from {
+    opacity: 0;
+    transform: translateX(-18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes hero-photo-in {
+  from {
+    opacity: 0.55;
+    transform: scale(1.04);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .category-marquee-track,
+  .product-card,
+  .hero-offer-card,
+  .hero-photo {
+    animation: none;
+  }
+
+  .product-card:hover,
+  .brand-tile:hover,
+  .category-card:hover,
+  .hero-photo:hover {
+    transform: none;
+  }
 }
