@@ -33,14 +33,15 @@ export async function GET(req: Request) {
 
     if (db) {
       try {
-        // 1. Fetch visitors from last 24 hours
+        // 1. Fetch visitors from last 7 days for accurate charts and stats
+        const sevenDaysAgo = now - 7 * 24 * 60 * 60 * 1000;
         const visitorsQuery = await db.prepare(`
           SELECT id, ip_hash, country, city, current_path, referrer, device, cart_count, last_active_at, created_at
           FROM visitor_sessions
           WHERE last_active_at > ?
           ORDER BY last_active_at DESC
-          LIMIT 100
-        `).bind(now - 24 * 60 * 60 * 1000).all();
+          LIMIT 500
+        `).bind(sevenDaysAgo).all();
 
         visitors = (visitorsQuery as { results?: any[] }).results || [];
 
@@ -122,7 +123,7 @@ export async function GET(req: Request) {
     return NextResponse.json({
       ok: true,
       stats,
-      visitors,
+      visitors: visitors.slice(0, 100),
       orders,
       charts: {
         hourly: hourlySeries,
