@@ -32,21 +32,25 @@ export async function GET(req: Request) {
     };
 
     if (db) {
-      // 1. Fetch visitors from last 24 hours
-      const visitorsQuery = await db.prepare(`
-        SELECT id, ip_hash, country, city, current_path, referrer, device, cart_count, last_active_at, created_at
-        FROM visitor_sessions
-        WHERE last_active_at > ?
-        ORDER BY last_active_at DESC
-        LIMIT 100
-      `).bind(now - 24 * 60 * 60 * 1000).all();
+      try {
+        // 1. Fetch visitors from last 24 hours
+        const visitorsQuery = await db.prepare(`
+          SELECT id, ip_hash, country, city, current_path, referrer, device, cart_count, last_active_at, created_at
+          FROM visitor_sessions
+          WHERE last_active_at > ?
+          ORDER BY last_active_at DESC
+          LIMIT 100
+        `).bind(now - 24 * 60 * 60 * 1000).all();
 
-      visitors = (visitorsQuery as { results?: any[] }).results || [];
+        visitors = (visitorsQuery as { results?: any[] }).results || [];
 
-      // Calculate stats
-      stats.onlineNow = visitors.filter((v: any) => v.last_active_at >= onlineThreshold).length;
-      stats.totalToday = visitors.filter((v: any) => v.created_at >= startOfDayTimestamp).length;
-      stats.activeCarts = visitors.filter((v: any) => v.cart_count > 0 && v.last_active_at >= (now - 30 * 60 * 1000)).length;
+        // Calculate stats
+        stats.onlineNow = visitors.filter((v: any) => v.last_active_at >= onlineThreshold).length;
+        stats.totalToday = visitors.filter((v: any) => v.created_at >= startOfDayTimestamp).length;
+        stats.activeCarts = visitors.filter((v: any) => v.cart_count > 0 && v.last_active_at >= (now - 30 * 60 * 1000)).length;
+      } catch (visErr) {
+        console.error('Failed to fetch visitors:', visErr);
+      }
 
       // 2. Fetch orders
       try {
@@ -59,7 +63,7 @@ export async function GET(req: Request) {
         orders = (ordersQuery as { results?: any[] }).results || [];
         stats.totalOrders = orders.length;
       } catch (orderErr) {
-        // Orders table query error handling
+        console.error('Failed to fetch orders:', orderErr);
       }
     }
 

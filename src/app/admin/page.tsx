@@ -136,9 +136,13 @@ export default function AdminPage() {
         setData(json);
         setIsAuthenticated(true);
         setCurrentTime(Date.now());
+        return;
       }
+      // If server error or unauthorized
+      setIsAuthenticated(false);
     } catch (err) {
       console.error(err);
+      setIsAuthenticated(false);
     } finally {
       setIsLoadingData(false);
     }

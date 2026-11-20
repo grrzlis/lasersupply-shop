@@ -46,11 +46,12 @@ async function getPgPool(connectionString: string) {
   if (!pgPoolPromise) {
     pgPoolPromise = (async () => {
       const pg = await import("pg");
+      const isLocal =
+        connectionString.includes("localhost") ||
+        connectionString.includes("127.0.0.1");
       return new pg.Pool({
         connectionString,
-        ssl: connectionString.includes("sslmode=require")
-          ? { rejectUnauthorized: false }
-          : undefined,
+        ssl: !isLocal ? { rejectUnauthorized: false } : undefined,
         max: 5,
       });
     })();
