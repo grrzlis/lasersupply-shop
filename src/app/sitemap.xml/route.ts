@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 import { locales } from '@/lib/i18n';
 
-export const runtime = 'edge';
 
 export async function GET() {
   const baseUrl = 'https://lasersupply.org';

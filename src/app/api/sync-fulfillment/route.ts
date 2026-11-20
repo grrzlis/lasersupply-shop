@@ -1,9 +1,8 @@
 import { NextResponse } from 'next/server';
-import { env } from 'cloudflare:workers';
+import { getDb } from '@/lib/db';
 import { queryAliExpressOrderStatus } from '@/lib/aliexpress-client';
 import { sendShippingNotification, sendEmail } from '@/lib/email';
 
-export const runtime = 'edge';
 
 /**
  * Sync order fulfillment status from AliExpress / suppliers.
@@ -20,9 +19,9 @@ export async function GET(req: Request) {
       return NextResponse.json({ ok: false, error: 'Unauthorized: Invalid sync key' }, { status: 401 });
     }
 
-    const db = (env as any)?.DB;
+    const db = await getDb();
     if (!db) {
-      return NextResponse.json({ ok: false, error: 'D1 Database not available' }, { status: 500 });
+      return NextResponse.json({ ok: false, error: 'Database not available' }, { status: 500 });
     }
 
     // 1. Find all paid orders that are not yet fulfilled or delivered

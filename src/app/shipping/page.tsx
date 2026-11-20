@@ -1,11 +1,10 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import { Truck } from 'lucide-react';
 import { PolicyDocument } from '@/components/PolicyDocument';
 import { shippingCopy } from '@/lib/policy-copy';
 import { readLocale } from '@/lib/request-locale';
 import { locales, type Locale } from '@/lib/i18n';
 
-export const runtime = 'edge';
 
 async function resolveLocale(lang?: string): Promise<Locale> {
   if (lang && locales.includes(lang as Locale)) return lang as Locale;

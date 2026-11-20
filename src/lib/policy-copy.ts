@@ -18,7 +18,7 @@ export type PolicyPage = {
 };
 
 const countries =
-  'LT, LV, EE, DE, FR, PL, ES, IT, NL, BE, AT, DK, SE, FI, IE, NO, CH, GB';
+  'LT, LV, EE, PL, DE, FR, IT, ES, NL, BE, AT, DK, SE, FI, IE, SK, CZ, PT, HU, RO, BG, SI, HR, GR, LU, CY, MT, NO, CH, GB';
 
 export const shippingCopy: Record<Locale, PolicyPage> = {
   en: {

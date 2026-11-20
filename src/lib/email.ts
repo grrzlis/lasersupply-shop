@@ -1,4 +1,4 @@
-import { env } from 'cloudflare:workers';
+import { envGet, getRuntimeEnv } from "@/lib/runtime-env";
 
 interface SendEmailParams {
   to: { email: string; name?: string }[];
@@ -7,24 +7,17 @@ interface SendEmailParams {
 }
 
 async function getBrevoApiKey(): Promise<string | undefined> {
-  let apiKey = process.env.BREVO_API_KEY;
-  try {
-    const cfEnv = env as any;
-    if (cfEnv?.BREVO_API_KEY) apiKey = cfEnv.BREVO_API_KEY;
-  } catch {
-    // local / non-workers runtime
-  }
+  const env = await getRuntimeEnv();
+  const apiKey = env.BREVO_API_KEY || process.env.BREVO_API_KEY;
   return apiKey?.trim() || undefined;
 }
 
 async function getNewsletterListId(): Promise<number> {
-  let raw = process.env.BREVO_NEWSLETTER_LIST_ID || '7';
-  try {
-    const cfEnv = env as any;
-    if (cfEnv?.BREVO_NEWSLETTER_LIST_ID) raw = cfEnv.BREVO_NEWSLETTER_LIST_ID;
-  } catch {
-    // local / non-workers runtime
-  }
+  const env = await getRuntimeEnv();
+  const raw =
+    env.BREVO_NEWSLETTER_LIST_ID ||
+    process.env.BREVO_NEWSLETTER_LIST_ID ||
+    envGet("BREVO_NEWSLETTER_LIST_ID", "7");
   const id = Number(raw);
   return Number.isFinite(id) && id > 0 ? id : 7;
 }

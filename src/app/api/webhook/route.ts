@@ -3,7 +3,6 @@ import { getStripe } from '@/lib/stripe';
 import { sendEmail } from '@/lib/email';
 import type Stripe from 'stripe';
 
-export const runtime = 'edge';
 
 export async function POST(req: Request) {
   const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
@@ -73,7 +72,7 @@ export async function POST(req: Request) {
         // AliExpress Dropshipping Dispatch
         if (parsedItems.length > 0 && address) {
           const { placeAliExpressOrder, getAliExpressConfig } = await import('@/lib/aliexpress-client');
-          const aliConfig = getAliExpressConfig();
+          const aliConfig = await getAliExpressConfig();
           if (aliConfig) {
             // Find products in catalog to retrieve aliexpress_product_id or supplier_sku
             const { PRODUCTS } = await import('@/lib/products');
@@ -168,18 +167,28 @@ export async function POST(req: Request) {
         `,
       });
 
-      // 4. Save order to D1 Database
+      // 4. Save order to database
       try {
-        const { env } = await import('cloudflare:workers');
-        const db = (env as any)?.DB;
+        const { getDb } = await import('@/lib/db');
+        const db = await getDb();
         if (db) {
           const supplierId = aliOrderResult?.orderList?.join(', ') || cjOrderResult?.orderId || '';
           const fulfillmentStatus = aliOrderResult?.success ? 'ali_dispatched' : cjOrderResult?.success ? 'cj_dispatched' : 'pending_fulfillment';
 
           await db.prepare(`
-            INSERT OR REPLACE INTO orders (
+            INSERT INTO orders (
               id, customer_email, customer_name, shipping_address, total_amount, currency, payment_status, fulfillment_status, supplier_order_id, items
             ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT (id) DO UPDATE SET
+              customer_email = EXCLUDED.customer_email,
+              customer_name = EXCLUDED.customer_name,
+              shipping_address = EXCLUDED.shipping_address,
+              total_amount = EXCLUDED.total_amount,
+              currency = EXCLUDED.currency,
+              payment_status = EXCLUDED.payment_status,
+              fulfillment_status = EXCLUDED.fulfillment_status,
+              supplier_order_id = EXCLUDED.supplier_order_id,
+              items = EXCLUDED.items
           `).bind(
             orderId,
             customerEmail || 'unknown@customer.com',
@@ -192,10 +201,10 @@ export async function POST(req: Request) {
             supplierId,
             session.metadata?.order_items || '[]'
           ).run();
-          console.log('💾 [ORDER SAVED TO D1]:', orderId);
+          console.info('[ORDER SAVED]:', orderId);
         }
       } catch (dbErr) {
-        console.error('Failed to save order to D1:', dbErr);
+        console.error('Failed to save order:', dbErr);
       }
 
     }

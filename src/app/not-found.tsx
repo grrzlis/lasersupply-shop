@@ -1,9 +1,8 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import type { Metadata } from 'next';
 import { notFoundCopy } from '@/lib/policy-copy';
 import { readLocale } from '@/lib/request-locale';
 
-export const runtime = 'edge';
 
 export const metadata: Metadata = {
   title: '404 | LaserSupply.org',

@@ -1,8 +1,7 @@
-import { redirect } from 'next/navigation';
+﻿import { redirect } from 'next/navigation';
 import { headers, cookies } from 'next/headers';
 import { defaultLocale, locales, countryToLocaleMap, Locale } from '@/lib/i18n';
 
-export const runtime = 'edge';
 
 export default async function RootPage({
   searchParams,

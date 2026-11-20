@@ -8,9 +8,6 @@ import { Locale, locales, defaultLocale } from '@/lib/i18n';
 import { messages } from '@/lib/translations';
 import type { Metadata } from 'next';
 
-export const runtime = 'edge';
-
-
 export async function generateMetadata({
   params,
 }: {
@@ -122,7 +119,11 @@ export default async function LocalizedHomePage({
                 },
                 shippingDestination: {
                   '@type': 'DefinedRegion',
-                  addressCountry: ['LT', 'LV', 'EE', 'DE', 'FR', 'PL', 'ES', 'IT', 'NL', 'BE', 'AT', 'SE', 'FI', 'IE', 'DK', 'NO', 'CH', 'GB'],
+                  addressCountry: [
+                    'LT', 'LV', 'EE', 'PL', 'DE', 'FR', 'IT', 'ES', 'NL', 'BE', 'AT', 'SE', 'FI', 'IE', 'DK',
+                    'SK', 'CZ', 'PT', 'HU', 'RO', 'BG', 'SI', 'HR', 'GR', 'LU', 'CY', 'MT',
+                    'NO', 'CH', 'GB',
+                  ],
                 },
                 deliveryTime: {
                   '@type': 'ShippingDeliveryTime',

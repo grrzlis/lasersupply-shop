@@ -3,8 +3,6 @@
  * Connects directly to https://developers.cjdropshipping.com/api2.0/v1
  */
 
-import { getRequestContext } from '@cloudflare/next-on-pages';
-
 export interface CjProductSummary {
   id: string;
   nameEn: string;
@@ -39,20 +37,9 @@ export interface CjProductDetail {
 }
 
 export function getCjAccessToken(): string | null {
-  // 1. Check Cloudflare Worker env context
-  try {
-    const ctx = getRequestContext();
-    const envObj = ctx?.env as Record<string, string | undefined> | undefined;
-    if (envObj?.CJ_ACCESS_TOKEN && envObj.CJ_ACCESS_TOKEN.trim()) {
-      return envObj.CJ_ACCESS_TOKEN.trim();
-    }
-  } catch {}
-
-  // 2. Check process.env.CJ_ACCESS_TOKEN
   if (process.env.CJ_ACCESS_TOKEN && process.env.CJ_ACCESS_TOKEN.trim()) {
     return process.env.CJ_ACCESS_TOKEN.trim();
   }
-
   return null;
 }
 

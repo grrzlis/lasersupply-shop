@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 import { getAdminPassword, createAdminToken } from '@/lib/admin-auth';
 
-export const runtime = 'edge';
 
 export async function POST(req: Request) {
   try {

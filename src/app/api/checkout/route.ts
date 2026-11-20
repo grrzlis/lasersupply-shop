@@ -1,7 +1,4 @@
 import { NextResponse } from 'next/server';
-import { getRequestContext } from '@cloudflare/next-on-pages';
-
-export const runtime = 'edge';
 
 interface CheckoutItemPayload {
   id: string;
@@ -26,21 +23,11 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Cart is empty' }, { status: 400 });
     }
 
-    // Read environment secret directly from Cloudflare Worker context OR process.env
-    let secretKey = process.env.STRIPE_SECRET_KEY;
-    try {
-      const ctx = getRequestContext();
-      const envObj = ctx?.env as Record<string, string | undefined> | undefined;
-      if (envObj?.STRIPE_SECRET_KEY) {
-        secretKey = envObj.STRIPE_SECRET_KEY;
-      }
-    } catch {
-      // fallback to process.env
-    }
+    const secretKey = process.env.STRIPE_SECRET_KEY;
 
     if (!secretKey || secretKey === 'sk_test_placeholder_key') {
       return NextResponse.json(
-        { error: 'STRIPE_SECRET_KEY not configured in Cloudflare environment.' },
+        { error: 'STRIPE_SECRET_KEY not configured.' },
         { status: 500 }
       );
     }
@@ -55,7 +42,8 @@ export async function POST(req: Request) {
     formParams.append('cancel_url', `${origin}`);
 
     const allowedCountries = [
-      'LT', 'LV', 'EE', 'DE', 'FR', 'PL', 'IT', 'ES', 'NL', 'BE', 'AT', 'DK', 'SE', 'FI', 'IE',
+      'LT', 'LV', 'EE', 'PL', 'DE', 'FR', 'IT', 'ES', 'NL', 'BE', 'AT', 'DK', 'SE', 'FI', 'IE',
+      'SK', 'CZ', 'PT', 'HU', 'RO', 'BG', 'SI', 'HR', 'GR', 'LU', 'CY', 'MT',
       'GB', 'NO', 'CH',
     ];
     allowedCountries.forEach((country, index) => {

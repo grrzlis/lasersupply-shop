@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 import { subscribeToNewsletter } from '@/lib/email';
 
-export const runtime = 'edge';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 

@@ -1,8 +1,7 @@
 import { NextResponse } from 'next/server';
-import { env } from 'cloudflare:workers';
+import { getDb } from '@/lib/db';
 import { verifyAdminToken } from '@/lib/admin-auth';
 
-export const runtime = 'edge';
 
 export async function GET(req: Request) {
   try {
@@ -15,7 +14,7 @@ export async function GET(req: Request) {
       return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 });
     }
 
-    const db = (env as any)?.DB;
+    const db = await getDb();
 
     const now = Date.now();
     const onlineThreshold = now - 90 * 1000; // 90 seconds
@@ -42,7 +41,7 @@ export async function GET(req: Request) {
         LIMIT 100
       `).bind(now - 24 * 60 * 60 * 1000).all();
 
-      visitors = visitorsQuery.results || [];
+      visitors = (visitorsQuery as { results?: any[] }).results || [];
 
       // Calculate stats
       stats.onlineNow = visitors.filter((v: any) => v.last_active_at >= onlineThreshold).length;
@@ -57,7 +56,7 @@ export async function GET(req: Request) {
           ORDER BY created_at DESC
           LIMIT 100
         `).all();
-        orders = ordersQuery.results || [];
+        orders = (ordersQuery as { results?: any[] }).results || [];
         stats.totalOrders = orders.length;
       } catch (orderErr) {
         // Orders table query error handling

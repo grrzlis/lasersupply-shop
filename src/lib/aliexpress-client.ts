@@ -50,8 +50,7 @@ let cachedWorkerEnv: any = null;
 async function getWorkerEnv() {
   if (cachedWorkerEnv) return cachedWorkerEnv;
   try {
-    // @ts-ignore
-    const mod = await import('cloudflare:workers');
+    const mod = await import('@/lib/cloudflare-workers-stub');
     cachedWorkerEnv = mod?.env;
   } catch {}
   return cachedWorkerEnv;

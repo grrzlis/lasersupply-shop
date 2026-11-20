@@ -1,9 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { VisitorTracker } from "@/components/VisitorTracker";
 import "./globals.css";
 
-export const runtime = 'edge';
 
 const inter = Inter({
   variable: "--font-inter",

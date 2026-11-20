@@ -1,0 +1,12 @@
+node_modules
+.next
+.wrangler
+.vercel
+.vinext
+.cloudflare
+dist
+.git
+.env
+.env.local
+*.md
+npm-debug.log*

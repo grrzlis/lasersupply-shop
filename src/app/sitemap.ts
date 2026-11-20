@@ -1,7 +1,6 @@
 import { MetadataRoute } from 'next';
 import { locales } from '@/lib/i18n';
 
-export const runtime = 'edge';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://lasersupply.org';

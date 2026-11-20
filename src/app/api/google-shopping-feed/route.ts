@@ -2,7 +2,6 @@ import { NextResponse } from 'next/server';
 import { PRODUCTS } from '@/lib/products';
 import { Locale, defaultLocale, locales } from '@/lib/i18n';
 
-export const runtime = 'edge';
 
 // Map internal category IDs to official Google Product Categories
 function getGoogleCategory(catId: string): string {
@@ -181,6 +180,66 @@ ${additionalImagesXml ? additionalImagesXml + '\n' : ''}      <g:condition>new</
       </g:shipping>
       <g:shipping>
         <g:country>IE</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>SK</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>CZ</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>PT</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>HU</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>RO</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>BG</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>SI</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>HR</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>GR</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>LU</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>CY</g:country>
+        <g:service>EU Tracked Courier</g:service>
+        <g:price>0.00 EUR</g:price>
+      </g:shipping>
+      <g:shipping>
+        <g:country>MT</g:country>
         <g:service>EU Tracked Courier</g:service>
         <g:price>0.00 EUR</g:price>
       </g:shipping>
